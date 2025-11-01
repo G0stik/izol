@@ -80,13 +80,30 @@ const Contact = () => {
               </p>
             </div>
             <div className={styles.contactCard}>
-              <div className={styles.contactIcon}>🌐</div>
-              <h3>Website</h3>
-              <p>
-                <a href="http://www.tepelneizolacie.sk" target="_blank" rel="noopener noreferrer">
-                  www.tepelneizolacie.sk
+              <div className={styles.contactIcon}>📱</div>
+              <h3>Socials</h3>
+              <div className={styles.socialLinks}>
+                <a 
+                  href="https://www.facebook.com/tepelneizolacie/?locale=sk_SK" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                  aria-label="Facebook"
+                >
+                  <span className={styles.socialIcon}>📘</span>
+                  <span>Facebook</span>
                 </a>
-              </p>
+                <a 
+                  href="https://www.instagram.com/izolsystem_tepelneizolacie/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                  aria-label="Instagram"
+                >
+                  <span className={styles.socialIcon}>📷</span>
+                  <span>Instagram</span>
+                </a>
+              </div>
             </div>
           </div>
           <div className={styles.contactFormWrapper}>
