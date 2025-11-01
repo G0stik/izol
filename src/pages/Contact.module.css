@@ -1,0 +1,144 @@
+.contact {
+  background: var(--white);
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionHeader h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+.contactContent {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+}
+
+.contactInfo {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.contactCard {
+  background: var(--light-gray);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-blue);
+  transition: all 0.3s ease;
+}
+
+.contactCard:hover {
+  transform: translateX(5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contactIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contactCard h3 {
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+}
+
+.contactCard a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactCard a:hover {
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+.contactFormWrapper {
+  background: var(--light-gray);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.contactForm {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+}
+
+.formGroup textarea {
+  resize: vertical;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary {
+  background: var(--primary-red);
+  color: var(--white);
+}
+
+.btnPrimary:hover {
+  background: var(--secondary-red);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(220, 38, 38, 0.3);
+}
+
+@media (max-width: 968px) {
+  .contactContent {
+    grid-template-columns: 1fr;
+  }
+}
+

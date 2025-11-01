@@ -1,0 +1,38 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #1e40af;
+  --secondary-blue: #3b82f6;
+  --light-blue: #dbeafe;
+  --primary-red: #dc2626;
+  --secondary-red: #ef4444;
+  --light-red: #fee2e2;
+  --dark-gray: #1f2937;
+  --medium-gray: #4b5563;
+  --light-gray: #f3f4f6;
+  --white: #ffffff;
+  --text-dark: #111827;
+  --text-light: #6b7280;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  overflow-x: hidden;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
