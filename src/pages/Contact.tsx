@@ -67,14 +67,14 @@ const Contact = () => {
               <div className={styles.contactIcon}>📞</div>
               <h3>Phone</h3>
               <p>
-                <a href="tel:+421327441266">+421 32 744 12 66</a>
+                <a href="tel:+421903728371">+421 903 728 371</a>
               </p>
             </div>
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}>✉️</div>
               <h3>Email</h3>
               <p>
-                <a href="mailto:info@tepelneizolacie.sk">info@tepelneizolacie.sk</a>
+                <a href="mailto:ondrus@izol-system.sk">ondrus@izol-system.sk</a>
               </p>
             </div>
             <div className={styles.contactCard}>
