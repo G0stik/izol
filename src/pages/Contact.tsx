@@ -47,7 +47,13 @@ const Contact = () => {
         </div>
         <div className={styles.contactContent}>
           <div className={styles.contactInfo}>
-            <div className={styles.contactCard}>
+            <a 
+              href="https://maps.app.goo.gl/CRpGWZbcAqkfjf7u6" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={styles.contactCard}
+              style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+            >
               <div className={styles.contactIcon}>📍</div>
               <h3>Address</h3>
               <p>
@@ -56,7 +62,7 @@ const Contact = () => {
                 911 05 Trenčín<br />
                 Slovakia
               </p>
-            </div>
+            </a>
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}>📞</div>
               <h3>Phone</h3>
