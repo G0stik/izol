@@ -32,7 +32,7 @@ const Footer = () => {
             <h4>Connect</h4>
             <ul>
               <li>Email: <a href="mailto:info@tepelneizolacie.sk">info@tepelneizolacie.sk</a></li>
-              <li>Phone: <a href="tel:+421327441266">+421 32 744 12 66</a></li>
+              <li>Phone: <a href="tel:+421903728371">+421 903 728 371</a></li>
               <li><a href="http://www.tepelneizolacie.sk" target="_blank" rel="noopener noreferrer">www.tepelneizolacie.sk</a></li>
               <li><a href="https://www.facebook.com/tepelneizolacie" target="_blank" rel="noopener noreferrer">Facebook</a></li>
             </ul>
