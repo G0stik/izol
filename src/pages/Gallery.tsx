@@ -2,15 +2,11 @@ import { useState, useEffect } from 'react'
 import styles from './Gallery.module.css'
 
 const Gallery = () => {
-  const galleryImages = [
-    '/gallery/lego.jpg',
-    '/gallery/lego copy.jpg',
-    '/gallery/lego copy 2.jpg',
-    '/gallery/lego copy 3.jpg',
-    '/gallery/lego copy 4.jpg',
-    '/gallery/lego copy 5.jpg',
-    '/gallery/lego copy 6.jpg'
-  ]
+  // Dynamically import all images from the gallery folder
+  const imageModules = import.meta.glob('/public/gallery/*.{jpg,jpeg,png}', { eager: true, as: 'url' })
+  const galleryImages = Object.keys(imageModules)
+    .map(path => path.replace('/public', ''))
+    .sort()
 
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
 
