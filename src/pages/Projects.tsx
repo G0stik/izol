@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import styles from './Projects.module.css'
 
 interface ProjectCardProps {
@@ -24,35 +25,22 @@ const ProjectCard = ({ title, description, tags }: ProjectCardProps) => (
 )
 
 const Projects = () => {
+  const { t } = useTranslation()
+
   const projects: ProjectCardProps[] = [
     {
-      title: 'Modern Office Complex, Germany',
-      description: 'Complete thermal insulation solution for a 50,000 m² commercial building.',
-      tags: ['Wall Insulation', 'Roof Insulation']
+      title: 'This is sample project',
+      description: 'sample description for project',
+      tags: ['tag', 'tag2']
     },
-    {
-      title: 'Residential Tower, France',
-      description: 'Energy-efficient insulation for 300-unit residential development.',
-      tags: ['Complete Solution', 'EU Standards']
-    },
-    {
-      title: 'Industrial Warehouse, Poland',
-      description: 'Specialized insulation for temperature-controlled storage facility.',
-      tags: ['Industrial', 'Custom Solution']
-    },
-    {
-      title: 'Public Hospital, Czech Republic',
-      description: 'High-performance insulation meeting healthcare facility requirements.',
-      tags: ['Fire-Resistant', 'Specialty']
-    }
   ]
 
   return (
     <section className={styles.projects}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2>Our Projects</h2>
-          <p className={styles.sectionSubtitle}>Successful Insulation Solutions Across Europe</p>
+          <h2>{t('projects.title')}</h2>
+          <p className={styles.sectionSubtitle}>{t('projects.subtitle')}</p>
         </div>
         <div className={styles.projectsGrid}>
           {projects.map((project, index) => (

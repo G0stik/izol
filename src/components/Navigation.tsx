@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from './LanguageSwitcher'
 import styles from './Navigation.module.css'
 
 const Navigation = () => {
+  const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const location = useLocation()
@@ -39,7 +42,7 @@ const Navigation = () => {
               className={`${styles.navLink} ${isActive('/') ? styles.active : ''}`}
               onClick={closeMenu}
             >
-              Home
+              {t('nav.home')}
             </Link>
           </li>
           <li>
@@ -48,7 +51,7 @@ const Navigation = () => {
               className={`${styles.navLink} ${isActive('/about') ? styles.active : ''}`}
               onClick={closeMenu}
             >
-              About Us
+              {t('nav.about')}
             </Link>
           </li>
           <li>
@@ -57,7 +60,7 @@ const Navigation = () => {
               className={`${styles.navLink} ${isActive('/products') ? styles.active : ''}`}
               onClick={closeMenu}
             >
-              Products
+              {t('nav.products')}
             </Link>
           </li>
           <li>
@@ -66,7 +69,7 @@ const Navigation = () => {
               className={`${styles.navLink} ${isActive('/services') ? styles.active : ''}`}
               onClick={closeMenu}
             >
-              Services
+              {t('nav.services')}
             </Link>
           </li>
           <li>
@@ -75,7 +78,7 @@ const Navigation = () => {
               className={`${styles.navLink} ${isActive('/projects') ? styles.active : ''}`}
               onClick={closeMenu}
             >
-              Projects
+              {t('nav.projects')}
             </Link>
           </li>
           <li>
@@ -84,7 +87,7 @@ const Navigation = () => {
               className={`${styles.navLink} ${isActive('/gallery') ? styles.active : ''}`}
               onClick={closeMenu}
             >
-              Gallery
+              {t('nav.gallery')}
             </Link>
           </li>
           <li>
@@ -93,18 +96,21 @@ const Navigation = () => {
               className={`${styles.navLink} ${isActive('/contact') ? styles.active : ''}`}
               onClick={closeMenu}
             >
-              Contact
+              {t('nav.contact')}
             </Link>
           </li>
         </ul>
-        <div
-          className={styles.hamburger}
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
+        <div className={styles.navRight}>
+          <LanguageSwitcher />
+          <div
+            className={styles.hamburger}
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </nav>

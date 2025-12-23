@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import styles from './Services.module.css'
 
 interface ServiceCardProps {
@@ -13,22 +14,24 @@ const ServiceCard = ({ title, description }: ServiceCardProps) => (
 )
 
 const Services = () => {
+  const { t } = useTranslation()
+
   const services: ServiceCardProps[] = [
     {
-      title: 'Wholesale Distribution',
-      description: 'Bulk supply of thermal insulation materials for large-scale construction projects across the EU.'
+      title: t('services.wholesale.title'),
+      description: t('services.wholesale.description')
     },
     {
-      title: 'Technical Consultation',
-      description: 'Expert advice on material selection, installation methods, and thermal performance optimization.'
+      title: t('services.consultation.title'),
+      description: t('services.consultation.description')
     },
     {
-      title: 'Custom Solutions',
-      description: 'Tailored insulation packages designed to meet specific project requirements and building codes.'
+      title: t('services.custom.title'),
+      description: t('services.custom.description')
     },
     {
-      title: 'Logistics Support',
-      description: 'Efficient delivery and logistics coordination throughout the European Union.'
+      title: t('services.logistics.title'),
+      description: t('services.logistics.description')
     }
   ]
 
@@ -36,8 +39,8 @@ const Services = () => {
     <section className={styles.services}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2>Our Services</h2>
-          <p className={styles.sectionSubtitle}>Comprehensive Wholesale Solutions for Construction Professionals</p>
+          <h2>{t('services.title')}</h2>
+          <p className={styles.sectionSubtitle}>{t('services.subtitle')}</p>
         </div>
         <div className={styles.servicesGrid}>
           {services.map((service, index) => (

@@ -1,4 +1,5 @@
 import { useState, FormEvent } from 'react'
+import { useTranslation } from 'react-i18next'
 import styles from './Contact.module.css'
 
 interface FormData {
@@ -11,6 +12,7 @@ interface FormData {
 }
 
 const Contact = () => {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState<FormData>({
     name: '',
     company: '',
@@ -27,7 +29,7 @@ const Contact = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    alert('Thank you for your message! We will get back to you soon.')
+    alert(t('contact.form.successMessage'))
     setFormData({
       name: '',
       company: '',
@@ -42,8 +44,8 @@ const Contact = () => {
     <section className={styles.contact}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2>Contact Us</h2>
-          <p className={styles.sectionSubtitle}>Get in Touch for Your Thermal Insulation Needs</p>
+          <h2>{t('contact.title')}</h2>
+          <p className={styles.sectionSubtitle}>{t('contact.subtitle')}</p>
         </div>
         <div className={styles.contactContent}>
           <div className={styles.contactInfo}>
@@ -55,7 +57,7 @@ const Contact = () => {
               style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
             >
               <div className={styles.contactIcon}>📍</div>
-              <h3>Address</h3>
+              <h3>{t('contact.address')}</h3>
               <p>
                 Izol systém, s.r.o.<br />
                 Zlatovská 1292/24<br />
@@ -65,29 +67,26 @@ const Contact = () => {
             </a>
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}>📞</div>
-              <h3>Phone</h3>
+              <h3>{t('contact.phone')}</h3>
               <p>
                 <a href="tel:+421903728371">+421 903 728 371</a>
               </p>
             </div>
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}>✉️</div>
-              <h3>Email</h3>
+              <h3>{t('contact.email')}</h3>
               <p>
                 <a href="mailto:ondrus@izol-system.sk">ondrus@izol-system.sk</a>
               </p>
             </div>
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}>⏰</div>
-              <h3>Business Hours</h3>
-              <p>
-                Monday - Friday: 08:00 - 16:00<br />
-                Saturday - Sunday: Closed
-              </p>
+              <h3>{t('contact.businessHours')}</h3>
+              <p dangerouslySetInnerHTML={{ __html: t('contact.businessHoursText') }} />
             </div>
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}>📱</div>
-              <h3>Socials</h3>
+              <h3>{t('contact.socials')}</h3>
               <div className={styles.socialLinks}>
                 <a 
                   href="https://www.facebook.com/tepelneizolacie/?locale=sk_SK" 
@@ -115,7 +114,7 @@ const Contact = () => {
           <div className={styles.contactFormWrapper}>
             <form className={styles.contactForm} onSubmit={handleSubmit}>
               <div className={styles.formGroup}>
-                <label htmlFor="name">Full Name *</label>
+                <label htmlFor="name">{t('contact.form.fullName')} *</label>
                 <input
                   type="text"
                   id="name"
@@ -126,7 +125,7 @@ const Contact = () => {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="company">Company Name</label>
+                <label htmlFor="company">{t('contact.form.company')}</label>
                 <input
                   type="text"
                   id="company"
@@ -136,7 +135,7 @@ const Contact = () => {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="email">Email Address *</label>
+                <label htmlFor="email">{t('contact.form.emailAddress')} *</label>
                 <input
                   type="email"
                   id="email"
@@ -147,7 +146,7 @@ const Contact = () => {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="phone">Phone Number</label>
+                <label htmlFor="phone">{t('contact.form.phoneNumber')}</label>
                 <input
                   type="tel"
                   id="phone"
@@ -157,7 +156,7 @@ const Contact = () => {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="subject">Subject *</label>
+                <label htmlFor="subject">{t('contact.form.subject')} *</label>
                 <input
                   type="text"
                   id="subject"
@@ -168,7 +167,7 @@ const Contact = () => {
                 />
               </div>
               <div className={styles.formGroup}>
-                <label htmlFor="message">Message *</label>
+                <label htmlFor="message">{t('contact.form.message')} *</label>
                 <textarea
                   id="message"
                   name="message"
@@ -179,7 +178,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <button type="submit" className={`${styles.btn} ${styles.btnPrimary}`}>
-                Send Message
+                {t('contact.form.sendMessage')}
               </button>
             </form>
           </div>

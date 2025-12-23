@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "projects": "Projects",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroTitle": "Professional Thermal Insulation Solutions",
+    "heroSubtitle": "23+ Years of Excellence in Energy Efficiency Across Europe",
+    "heroDescription": "Leading wholesale provider of thermal insulation products from Trenčín, Slovakia, serving large-scale buildings and construction projects throughout the EU.",
+    "getQuote": "Get Quote",
+    "ourProducts": "Our Products"
+  },
+  "about": {
+    "title": "About Izol systém, s.r.o.",
+    "subtitle": "Trusted Partner in Thermal Insulation Since 2001",
+    "ourStory": "Our Story",
+    "ourStoryText": "Established in 2001, Izol systém, s.r.o. has been a leader in providing comprehensive thermal insulation solutions for over 23 years. Based in Trenčín, Slovakia, we have established ourselves as a premier wholesale supplier of thermal insulation solutions across the European Union. We specialize in providing high-quality insulation products from leading manufacturers such as ISOVER, K-FLEX, UNIFRAX, ROCKWOOL, and KNAUF INSULATION for large-scale commercial and residential construction projects.",
+    "ourMission": "Our Mission",
+    "ourMissionText": "To deliver superior thermal insulation solutions that enhance energy efficiency, reduce environmental impact, and provide long-lasting value to our clients throughout Europe.",
+    "ourValues": "Our Values",
+    "values": {
+      "quality": "Quality & Excellence",
+      "sustainability": "Sustainability & Innovation",
+      "customer": "Customer-Centric Approach",
+      "distribution": "EU-Wide Distribution Network"
+    },
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Projects Completed",
+      "market": "Market Presence",
+      "quality": "Quality Guaranteed"
+    },
+    "meetTeam": "Meet the Team",
+    "expertProfessionals": "Our Expert Professionals",
+    "team": {
+      "director": "Managing Director",
+      "technicalDirector": "Technical Director",
+      "salesManager": "Sales Manager",
+      "projectCoordinator": "Project Coordinator",
+      "directorBio": "With over 20 years of experience in the thermal insulation industry, Jan leads our team with expertise in large-scale project management and business development across Europe.",
+      "technicalBio": "Mária brings deep technical knowledge in insulation materials and systems. She ensures all projects meet the highest quality standards and EU regulations.",
+      "salesBio": "Peter manages our wholesale operations and maintains strong relationships with clients across the European Union, ensuring timely delivery and exceptional service.",
+      "coordinatorBio": "Eva coordinates complex projects from initial consultation to final delivery, ensuring smooth logistics and communication with all stakeholders."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Premium Thermal Insulation Solutions for Every Project",
+    "wallInsulation": {
+      "title": "Wall Insulation",
+      "description": "High-performance insulation materials for exterior and interior walls, ensuring optimal thermal efficiency. Products from leading manufacturers including ISOVER, ROCKWOOL, and KNAUF INSULATION.",
+      "items": {
+        "eps": "EPS (Expanded Polystyrene)",
+        "xps": "XPS (Extruded Polystyrene)",
+        "mineralWool": "Mineral Wool"
+      }
+    },
+    "roofInsulation": {
+      "title": "Roof Insulation",
+      "description": "Comprehensive roofing insulation solutions designed for maximum energy savings and durability.",
+      "items": {
+        "pir": "PIR Insulation Boards",
+        "polyurethane": "Polyurethane Foam",
+        "reflective": "Reflective Insulation"
+      }
+    },
+    "floorInsulation": {
+      "title": "Floor Insulation",
+      "description": "Advanced floor insulation systems for ground floors, suspended floors, and basements.",
+      "items": {
+        "rigid": "Rigid Foam Boards",
+        "underfloor": "Underfloor Heating Insulation",
+        "acoustic": "Acoustic Insulation"
+      }
+    },
+    "specialtyInsulation": {
+      "title": "Specialty Insulation",
+      "description": "Customized insulation solutions for industrial applications and specialized construction needs. Featuring products from K-FLEX, UNIFRAX, and other premium manufacturers.",
+      "items": {
+        "industrial": "Industrial Insulation",
+        "pipe": "Pipe Insulation (K-FLEX)",
+        "fireResistant": "Fire-Resistant Solutions (UNIFRAX)"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch for Your Thermal Insulation Needs",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "businessHours": "Business Hours",
+    "businessHoursText": "Monday - Friday: 08:00 - 16:00<br />Saturday - Sunday: Closed",
+    "socials": "Socials",
+    "form": {
+      "fullName": "Full Name",
+      "company": "Company Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "sendMessage": "Send Message",
+      "successMessage": "Thank you for your message! We will get back to you soon."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Wholesale Solutions for Construction Professionals",
+    "wholesale": {
+      "title": "Wholesale Distribution",
+      "description": "Bulk supply of thermal insulation materials for large-scale construction projects across the EU."
+    },
+    "consultation": {
+      "title": "Technical Consultation",
+      "description": "Expert advice on material selection, installation methods, and thermal performance optimization."
+    },
+    "custom": {
+      "title": "Custom Solutions",
+      "description": "Tailored insulation packages designed to meet specific project requirements and building codes."
+    },
+    "logistics": {
+      "title": "Logistics Support",
+      "description": "Efficient delivery and logistics coordination throughout the European Union."
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Successful Insulation Solutions Across Europe"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Our Work in Action",
+    "imageAlt": "Gallery image"
+  },
+  "footer": {
+    "about": "About",
+    "aboutText": "Izol systém, s.r.o. is a leading provider of thermal insulation solutions across Europe. We specialize in wholesale supply of premium insulation materials for commercial and residential projects.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "contact": "Contact",
+    "copyright": "© 2024 Izol systém, s.r.o. All rights reserved."
+  }
+}

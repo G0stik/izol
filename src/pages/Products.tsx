@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import styles from './Products.module.css'
 
 interface ProductCardProps {
@@ -21,30 +22,48 @@ const ProductCard = ({ icon, title, description, items }: ProductCardProps) => (
 )
 
 const Products = () => {
+  const { t } = useTranslation()
+
   const products: ProductCardProps[] = [
     {
       icon: '🏗️',
-      title: 'Wall Insulation',
-      description: 'High-performance insulation materials for exterior and interior walls, ensuring optimal thermal efficiency. Products from leading manufacturers including ISOVER, ROCKWOOL, and KNAUF INSULATION.',
-      items: ['EPS (Expanded Polystyrene)', 'XPS (Extruded Polystyrene)', 'Mineral Wool']
+      title: t('products.wallInsulation.title'),
+      description: t('products.wallInsulation.description'),
+      items: [
+        t('products.wallInsulation.items.eps'),
+        t('products.wallInsulation.items.xps'),
+        t('products.wallInsulation.items.mineralWool')
+      ]
     },
     {
       icon: '🏠',
-      title: 'Roof Insulation',
-      description: 'Comprehensive roofing insulation solutions designed for maximum energy savings and durability.',
-      items: ['PIR Insulation Boards', 'Polyurethane Foam', 'Reflective Insulation']
+      title: t('products.roofInsulation.title'),
+      description: t('products.roofInsulation.description'),
+      items: [
+        t('products.roofInsulation.items.pir'),
+        t('products.roofInsulation.items.polyurethane'),
+        t('products.roofInsulation.items.reflective')
+      ]
     },
     {
       icon: '📐',
-      title: 'Floor Insulation',
-      description: 'Advanced floor insulation systems for ground floors, suspended floors, and basements.',
-      items: ['Rigid Foam Boards', 'Underfloor Heating Insulation', 'Acoustic Insulation']
+      title: t('products.floorInsulation.title'),
+      description: t('products.floorInsulation.description'),
+      items: [
+        t('products.floorInsulation.items.rigid'),
+        t('products.floorInsulation.items.underfloor'),
+        t('products.floorInsulation.items.acoustic')
+      ]
     },
     {
       icon: '🔧',
-      title: 'Specialty Insulation',
-      description: 'Customized insulation solutions for industrial applications and specialized construction needs. Featuring products from K-FLEX, UNIFRAX, and other premium manufacturers.',
-      items: ['Industrial Insulation', 'Pipe Insulation (K-FLEX)', 'Fire-Resistant Solutions (UNIFRAX)']
+      title: t('products.specialtyInsulation.title'),
+      description: t('products.specialtyInsulation.description'),
+      items: [
+        t('products.specialtyInsulation.items.industrial'),
+        t('products.specialtyInsulation.items.pipe'),
+        t('products.specialtyInsulation.items.fireResistant')
+      ]
     }
   ]
 
@@ -52,8 +71,8 @@ const Products = () => {
     <section className={styles.products}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2>Our Products</h2>
-          <p className={styles.sectionSubtitle}>Premium Thermal Insulation Solutions for Every Project</p>
+          <h2>{t('products.title')}</h2>
+          <p className={styles.sectionSubtitle}>{t('products.subtitle')}</p>
         </div>
         <div className={styles.productsGrid}>
           {products.map((product, index) => (

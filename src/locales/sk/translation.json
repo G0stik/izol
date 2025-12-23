@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Domov",
+    "about": "O nás",
+    "products": "Produkty",
+    "services": "Služby",
+    "projects": "Projekty",
+    "gallery": "Galéria",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "heroTitle": "Profesionálne riešenia tepelných izolácií",
+    "heroSubtitle": "Viac ako 23 rokov skúseností v energetickej efektivite v Európe",
+    "heroDescription": "Popredný veľkoobchodný dodávateľ produktov tepelných izolácií z Trenčína na Slovensku, obsluhujúci veľkorozmerné budovy a stavebné projekty v celej EÚ.",
+    "getQuote": "Získať cenovú ponuku",
+    "ourProducts": "Naše produkty"
+  },
+  "about": {
+    "title": "O Izol systém, s.r.o.",
+    "subtitle": "Dôveryhodný partner v tepelných izoláciách od roku 2001",
+    "ourStory": "Náš príbeh",
+    "ourStoryText": "Spoločnosť Izol systém, s.r.o., založená v roku 2001, je už viac ako 23 rokov lídrom v poskytovaní komplexných riešení tepelných izolácií. So sídlom v Trenčíne na Slovensku sme sa etablovali ako popredný veľkoobchodný dodávateľ riešení tepelných izolácií v celej Európskej únii. Špecializujeme sa na dodávku vysoko kvalitných izolačných produktov od popredných výrobcov ako ISOVER, K-FLEX, UNIFRAX, ROCKWOOL a KNAUF INSULATION pre veľkorozmerné komerčné a rezidenčné stavebné projekty.",
+    "ourMission": "Naša misia",
+    "ourMissionText": "Poskytovať špičkové riešenia tepelných izolácií, ktoré zvyšujú energetickú efektivitu, znižujú vplyv na životné prostredie a poskytujú dlhodobú hodnotu našim klientom v celej Európe.",
+    "ourValues": "Naše hodnoty",
+    "values": {
+      "quality": "Kvalita a excelentnosť",
+      "sustainability": "Udržateľnosť a inovácie",
+      "customer": "Prístup zameraný na zákazníka",
+      "distribution": "Distribučná sieť v EÚ"
+    },
+    "stats": {
+      "experience": "Rokov skúseností",
+      "projects": "Dokončených projektov",
+      "market": "Prítomnosť na trhu",
+      "quality": "Garantovaná kvalita"
+    },
+    "meetTeam": "Spoznajte tím",
+    "expertProfessionals": "Naši odborníci",
+    "team": {
+      "director": "Riaditeľ",
+      "technicalDirector": "Technický riaditeľ",
+      "salesManager": "Manažér predaja",
+      "projectCoordinator": "Projektový koordinátor",
+      "directorBio": "S viac ako 20-ročnými skúsenosťami v odvetví tepelných izolácií Jan vedie náš tím s odbornosťou v riadení veľkorozmerných projektov a obchodnom rozvoji v celej Európe.",
+      "technicalBio": "Mária prináša hlboké technické znalosti v izolačných materiáloch a systémoch. Zabezpečuje, aby všetky projekty spĺňali najvyššie štandardy kvality a predpisy EÚ.",
+      "salesBio": "Peter riadi naše veľkoobchodné operácie a udržiava silné vzťahy s klientmi v celej Európskej únii, zabezpečujúc včasné dodávky a výnimočné služby.",
+      "coordinatorBio": "Eva koordinuje zložité projekty od úvodnej konzultácie až po konečné dodanie, zabezpečujúc plynulú logistiku a komunikáciu so všetkými zainteresovanými stranami."
+    }
+  },
+  "products": {
+    "title": "Naše produkty",
+    "subtitle": "Prémiové riešenia tepelných izolácií pre každý projekt",
+    "wallInsulation": {
+      "title": "Izolácia stien",
+      "description": "Vysoko výkonné izolačné materiály pre vonkajšie a vnútorné steny, zabezpečujúce optimálnu tepelnú účinnosť. Produkty od popredných výrobcov vrátane ISOVER, ROCKWOOL a KNAUF INSULATION.",
+      "items": {
+        "eps": "EPS (expandovaný polystyrén)",
+        "xps": "XPS (extrudovaný polystyrén)",
+        "mineralWool": "Minerálna vlna"
+      }
+    },
+    "roofInsulation": {
+      "title": "Izolácia striech",
+      "description": "Komplexné riešenia pre izoláciu striech navrhnuté pre maximálne úspory energie a trvanlivosť.",
+      "items": {
+        "pir": "PIR izolačné dosky",
+        "polyurethane": "Polyuretánová pena",
+        "reflective": "Reflexná izolácia"
+      }
+    },
+    "floorInsulation": {
+      "title": "Izolácia podláh",
+      "description": "Pokročilé systémy izolácie podláh pre prízemné podlahy, zavesené podlahy a pivnice.",
+      "items": {
+        "rigid": "Tuhé penové dosky",
+        "underfloor": "Izolácia podlahového kúrenia",
+        "acoustic": "Akustická izolácia"
+      }
+    },
+    "specialtyInsulation": {
+      "title": "Špeciálne izolácie",
+      "description": "Prispôsobené izolačné riešenia pre priemyselné aplikácie a špecializované stavebné potreby. Produkty od K-FLEX, UNIFRAX a ďalších prémiových výrobcov.",
+      "items": {
+        "industrial": "Priemyselná izolácia",
+        "pipe": "Izolácia potrubí (K-FLEX)",
+        "fireResistant": "Protipožiarne riešenia (UNIFRAX)"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Spojte sa s nami ohľadom Vašich potrieb tepelných izolácií",
+    "address": "Adresa",
+    "phone": "Telefón",
+    "email": "Email",
+    "businessHours": "Pracovné hodiny",
+    "businessHoursText": "Pondelok - Piatok: 08:00 - 16:00<br />Sobota - Nedeľa: Zatvorené",
+    "socials": "Sociálne siete",
+    "form": {
+      "fullName": "Celé meno",
+      "company": "Názov spoločnosti",
+      "emailAddress": "Emailová adresa",
+      "phoneNumber": "Telefónne číslo",
+      "subject": "Predmet",
+      "message": "Správa",
+      "sendMessage": "Odoslať správu",
+      "successMessage": "Ďakujeme za Vašu správu! Čoskoro sa Vám ozveme."
+    }
+  },
+  "services": {
+    "title": "Naše služby",
+    "subtitle": "Komplexné veľkoobchodné riešenia pre stavebných profesionálov",
+    "wholesale": {
+      "title": "Veľkoobchodná distribúcia",
+      "description": "Hromadné dodávky materiálov tepelných izolácií pre veľkorozmerné stavebné projekty v celej EÚ."
+    },
+    "consultation": {
+      "title": "Technické poradenstvo",
+      "description": "Odborné poradenstvo pri výbere materiálov, metódach inštalácie a optimalizácii tepelného výkonu."
+    },
+    "custom": {
+      "title": "Prispôsobené riešenia",
+      "description": "Izolačné balíky na mieru navrhnuté tak, aby spĺňali špecifické požiadavky projektu a stavebné predpisy."
+    },
+    "logistics": {
+      "title": "Logistická podpora",
+      "description": "Efektívna koordinácia dodávok a logistiky v celej Európskej únii."
+    }
+  },
+  "projects": {
+    "title": "Naše projekty",
+    "subtitle": "Úspešné izolačné riešenia v celej Európe"
+  },
+  "gallery": {
+    "title": "Galéria",
+    "subtitle": "Naša práca v akcii",
+    "imageAlt": "Obrázok galérie"
+  },
+  "footer": {
+    "about": "O spoločnosti",
+    "aboutText": "Izol systém, s.r.o. je popredným dodávateľom riešení tepelných izolácií v celej Európe. Špecializujeme sa na veľkoobchodné dodávky prémiových izolačných materiálov pre komerčné a rezidenčné projekty.",
+    "quickLinks": "Rýchle odkazy",
+    "services": "Naše služby",
+    "contact": "Kontakt",
+    "copyright": "© 2024 Izol systém, s.r.o. Všetky práva vyhradené."
+  }
+}

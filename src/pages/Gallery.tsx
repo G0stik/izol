@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import styles from './Gallery.module.css'
 
 const Gallery = () => {
+  const { t } = useTranslation()
   // Dynamically import all images from the gallery folder
   const imageModules = import.meta.glob('/public/gallery/*.{jpg,jpeg,png}', { eager: true, as: 'url' })
   const galleryImages = Object.keys(imageModules)
@@ -53,8 +55,8 @@ const Gallery = () => {
     <section className={styles.gallery}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <h2>Gallery</h2>
-          <p className={styles.sectionSubtitle}>Our Work in Action</p>
+          <h2>{t('gallery.title')}</h2>
+          <p className={styles.sectionSubtitle}>{t('gallery.subtitle')}</p>
         </div>
         <div className={styles.galleryGrid}>
           {galleryImages.map((image, index) => (
@@ -65,7 +67,7 @@ const Gallery = () => {
             >
               <img
                 src={image}
-                alt={`Gallery image ${index + 1}`}
+                alt={`${t('gallery.imageAlt')} ${index + 1}`}
                 className={styles.galleryImage}
               />
             </div>
