@@ -2,16 +2,6 @@ import { useTranslation } from 'react-i18next'
 import styles from './About.module.css'
 import TeamCard, { TeamMember } from '../components/TeamCard'
 
-const teamMembers: TeamMember[] = [
-  {
-    name: 'Juraj Ondruš',
-    role: 'Managing Director',
-    bio: 'With over 20 years of experience in the thermal insulation industry, Juraj leads our team with expertise in large-scale project management and business development across Europe.',
-    email: 'ondrus@tepelneizolacie.sk',
-    phone: '+421 903 728 371'
-  },
-]
-
 const About = () => {
   const { t } = useTranslation()
 
