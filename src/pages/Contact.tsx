@@ -162,7 +162,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <div className={styles.contactFormWrapper}>
+        {/*<div className={styles.contactFormWrapper}>
           <form className={styles.contactForm} onSubmit={handleSubmit}>
               <div className={styles.formGroup}>
                 <label htmlFor="name">{t('contact.form.fullName')} *</label>
@@ -236,7 +236,7 @@ const Contact = () => {
                 {isSubmitting ? t('contact.form.sending') || 'Sending...' : t('contact.form.sendMessage')}
               </button>
             </form>
-          </div>
+          </div>*/}
       </div>
     </section>
   )
