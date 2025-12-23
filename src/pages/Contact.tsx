@@ -1,34 +1,37 @@
-import { useState, FormEvent } from 'react'
+{/*import { useState, FormEvent } from 'react'*/}
 import { useTranslation } from 'react-i18next'
 import styles from './Contact.module.css'
 
-interface FormData {
+{/*interface FormData {
   name: string
   company: string
   email: string
   phone: string
   subject: string
   message: string
-}
+}*/}
 
 const Contact = () => {
   const { t } = useTranslation()
-  const [formData, setFormData] = useState<FormData>({
+  {/*const [formData, setFormData] = useState<FormData>({
     name: '',
     company: '',
     email: '',
     phone: '',
     subject: '',
     message: ''
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  })*/}
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+
+  {/*const [isSubmitting, setIsSubmitting] = useState(false)*/}
+
+  {/*const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData(prev => ({ ...prev, [name]: value }))
   }
+  */}
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  {/*const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
 
@@ -60,7 +63,7 @@ const Contact = () => {
     } finally {
       setIsSubmitting(false)
     }
-  }
+  }*/}
 
   return (
     <section className={styles.contact}>
