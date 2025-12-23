@@ -26,15 +26,11 @@
   color: var(--text-light);
 }
 
-.contactContent {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 3rem;
-}
-
 .contactInfo {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .contactCard {
@@ -104,6 +100,7 @@
   background: var(--light-gray);
   padding: 2rem;
   border-radius: 12px;
+  margin-top: 2rem;
 }
 
 .contactForm {
@@ -166,7 +163,13 @@
 }
 
 @media (max-width: 968px) {
-  .contactContent {
+  .contactInfo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .contactInfo {
     grid-template-columns: 1fr;
   }
 }

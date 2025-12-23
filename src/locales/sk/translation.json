@@ -42,9 +42,9 @@
       "technicalDirector": "Technický riaditeľ",
       "salesManager": "Manažér predaja",
       "projectCoordinator": "Projektový koordinátor",
-      "directorBio": "S viac ako 20-ročnými skúsenosťami v odvetví tepelných izolácií Jan vedie náš tím s odbornosťou v riadení veľkorozmerných projektov a obchodnom rozvoji v celej Európe.",
+      "directorBio": "S viac ako 20-ročnými skúsenosťami v odvetví tepelných izolácií Juraj vedie náš tím s odbornosťou v riadení veľkorozmerných projektov a obchodnom rozvoji v celej Európe.",
       "technicalBio": "Mária prináša hlboké technické znalosti v izolačných materiáloch a systémoch. Zabezpečuje, aby všetky projekty spĺňali najvyššie štandardy kvality a predpisy EÚ.",
-      "salesBio": "Peter riadi naše veľkoobchodné operácie a udržiava silné vzťahy s klientmi v celej Európskej únii, zabezpečujúc včasné dodávky a výnimočné služby.",
+      "salesBio": "Zuzana riadi naše veľkoobchodné operácie a udržiava silné vzťahy s klientmi v celej Európskej únii, zabezpečujúc včasné dodávky a výnimočné služby.",
       "coordinatorBio": "Eva koordinuje zložité projekty od úvodnej konzultácie až po konečné dodanie, zabezpečujúc plynulú logistiku a komunikáciu so všetkými zainteresovanými stranami."
     }
   },
@@ -97,6 +97,27 @@
     "businessHours": "Pracovné hodiny",
     "businessHoursText": "Pondelok - Piatok: 08:00 - 16:00<br />Sobota - Nedeľa: Zatvorené",
     "socials": "Sociálne siete",
+    "contactPerson": "Kontaktná osoba",
+    "administration": {
+      "title": "Administratíva, faktúry, reklamácie",
+      "phone": "+421 903 729 979",
+      "email": "faktury@izol-system.sk"
+    },
+    "warehouseTrencin": {
+      "title": "Sklad Trenčín",
+      "phone": "+421 903 770 123",
+      "email": "info@izol-system.sk"
+    },
+    "zvolen": {
+      "title": "Izol systém s.r.o. ZVOLEN",
+      "contactPerson1": "Ing. Robert Sokolík",
+      "position1": "Vedúci pobočky",
+      "phone1": "+421 918 344 816",
+      "email1": "sokolik@izol-system.sk",
+      "contactPerson2": "Ing. Miriam Sokolíková",
+      "phone2": "+421 903 722 075",
+      "description": "Kópiu korešpondencie zasielajte prosím na zvolen@izol-system.sk."
+    },
     "form": {
       "fullName": "Celé meno",
       "company": "Názov spoločnosti",
@@ -105,7 +126,9 @@
       "subject": "Predmet",
       "message": "Správa",
       "sendMessage": "Odoslať správu",
-      "successMessage": "Ďakujeme za Vašu správu! Čoskoro sa Vám ozveme."
+      "sending": "Odosiela sa...",
+      "successMessage": "Ďakujeme za Vašu správu! Čoskoro sa Vám ozveme.",
+      "errorMessage": "Nepodarilo sa odoslať správu. Skúste to prosím znova."
     }
   },
   "services": {

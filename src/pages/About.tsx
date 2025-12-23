@@ -10,29 +10,15 @@ const About = () => {
       name: 'Juraj Ondruš',
       role: t('about.team.director'),
       bio: t('about.team.directorBio'),
-      email: 'ondrus@tepelneizolacie.sk',
+      email: 'ondrus@izol-system.sk',
       phone: '+421 903 728 371'
     },
     {
-      name: 'Sample Sample',
-      role: t('about.team.technicalDirector'),
-      bio: t('about.team.technicalBio'),
-      email: 'info@tepelneizolacie.sk',
-      phone: '+421 905 123 457'
-    },
-    {
-      name: 'Sample Sample',
+      name: 'Zuzana Masáriková',
       role: t('about.team.salesManager'),
       bio: t('about.team.salesBio'),
-      email: 'info@tepelneizolacie.sk',
-      phone: '+421 905 123 458'
-    },
-    {
-      name: 'Sample Sample',
-      role: t('about.team.projectCoordinator'),
-      bio: t('about.team.coordinatorBio'),
-      email: 'info@tepelneizolacie.sk',
-      phone: '+421 905 123 459'
+      email: 'masarikova@izol-system.sk',
+      phone: '+421 903 770 121'
     }
   ]
 
