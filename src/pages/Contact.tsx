@@ -22,7 +22,6 @@ const Contact = () => {
     message: ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -32,7 +31,6 @@ const Contact = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
-    setSubmitStatus('idle')
 
     try {
       const response = await fetch('/api/contact', {
@@ -44,7 +42,6 @@ const Contact = () => {
       })
 
       if (response.ok) {
-        setSubmitStatus('success')
         alert(t('contact.form.successMessage'))
         setFormData({
           name: '',
@@ -55,12 +52,10 @@ const Contact = () => {
           message: ''
         })
       } else {
-        setSubmitStatus('error')
         alert(t('contact.form.errorMessage') || 'Failed to send message. Please try again.')
       }
     } catch (error) {
       console.error('Error submitting form:', error)
-      setSubmitStatus('error')
       alert(t('contact.form.errorMessage') || 'Failed to send message. Please try again.')
     } finally {
       setIsSubmitting(false)
