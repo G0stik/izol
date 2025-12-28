@@ -19,21 +19,6 @@ const MapPinIcon = () => (
   </IconCircle>
 )
 
-const PhoneIcon = () => (
-  <IconCircle>
-    <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
-      <path
-        d="M31 6h-7a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h7a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3Z"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinejoin="round"
-      />
-      <path d="M23 12h9m-9 24h9" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-    </svg>
-  </IconCircle>
-)
-
 const WarehouseIcon = () => (
   <IconCircle>
     <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
@@ -85,22 +70,6 @@ const OfficeIcon = () => (
       />
       <path d="M18 20h4m-4 6h4m-4 6h4m8-12h-4m4 6h-4m4 6h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       <path d="M12 38h24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-    </svg>
-  </IconCircle>
-)
-
-const BranchIcon = () => (
-  <IconCircle>
-    <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
-      <path
-        d="M10 36V18l14-6 14 6v18"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinejoin="round"
-      />
-      <path d="M17 36v-8h6v8m8 0v-6h6v6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-      <path d="M10 36h28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
   </IconCircle>
 )
