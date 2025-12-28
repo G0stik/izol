@@ -42,10 +42,13 @@
       "technicalDirector": "Technical Director",
       "salesManager": "Sales Manager",
       "projectCoordinator": "Project Coordinator",
+      "branchManager": "Branch Manager",
       "directorBio": "With over 20 years of experience in the thermal insulation industry, Juraj leads our team with expertise in large-scale project management and business development across Europe.",
-      "technicalBio": "Mária brings deep technical knowledge in insulation materials and systems. She ensures all projects meet the highest quality standards and EU regulations.",
-      "salesBio": "Zuzana manages our wholesale operations and maintains strong relationships with clients across the European Union, ensuring timely delivery and exceptional service.",
-      "coordinatorBio": "Eva coordinates complex projects from initial consultation to final delivery, ensuring smooth logistics and communication with all stakeholders."
+      "technicalBio": "",
+      "salesBio": "Zuzana manages our wholesale operations and maintains strong relationships with clients across the European Union, ensuring timely delivery, communication with all stakeholders, and smooth logistics.",
+      "coordinatorBio": "",
+      "branchManagerBio": "Robert oversees our Zvolen branch, coordinating local operations and ensuring service for our clients in the region.",
+      "branchManagerBio2": "Miriam supports the management of the Zvolen branch, ensuring project coordination and customer communication." 
     }
   },
   "products": {
@@ -91,7 +94,7 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "Get in Touch for Your Thermal Insulation Needs",
-    "address": "Address",
+    "address": "Izol systém s.r.o. TRENČÍN",
     "phone": "Phone",
     "email": "Email",
     "businessHours": "Business Hours",
@@ -117,6 +120,12 @@
       "contactPerson2": "Ing. Miriam Sokolíková",
       "phone2": "+421 903 722 075",
       "description": "Please send a copy of correspondence to zvolen@izol-system.sk."
+    },
+    "trencin": {
+      "title": "Izol systém s.r.o. TRENČÍN",
+      "contactPerson": "Zuzana Masáriková",
+      "phone": "+421 903 770 121",
+      "email": "masarikova@izol-system.sk"
     },
     "form": {
       "fullName": "Full Name",

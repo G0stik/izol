@@ -11,15 +11,34 @@ const About = () => {
       role: t('about.team.director'),
       bio: t('about.team.directorBio'),
       email: 'ondrus@izol-system.sk',
-      phone: '+421 903 728 371'
+      phone: '+421 903 728 371',
+      city: 'Trenčín'
     },
     {
       name: 'Zuzana Masáriková',
       role: t('about.team.salesManager'),
       bio: t('about.team.salesBio'),
       email: 'masarikova@izol-system.sk',
-      phone: '+421 903 770 121'
-    }
+      phone: '+421 903 770 121',
+      city: 'Trenčín'
+    },
+    {
+      name: 'Ing. Robert Sokolík',
+      role: t('about.team.branchManager'),
+      bio: t('about.team.branchManagerBio'),
+      email: 'sokolik@izol-system.sk',
+      phone: '+421 918 344 816',
+      city: 'Zvolen'
+    },
+    {
+      name: 'Ing. Miriam Sokolíková',
+      role: t('about.team.branchManager'),
+      bio: t('about.team.branchManagerBio2'),
+      email: '',
+      phone: '+421 903 722 075',
+      city: 'Zvolen'
+    },
+
   ]
 
   return (
@@ -45,12 +64,11 @@ const About = () => {
             </div>
             <div className={styles.aboutCard}>
               <h3>{t('about.ourValues')}</h3>
-              <ul>
-                <li>{t('about.values.quality')}</li>
-                <li>{t('about.values.sustainability')}</li>
-                <li>{t('about.values.customer')}</li>
-                <li>{t('about.values.distribution')}</li>
-              </ul>
+                <ul className={styles.valuesList}>
+                  {(t('about.values', { returnObjects: true }) as string[]).map((value, idx) => (
+                    <li key={idx}>{value}</li>
+                  ))}
+                </ul>
             </div>
           </div>
           <div className={styles.aboutStats}>

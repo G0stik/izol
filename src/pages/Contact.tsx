@@ -75,6 +75,7 @@ const Contact = () => {
         
         {/* Contact Info Cards */}
         <div className={styles.contactInfo}>
+          {/* Trenčín Branch Address Pin */}
           <a 
             href="https://maps.app.goo.gl/CRpGWZbcAqkfjf7u6" 
             target="_blank" 
@@ -91,11 +92,89 @@ const Contact = () => {
               Slovakia
             </p>
           </a>
+
+          {/* Trenčín Branch Contact Info */}
+          <div className={styles.contactCard}>
+            <div className={styles.contactIcon}>🏪</div>
+            <h3>{t('contact.trencin.title') || 'Trenčín Branch'}</h3>
+            <p>
+              {t('contact.trencin.contactPerson1')}, {t('contact.trencin.position1')}<br />
+              {t('contact.phone')}: <a href={`tel:${t('contact.trencin.phone1')}`}>{t('contact.trencin.phone1')}</a><br />
+              {t('contact.email')}: <a href={`mailto:${t('contact.trencin.email1')}`}>{t('contact.trencin.email1')}</a>
+            </p>
+            <p style={{ marginTop: '0.5rem' }}>
+              {t('contact.trencin.contactPerson')}, {t('contact.trencin.position')}<br />
+              {t('contact.phone')}: <a href={`tel:${t('contact.trencin.phone')}`}>{t('contact.trencin.phone')}</a><br />
+              {t('contact.email')}: <a href={`mailto:${t('contact.trencin.email')}`}>{t('contact.trencin.email')}</a>
+            </p>
+          </div>
+          
+          {/* Warehouse Trencin */}
+          <div className={styles.contactCard}>
+            <div className={styles.contactIcon}>📦</div>
+            <h3>{t('contact.warehouseTrencin.title')}</h3>
+            <p>
+              {t('contact.phone')}: <a href={`tel:${t('contact.warehouseTrencin.phone')}`}>{t('contact.warehouseTrencin.phone')}</a><br />
+              {t('contact.email')}: <a href={`mailto:${t('contact.warehouseTrencin.email')}`}>{t('contact.warehouseTrencin.email')}</a>
+            </p>
+          </div>
+
+          {/* Zvolen Branch Address */}
+          <a 
+            href="https://maps.app.goo.gl/DR2YNSUitmZtxGDE6" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={styles.contactCard}
+            style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+          >
+            <div className={styles.contactIcon}>📍</div>
+            <h3>Izol systém s.r.o. ZVOLEN</h3>
+            <p>
+              Izol systém, s.r.o.<br />
+              Predmestie 2268/1<br />
+              960 01 Zvolen-Tepličky<br />
+              Slovakia
+            </p>
+          </a>
+          
+          {/* Zvolen Branch */}
+          <div className={styles.contactCard}>
+            <div className={styles.contactIcon}>🏪</div>
+            <h3>{t('contact.zvolen.title')}</h3>
+            <p>
+              {t('contact.zvolen.contactPerson1')}, {t('contact.zvolen.position1')}<br />
+              {t('contact.phone')}: <a href={`tel:${t('contact.zvolen.phone1')}`}>{t('contact.zvolen.phone1')}</a><br />
+              {t('contact.email')}: <a href={`mailto:${t('contact.zvolen.email1')}`}>{t('contact.zvolen.email1')}</a>
+            </p>
+            <p style={{ marginTop: '0.5rem' }}>
+              {t('contact.zvolen.contactPerson2')}<br />
+              {t('contact.phone')}: <a href={`tel:${t('contact.zvolen.phone2')}`}>{t('contact.zvolen.phone2')}</a>
+            </p>
+            {t('contact.zvolen.description') && (
+              <p style={{ marginTop: '0.5rem', fontSize: '0.9rem', fontStyle: 'italic' }}>
+                {t('contact.zvolen.description')}
+              </p>
+            )}
+          </div>
+            
+          {/* Administration */}
+          <div className={styles.contactCard}>
+            <div className={styles.contactIcon}>🏢</div>
+            <h3>{t('contact.administration.title')}</h3>
+            <p>
+              {t('contact.phone')}: <a href={`tel:${t('contact.administration.phone')}`}>{t('contact.administration.phone')}</a><br />
+              {t('contact.email')}: <a href={`mailto:${t('contact.administration.email')}`}>{t('contact.administration.email')}</a>
+            </p>
+          </div>
+          
+          {/* Business Hours */}
           <div className={styles.contactCard}>
             <div className={styles.contactIcon}>⏰</div>
             <h3>{t('contact.businessHours')}</h3>
             <p dangerouslySetInnerHTML={{ __html: t('contact.businessHoursText') }} />
           </div>
+
+          {/* Social Media */}
           <div className={styles.contactCard}>
             <div className={styles.contactIcon}>📱</div>
             <h3>{t('contact.socials')}</h3>
@@ -121,46 +200,6 @@ const Contact = () => {
                 <span>Instagram</span>
               </a>
             </div>
-          </div>
-
-          {/* Administration */}
-          <div className={styles.contactCard}>
-            <div className={styles.contactIcon}>🏢</div>
-            <h3>{t('contact.administration.title')}</h3>
-            <p>
-              {t('contact.phone')}: <a href={`tel:${t('contact.administration.phone')}`}>{t('contact.administration.phone')}</a><br />
-              {t('contact.email')}: <a href={`mailto:${t('contact.administration.email')}`}>{t('contact.administration.email')}</a>
-            </p>
-          </div>
-
-          {/* Warehouse Trencin */}
-          <div className={styles.contactCard}>
-            <div className={styles.contactIcon}>📦</div>
-            <h3>{t('contact.warehouseTrencin.title')}</h3>
-            <p>
-              {t('contact.phone')}: <a href={`tel:${t('contact.warehouseTrencin.phone')}`}>{t('contact.warehouseTrencin.phone')}</a><br />
-              {t('contact.email')}: <a href={`mailto:${t('contact.warehouseTrencin.email')}`}>{t('contact.warehouseTrencin.email')}</a>
-            </p>
-          </div>
-
-          {/* Zvolen Branch */}
-          <div className={styles.contactCard}>
-            <div className={styles.contactIcon}>🏪</div>
-            <h3>{t('contact.zvolen.title')}</h3>
-            <p>
-              <strong>{t('contact.contactPerson')}:</strong> {t('contact.zvolen.contactPerson1')}, {t('contact.zvolen.position1')}<br />
-              {t('contact.phone')}: <a href={`tel:${t('contact.zvolen.phone1')}`}>{t('contact.zvolen.phone1')}</a><br />
-              {t('contact.email')}: <a href={`mailto:${t('contact.zvolen.email1')}`}>{t('contact.zvolen.email1')}</a>
-            </p>
-            <p style={{ marginTop: '0.5rem' }}>
-              <strong>{t('contact.contactPerson')} 2:</strong> {t('contact.zvolen.contactPerson2')}<br />
-              {t('contact.phone')}: <a href={`tel:${t('contact.zvolen.phone2')}`}>{t('contact.zvolen.phone2')}</a>
-            </p>
-            {t('contact.zvolen.description') && (
-              <p style={{ marginTop: '0.5rem', fontSize: '0.9rem', fontStyle: 'italic' }}>
-                {t('contact.zvolen.description')}
-              </p>
-            )}
           </div>
         </div>
 

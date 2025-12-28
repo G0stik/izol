@@ -6,6 +6,7 @@ interface TeamMember {
   bio: string
   email: string
   phone: string
+  city: string
   photo?: string
 }
 
@@ -27,11 +28,14 @@ const TeamCard = ({ member }: TeamCardProps) => {
         <h3>{member.name}</h3>
         <p className={styles.teamRole}>{member.role}</p>
         <p className={styles.teamBio}>{member.bio}</p>
+        <p className={styles.teamCity}>{member.city}</p>
         <div className={styles.teamContact}>
-          <a href={`mailto:${member.email}`}>
-            <span className={styles.contactIcon}>✉️</span>
-            {member.email}
-          </a>
+          {member.email && member.email.trim() !== '' && (
+            <a href={`mailto:${member.email}`}>
+              <span className={styles.contactIcon}>✉️</span>
+              {member.email}
+            </a>
+          )}
           <a href={`tel:${member.phone}`}>
             <span className={styles.contactIcon}>📞</span>
             {member.phone}

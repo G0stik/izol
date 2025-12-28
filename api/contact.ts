@@ -22,7 +22,7 @@ export default async function handler(
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'Izol System Contact <onboarding@resend.dev>', // verified domain
+      from: 'Izol System Contact <noreply@send.tepelneizolacie.sk>', // verified domain
       to: ['ondrus@tepelneizolacie.sk','ondrus@izol-system.sk'], // company email
       replyTo: email,
       subject: `New Contact Form: ${subject}`,

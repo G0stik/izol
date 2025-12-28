@@ -1,0 +1,50 @@
+# robots.txt
+# Instructions for web crawlers
+User-agent: *
+Allow: /
+
+# About section for custom info
+# ABOUT:
+
+Spoločnosť Izol systém s.r.o , so sídlom v Trenčíne, pôsobí na našom trhu od roku 2001 v
+oblasti dodávok tepelno izolačných materiálova príslušenstva pre teploty od -260stupňov až do
+1430 stupňov
+Zaoberáme sa predovšetkým veľkoobchodným predajom stavebných izolácií, technických
+izolácií, chladových izolácií , akustických izolácií , protipožiarnych izolácií a žiaruvzdorných
+izolácií .Sme oficiálnym dovozcom a distribútorom izolácií zo syntetického kaučuku K -
+FLEX pre Slovenskú republiku , ktoré sú určené pre izolovanie potrubných rozvodov chladu,
+kúrenia, klimatizácií ,VZT potrubí, solárnych rozvodov atd.. Medzi najpredávanejšie patria : K-
+FLEX H-DUCT METAL (Izolovanie VZT rozvodov) – K-FLEX AL CLAD systém (nahrádza
+oplechovanie vo vonkajšom prostredí s UV stabilným AL povrchom) - K-FLEX TWIN SOLAR
+systém (zefektívňuje izolovanie v oblastiach slnečných kolektorov)
+Ďalším nosným produktom sú žiaruvzdorné izolácie na báze kremičitých vlákien odolávajúce
+vysokým teplotám až do 1430 stupňov od svetového výrobcu UNIFRAX v minulosti poznáme
+pod názvom SIBRAL . Určené sú predovšetkým pre izolovanie spalinovodov, žiaruvzdorných
+výmuroviek, potrubí, kotlov , horákov, pecí či komínov. Široké použitie je i v oblastiach
+zlievárenstva , železiarskeho, automobilového, hutnického priemyslu kde je potrebné izolovať
+vysoké teploty. Ďalej sa nachádzajú v našom sortimente EPS polystyrény XPS polystyrény a
+izolácie vyrábané na báze minerálnych a sklenných vlákien od renomovaných
+výrobcov ROCKWOOL , KNAUFINSULATION , Saint – Gobain constructions products
+ISOVER, ktoré sa používaju vo všetkých občianskych, komerčných alebo priemyselných
+výstavbách.(šikmé, ploché strechy, priečky,kontaktné a odvetrané fasády, podlahy) a
+samozrejme v oblasti tvz. Technických izolácií ( pre izolovanie potrubných rozvodov ,
+parovodov , nádrží , komínov, systémy protipožiarnej ochrany VZT rozvodov ISOVER
+CLIMCOVER lamelová rohož. Izolácie s požiarnou odolnosťou EI30min, EI45min, EI60min
+(ORSTECH H,ORSTECH LSP PYRO,, SYSTÉM PYROROCK, FIRESTOP SYSTÉM )
+,EI90min, EI120-240min, požiar z vonku i z vnútra (CONLIT DUCTROCK, U PROTECT SLAB,
+PROMAT). Túto škálu tvz. technických izolácií doplňujú izolácie na báze polyetylénu TUBEX a
+MIRELON, používané prevažne pre rozvody kúrenia a zdravotechniky často sa však používajú
+aj v obalovom priemysle alebo ako dilatácie rôznych konštrukcií. K všetkým izoláciam patrí aj
+príslušenstvo ako napríklad : navarovacie tŕne a navarovacie pištole, hliníkové pásky, ktoré sú
+súčasťou už vyššie spomínaných protipožiarnych systémov pre VZT. Nasledujú PE pásky
+,kaučukové pásky ,UV stabilné pásky, lepidlá, čističe, drobné náradie, ktoré sú stabilnou
+súčasťou našich širokých skladových zásob. Doprava tovaru je samozrejmosťou, disponujeme
+veľkými skladovými priestormi a množstvom tovaru na sklade .
+S odborným poradenstvom,flexibilnou reakciou na požiadavky trhu a postupne sa rozširujúcim
+sortimentom ponúkaných izolačných materiálov sa neustále snažíme prispôsobiť čoraz
+náročnejším potrebám zákazníka. Na trhu sme zaujali popredné postavenie o čom svedčí
+množstvo spokojných a stabilných obchodných partnerov, ,stovky zrealizovaných projektov na
+území Slovenska i v zahraničí. V prípade záujmu nás neváhajte kontaktovať. Kľúdne sa na Nás
+opýtajte :-) Radi Vám poradíme pri výbere vhodnej izolácie pre Vašu aplikáciu. Prípadne
+spracujeme cenovú ponuku na základe výkazu výmer a technickej správy.
+Všetky bližšie informácie sme pripravení Vám zodpovedať telefonicky, prípadne osobne

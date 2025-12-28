@@ -11,7 +11,7 @@
   "home": {
     "heroTitle": "Profesionálne riešenia tepelných izolácií",
     "heroSubtitle": "Viac ako 23 rokov skúseností v energetickej efektivite v Európe",
-    "heroDescription": "Popredný veľkoobchodný dodávateľ produktov tepelných izolácií z Trenčína na Slovensku, obsluhujúci veľkorozmerné budovy a stavebné projekty v celej EÚ.",
+    "heroDescription": "Popredný veľkoobchodný dodávateľ produktov tepelných izolácií na Slovensku, obsluhujúci veľkorozmerné budovy a stavebné projekty v celej EÚ.",
     "getQuote": "Získať cenovú ponuku",
     "ourProducts": "Naše produkty"
   },
@@ -19,16 +19,18 @@
     "title": "O Izol systém, s.r.o.",
     "subtitle": "Dôveryhodný partner v tepelných izoláciách od roku 2001",
     "ourStory": "Náš príbeh",
-    "ourStoryText": "Spoločnosť Izol systém, s.r.o., založená v roku 2001, je už viac ako 23 rokov lídrom v poskytovaní komplexných riešení tepelných izolácií. So sídlom v Trenčíne na Slovensku sme sa etablovali ako popredný veľkoobchodný dodávateľ riešení tepelných izolácií v celej Európskej únii. Špecializujeme sa na dodávku vysoko kvalitných izolačných produktov od popredných výrobcov ako ISOVER, K-FLEX, UNIFRAX, ROCKWOOL a KNAUF INSULATION pre veľkorozmerné komerčné a rezidenčné stavebné projekty.",
+    "ourStoryText": "Pôsobíme na slovenskom trhu od roku 2001. Sídlime v Trenčíne a od svojho vzniku sa špecializujeme na dodávky tepelno-izolačných materiálov a príslušenstva pre extrémne teploty od -260 °C až do +1430 °C. Zameriavame sa najmä na veľkoobchodný predaj stavebných, technických, chladových, akustických, protipožiarnych a žiaruvzdorných izolácií. Vďaka rozsiahlym skladovým kapacitám, vlastnej doprave a dlhoročným skúsenostiam sme popredným a spoľahlivým partnerom pre projekty na Slovensku aj v zahraničí.",
     "ourMission": "Naša misia",
-    "ourMissionText": "Poskytovať špičkové riešenia tepelných izolácií, ktoré zvyšujú energetickú efektivitu, znižujú vplyv na životné prostredie a poskytujú dlhodobú hodnotu našim klientom v celej Európe.",
+    "ourMissionText": "Poskytovať kvalitné a overené izolačné riešenia pre občianske, komerčné aj priemyselné stavby. Ako oficiálny dovozca a distribútor izolácií zo syntetického kaučuku K-FLEX pre Slovenskú republiku a dodávateľ žiaruvzdorných materiálov od svetových výrobcov (napr. UNIFRAX, ROCKWOOL, KNAUF INSULATION, ISOVER) kladieme dôraz na odborné poradenstvo, technickú správnosť a efektívne riešenia šité na mieru zákazníka.",
     "ourValues": "Naše hodnoty",
-    "values": {
-      "quality": "Kvalita a excelentnosť",
-      "sustainability": "Udržateľnosť a inovácie",
-      "customer": "Prístup zameraný na zákazníka",
-      "distribution": "Distribučná sieť v EÚ"
-    },
+    "values": [
+      "odborné poradenstvo a individuálny prístup",
+      "kvalita a spoľahlivosť dodávaných materiálov",
+      "flexibilná reakcia na potreby trhu a zákazníkov",
+      "široký sortiment izolácií a príslušenstva skladom",
+      "dlhodobé partnerstvá a férové obchodné vzťahy",
+      "skúsenosti podložené stovkami úspešných projektov"
+    ],
     "stats": {
       "experience": "Rokov skúseností",
       "projects": "Dokončených projektov",
@@ -41,57 +43,61 @@
       "director": "Riaditeľ",
       "technicalDirector": "Technický riaditeľ",
       "salesManager": "Manažér predaja",
+      "branchManager": "Vedúci pobočky",
       "projectCoordinator": "Projektový koordinátor",
       "directorBio": "S viac ako 20-ročnými skúsenosťami v odvetví tepelných izolácií Juraj vedie náš tím s odbornosťou v riadení veľkorozmerných projektov a obchodnom rozvoji v celej Európe.",
-      "technicalBio": "Mária prináša hlboké technické znalosti v izolačných materiáloch a systémoch. Zabezpečuje, aby všetky projekty spĺňali najvyššie štandardy kvality a predpisy EÚ.",
-      "salesBio": "Zuzana riadi naše veľkoobchodné operácie a udržiava silné vzťahy s klientmi v celej Európskej únii, zabezpečujúc včasné dodávky a výnimočné služby.",
-      "coordinatorBio": "Eva koordinuje zložité projekty od úvodnej konzultácie až po konečné dodanie, zabezpečujúc plynulú logistiku a komunikáciu so všetkými zainteresovanými stranami."
+      "technicalBio": ".",
+      "salesBio": "Zuzana riadi naše veľkoobchodné operácie a udržiava silné vzťahy s klientmi v celej Európskej únii, zabezpečujúc včasné dodávky, komunikáciu so všetkými zainteresovanými stranami a plynulú logistiku.",
+      "coordinatorBio": ".",
+      "branchManagerBio": "Robert dohliada na našu pobočku vo Zvolene, koordinuje miestne operácie a zabezpečuje služby pre našich klientov v regióne.",
+      "branchManagerBio2": "Miriam podporuje vedenie pobočky vo Zvolene, zabezpečuje koordináciu projektov a komunikáciu so zákazníkmi."
     }
   },
   "products": {
     "title": "Naše produkty",
-    "subtitle": "Prémiové riešenia tepelných izolácií pre každý projekt",
-    "wallInsulation": {
-      "title": "Izolácia stien",
-      "description": "Vysoko výkonné izolačné materiály pre vonkajšie a vnútorné steny, zabezpečujúce optimálnu tepelnú účinnosť. Produkty od popredných výrobcov vrátane ISOVER, ROCKWOOL a KNAUF INSULATION.",
+    "subtitle": "Kompletné portfólio tepelných, akustických a protipožiarnych izolácií pre náročné aplikácie",
+    "kflex": {
+      "title": "Izolácie K-FLEX zo syntetického kaučuku",
+      "description": "Oficiálny dovozca pre SR - izolácie rozvodov chladu, kúrenia, klimatizácie a VZT s UV stabilnými povrchmi.",
       "items": {
-        "eps": "EPS (expandovaný polystyrén)",
-        "xps": "XPS (extrudovaný polystyrén)",
-        "mineralWool": "Minerálna vlna"
+        "hvac": "Rozvody chladu, kúrenia a klimatizácie (K-FLEX)",
+        "duct": "VZT potrubia vrátane K-FLEX H-DUCT METAL",
+        "alclad": "AL CLAD systém - nahrádza oplechovanie vo vonkajšom prostredí",
+        "twinSolar": "TWIN SOLAR systém pre solárne okruhy"
       }
     },
-    "roofInsulation": {
-      "title": "Izolácia striech",
-      "description": "Komplexné riešenia pre izoláciu striech navrhnuté pre maximálne úspory energie a trvanlivosť.",
+    "refractory": {
+      "title": "Žiaruvzdorné izolácie UNIFRAX (SIBRAL)",
+      "description": "Kremičité vlákna odolávajúce až 1430 °C pre spalinovody, komíny a priemyselné tepelne namáhané zariadenia.",
       "items": {
-        "pir": "PIR izolačné dosky",
-        "polyurethane": "Polyuretánová pena",
-        "reflective": "Reflexná izolácia"
+        "flues": "Spalinovody, komíny a žiaruvzdorné výmurovky",
+        "furnaces": "Kotly, pece, horáky a ohrievacie komory",
+        "industry": "Využitie v hutníctve, zlievárenstve, automobilovom a železiarskom priemysle"
       }
     },
-    "floorInsulation": {
-      "title": "Izolácia podláh",
-      "description": "Pokročilé systémy izolácie podláh pre prízemné podlahy, zavesené podlahy a pivnice.",
+    "building": {
+      "title": "Stavebné izolácie EPS, XPS, minerálna a sklenená vlna",
+      "description": "Riešenia pre šikmé a ploché strechy, fasády, priečky a podlahy od ROCKWOOL, KNAUF INSULATION, ISOVER a ďalších.",
       "items": {
-        "rigid": "Tuhé penové dosky",
-        "underfloor": "Izolácia podlahového kúrenia",
-        "acoustic": "Akustická izolácia"
+        "eps": "EPS a XPS polystyrény pre občiansku, komerčnú aj priemyselnú výstavbu",
+        "mineralWool": "Minerálna a sklenená vlna pre tepelný aj akustický komfort",
+        "systems": "Kontaktné aj odvetrané fasády, strešné systémy a podlahové skladby"
       }
     },
-    "specialtyInsulation": {
-      "title": "Špeciálne izolácie",
-      "description": "Prispôsobené izolačné riešenia pre priemyselné aplikácie a špecializované stavebné potreby. Produkty od K-FLEX, UNIFRAX a ďalších prémiových výrobcov.",
+    "technical": {
+      "title": "Technické a protipožiarne izolácie",
+      "description": "Riešenia pre potrubia, nádrže, komíny a VZT s požiarnou odolnosťou EI30 až EI240. Doplnky a príslušenstvo skladom.",
       "items": {
-        "industrial": "Priemyselná izolácia",
-        "pipe": "Izolácia potrubí (K-FLEX)",
-        "fireResistant": "Protipožiarne riešenia (UNIFRAX)"
+        "fire": "Protipožiarne systémy ORSTECH, PYROROCK, FIRESTOP, CONLIT DUCTROCK, U PROTECT",
+        "polyethylene": "Polyetylénové izolácie TUBEX a MIRELON pre TZB a balenie",
+        "accessories": "Lepidlá, čističe, pásky (PE, kaučuk, UV stabilné), naváracie tŕne a pištole"
       }
     }
   },
   "contact": {
     "title": "Kontaktujte nás",
     "subtitle": "Spojte sa s nami ohľadom Vašich potrieb tepelných izolácií",
-    "address": "Adresa",
+    "address": "Izol systém s.r.o. TRENČÍN",
     "phone": "Telefón",
     "email": "Email",
     "businessHours": "Pracovné hodiny",
@@ -104,12 +110,12 @@
       "email": "faktury@izol-system.sk"
     },
     "warehouseTrencin": {
-      "title": "Sklad Trenčín",
+      "title": "Sklad TRENČÍN",
       "phone": "+421 903 770 123",
       "email": "info@izol-system.sk"
     },
     "zvolen": {
-      "title": "Izol systém s.r.o. ZVOLEN",
+      "title": "Kontakt ZVOLEN",
       "contactPerson1": "Ing. Robert Sokolík",
       "position1": "Vedúci pobočky",
       "phone1": "+421 918 344 816",
@@ -117,6 +123,17 @@
       "contactPerson2": "Ing. Miriam Sokolíková",
       "phone2": "+421 903 722 075",
       "description": "Kópiu korešpondencie zasielajte prosím na zvolen@izol-system.sk."
+    },
+    "trencin": {
+      "title": "Kontakt TRENČÍN",
+      "contactPerson": "Zuzana Masáriková",
+      "position": "Manažér predaja",
+      "phone": "+421 903 770 121",
+      "email": "masarikova@izol-system.sk",
+      "contactPerson1": "Juraj Ondruš",
+      "position1": "Riaditeľ",
+      "phone1": "+421 903 728 371",
+      "email1": "ondrus@izol-system.sk"
     },
     "form": {
       "fullName": "Celé meno",
@@ -133,22 +150,22 @@
   },
   "services": {
     "title": "Naše služby",
-    "subtitle": "Komplexné veľkoobchodné riešenia pre stavebných profesionálov",
+    "subtitle": "Komplexná podpora od výberu materiálu až po logistiku dodávok",
     "wholesale": {
-      "title": "Veľkoobchodná distribúcia",
-      "description": "Hromadné dodávky materiálov tepelných izolácií pre veľkorozmerné stavebné projekty v celej EÚ."
+      "title": "Veľkoobchodná distribúcia izolácií",
+      "description": "Široký sklad EPS/XPS, minerálna a sklenená vlna, kaučukové izolácie K-FLEX, žiaruvzdorné riešenia UNIFRAX/SIBRAL a príslušenstvo pre projekty na celom Slovensku."
     },
     "consultation": {
-      "title": "Technické poradenstvo",
-      "description": "Odborné poradenstvo pri výbere materiálov, metódach inštalácie a optimalizácii tepelného výkonu."
+      "title": "Technické poradenstvo a návrh riešení",
+      "description": "Pomáhame s výberom materiálov pre rozsah -260 °C až +1430 °C, skladbami VZT, protipožiarnymi systémami EI30–EI240 a tepelnými prepočtami podľa potrieb projektu."
     },
     "custom": {
-      "title": "Prispôsobené riešenia",
-      "description": "Izolačné balíky na mieru navrhnuté tak, aby spĺňali špecifické požiadavky projektu a stavebné predpisy."
+      "title": "Cenové ponuky a špecifikácie",
+      "description": "Spracujeme cenové kalkulácie podľa výkazu výmer a technickej správy, odporučíme alternatívy a optimalizácie podľa normových požiadaviek."
     },
     "logistics": {
-      "title": "Logistická podpora",
-      "description": "Efektívna koordinácia dodávok a logistiky v celej Európskej únii."
+      "title": "Logistika a vlastná doprava",
+      "description": "Rýchle dodávky zo skladov v Trenčíne a Zvolene, zabezpečenie dopravy materiálu na stavbu a koordinácia termínov dodania."
     }
   },
   "projects": {
