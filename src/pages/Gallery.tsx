@@ -5,9 +5,13 @@ import styles from './Gallery.module.css'
 const Gallery = () => {
   const { t } = useTranslation()
   // Dynamically import all images from the gallery folder
-  const imageModules = import.meta.glob('/public/gallery/*.{jpg,jpeg,png}', { eager: true, as: 'url' })
-  const galleryImages = Object.keys(imageModules)
-    .map(path => path.replace('/public', ''))
+  const imageModules = import.meta.glob('/public/gallery/*.{jpg,jpeg,png}', {
+    eager: true,
+    query: '?url',
+    import: 'default'
+  })
+  const galleryImages = Object.values(imageModules)
+    .map((url) => String(url).replace('/public/', '/'))
     .sort()
 
   const [selectedImage, setSelectedImage] = useState<number | null>(null)

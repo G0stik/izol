@@ -166,6 +166,69 @@
   }
 }
 
+.suppliersSection {
+  background: var(--light-gray);
+  padding: 2.5rem 0;
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.suppliersMarquee {
+  position: relative;
+  overflow: hidden;
+}
+
+.suppliersMarquee::before,
+.suppliersMarquee::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.suppliersMarquee::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--light-gray) 0%, rgba(243, 244, 246, 0) 100%);
+}
+
+.suppliersMarquee::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--light-gray) 0%, rgba(243, 244, 246, 0) 100%);
+}
+
+.suppliersTrack {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: marqueeScroll 26s linear infinite;
+}
+
+.logoRow {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 1.5rem;
+  flex-shrink: 0;
+}
+
+.supplierLogo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+@keyframes marqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @media (max-width: 640px) {
   .heroTitle {
     font-size: 2rem;
@@ -182,6 +245,29 @@
   .btn {
     width: 100%;
     text-align: center;
+  }
+
+  .logoRow {
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .supplierLogo {
+    height: 36px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .suppliersTrack {
+    animation: none;
+  }
+
+  .suppliersMarquee {
+    overflow-x: auto;
+  }
+
+  .logoRow:last-child {
+    display: none;
   }
 }
 
