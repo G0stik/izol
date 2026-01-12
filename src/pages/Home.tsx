@@ -36,38 +36,38 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className={styles.suppliersSection}>
-        <div className={styles.container}>
-          <div className={styles.suppliersMarquee} aria-label="Supplier logos">
-            <div className={styles.suppliersTrack}>
-              <div className={styles.logoRow}>
-                {supplierLogos.map((supplier) => (
-                  <img
-                    key={supplier.src}
-                    className={styles.supplierLogo}
-                    src={supplier.src}
-                    alt={supplier.alt}
-                    loading="lazy"
-                    decoding="async"
-                  />
-                ))}
-              </div>
-              <div className={styles.logoRow} aria-hidden="true">
-                {supplierLogos.map((supplier) => (
-                  <img
-                    key={`${supplier.src}-duplicate`}
-                    className={styles.supplierLogo}
-                    src={supplier.src}
-                    alt=""
-                    loading="lazy"
-                    decoding="async"
-                  />
-                ))}
+        <section className={styles.suppliersSection}>
+          <div className={styles.container}>
+            <div className={styles.suppliersMarquee} aria-label="Supplier logos">
+              <div className={styles.suppliersTrack}>
+                <div className={styles.logoRow}>
+                  {supplierLogos.map((supplier) => (
+                    <img
+                      key={supplier.src}
+                      className={styles.supplierLogo}
+                      src={supplier.src}
+                      alt={supplier.alt}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ))}
+                </div>
+                <div className={styles.logoRow} aria-hidden="true">
+                  {supplierLogos.map((supplier) => (
+                    <img
+                      key={`${supplier.src}-duplicate`}
+                      className={styles.supplierLogo}
+                      src={supplier.src}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
     </>
   )

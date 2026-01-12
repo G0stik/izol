@@ -1,8 +1,8 @@
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 100vh;
-  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
+  background: linear-gradient(140deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,13 +27,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(30, 64, 175, 0.9) 0%, rgba(59, 130, 246, 0.8) 100%);
+  background: linear-gradient(140deg, rgba(20, 41, 112, 0.9) 0%, rgba(59, 130, 246, 0.8) 100%);
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .heroContent {
@@ -41,7 +41,8 @@
   z-index: 2;
   text-align: center;
   max-width: 800px;
-  padding: 0 20px;
+  padding: 0 10px;
+  padding-bottom: 4rem;
   animation: fadeInUp 1s ease;
 }
 
@@ -92,7 +93,7 @@
 .btnPrimary:hover {
   background: var(--secondary-red);
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 10px 20px rgba(175, 31, 31, 0.3);
 }
 
 .btnSecondary {
@@ -167,9 +168,14 @@
 }
 
 .suppliersSection {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: var(--light-gray);
   padding: 2.5rem 0;
   border-top: 1px solid rgba(15, 23, 42, 0.08);
+  z-index: 2;
 }
 
 .suppliersMarquee {
