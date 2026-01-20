@@ -33,36 +33,50 @@ const PROJECT_DEFINITIONS: ProjectDefinition[] = [
   {
     slug: 'project1',
     title: {
-      sk: 'Jurkovičova tepláreň',
-      en: 'Jurkovic Heating Plant'
+      sk: 'JURKOVIČOVA TEPLÁREŇ',
+      en: 'JURKOVIC HEATING PLANT'
     }
   },
   {
     slug: 'project2',
     title: {
-      sk: 'Zuckermandel',
-      en: 'Zuckermandel'
+      sk: 'ZUCKERMANDEL',
+      en: 'ZUCKERMANDEL'
     }
   },
   {
     slug: 'project3',
     title: {
-      sk: 'Klingerka',
-      en: 'Klingerka'
+      sk: 'KLINGERKA',
+      en: 'KLINGERKA'
     }
   },
   {
     slug: 'project4',
     title: {
-      sk: 'IKEA Industry Malacky',
-      en: 'IKEA Industry Malacky'
+      sk: 'IKEA INDUSTRY MALACKY',
+      en: 'IKEA INDUSTRY MALACKY'
     }
   },
   {
     slug: 'project5',
     title: {
-      sk: 'Nemocnica Novej Generácie',
-      en: 'New Generation Hospital'
+      sk: 'NEMOCNICA NOVEJ GENERÁCIE',
+      en: 'NEW GENERATION HOSPITAL'
+    }
+  },
+  {
+    slug: 'project6',
+    title: {
+      sk: 'KONSTRUKTORSKA BUSINESS CENTER ',
+      en: 'KONSTRUKTORSKA BUSINESS CENTER'
+    }
+  },
+  {
+    slug: 'project7',
+    title: {
+      sk: 'GDANSKI BUSINESS CENTER I',
+      en: 'GDANSKI BUSINESS CENTER I'
     }
   }
 ]
