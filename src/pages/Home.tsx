@@ -22,43 +22,59 @@ const MARQUEE_DURATION_SECONDS = 26
 const Home = () => {
   const { t } = useTranslation()
   const marqueeRef = useRef<HTMLDivElement | null>(null)
+  const trackRef = useRef<HTMLDivElement | null>(null)
   const rowRef = useRef<HTMLDivElement | null>(null)
   const duplicateRowRef = useRef<HTMLDivElement | null>(null)
   const isPausedRef = useRef(false)
   const isHoveringRef = useRef(false)
   const isDraggingRef = useRef(false)
   const dragStartXRef = useRef(0)
-  const dragStartScrollRef = useRef(0)
+  const dragStartOffsetRef = useRef(0)
   const loopWidthRef = useRef(0)
+  const maxOffsetRef = useRef(0)
   const speedRef = useRef(0)
   const hasLoopRef = useRef(false)
   const prefersReducedMotionRef = useRef(false)
   const lastTimeRef = useRef<number | null>(null)
+  const offsetRef = useRef(0)
   const [isDragging, setIsDragging] = useState(false)
 
   useEffect(() => {
     const marquee = marqueeRef.current
+    const track = trackRef.current
     const row = rowRef.current
     const duplicateRow = duplicateRowRef.current
 
-    if (!marquee || !row) return
+    if (!marquee || !row || !track) return
+
+    const applyTransform = () => {
+      track.style.transform = `translateX(${-offsetRef.current}px)`
+    }
+
+    const normalizeOffset = (offset: number) => {
+      const loopWidth = loopWidthRef.current
+      if (hasLoopRef.current && loopWidth > 0) {
+        return ((offset % loopWidth) + loopWidth) % loopWidth
+      }
+
+      const maxOffset = maxOffsetRef.current
+      return Math.min(Math.max(0, offset), maxOffset)
+    }
 
     const updateMeasurements = () => {
       const rowWidth = row.scrollWidth
+      const duplicateWidth = duplicateRow?.scrollWidth ?? 0
+      const containerWidth = marquee.clientWidth
       loopWidthRef.current = rowWidth
       speedRef.current =
         rowWidth > 0 ? rowWidth / MARQUEE_DURATION_SECONDS : 0
       hasLoopRef.current =
         duplicateRow ? window.getComputedStyle(duplicateRow).display !== 'none' : false
+      const trackWidth = hasLoopRef.current ? rowWidth + duplicateWidth : rowWidth
+      maxOffsetRef.current = Math.max(0, trackWidth - containerWidth)
 
-      if (hasLoopRef.current && loopWidthRef.current > 0) {
-        marquee.scrollLeft =
-          ((marquee.scrollLeft % loopWidthRef.current) + loopWidthRef.current) %
-          loopWidthRef.current
-      } else {
-        const maxScroll = Math.max(0, marquee.scrollWidth - marquee.clientWidth)
-        marquee.scrollLeft = Math.min(marquee.scrollLeft, maxScroll)
-      }
+      offsetRef.current = normalizeOffset(offsetRef.current)
+      applyTransform()
     }
 
     updateMeasurements()
@@ -97,10 +113,11 @@ const Home = () => {
 
       const loopWidth = loopWidthRef.current
       if (loopWidth > 0) {
-        marquee.scrollLeft += (speedRef.current * delta) / 1000
-        if (hasLoopRef.current && marquee.scrollLeft >= loopWidth) {
-          marquee.scrollLeft -= loopWidth
-        }
+        const nextOffset = offsetRef.current + (speedRef.current * delta) / 1000
+        offsetRef.current = hasLoopRef.current
+          ? nextOffset % loopWidth
+          : Math.min(nextOffset, maxOffsetRef.current)
+        applyTransform()
       }
 
       animationFrame = requestAnimationFrame(tick)
@@ -126,27 +143,26 @@ const Home = () => {
     setIsDragging(true)
     isPausedRef.current = true
     dragStartXRef.current = event.clientX
-    dragStartScrollRef.current = marquee.scrollLeft
+    dragStartOffsetRef.current = offsetRef.current
   }
 
   const handlePointerMove = (event: React.PointerEvent<HTMLDivElement>) => {
     if (!isDraggingRef.current) return
-    const marquee = marqueeRef.current
-    if (!marquee) return
+    if (!marqueeRef.current || !trackRef.current) return
 
     event.preventDefault()
     const delta = event.clientX - dragStartXRef.current
-    let nextScroll = dragStartScrollRef.current - delta
     const loopWidth = loopWidthRef.current
+    let nextOffset = dragStartOffsetRef.current - delta
 
     if (hasLoopRef.current && loopWidth > 0) {
-      nextScroll = ((nextScroll % loopWidth) + loopWidth) % loopWidth
+      nextOffset = ((nextOffset % loopWidth) + loopWidth) % loopWidth
     } else {
-      const maxScroll = Math.max(0, marquee.scrollWidth - marquee.clientWidth)
-      nextScroll = Math.min(Math.max(0, nextScroll), maxScroll)
+      nextOffset = Math.min(Math.max(0, nextOffset), maxOffsetRef.current)
     }
 
-    marquee.scrollLeft = nextScroll
+    offsetRef.current = nextOffset
+    trackRef.current.style.transform = `translateX(${-offsetRef.current}px)`
   }
 
   const handlePointerUp = (event: React.PointerEvent<HTMLDivElement>) => {
@@ -207,7 +223,7 @@ const Home = () => {
               onPointerEnter={handlePointerEnter}
               onPointerLeave={handlePointerLeave}
             >
-              <div className={styles.suppliersTrack}>
+            <div className={styles.suppliersTrack} ref={trackRef}>
                 <div className={styles.logoRow} ref={rowRef}>
                   {supplierLogos.map((supplier) => (
                     <img

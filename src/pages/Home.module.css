@@ -215,6 +215,7 @@
   display: flex;
   align-items: center;
   width: max-content;
+  will-change: transform;
 }
 
 .logoRow {
