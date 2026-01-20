@@ -36,6 +36,7 @@
   background: var(--white);
   border-radius: 12px;
   overflow: hidden;
+  border-left: 4px solid var(--primary-blue);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
@@ -45,7 +46,7 @@
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
-.projectImagePlaceholder {
+.projectImage {
   height: 250px;
   background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
   display: flex;
@@ -54,6 +55,29 @@
   color: var(--white);
   font-size: 1.2rem;
   font-weight: 600;
+  overflow: hidden;
+  position: relative;
+}
+
+.projectImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.projectImageFallback {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.projectImageInteractive {
+  cursor: pointer;
+}
+
+.projectImageInteractive:hover img {
+  transform: scale(1.05);
 }
 
 .projectInfo {
@@ -63,6 +87,11 @@
 .projectInfo h3 {
   color: var(--primary-blue);
   margin-bottom: 1rem;
+}
+
+.projectDescription {
+  white-space: pre-line;
+  line-height: 1.6;
 }
 
 .projectTags {
@@ -81,9 +110,102 @@
   font-weight: 500;
 }
 
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+.lightboxContent {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.closeButton {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+  z-index: 10;
+  transition: transform 0.2s ease;
+}
+
+.closeButton:hover {
+  transform: scale(1.2);
+}
+
+.navButton {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  transform: translateY(-50%);
+  color: var(--white);
+  font-size: 3rem;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.navButton:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.navButtonNext {
+  left: auto;
+  right: -60px;
+}
+
+.lightboxImage {
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 640px) {
   .projectsGrid {
     grid-template-columns: 1fr;
+  }
+
+  .navButton {
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+  }
+
+  .navButtonNext {
+    right: 10px;
+    left: auto;
+  }
+
+  .closeButton {
+    top: -35px;
+    font-size: 2.5rem;
   }
 }
 
