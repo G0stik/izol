@@ -181,6 +181,13 @@
 .suppliersMarquee {
   position: relative;
   overflow: hidden;
+  cursor: grab;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.suppliersMarqueeDragging {
+  cursor: grabbing;
 }
 
 .suppliersMarquee::before,
@@ -208,7 +215,6 @@
   display: flex;
   align-items: center;
   width: max-content;
-  animation: marqueeScroll 26s linear infinite;
 }
 
 .logoRow {
@@ -224,15 +230,6 @@
   width: auto;
   object-fit: contain;
   opacity: 0.9;
-}
-
-@keyframes marqueeScroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
 }
 
 @media (max-width: 640px) {
