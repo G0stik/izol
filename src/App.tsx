@@ -9,11 +9,13 @@ import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import './App.css'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
     <Router>
       <div className="app">
+        <Analytics />
         <Navigation />
         <main className="main-content">
           <Routes>
