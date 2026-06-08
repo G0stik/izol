@@ -1,0 +1,183 @@
+.aiPage {
+  background: var(--white);
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  max-width: 820px;
+  margin-bottom: 3rem;
+}
+
+.eyebrow {
+  color: var(--primary-red);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  color: var(--text-dark);
+  font-size: 2.7rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.header p,
+.contentBand p,
+.faqItem p,
+.references li,
+.summaryGrid p {
+  color: var(--text-light);
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.summaryGrid article {
+  background: var(--light-gray);
+  border-left: 4px solid var(--primary-blue);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.summaryGrid span {
+  color: var(--text-light);
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.35rem;
+}
+
+.summaryGrid strong {
+  color: var(--primary-blue);
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin-bottom: 0.65rem;
+}
+
+.contentBand {
+  background: linear-gradient(135deg, var(--light-blue), var(--white));
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.contentBand h2,
+.faqSection h2,
+.references h2 {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.faqSection {
+  margin-bottom: 3rem;
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.faqItem {
+  border: 1px solid rgba(31, 41, 55, 0.12);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.faqItem h3 {
+  color: var(--primary-blue);
+  font-size: 1.05rem;
+  margin-bottom: 0.75rem;
+}
+
+.references,
+.entityLinks {
+  margin-bottom: 2rem;
+}
+
+.references ul {
+  padding-left: 1.25rem;
+}
+
+.references li {
+  margin-bottom: 0.6rem;
+}
+
+.entityLinks {
+  background: var(--light-gray);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.entityLinks p {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.linkGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.linkGrid a {
+  background: var(--white);
+  border: 1px solid rgba(31, 41, 55, 0.12);
+  border-radius: 6px;
+  color: var(--primary-blue);
+  font-weight: 700;
+  padding: 0.65rem 0.85rem;
+  text-decoration: none;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.primaryAction,
+.secondaryAction {
+  border-radius: 6px;
+  font-weight: 700;
+  padding: 0.85rem 1.2rem;
+  text-decoration: none;
+}
+
+.primaryAction {
+  background: var(--primary-blue);
+  color: var(--white);
+}
+
+.secondaryAction {
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+}
+
+@media (max-width: 900px) {
+  .summaryGrid,
+  .contentBand,
+  .faqGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .header h1 {
+    font-size: 2.2rem;
+  }
+}

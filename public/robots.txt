@@ -7,6 +7,7 @@ Disallow: /api/
 
 # AI / LLM crawler context:
 # https://www.tepelneizolacie.sk/llm.txt
+# https://www.tepelneizolacie.sk/llms.txt
 
 Sitemap: https://www.tepelneizolacie.sk/sitemap.xml
 
@@ -18,3 +19,4 @@ Sitemap: https://www.tepelneizolacie.sk/sitemap.xml
 # https://www.tepelneizolacie.sk/projects
 # https://www.tepelneizolacie.sk/gallery
 # https://www.tepelneizolacie.sk/contact
+# https://www.tepelneizolacie.sk/ai-bridge
