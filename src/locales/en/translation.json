@@ -14,7 +14,53 @@
     "heroDescription": "We supply professional Technical, Thermal, Construction, Building, Cold, Acoustic, Fire Protective and Refractory insulation used in a wide range of construction projects across the EU.",
     "getQuote": "Get a quote",
     "ourProducts": "Our products",
-    "suppliersTitle": "Suppliers"
+    "suppliersTitle": "Suppliers",
+    "heroEyebrow": "Izol syst?m, s.r.o. / since 2001",
+    "heroVisualAria": "Insulation materials warehouse",
+    "heroVisualAlt": "Izol syst?m insulation materials warehouse",
+    "heroVisualLabel": "Materials for",
+    "tempRange": "-260 ?C to +1430 ?C",
+    "kflexImporter": "official importer for Slovakia",
+    "warehouseCount": "2 warehouses",
+    "warehouseLocations": "Trencin and Zvolen",
+    "productSectionKicker": "Products",
+    "productSectionTitle": "Insulation solutions for technical systems, construction and industry",
+    "allProducts": "All products",
+    "advantageKicker": "Why Izol syst?m",
+    "advantageTitle": "Technical partner from material selection to site delivery",
+    "advantageImageAlt": "Klingerka reference project",
+    "advantages": [
+      {
+        "title": "In stock with delivery",
+        "text": "We dispatch materials from warehouses in Trencin and Zvolen with coordinated delivery dates."
+      },
+      {
+        "title": "Technical consulting",
+        "text": "We help select insulation according to temperature range, fire resistance and project composition."
+      },
+      {
+        "title": "Proven brands",
+        "text": "We supply K-FLEX, UNIFRAX, ROCKWOOL, KNAUF INSULATION, ISOVER, TUBEX and MIRELON."
+      }
+    ],
+    "referencesKicker": "References",
+    "referencesTitle": "Insulation deliveries for major projects",
+    "referencesLink": "View projects",
+    "references": {
+      "zuckermandel": "K-FLEX insulation for chilled-water lines, HVAC and acoustics.",
+      "hospitalName": "New Generation Hospital",
+      "hospital": "ISOVER U PROTECT and CLIMCOVER for HVAC distribution.",
+      "ikea": "ISOVER S mineral wool for roof envelope reconstruction."
+    },
+    "suppliersSubtitle": "Proven manufacturers and stable product range",
+    "ctaTitle": "Need insulation pricing from a bill of quantities?",
+    "ctaText": "Send us project documents or a technical report. We will recommend suitable materials, alternatives and delivery logistics.",
+    "productMeta": {
+      "kflex": "K-FLEX / HVAC / chilled-water lines",
+      "refractory": "UNIFRAX / SIBRAL / +1430 ?C",
+      "building": "EPS / XPS / mineral wool",
+      "technical": "EI30-EI240 / HVAC / building services"
+    }
   },
   "about": {
     "title": "About Izol systém, s.r.o.",
@@ -52,11 +98,21 @@
       "coordinatorBio": "",
       "branchManagerBio": "Robert oversees our Zvolen branch, coordinating local operations and ensuring service for our clients in the region.",
       "branchManagerBio2": "Miriam supports the management of the Zvolen branch, ensuring project coordination and customer communication."
-    }
+    },
+    "heroKicker": "About / since 2001",
+    "referencesCta": "References",
+    "contactCta": "Contact",
+    "profileLabel": "Company profile",
+    "profileTitle": "wholesale / warehouse / transport",
+    "profileText": "Insulation materials for buildings, technical systems, cold, fire and high temperatures.",
+    "kflexImporter": "official importer for Slovakia",
+    "storyImageAlt": "Izol syst?m warehouse",
+    "storyKicker": "Company",
+    "valuesTitle": "Technical accuracy, material availability and long-term business relationships"
   },
   "products": {
     "title": "Our Products",
-    "subtitle": "Premium Thermal Insulation Solutions for Every Project",
+    "subtitle": "Complete portfolio of thermal, acoustic and fire protection insulation for demanding applications",
     "wallInsulation": {
       "title": "Wall Insulation",
       "description": "High-performance insulation materials for exterior and interior walls, ensuring optimal thermal efficiency. Products from leading manufacturers including ISOVER, ROCKWOOL, and KNAUF INSULATION.",
@@ -91,6 +147,60 @@
         "industrial": "Industrial Insulation",
         "pipe": "Pipe Insulation (K-FLEX)",
         "fireResistant": "Fire-Resistant Solutions (UNIFRAX)"
+      }
+    },
+    "heroKicker": "Products / K-FLEX / UNIFRAX / HVAC",
+    "quoteCta": "Get a quote",
+    "servicesCta": "Our services",
+    "heroPanelLabel": "Range by application",
+    "heroPanelTitle": "buildings / HVAC / fire / industry",
+    "heroPanelText": "Materials in stock and technical consulting for choosing the right insulation.",
+    "portfolioKicker": "Portfolio",
+    "portfolioTitle": "Complete solutions for thermal, technical and fire protection insulation",
+    "tempLabel": "Temperature range",
+    "tempRange": "-260 ?C to +1430 ?C",
+    "brandsLabel": "Key brands",
+    "brands": "K-FLEX / UNIFRAX / ISOVER",
+    "availabilityLabel": "Availability",
+    "warehouses": "Warehouses in Trencin and Zvolen",
+    "ctaTitle": "Need help choosing the right insulation?",
+    "ctaText": "Send us technical parameters, a bill of quantities or the intended use. We will recommend a suitable solution and availability.",
+    "contactSales": "Contact sales",
+    "kflex": {
+      "title": "K-FLEX synthetic rubber insulation",
+      "description": "Official importer for Slovakia - insulation for chilled-water lines, heating, air conditioning and HVAC with UV-stable surfaces.",
+      "items": {
+        "hvac": "Cold, heating and air-conditioning distribution systems (K-FLEX)",
+        "duct": "HVAC ducts including K-FLEX H-DUCT METAL",
+        "alclad": "AL CLAD system - replaces metal cladding outdoors",
+        "twinSolar": "TWIN SOLAR system for solar circuits"
+      }
+    },
+    "refractory": {
+      "title": "UNIFRAX (SIBRAL) refractory insulation",
+      "description": "Silica fibres resistant up to 1430 ?C for flues, chimneys and industrial heat-stressed equipment.",
+      "items": {
+        "flues": "Flues, chimneys and refractory linings",
+        "furnaces": "Boilers, furnaces, burners and heating chambers",
+        "industry": "Use in metallurgy, foundries, automotive and steel industries"
+      }
+    },
+    "building": {
+      "title": "Building insulation EPS, XPS, mineral and glass wool",
+      "description": "Solutions for pitched and flat roofs, facades, partitions and floors from ROCKWOOL, KNAUF INSULATION, ISOVER and others.",
+      "items": {
+        "eps": "EPS and XPS polystyrene for civil, commercial and industrial construction",
+        "mineralWool": "Mineral and glass wool for thermal and acoustic comfort",
+        "systems": "Contact and ventilated facades, roof systems and floor assemblies"
+      }
+    },
+    "technical": {
+      "title": "Technical and fire protection insulation",
+      "description": "Solutions for pipes, tanks, chimneys and HVAC with fire resistance EI30 to EI240. Accessories available from stock.",
+      "items": {
+        "fire": "Fire protection systems ORSTECH, PYROROCK, FIRESTOP, CONLIT DUCTROCK, U PROTECT",
+        "polyethylene": "TUBEX and MIRELON polyethylene insulation for building services and packaging",
+        "accessories": "Adhesives, cleaners, tapes (PE, rubber, UV-stable), welding pins and guns"
       }
     }
   },
@@ -128,7 +238,12 @@
       "title": "Izol systém s.r.o. TRENČÍN",
       "contactPerson": "Zuzana Masáriková",
       "phone": "+421 903 770 121",
-      "email": "masarikova@izol-system.sk"
+      "email": "masarikova@izol-system.sk",
+      "position": "Sales Manager",
+      "contactPerson1": "Juraj Ondru?",
+      "position1": "Managing Director",
+      "phone1": "+421 903 728 371",
+      "email1": "ondrus@izol-system.sk"
     },
     "form": {
       "fullName": "Full Name",
@@ -141,36 +256,97 @@
       "sending": "Sending...",
       "successMessage": "Thank you for your message! We will get back to you soon.",
       "errorMessage": "Failed to send message. Please try again."
-    }
+    },
+    "heroKicker": "Contact / Trencin / Zvolen",
+    "workingHoursLabel": "Business hours",
+    "weekdays": "Monday - Friday",
+    "branchKicker": "Branches and warehouses",
+    "branchTitle": "Direct contact for sales, warehouse and branch office",
+    "headquartersLabel": "Headquarters",
+    "branchLabel": "Branch",
+    "openMap": "Open map",
+    "ctaTitle": "Send us a bill of quantities or technical report",
+    "ctaText": "We will prepare a quote, recommend suitable material and check stock availability.",
+    "sendDocuments": "Send documents"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive Wholesale Solutions for Construction Professionals",
+    "subtitle": "Comprehensive support from material selection to delivery logistics",
     "wholesale": {
-      "title": "Wholesale Distribution",
-      "description": "Bulk supply of thermal insulation materials for large-scale construction projects across the EU."
+      "title": "Wholesale distribution of insulation",
+      "description": "Wide stock of EPS/XPS, mineral and glass wool, K-FLEX rubber insulation, UNIFRAX/SIBRAL refractory solutions and accessories for projects across Slovakia."
     },
     "consultation": {
-      "title": "Technical Consultation",
-      "description": "Expert advice on material selection, installation methods, and thermal performance optimization."
+      "title": "Technical consulting and solution design",
+      "description": "We help select materials for -260 ?C to +1430 ?C, HVAC assemblies, EI30-EI240 fire protection systems and thermal calculations according to project needs."
     },
     "custom": {
-      "title": "Custom Solutions",
-      "description": "Tailored insulation packages designed to meet specific project requirements and building codes."
+      "title": "Quotes and specifications",
+      "description": "We prepare price calculations from bills of quantities and technical reports, recommend alternatives and optimisations according to technical requirements."
     },
     "logistics": {
-      "title": "Logistics Support",
-      "description": "Efficient delivery and logistics coordination throughout the European Union."
-    }
+      "title": "Logistics and own transport",
+      "description": "Fast deliveries from warehouses in Trencin and Zvolen, transport of materials to site and coordination of delivery dates."
+    },
+    "heroKicker": "Services / wholesale / technical consulting",
+    "quoteCta": "Get a quote",
+    "productsCta": "View products",
+    "panelLabel": "Material range",
+    "panelRange": "-260 ?C to +1430 ?C",
+    "panelText": "K-FLEX, UNIFRAX, mineral wool, EPS/XPS and fire protection systems.",
+    "sectionKicker": "What we provide",
+    "sectionTitle": "Support from insulation selection to delivery on site",
+    "labels": [
+      "01 / Warehouse",
+      "02 / Technical",
+      "03 / Pricing",
+      "04 / Logistics"
+    ],
+    "processImageAlt": "Stock of insulation materials",
+    "processKicker": "How we cooperate",
+    "processTitle": "A fast process for designers, installation companies and developers",
+    "process": [
+      "You send a bill of quantities, technical report or application description.",
+      "We recommend suitable materials, alternatives and stock availability.",
+      "We prepare a quote and coordinate the delivery date."
+    ],
+    "focus": [
+      {
+        "title": "K-FLEX Slovakia",
+        "text": "Official distribution of rubber insulation for chilled-water lines, heating, air conditioning and HVAC."
+      },
+      {
+        "title": "Fire protection HVAC",
+        "text": "EI30 to EI240 systems for pipes, HVAC ducts and technical spaces."
+      },
+      {
+        "title": "Industrial temperatures",
+        "text": "UNIFRAX / SIBRAL refractory insulation for boilers, furnaces, chimneys and burners."
+      }
+    ],
+    "ctaTitle": "Send us documents and we will prepare a delivery proposal",
+    "ctaText": "We work with bills of quantities, technical reports and specific requirements from installation companies.",
+    "contactSales": "Contact sales"
   },
   "projects": {
     "title": "Our Projects",
-    "subtitle": "Successful Insulation Solutions Across Europe"
+    "subtitle": "Successful Insulation Solutions Across Europe",
+    "heroKicker": "Projects / references / results",
+    "sectionKicker": "Selected deliveries",
+    "sectionTitle": "Insulation solutions for offices, industry, hospitals and development",
+    "showMore": "Show more",
+    "showLess": "Show less"
   },
   "gallery": {
     "title": "Gallery",
     "subtitle": "Our Work in Action",
-    "imageAlt": "Gallery image"
+    "imageAlt": "Gallery image",
+    "heroKicker": "Gallery / warehouse / materials",
+    "sectionKicker": "Photo documentation",
+    "sectionTitle": "Stock, materials and Izol syst?m facilities",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "closeGallery": "Close gallery"
   },
   "footer": {
     "about": "About",

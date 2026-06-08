@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import styles from './About.module.css'
 import TeamCard, { TeamMember } from '../components/TeamCard'
@@ -37,76 +38,104 @@ const About = () => {
       email: '',
       phone: '+421 903 722 075',
       city: 'Zvolen'
-    },
-
+    }
   ]
 
   return (
-    <section className={styles.about}>
-      <div className={styles.container}>
-        <div className={styles.sectionHeader}>
-          <h2>{t('about.title')}</h2>
-          <p className={styles.sectionSubtitle}>{t('about.subtitle')}</p>
-        </div>
-        <div className={styles.aboutContent}>
-          <div className={styles.aboutText}>
-            <div className={styles.aboutCard}>
-              <h3>{t('about.ourStory')}</h3>
-              <p>
-                {t('about.ourStoryText')}
-              </p>
+    <main className={styles.about}>
+      <section className={styles.hero}>
+        <div className={styles.container}>
+          <div className={styles.heroGrid}>
+            <div>
+              <p className={styles.kicker}>{t('about.heroKicker')}</p>
+              <h1>{t('about.title')}</h1>
+              <p>{t('about.subtitle')}</p>
+              <div className={styles.heroActions}>
+                <Link to="/projects" className={styles.primaryAction}>{t('about.referencesCta')}</Link>
+                <Link to="/contact" className={styles.secondaryAction}>{t('about.contactCta')}</Link>
+              </div>
             </div>
-            <div className={styles.aboutCard}>
-              <h3>{t('about.ourMission')}</h3>
-              <p>
-                {t('about.ourMissionText')}
-              </p>
-            </div>
-            <div className={styles.aboutCard}>
-              <h3>{t('about.ourValues')}</h3>
-                <ul className={styles.valuesList}>
-                  {(t('about.values', { returnObjects: true }) as string[]).map((value, idx) => (
-                    <li key={idx}>{value}</li>
-                  ))}
-                </ul>
-            </div>
-          </div>
-          <div className={styles.aboutStats}>
-            <div className={styles.statCard}>
-              <div className={styles.statNumber}>23+</div>
-              <div className={styles.statLabel}>{t('about.stats.experience')}</div>
-            </div>
-            <div className={styles.statCard}>
-              <div className={styles.statNumber}>500+</div>
-              <div className={styles.statLabel}>{t('about.stats.projects')}</div>
-            </div>
-            <div className={styles.statCard}>
-              <div className={styles.statNumber}>EU-Wide</div>
-              <div className={styles.statLabel}>{t('about.stats.market')}</div>
-            </div>
-            <div className={styles.statCard}>
-              <div className={styles.statNumber}>100%</div>
-              <div className={styles.statLabel}>{t('about.stats.quality')}</div>
+            <div className={styles.heroPanel}>
+              <span>{t('about.profileLabel')}</span>
+              <strong>{t('about.profileTitle')}</strong>
+              <p>{t('about.profileText')}</p>
             </div>
           </div>
         </div>
+      </section>
 
-        {/* Meet the Team Section */}
-        <div className={styles.teamSection}>
-          <div className={styles.sectionHeader}>
-            <h2>{t('about.meetTeam')}</h2>
-            <p className={styles.sectionSubtitle}>{t('about.expertProfessionals')}</p>
+      <section className={styles.statsBand}>
+        <div className={styles.container}>
+          <article>
+            <strong>23+</strong>
+            <span>{t('about.stats.experience')}</span>
+          </article>
+          <article>
+            <strong>500+</strong>
+            <span>{t('about.stats.projects')}</span>
+          </article>
+          <article>
+            <strong>EU</strong>
+            <span>{t('about.stats.market')}</span>
+          </article>
+          <article>
+            <strong>K-FLEX</strong>
+            <span>{t('about.kflexImporter')}</span>
+          </article>
+        </div>
+      </section>
+
+      <section className={styles.storySection}>
+        <div className={styles.container}>
+          <div className={styles.storyMedia}>
+            <img src="/gallery/sklad.jpeg" alt={t('about.storyImageAlt')} />
           </div>
-          <div className={styles.teamGrid}>
-            {teamMembers.map((member) => (
-              <TeamCard key={member.email} member={member} />
+          <div className={styles.storyContent}>
+            <p className={styles.kicker}>{t('about.storyKicker')}</p>
+            <article>
+              <h2>{t('about.ourStory')}</h2>
+              <p>{t('about.ourStoryText')}</p>
+            </article>
+            <article>
+              <h2>{t('about.ourMission')}</h2>
+              <p>{t('about.ourMissionText')}</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.valuesSection}>
+        <div className={styles.container}>
+          <div className={styles.sectionIntro}>
+            <p className={styles.kicker}>{t('about.ourValues')}</p>
+            <h2>{t('about.valuesTitle')}</h2>
+          </div>
+          <div className={styles.valuesGrid}>
+            {(t('about.values', { returnObjects: true }) as string[]).map((value, idx) => (
+              <article key={value}>
+                <span>{String(idx + 1).padStart(2, '0')}</span>
+                <p>{value}</p>
+              </article>
             ))}
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section className={styles.teamSection}>
+        <div className={styles.container}>
+          <div className={styles.sectionIntro}>
+            <p className={styles.kicker}>{t('about.meetTeam')}</p>
+            <h2>{t('about.expertProfessionals')}</h2>
+          </div>
+          <div className={styles.teamGrid}>
+            {teamMembers.map((member) => (
+              <TeamCard key={`${member.name}-${member.phone}`} member={member} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
   )
 }
 
 export default About
-

@@ -16,7 +16,13 @@ interface ProjectCardData extends ProjectCardProps {
 }
 
 interface ProjectCardViewProps extends ProjectCardProps {
+  slug: string
+  index: number
+  isExpanded: boolean
   onImageClick?: () => void
+  onToggleDescription: () => void
+  showLessLabel: string
+  showMoreLabel: string
 }
 
 interface ProjectTextData {
@@ -218,13 +224,28 @@ const buildBaseProjects = (language: ProjectLanguage): ProjectCardData[] =>
     image: projectImages[project.slug]?.[0]
   }))
 
-const ProjectCard = ({ title, description, tags, image, onImageClick }: ProjectCardViewProps) => {
+const ProjectCard = ({
+  index,
+  title,
+  description,
+  tags,
+  image,
+  isExpanded,
+  onImageClick,
+  onToggleDescription,
+  showLessLabel,
+  showMoreLabel
+}: ProjectCardViewProps) => {
   const imageClassName = onImageClick
     ? `${styles.projectImage} ${styles.projectImageInteractive}`
     : styles.projectImage
+  const canExpand = description.length > 260
+  const descriptionClassName = canExpand && !isExpanded
+    ? `${styles.projectDescription} ${styles.projectDescriptionCollapsed}`
+    : styles.projectDescription
 
   return (
-    <div className={styles.projectCard}>
+    <article className={styles.projectCard}>
       <div
         className={imageClassName}
         onClick={onImageClick}
@@ -240,14 +261,25 @@ const ProjectCard = ({ title, description, tags, image, onImageClick }: ProjectC
         aria-label={onImageClick ? `${title} gallery` : undefined}
       >
         {image ? (
-          <img src={image} alt={title} loading="lazy" />
+          <img src={image} alt={title} loading={index < 3 ? 'eager' : 'lazy'} />
         ) : (
           <span className={styles.projectImageFallback}>{title}</span>
         )}
       </div>
       <div className={styles.projectInfo}>
+        <span className={styles.projectNumber}>{String(index + 1).padStart(2, '0')}</span>
         <h3>{title}</h3>
-        {description && <p className={styles.projectDescription}>{description}</p>}
+        {description && <p className={descriptionClassName}>{description}</p>}
+        {canExpand && (
+          <button
+            type="button"
+            className={styles.descriptionToggle}
+            onClick={onToggleDescription}
+            aria-expanded={isExpanded}
+          >
+            {isExpanded ? showLessLabel : showMoreLabel}
+          </button>
+        )}
         {tags.length > 0 && (
           <div className={styles.projectTags}>
             {tags.map((tag, index) => (
@@ -256,7 +288,7 @@ const ProjectCard = ({ title, description, tags, image, onImageClick }: ProjectC
           </div>
         )}
       </div>
-    </div>
+    </article>
   )
 }
 
@@ -270,10 +302,12 @@ const Projects = () => {
     slug: string
     index: number
   } | null>(null)
+  const [expandedProjects, setExpandedProjects] = useState<Set<string>>(() => new Set())
 
   useEffect(() => {
     let isActive = true
     setProjects(buildBaseProjects(language))
+    setExpandedProjects(new Set())
 
     const loadProjects = async () => {
       const loadedProjects = await Promise.all(
@@ -336,6 +370,20 @@ const Projects = () => {
     setActiveLightbox({ slug, index })
   }
 
+  const toggleProjectDescription = (slug: string) => {
+    setExpandedProjects((current) => {
+      const next = new Set(current)
+
+      if (next.has(slug)) {
+        next.delete(slug)
+      } else {
+        next.add(slug)
+      }
+
+      return next
+    })
+  }
+
   const closeLightbox = () => setActiveLightbox(null)
 
   const goToPrevious = () => {
@@ -362,19 +410,35 @@ const Projects = () => {
   const activeTitle = activeLightbox
     ? projects.find((project) => project.slug === activeLightbox.slug)?.title ?? ''
     : ''
+  const showMoreLabel = t('projects.showMore')
+  const showLessLabel = t('projects.showLess')
 
   return (
-    <section className={styles.projects}>
-      <div className={styles.container}>
-        <div className={styles.sectionHeader}>
-          <h2>{t('projects.title')}</h2>
-          <p className={styles.sectionSubtitle}>{t('projects.subtitle')}</p>
+    <main className={styles.projects}>
+      <section className={styles.hero}>
+        <div className={styles.container}>
+          <p className={styles.kicker}>{t('projects.heroKicker')}</p>
+          <h1>{t('projects.title')}</h1>
+          <p>{t('projects.subtitle')}</p>
         </div>
+      </section>
+
+      <section className={styles.projectsSection}>
+        <div className={styles.container}>
+          <div className={styles.sectionIntro}>
+            <p className={styles.kicker}>{t('projects.sectionKicker')}</p>
+            <h2>{t('projects.sectionTitle')}</h2>
+          </div>
         <div className={styles.projectsGrid}>
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <ProjectCard
               key={project.slug}
+              index={index}
               {...project}
+              isExpanded={expandedProjects.has(project.slug)}
+              onToggleDescription={() => toggleProjectDescription(project.slug)}
+              showLessLabel={showLessLabel}
+              showMoreLabel={showMoreLabel}
               onImageClick={
                 (projectImages[project.slug] ?? []).length > 0
                   ? () => openLightbox(project.slug)
@@ -383,6 +447,8 @@ const Projects = () => {
             />
           ))}
         </div>
+        </div>
+      </section>
         {activeLightbox && activeImages.length > 0 && (
           <div className={styles.lightbox} onClick={closeLightbox}>
             <div
@@ -405,7 +471,7 @@ const Projects = () => {
                       event.stopPropagation()
                       goToPrevious()
                     }}
-                    aria-label="Previous image"
+                    aria-label={t('gallery.previousImage')}
                   >
                     &#8249;
                   </button>
@@ -415,7 +481,7 @@ const Projects = () => {
                       event.stopPropagation()
                       goToNext()
                     }}
-                    aria-label="Next image"
+                    aria-label={t('gallery.nextImage')}
                   >
                     &#8250;
                   </button>
@@ -433,10 +499,8 @@ const Projects = () => {
             </div>
           </div>
         )}
-      </div>
-    </section>
+    </main>
   )
 }
 
 export default Projects
-

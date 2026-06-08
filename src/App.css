@@ -6,6 +6,6 @@
 
 .main-content {
   flex: 1;
-  padding-top: 80px; /* Account for fixed navbar */
+  padding-top: 78px; /* Account for fixed navbar */
 }
 

@@ -14,10 +14,56 @@
     "heroDescription": "Dodávame profesionálne Technické, Tepelné, Stavebné, Chladové, Akustické, Protipožiarne a Žiaruvzdorné izolácie, využívané pri stavebných projektoch rôznych druhov v celej EÚ.",
     "getQuote": "Získať cenovú ponuku",
     "ourProducts": "Naše produkty",
-    "suppliersTitle": "Výrobcovia"
+    "suppliersTitle": "Výrobcovia",
+    "heroEyebrow": "Izol systém, s.r.o. / od roku 2001",
+    "heroVisualAria": "Sklad izolačných materiálov",
+    "heroVisualAlt": "Sklad izolačných materiálov Izol systém",
+    "heroVisualLabel": "Materiály pre",
+    "tempRange": "-260 °C až +1430 °C",
+    "kflexImporter": "oficiálny dovozca pre SR",
+    "warehouseCount": "2 sklady",
+    "warehouseLocations": "Trenčín a Zvolen",
+    "productSectionKicker": "Produkty",
+    "productSectionTitle": "Izolačné riešenia pre techniku, stavby a priemysel",
+    "allProducts": "Všetky produkty",
+    "advantageKicker": "Prečo Izol systém",
+    "advantageTitle": "Technický partner od výberu materiálu po dodanie na stavbu",
+    "advantageImageAlt": "Referenčný projekt Klingerka",
+    "advantages": [
+      {
+        "title": "Skladom a s dopravou",
+        "text": "Materiál expedujeme zo skladov v Trenčíne a Zvolene s koordináciou termínov dodania."
+      },
+      {
+        "title": "Technické poradenstvo",
+        "text": "Pomáhame s výberom izolácií podľa rozsahu teplôt, požiarnej odolnosti a skladby projektu."
+      },
+      {
+        "title": "Overené značky",
+        "text": "Dodávame K-FLEX, UNIFRAX, ROCKWOOL, KNAUF INSULATION, ISOVER, TUBEX a MIRELON."
+      }
+    ],
+    "referencesKicker": "Referencie",
+    "referencesTitle": "Dodávky izolácií pre výrazné projekty",
+    "referencesLink": "Zobraziť projekty",
+    "references": {
+      "zuckermandel": "K-FLEX izolácie pre chladiace rozvody, VZT a akustiku.",
+      "hospitalName": "Nemocnica novej generácie",
+      "hospital": "ISOVER U PROTECT a CLIMCOVER pre rozvody VZT.",
+      "ikea": "Minerálna vlna ISOVER S pre rekonštrukciu strešného plášťa."
+    },
+    "suppliersSubtitle": "Overení výrobcovia a stabilný sortiment",
+    "ctaTitle": "Potrebujete naceniť izolácie podľa výkazu výmer?",
+    "ctaText": "Pošlite nám projektové podklady alebo technickú správu. Odporučíme vhodné materiály, alternatívy a logistiku dodania.",
+    "productMeta": {
+      "kflex": "K-FLEX / VZT / chladiace rozvody",
+      "refractory": "UNIFRAX / SIBRAL / +1430 °C",
+      "building": "EPS / XPS / minerálna vlna",
+      "technical": "EI30-EI240 / VZT / TZB"
+    }
   },
   "about": {
-    "title": "O Izol systém, s.r.o.",
+    "title": "Izol systém, s.r.o.",
     "subtitle": "Dôveryhodný partner v tepelných izoláciách od roku 2001",
     "ourStory": "Náš príbeh",
     "ourStoryText": "Pôsobíme na slovenskom trhu od roku 2001. Sídlime v Trenčíne a od svojho vzniku sa špecializujeme na dodávky tepelno-izolačných materiálov a príslušenstva pre extrémne teploty od -260 °C až do +1430 °C. Zameriavame sa najmä na veľkoobchodný predaj stavebných, technických, chladových, akustických, protipožiarnych a žiaruvzdorných izolácií. Vďaka rozsiahlym skladovým kapacitám, vlastnej doprave a dlhoročným skúsenostiam sme popredným a spoľahlivým partnerom pre projekty na Slovensku aj v zahraničí.",
@@ -52,7 +98,17 @@
       "coordinatorBio": ".",
       "branchManagerBio": "Robert dohliada na našu pobočku vo Zvolene, koordinuje miestne operácie a zabezpečuje služby pre našich klientov v regióne.",
       "branchManagerBio2": "Miriam podporuje vedenie pobočky vo Zvolene, zabezpečuje koordináciu projektov a komunikáciu so zákazníkmi."
-    }
+    },
+    "heroKicker": "O nás / od roku 2001",
+    "referencesCta": "Referencie",
+    "contactCta": "Kontakt",
+    "profileLabel": "Profil firmy",
+    "profileTitle": "veľkoobchod / sklad / doprava",
+    "profileText": "Izolačné materiály pre stavby, techniku, chlad, požiar a vysoké teploty.",
+    "kflexImporter": "oficiálny dovozca pre SR",
+    "storyImageAlt": "Sklad Izol systém",
+    "storyKicker": "Firma",
+    "valuesTitle": "Technická presnosť, dostupnosť materiálu a dlhodobé obchodné vzťahy"
   },
   "products": {
     "title": "Naše produkty",
@@ -93,7 +149,24 @@
         "polyethylene": "Polyetylénové izolácie TUBEX a MIRELON pre TZB a balenie",
         "accessories": "Lepidlá, čističe, pásky (PE, kaučuk, UV stabilné), naváracie tŕne a pištole"
       }
-    }
+    },
+    "heroKicker": "Produkty / K-FLEX / UNIFRAX / VZT",
+    "quoteCta": "Získať cenovú ponuku",
+    "servicesCta": "Naše služby",
+    "heroPanelLabel": "Sortiment pre aplikácie",
+    "heroPanelTitle": "stavby / VZT / požiar / priemysel",
+    "heroPanelText": "Materiály skladom a technické poradenstvo pre výber vhodnej izolácie.",
+    "portfolioKicker": "Portfólio",
+    "portfolioTitle": "Kompletné riešenia pre tepelné, technické a protipožiarne izolácie",
+    "tempLabel": "Teplotný rozsah",
+    "tempRange": "-260 °C až +1430 °C",
+    "brandsLabel": "Kľúčové značky",
+    "brands": "K-FLEX / UNIFRAX / ISOVER",
+    "availabilityLabel": "Dostupnosť",
+    "warehouses": "Sklady Trenčín a Zvolen",
+    "ctaTitle": "Potrebujete odporučiť vhodnú izoláciu?",
+    "ctaText": "Pošlite nám technické parametre, výkaz výmer alebo účel použitia. Navrhneme vhodné riešenie a dostupnosť.",
+    "contactSales": "Kontaktovať obchod"
   },
   "contact": {
     "title": "Kontaktujte nás",
@@ -147,7 +220,18 @@
       "sending": "Odosiela sa...",
       "successMessage": "Ďakujeme za Vašu správu! Čoskoro sa Vám ozveme.",
       "errorMessage": "Nepodarilo sa odoslať správu. Skúste to prosím znova."
-    }
+    },
+    "heroKicker": "Kontakt / Trenčín / Zvolen",
+    "workingHoursLabel": "Pracovné hodiny",
+    "weekdays": "Pondelok - Piatok",
+    "branchKicker": "Pobočky a sklady",
+    "branchTitle": "Priamy kontakt na obchod, sklad a pobočku",
+    "headquartersLabel": "Hlavné sídlo",
+    "branchLabel": "Pobočka",
+    "openMap": "Otvoriť mapu",
+    "ctaTitle": "Pošlite nám výkaz výmer alebo technickú správu",
+    "ctaText": "Pripravíme cenovú ponuku, odporučíme vhodný materiál a preveríme skladovú dostupnosť.",
+    "sendDocuments": "Poslať podklady"
   },
   "services": {
     "title": "Naše služby",
@@ -167,16 +251,66 @@
     "logistics": {
       "title": "Logistika a vlastná doprava",
       "description": "Rýchle dodávky zo skladov v Trenčíne a Zvolene, zabezpečenie dopravy materiálu na stavbu a koordinácia termínov dodania."
-    }
+    },
+    "heroKicker": "Služby / veľkoobchod / technické poradenstvo",
+    "quoteCta": "Získať cenovú ponuku",
+    "productsCta": "Pozrieť produkty",
+    "panelLabel": "Rozsah materiálov",
+    "panelRange": "-260 °C až +1430 °C",
+    "panelText": "K-FLEX, UNIFRAX, minerálna vlna, EPS/XPS a protipožiarne systémy.",
+    "sectionKicker": "Čo zabezpečujeme",
+    "sectionTitle": "Podpora od výberu izolácie po doručenie na stavbu",
+    "labels": [
+      "01 / Sklad",
+      "02 / Technika",
+      "03 / Nacenenie",
+      "04 / Logistika"
+    ],
+    "processImageAlt": "Skladové zásoby izolačných materiálov",
+    "processKicker": "Ako spolupracujeme",
+    "processTitle": "Rýchly postup pre projektantov, montážne firmy aj developerov",
+    "process": [
+      "Pošlete výkaz výmer, technickú správu alebo opis aplikácie.",
+      "Navrhneme vhodné materiály, alternatívy a dostupnosť zo skladu.",
+      "Pripravíme cenovú ponuku a koordinujeme termín dodania."
+    ],
+    "focus": [
+      {
+        "title": "K-FLEX Slovensko",
+        "text": "Oficiálna distribúcia kaučukových izolácií pre chladiace rozvody, kúrenie, klimatizáciu a VZT."
+      },
+      {
+        "title": "Protipožiarne VZT",
+        "text": "Systémy EI30 až EI240 pre potrubia, VZT rozvody a technické priestory."
+      },
+      {
+        "title": "Priemyselné teploty",
+        "text": "Žiaruvzdorné izolácie UNIFRAX / SIBRAL pre kotly, pece, komíny a horáky."
+      }
+    ],
+    "ctaTitle": "Pošlite podklady a pripravíme návrh dodávky",
+    "ctaText": "Pracujeme s výkazmi výmer, technickými správami aj konkrétnymi požiadavkami montážných firiem.",
+    "contactSales": "Kontaktovať obchod"
   },
   "projects": {
     "title": "Naše projekty",
-    "subtitle": "Úspešné izolačné riešenia v celej Európe"
+    "subtitle": "Úspešné izolačné riešenia v celej Európe",
+    "heroKicker": "Projekty / referencie / výsledky",
+    "sectionKicker": "Vybrané dodávky",
+    "sectionTitle": "Izolačné riešenia pre administratívu, priemysel, nemocnice a development",
+    "showMore": "Zobraziť viac",
+    "showLess": "Zobraziť menej"
   },
   "gallery": {
     "title": "Galéria",
     "subtitle": "Naša práca v akcii",
-    "imageAlt": "Obrázok galérie"
+    "imageAlt": "Obrázok galérie",
+    "heroKicker": "Galéria / sklad / materiály",
+    "sectionKicker": "Fotodokumentácia",
+    "sectionTitle": "Skladové zásoby, materiál a zázemie Izol systému",
+    "previousImage": "Predchádzajúci obrázok",
+    "nextImage": "Nasledujúci obrázok",
+    "closeGallery": "Zavrieť galériu"
   },
   "footer": {
     "about": "O spoločnosti",

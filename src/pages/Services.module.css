@@ -1,58 +1,318 @@
 .services {
   background: var(--white);
-  padding: 5rem 0;
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 0 20px;
 }
 
-.sectionHeader {
-  text-align: center;
-  margin-bottom: 3rem;
+.hero {
+  background:
+    linear-gradient(120deg, rgba(8, 17, 33, 0.96) 0%, rgba(20, 36, 61, 0.9) 52%, rgba(122, 25, 28, 0.78) 100%),
+    url('/projects/project3/build2.jpg') center/cover;
+  color: var(--white);
+  padding: 5rem 0;
+  position: relative;
 }
 
-.sectionHeader h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+.hero::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 42px 42px;
+  content: '';
+  inset: 0;
+  opacity: 0.55;
+  position: absolute;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.heroGrid {
+  align-items: end;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) 380px;
+}
+
+.kicker {
+  color: var(--primary-red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.85rem;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: clamp(2.7rem, 6vw, 5.4rem);
+  font-weight: 800;
+  line-height: 0.98;
+  margin-bottom: 1.2rem;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.08rem;
+  max-width: 680px;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.primaryAction,
+.secondaryAction {
+  border-radius: 4px;
+  display: inline-flex;
+  font-weight: 800;
+  justify-content: center;
+  padding: 0.9rem 1.15rem;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.primaryAction {
+  background: var(--primary-red);
+  color: var(--white);
+}
+
+.primaryAction:hover {
+  background: var(--secondary-red);
+  transform: translateY(-2px);
+}
+
+.secondaryAction {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  color: var(--white);
+}
+
+.secondaryAction:hover {
+  background: var(--white);
   color: var(--text-dark);
-  margin-bottom: 1rem;
 }
 
-.sectionSubtitle {
-  font-size: 1.1rem;
-  color: var(--text-light);
+.heroPanel {
+  background: rgba(12, 18, 30, 0.9);
+  border-left: 4px solid var(--primary-red);
+  padding: 1.4rem;
+}
+
+.heroPanel span {
+  color: rgba(255, 255, 255, 0.62);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.heroPanel strong {
+  color: var(--white);
+  display: block;
+  font-size: 1.35rem;
+  margin-bottom: 0.45rem;
+}
+
+.servicesSection,
+.processSection,
+.focusSection,
+.ctaSection {
+  padding: 5rem 0;
+}
+
+.servicesSection {
+  background: #f6f7f9;
+}
+
+.sectionIntro {
+  margin-bottom: 2rem;
+}
+
+.sectionIntro h2,
+.processContent h2,
+.ctaSection h2 {
+  color: var(--text-dark);
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  line-height: 1.08;
+  max-width: 780px;
 }
 
 .servicesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .serviceCard {
-  background: linear-gradient(135deg, var(--light-blue), var(--white));
-  padding: 2rem;
-  border-radius: 12px;
-  border-left: 4px solid var(--primary-red);
-  transition: all 0.3s ease;
+  background: var(--white);
+  border-top: 4px solid var(--primary-red);
+  min-height: 280px;
+  padding: 1.4rem;
 }
 
-.serviceCard:hover {
-  transform: translateX(10px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+.serviceCard span {
+  color: var(--text-light);
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 .serviceCard h3 {
   color: var(--primary-blue);
+  line-height: 1.2;
+  margin-bottom: 0.85rem;
+}
+
+.serviceCard p,
+.processContent li,
+.focusGrid p,
+.ctaSection p {
+  color: var(--text-light);
+}
+
+.processSection {
+  background: var(--white);
+}
+
+.processSection .container {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 0.95fr 1.05fr;
+}
+
+.processMedia {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.processMedia img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.processContent ol {
+  counter-reset: service-step;
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.processContent li {
+  background: #f6f7f9;
+  border-left: 4px solid var(--primary-red);
+  counter-increment: service-step;
+  padding: 1.1rem 1.2rem 1.1rem 3.6rem;
+  position: relative;
+}
+
+.processContent li::before {
+  color: var(--primary-blue);
+  content: counter(service-step, decimal-leading-zero);
+  font-weight: 800;
+  left: 1.1rem;
+  position: absolute;
+}
+
+.focusSection {
+  background: #101826;
+}
+
+.focusGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.focusGrid article {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 1.5rem;
+}
+
+.focusGrid strong {
+  color: var(--white);
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+}
+
+.focusGrid p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.ctaSection {
+  background:
+    linear-gradient(120deg, rgba(183, 34, 43, 0.92), rgba(23, 59, 103, 0.9)),
+    url('/gallery/sklad.jpeg') center/cover;
+  color: var(--white);
+  text-align: center;
+}
+
+.ctaSection .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ctaSection h2 {
+  color: var(--white);
   margin-bottom: 1rem;
 }
 
-@media (max-width: 640px) {
-  .servicesGrid {
+.ctaSection p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+}
+
+@media (max-width: 980px) {
+  .heroGrid,
+  .processSection .container,
+  .servicesGrid,
+  .focusGrid {
     grid-template-columns: 1fr;
+  }
+
+  .heroPanel {
+    max-width: 420px;
+  }
+
+  .serviceCard {
+    min-height: auto;
   }
 }
 
+@media (max-width: 640px) {
+  .hero,
+  .servicesSection,
+  .processSection,
+  .focusSection,
+  .ctaSection {
+    padding: 3.5rem 0;
+  }
+
+  .heroActions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .primaryAction,
+  .secondaryAction {
+    width: 100%;
+  }
+}

@@ -15,13 +15,20 @@ interface TeamCardProps {
 }
 
 const TeamCard = ({ member }: TeamCardProps) => {
+  const initials = member.name
+    .split(' ')
+    .filter(Boolean)
+    .map((part) => part[0])
+    .join('')
+    .slice(0, 2)
+
   return (
     <div className={styles.teamCard}>
       <div className={styles.teamPhoto}>
         {member.photo ? (
           <img src={member.photo} alt={member.name} />
         ) : (
-          <span>Photo</span>
+          <span>{initials}</span>
         )}
       </div>
       <div className={styles.teamInfo}>
@@ -32,12 +39,12 @@ const TeamCard = ({ member }: TeamCardProps) => {
         <div className={styles.teamContact}>
           {member.email && member.email.trim() !== '' && (
             <a href={`mailto:${member.email}`}>
-              <span className={styles.contactIcon}>✉️</span>
+              <span className={styles.contactIcon}>E</span>
               {member.email}
             </a>
           )}
           <a href={`tel:${member.phone}`}>
-            <span className={styles.contactIcon}>📞</span>
+            <span className={styles.contactIcon}>T</span>
             {member.phone}
           </a>
         </div>

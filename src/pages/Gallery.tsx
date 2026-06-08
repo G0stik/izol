@@ -56,69 +56,84 @@ const Gallery = () => {
   }, [selectedImage, galleryImages.length])
 
   return (
-    <section className={styles.gallery}>
-      <div className={styles.container}>
-        <div className={styles.sectionHeader}>
-          <h2>{t('gallery.title')}</h2>
-          <p className={styles.sectionSubtitle}>{t('gallery.subtitle')}</p>
+    <main className={styles.gallery}>
+      <section className={styles.hero}>
+        <div className={styles.container}>
+          <p className={styles.kicker}>{t('gallery.heroKicker')}</p>
+          <h1>{t('gallery.title')}</h1>
+          <p>{t('gallery.subtitle')}</p>
         </div>
-        <div className={styles.galleryGrid}>
-          {galleryImages.map((image, index) => (
-            <div
-              key={image}
-              className={styles.galleryItem}
-              onClick={() => setSelectedImage(index)}
-            >
-              <img
-                src={image}
-                alt={`${t('gallery.imageAlt')} ${index + 1}`}
-                className={styles.galleryImage}
-              />
-            </div>
-          ))}
-        </div>
-        {selectedImage !== null && (
-          <div className={styles.lightbox} onClick={() => setSelectedImage(null)}>
-            <div
-              className={styles.lightboxContent}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <span
-                className={styles.closeButton}
-                onClick={() => setSelectedImage(null)}
-              >
-                &times;
-              </span>
-              <button
-                className={styles.navButton}
-                onClick={(e) => {
-                  e.stopPropagation()
-                  goToPrevious()
-                }}
-                aria-label="Previous image"
-              >
-                &#8249;
-              </button>
-              <button
-                className={`${styles.navButton} ${styles.navButtonNext}`}
-                onClick={(e) => {
-                  e.stopPropagation()
-                  goToNext()
-                }}
-                aria-label="Next image"
-              >
-                &#8250;
-              </button>
-              <img
-                src={galleryImages[selectedImage]}
-                alt={`Gallery image ${selectedImage + 1}`}
-                className={styles.lightboxImage}
-              />
-            </div>
+      </section>
+
+      <section className={styles.gallerySection}>
+        <div className={styles.container}>
+          <div className={styles.sectionIntro}>
+            <p className={styles.kicker}>{t('gallery.sectionKicker')}</p>
+            <h2>{t('gallery.sectionTitle')}</h2>
           </div>
-        )}
-      </div>
-    </section>
+          <div className={styles.galleryGrid}>
+            {galleryImages.map((image, index) => (
+              <button
+                key={image}
+                className={`${styles.galleryItem} ${index === 0 ? styles.featuredItem : ''}`}
+                onClick={() => setSelectedImage(index)}
+                type="button"
+              >
+                <img
+                  src={image}
+                  alt={`${t('gallery.imageAlt')} ${index + 1}`}
+                  className={styles.galleryImage}
+                  loading={index < 3 ? 'eager' : 'lazy'}
+                />
+                <span>{String(index + 1).padStart(2, '0')}</span>
+              </button>
+            ))}
+          </div>
+          {selectedImage !== null && (
+            <div className={styles.lightbox} onClick={() => setSelectedImage(null)}>
+              <div
+                className={styles.lightboxContent}
+                onClick={(e) => e.stopPropagation()}
+              >
+                <span
+                  className={styles.closeButton}
+                  onClick={() => setSelectedImage(null)}
+                  role="button"
+                  aria-label={t('gallery.closeGallery')}
+                >
+                  &times;
+                </span>
+                <button
+                  className={styles.navButton}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    goToPrevious()
+                  }}
+                  aria-label={t('gallery.previousImage')}
+                >
+                  &#8249;
+                </button>
+                <button
+                  className={`${styles.navButton} ${styles.navButtonNext}`}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    goToNext()
+                  }}
+                  aria-label={t('gallery.nextImage')}
+                >
+                  &#8250;
+                </button>
+                <img
+                  src={galleryImages[selectedImage]}
+                  alt={`${t('gallery.imageAlt')} ${selectedImage + 1}`}
+                  className={styles.lightboxImage}
+                />
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+    </main>
   )
 }
 

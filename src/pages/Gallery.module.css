@@ -1,115 +1,181 @@
 .gallery {
-  background: var(--light-gray);
-  padding: 5rem 0;
+  background: var(--white);
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 0 20px;
 }
 
-.sectionHeader {
-  text-align: center;
-  margin-bottom: 3rem;
+.hero {
+  background:
+    linear-gradient(120deg, rgba(8, 17, 33, 0.96) 0%, rgba(20, 36, 61, 0.9) 52%, rgba(122, 25, 28, 0.78) 100%),
+    url('/gallery/sklad.jpeg') center/cover;
+  color: var(--white);
+  padding: 5rem 0;
+  position: relative;
 }
 
-.sectionHeader h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+.hero::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 42px 42px;
+  content: '';
+  inset: 0;
+  opacity: 0.55;
+  position: absolute;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.kicker {
+  color: var(--primary-red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.85rem;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: clamp(2.7rem, 6vw, 5.4rem);
+  font-weight: 800;
+  line-height: 0.98;
+  margin-bottom: 1.2rem;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.08rem;
+  max-width: 680px;
+}
+
+.gallerySection {
+  background: #f6f7f9;
+  padding: 5rem 0;
+}
+
+.sectionIntro {
+  margin-bottom: 2rem;
+}
+
+.sectionIntro h2 {
   color: var(--text-dark);
-  margin-bottom: 1rem;
-}
-
-.sectionSubtitle {
-  font-size: 1.1rem;
-  color: var(--text-light);
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  line-height: 1.08;
+  max-width: 760px;
 }
 
 .galleryGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .galleryItem {
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  aspect-ratio: 4/3;
+  aspect-ratio: 4 / 3;
+  background: var(--dark-gray);
+  border: 0;
   cursor: pointer;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: left;
+}
+
+.featuredItem {
+  aspect-ratio: auto;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.galleryItem::after {
+  background: linear-gradient(180deg, rgba(6, 13, 25, 0.02) 0%, rgba(6, 13, 25, 0.6) 100%);
+  content: '';
+  inset: 0;
+  position: absolute;
+  z-index: 1;
 }
 
 .galleryImage {
-  width: 100%;
+  display: block;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: transform 0.35s ease;
+  width: 100%;
 }
 
 .galleryItem:hover .galleryImage {
-  transform: scale(1.05);
+  transform: scale(1.06);
+}
+
+.galleryItem span {
+  bottom: 1rem;
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 800;
+  left: 1rem;
+  letter-spacing: 0.08em;
+  position: absolute;
+  z-index: 2;
 }
 
 .lightbox {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-  display: flex;
   align-items: center;
-  justify-content: center;
-  z-index: 2000;
+  background: rgba(0, 0, 0, 0.92);
+  bottom: 0;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2000;
 }
 
 .lightboxContent {
-  position: relative;
-  max-width: 90%;
   max-height: 90%;
+  max-width: 90%;
+  position: relative;
 }
 
 .closeButton {
-  position: absolute;
-  top: -50px;
-  right: 0;
   color: var(--white);
+  cursor: pointer;
   font-size: 3rem;
   font-weight: bold;
-  cursor: pointer;
   line-height: 1;
+  position: absolute;
+  right: 0;
+  top: -50px;
   z-index: 10;
-  transition: transform 0.2s ease;
-}
-
-.closeButton:hover {
-  transform: scale(1.2);
 }
 
 .navButton {
-  position: absolute;
-  top: 50%;
-  left: -60px;
-  transform: translateY(-50%);
-  color: var(--white);
-  font-size: 3rem;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  z-index: 10;
   background: transparent;
   border: none;
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  font-size: 3rem;
+  height: 50px;
+  justify-content: center;
+  left: -60px;
   padding: 0;
-}
-
-.navButton:hover {
-  transform: translateY(-50%) scale(1.1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  z-index: 10;
 }
 
 .navButtonNext {
@@ -118,34 +184,50 @@
 }
 
 .lightboxImage {
-  max-width: 90vw;
-  max-height: 90vh;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  height: auto;
+  max-height: 90vh;
+  max-width: 90vw;
+  object-fit: contain;
+  width: auto;
+}
+
+@media (max-width: 900px) {
+  .galleryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 640px) {
+  .hero,
+  .gallerySection {
+    padding: 3.5rem 0;
+  }
+
   .galleryGrid {
     grid-template-columns: 1fr;
   }
 
+  .featuredItem {
+    aspect-ratio: 4 / 3;
+    grid-column: auto;
+    grid-row: auto;
+  }
+
   .navButton {
+    font-size: 2rem;
+    height: 40px;
     left: 10px;
     width: 40px;
-    height: 40px;
-    font-size: 2rem;
   }
 
   .navButtonNext {
-    right: 10px;
     left: auto;
+    right: 10px;
   }
 
   .closeButton {
-    top: -35px;
     font-size: 2.5rem;
+    top: -35px;
   }
 }

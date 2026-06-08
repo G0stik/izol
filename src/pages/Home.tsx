@@ -191,73 +191,226 @@ const Home = () => {
     }
   }
 
+  const productFamilies = [
+    {
+      title: t('products.kflex.title'),
+      description: t('products.kflex.description'),
+      image: '/gallery/tovar.jpeg',
+      meta: t('home.productMeta.kflex')
+    },
+    {
+      title: t('products.refractory.title'),
+      description: t('products.refractory.description'),
+      image: '/pictograms/fire.jpeg',
+      meta: t('home.productMeta.refractory')
+    },
+    {
+      title: t('products.building.title'),
+      description: t('products.building.description'),
+      image: '/gallery/sklad2.jpeg',
+      meta: t('home.productMeta.building')
+    },
+    {
+      title: t('products.technical.title'),
+      description: t('products.technical.description'),
+      image: '/gallery/sklad4.jpeg',
+      meta: t('home.productMeta.technical')
+    }
+  ]
+
+  const advantages = t('home.advantages', { returnObjects: true }) as Array<{
+    title: string
+    text: string
+  }>
+
   return (
     <>
       <section className={styles.hero}>
-        <div className={styles.heroOverlay}></div>
         <div className={styles.container}>
-          <div className={styles.heroContent}>
-            <h1 className={styles.heroTitle}>{t('home.heroTitle')}</h1>
-            <p className={styles.heroSubtitle}>{t('home.heroSubtitle')}</p>
-            <p className={styles.heroDescription}>
-              {t('home.heroDescription')}
-            </p>
-            <div className={styles.heroButtons}>
-              <Link to="/contact" className={`${styles.btn} ${styles.btnPrimary}`}>{t('home.getQuote')}</Link>
-              <Link to="/products" className={`${styles.btn} ${styles.btnSecondary}`}>{t('home.ourProducts')}</Link>
+          <div className={styles.heroGrid}>
+            <div className={styles.heroContent}>
+              <p className={styles.heroEyebrow}>{t('home.heroEyebrow')}</p>
+              <h1 className={styles.heroTitle}>{t('home.heroTitle')}</h1>
+              <p className={styles.heroSubtitle}>{t('home.heroSubtitle')}</p>
+              <p className={styles.heroDescription}>
+                {t('home.heroDescription')}
+              </p>
+              <div className={styles.heroButtons}>
+                <Link to="/contact" className={`${styles.btn} ${styles.btnPrimary}`}>{t('home.getQuote')}</Link>
+                <Link to="/products" className={`${styles.btn} ${styles.btnSecondary}`}>{t('home.ourProducts')}</Link>
+              </div>
             </div>
-          </div>
-        </div>
-        <section className={styles.suppliersSection}>
-          <div className={styles.container}>
-            <div
-              ref={marqueeRef}
-              className={`${styles.suppliersMarquee} ${
-                isDragging ? styles.suppliersMarqueeDragging : ''
-              }`}
-              aria-label="Supplier logos"
-              onPointerDown={handlePointerDown}
-              onPointerMove={handlePointerMove}
-              onPointerUp={handlePointerUp}
-              onPointerCancel={handlePointerUp}
-              onPointerEnter={handlePointerEnter}
-              onPointerLeave={handlePointerLeave}
-            >
-            <div className={styles.suppliersTrack} ref={trackRef}>
-                <div className={styles.logoRow} ref={rowRef}>
-                  {supplierLogos.map((supplier) => (
-                    <img
-                      key={supplier.src}
-                      className={styles.supplierLogo}
-                      src={supplier.src}
-                      alt={supplier.alt}
-                      draggable="false"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  ))}
-                </div>
-                <div
-                  className={styles.logoRow}
-                  aria-hidden="true"
-                  ref={duplicateRowRef}
-                >
-                  {supplierLogos.map((supplier) => (
-                    <img
-                      key={`${supplier.src}-duplicate`}
-                      className={styles.supplierLogo}
-                      src={supplier.src}
-                      alt=""
-                      draggable="false"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  ))}
-                </div>
+            <div className={styles.heroVisual} aria-label={t('home.heroVisualAria')}>
+              <img src="/gallery/sklad.jpeg" alt={t('home.heroVisualAlt')} />
+              <div className={styles.visualPanel}>
+                <span>{t('home.heroVisualLabel')}</span>
+                <strong>{t('home.tempRange')}</strong>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+
+      <section className={styles.statsBand}>
+        <div className={styles.container}>
+          <div className={styles.statItem}>
+            <strong>23+</strong>
+            <span>{t('about.stats.experience')}</span>
+          </div>
+          <div className={styles.statItem}>
+            <strong>500+</strong>
+            <span>{t('about.stats.projects')}</span>
+          </div>
+          <div className={styles.statItem}>
+            <strong>K-FLEX</strong>
+            <span>{t('home.kflexImporter')}</span>
+          </div>
+          <div className={styles.statItem}>
+            <strong>{t('home.warehouseCount')}</strong>
+            <span>{t('home.warehouseLocations')}</span>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.productSection}>
+        <div className={styles.container}>
+          <div className={styles.sectionIntro}>
+            <p className={styles.sectionKicker}>{t('home.productSectionKicker')}</p>
+            <h2>{t('home.productSectionTitle')}</h2>
+            <Link to="/products">{t('home.allProducts')}</Link>
+          </div>
+          <div className={styles.productGrid}>
+            {productFamilies.map((product) => (
+              <Link to="/products" className={styles.productTile} key={product.title}>
+                <img src={product.image} alt={product.title} loading="lazy" />
+                <div className={styles.productTileContent}>
+                  <span>{product.meta}</span>
+                  <h3>{product.title}</h3>
+                  <p>{product.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.advantageSection}>
+        <div className={styles.container}>
+          <div className={styles.advantageMedia}>
+            <img src="/projects/project3/build1.jpg" alt={t('home.advantageImageAlt')} />
+          </div>
+          <div className={styles.advantageContent}>
+            <p className={styles.sectionKicker}>{t('home.advantageKicker')}</p>
+            <h2>{t('home.advantageTitle')}</h2>
+            <div className={styles.advantageList}>
+              {advantages.map((advantage) => (
+                <article key={advantage.title}>
+                  <h3>{advantage.title}</h3>
+                  <p>{advantage.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.projectBand}>
+        <div className={styles.container}>
+          <div className={styles.sectionIntro}>
+            <p className={styles.sectionKicker}>{t('home.referencesKicker')}</p>
+            <h2>{t('home.referencesTitle')}</h2>
+            <Link to="/projects">{t('home.referencesLink')}</Link>
+          </div>
+          <div className={styles.referenceGrid}>
+            <article>
+              <img src="/projects/project2/build1.jpg" alt="Zuckermandel Bratislava" />
+              <div>
+                <span>Zuckermandel</span>
+                <strong>13 000 m²</strong>
+                <p>{t('home.references.zuckermandel')}</p>
+              </div>
+            </article>
+            <article>
+              <img src="/projects/project5/build1.jpg" alt={t('home.references.hospitalName')} />
+              <div>
+                <span>{t('home.references.hospitalName')}</span>
+                <strong>65 000 m²</strong>
+                <p>{t('home.references.hospital')}</p>
+              </div>
+            </article>
+            <article>
+              <img src="/projects/project4/build1.jpg" alt="IKEA Industry Malacky" />
+              <div>
+                <span>IKEA Industry Malacky</span>
+                <strong>1 000 m³</strong>
+                <p>{t('home.references.ikea')}</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.suppliersSection}>
+        <div className={styles.container}>
+          <div className={styles.sectionIntroCompact}>
+            <p className={styles.sectionKicker}>{t('home.suppliersTitle')}</p>
+            <h2>{t('home.suppliersSubtitle')}</h2>
+          </div>
+          <div
+            ref={marqueeRef}
+            className={`${styles.suppliersMarquee} ${
+              isDragging ? styles.suppliersMarqueeDragging : ''
+            }`}
+            aria-label="Supplier logos"
+            onPointerDown={handlePointerDown}
+            onPointerMove={handlePointerMove}
+            onPointerUp={handlePointerUp}
+            onPointerCancel={handlePointerUp}
+            onPointerEnter={handlePointerEnter}
+            onPointerLeave={handlePointerLeave}
+          >
+            <div className={styles.suppliersTrack} ref={trackRef}>
+              <div className={styles.logoRow} ref={rowRef}>
+                {supplierLogos.map((supplier) => (
+                  <img
+                    key={supplier.src}
+                    className={styles.supplierLogo}
+                    src={supplier.src}
+                    alt={supplier.alt}
+                    draggable="false"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ))}
+              </div>
+              <div
+                className={styles.logoRow}
+                aria-hidden="true"
+                ref={duplicateRowRef}
+              >
+                {supplierLogos.map((supplier) => (
+                  <img
+                    key={`${supplier.src}-duplicate`}
+                    className={styles.supplierLogo}
+                    src={supplier.src}
+                    alt=""
+                    draggable="false"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.ctaSection}>
+        <div className={styles.container}>
+          <h2>{t('home.ctaTitle')}</h2>
+          <p>{t('home.ctaText')}</p>
+          <Link to="/contact" className={`${styles.btn} ${styles.btnPrimary}`}>{t('home.getQuote')}</Link>
+        </div>
       </section>
     </>
   )

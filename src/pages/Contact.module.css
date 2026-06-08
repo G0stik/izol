@@ -1,196 +1,363 @@
 .contact {
   background: var(--white);
-  padding: 5rem 0;
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 0 20px;
 }
 
-.sectionHeader {
-  text-align: center;
-  margin-bottom: 3rem;
+.hero {
+  background:
+    linear-gradient(120deg, rgba(8, 17, 33, 0.96) 0%, rgba(20, 36, 61, 0.9) 52%, rgba(122, 25, 28, 0.78) 100%),
+    url('/gallery/sklad3.jpeg') center/cover;
+  color: var(--white);
+  overflow: hidden;
+  padding: 5rem 0;
+  position: relative;
 }
 
-.sectionHeader h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin-bottom: 1rem;
+.hero::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 42px 42px;
+  content: '';
+  inset: 0;
+  opacity: 0.55;
+  position: absolute;
 }
 
-.sectionSubtitle {
-  font-size: 1.1rem;
-  color: var(--text-light);
+.hero .container {
+  position: relative;
+  z-index: 1;
 }
 
-.contactInfo {
+.heroGrid {
+  align-items: end;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin-bottom: 3rem;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) 360px;
 }
 
-.contactCard {
-  background: var(--light-gray);
-  padding: 2rem;
-  border-radius: 12px;
-  border-left: 4px solid var(--primary-blue);
-  transition: all 0.3s ease;
+.kicker {
+  color: var(--primary-red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.85rem;
+  text-transform: uppercase;
 }
 
-.contactCard:hover {
-  transform: translateX(5px);
-  box-shadow: 0 10px 30px rgba(255, 0, 0, 0.116);
+.heroContent h1 {
+  font-size: clamp(2.7rem, 6vw, 5.4rem);
+  font-weight: 800;
+  line-height: 0.98;
+  margin-bottom: 1.2rem;
 }
 
-.contactCard h3 {
-  color: var(--primary-blue);
-  margin-bottom: 0.5rem;
+.heroContent p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.08rem;
+  max-width: 640px;
 }
 
-.contactCard a {
-  color: inherit;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.contactCard a:hover {
-  color: var(--primary-blue);
-  text-decoration: underline;
-}
-
-.socialLinks {
+.heroActions {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.socialLink {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  color: var(--text-dark);
-  text-decoration: none;
-  transition: all 0.3s ease;
-  padding: 0.5rem;
-  border-radius: 8px;
-}
-
-.socialLink:hover {
-  background: rgba(30, 64, 175, 0.1);
-  color: var(--primary-blue);
-  text-decoration: none;
-  transform: translateX(5px);
-}
-
-.socialIcon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-}
-.socialIcon svg {
-  width: 18px;
-  height: 18px;
-}
-
-.contactFormWrapper {
-  background: var(--light-gray);
-  padding: 2rem;
-  border-radius: 12px;
+  flex-wrap: wrap;
+  gap: 0.9rem;
   margin-top: 2rem;
 }
 
-.contactIcon {
+.primaryAction,
+.secondaryAction,
+.mapLink {
+  border-radius: 4px;
   display: inline-flex;
-  align-items: center;
+  font-weight: 800;
   justify-content: center;
-  width: 64px;
-  height: 64px;
-  margin-bottom: 1rem;
-  border-radius: 50%;
-  background: var(--primary-blue);
-  color: var(--white);
-  box-shadow: 0 8px 20px rgba(0, 34, 90, 0.2);
-}
-
-.contactIcon svg {
-  width: 32px;
-  height: 32px;
-}
-
-.contactForm {
-  display: grid;
-  gap: 1.5rem;
-}
-
-.formGroup {
-  display: flex;
-  flex-direction: column;
-}
-
-.formGroup label {
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: var(--text-dark);
-}
-
-.formGroup input,
-.formGroup textarea {
-  padding: 0.75rem;
-  border: 2px solid #e5e7eb;
-  border-radius: 8px;
-  font-family: inherit;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-}
-
-.formGroup input:focus,
-.formGroup textarea:focus {
-  outline: none;
-  border-color: var(--primary-blue);
-}
-
-.formGroup textarea {
-  resize: vertical;
-}
-
-.btn {
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
+  padding: 0.9rem 1.15rem;
   text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
-.btnPrimary {
+.primaryAction {
   background: var(--primary-red);
   color: var(--white);
 }
 
-.btnPrimary:hover {
+.primaryAction:hover,
+.mapLink:hover {
   background: var(--secondary-red);
+  color: var(--white);
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(220, 38, 38, 0.3);
 }
 
-@media (max-width: 968px) {
-  .contactInfo {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.secondaryAction {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  color: var(--white);
 }
 
-@media (max-width: 768px) {
-  .contactInfo {
+.secondaryAction:hover {
+  background: var(--white);
+  color: var(--text-dark);
+}
+
+.heroPanel {
+  background: rgba(12, 18, 30, 0.9);
+  border-left: 4px solid var(--primary-red);
+  padding: 1.4rem;
+}
+
+.heroPanel span {
+  color: rgba(255, 255, 255, 0.62);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.heroPanel strong {
+  color: var(--white);
+  display: block;
+  font-size: 1.35rem;
+  margin-bottom: 0.3rem;
+}
+
+.heroPanel p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.branchSection,
+.operationsSection,
+.ctaSection {
+  padding: 5rem 0;
+}
+
+.branchSection {
+  background: #f6f7f9;
+}
+
+.sectionIntro {
+  margin-bottom: 2rem;
+}
+
+.sectionIntro h2 {
+  color: var(--text-dark);
+  font-size: clamp(2rem, 3.6vw, 3.2rem);
+  line-height: 1.08;
+  max-width: 780px;
+}
+
+.branchGrid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.branchCard {
+  background: var(--white);
+  border-top: 4px solid var(--primary-red);
+  min-height: 100%;
+}
+
+.branchContent {
+  padding: 2rem;
+}
+
+.branchLabel {
+  color: var(--primary-red);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+}
+
+.branchContent h3,
+.infoCard h3 {
+  color: var(--primary-blue);
+  margin-bottom: 0.8rem;
+}
+
+.branchContent address {
+  color: var(--text-light);
+  font-style: normal;
+  margin-bottom: 1.2rem;
+}
+
+.peopleList {
+  display: grid;
+  gap: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.peopleList p {
+  border-left: 3px solid var(--primary-red);
+  margin: 0;
+  padding-left: 0.9rem;
+}
+
+.peopleList strong,
+.peopleList span,
+.peopleList a {
+  display: block;
+}
+
+.peopleList strong {
+  color: var(--text-dark);
+}
+
+.peopleList span,
+.note {
+  color: var(--text-light);
+  font-size: 0.92rem;
+}
+
+.branchContent a,
+.infoCard a {
+  color: var(--primary-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.branchContent a:hover,
+.infoCard a:hover {
+  color: var(--primary-red);
+  text-decoration: underline;
+}
+
+.mapLink {
+  background: var(--primary-blue);
+  color: var(--white) !important;
+  margin-top: 0.35rem;
+}
+
+.operationsSection {
+  background: var(--white);
+}
+
+.operationsGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.infoCard {
+  background: #f6f7f9;
+  border-left: 4px solid var(--primary-red);
+  padding: 1.35rem;
+}
+
+.infoCard p {
+  color: var(--text-light);
+}
+
+.contactIcon {
+  align-items: center;
+  background: var(--dark-gray);
+  color: var(--white);
+  display: inline-flex;
+  height: 52px;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 52px;
+}
+
+.contactIcon svg {
+  height: 28px;
+  width: 28px;
+}
+
+.socialLinks {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.socialLink {
+  align-items: center;
+  background: var(--white);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  color: var(--text-dark) !important;
+  display: flex;
+  gap: 0.7rem;
+  padding: 0.6rem;
+}
+
+.socialLink:hover {
+  color: var(--primary-red) !important;
+  text-decoration: none !important;
+}
+
+.socialIcon {
+  align-items: center;
+  display: inline-flex;
+  height: 26px;
+  justify-content: center;
+  width: 26px;
+}
+
+.socialIcon svg {
+  height: 18px;
+  width: 18px;
+}
+
+.ctaSection {
+  background:
+    linear-gradient(120deg, rgba(183, 34, 43, 0.92), rgba(23, 59, 103, 0.9)),
+    url('/gallery/sklad4.jpeg') center/cover;
+  color: var(--white);
+  text-align: center;
+}
+
+.ctaSection .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ctaSection h2 {
+  font-size: clamp(2rem, 3.6vw, 3.1rem);
+  line-height: 1.08;
+  margin-bottom: 1rem;
+  max-width: 760px;
+}
+
+.ctaSection p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+  max-width: 680px;
+}
+
+@media (max-width: 980px) {
+  .heroGrid,
+  .branchGrid,
+  .operationsGrid {
     grid-template-columns: 1fr;
   }
+
+  .heroPanel {
+    max-width: 420px;
+  }
 }
 
+@media (max-width: 640px) {
+  .hero,
+  .branchSection,
+  .operationsSection,
+  .ctaSection {
+    padding: 3.5rem 0;
+  }
+
+  .heroActions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .primaryAction,
+  .secondaryAction,
+  .mapLink {
+    width: 100%;
+  }
+
+}
