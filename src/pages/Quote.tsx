@@ -252,11 +252,6 @@ const Quote = () => {
                   <strong>Zlatovská 1292/24, 911 05 Trenčín</strong>
                 </p>
               </div>
-              <div className={styles.quickLinks}>
-                <Link to="/products">{t('nav.products')}</Link>
-                <Link to="/services">{t('nav.services')}</Link>
-                <Link to="/contact">{t('nav.contact')}</Link>
-              </div>
             </aside>
           </div>
         </div>
