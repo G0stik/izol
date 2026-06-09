@@ -123,7 +123,7 @@ const Products = () => {
               <h1>{t('products.title')}</h1>
               <p>{t('products.subtitle')}</p>
               <div className={styles.heroActions}>
-                <Link to="/contact" className={styles.primaryAction}>{t('products.quoteCta')}</Link>
+                <Link to="/quote" className={styles.primaryAction}>{t('products.quoteCta')}</Link>
                 <Link to="/services" className={styles.secondaryAction}>{t('products.servicesCta')}</Link>
               </div>
             </div>
@@ -171,7 +171,7 @@ const Products = () => {
         <div className={styles.container}>
           <h2>{t('products.ctaTitle')}</h2>
           <p>{t('products.ctaText')}</p>
-          <Link to="/contact" className={styles.primaryAction}>{t('products.contactSales')}</Link>
+          <Link to="/quote" className={styles.primaryAction}>{t('products.contactSales')}</Link>
         </div>
       </section>
     </main>

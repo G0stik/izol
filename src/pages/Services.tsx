@@ -58,7 +58,7 @@ const Services = () => {
               <h1>{t('services.title')}</h1>
               <p>{t('services.subtitle')}</p>
               <div className={styles.heroActions}>
-                <Link to="/contact" className={styles.primaryAction}>{t('services.quoteCta')}</Link>
+                <Link to="/quote" className={styles.primaryAction}>{t('services.quoteCta')}</Link>
                 <Link to="/products" className={styles.secondaryAction}>{t('services.productsCta')}</Link>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Services = () => {
         <div className={styles.container}>
           <h2>{t('services.ctaTitle')}</h2>
           <p>{t('services.ctaText')}</p>
-          <Link to="/contact" className={styles.primaryAction}>{t('services.contactSales')}</Link>
+          <Link to="/quote" className={styles.primaryAction}>{t('services.contactSales')}</Link>
         </div>
       </section>
     </main>

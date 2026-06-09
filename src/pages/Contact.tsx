@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import styles from './Contact.module.css'
 
@@ -287,9 +288,9 @@ const Contact = () => {
           <p>
             {t('contact.ctaText')}
           </p>
-          <a href="mailto:info@izol-system.sk" className={styles.primaryAction}>
+          <Link to="/quote" className={styles.primaryAction}>
             {t('contact.sendDocuments')}
-          </a>
+          </Link>
         </div>
       </section>
     </main>

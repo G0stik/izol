@@ -52,6 +52,13 @@
       "hospital": "ISOVER U PROTECT a CLIMCOVER pre rozvody VZT.",
       "ikea": "Minerálna vlna ISOVER S pre rekonštrukciu strešného plášťa."
     },
+    "reviewsKicker": "Google recenzie",
+    "reviewsTitle": "Zákazníci oceňujú odborné poradenstvo, sortiment a prístup",
+    "reviewsSubtitle": "Vybrané verejné recenzie pobočky Trenčín. Ďalšie hodnotenia si môžete pozrieť priamo na Google profile pobočiek Trenčín a Zvolen.",
+    "reviewsRatingAria": "Google hodnotenie pobočky Trenčín 4,7 z 5",
+    "reviewsCount": "53 recenzií",
+    "reviewsTrencinLink": "Recenzie Trenčín",
+    "reviewsZvolenLink": "Recenzie Zvolen",
     "suppliersSubtitle": "Overení výrobcovia a stabilný sortiment",
     "ctaTitle": "Potrebujete naceniť izolácie podľa výkazu výmer?",
     "ctaText": "Pošlite nám projektové podklady alebo technickú správu. Odporučíme vhodné materiály, alternatívy a logistiku dodania.",
@@ -319,5 +326,50 @@
     "services": "Naše služby",
     "contact": "Kontakt",
     "copyright": "© 2024 Izol systém, s.r.o. Všetky práva vyhradené."
+  },
+  "quote": {
+    "heroKicker": "Cenová ponuka / technické zadanie",
+    "title": "Vyžiadať cenovú ponuku",
+    "subtitle": "Pošlite nám základné údaje o projekte, materiáli alebo aplikácii. Správu dostane obchodný tím a vám príde potvrdenie s kópiou žiadosti na email.",
+    "panelLabel": "Čo pomôže naceneniu",
+    "panelTitle": "výkaz výmer / typ materiálu / termín",
+    "panelText": "Čím presnejšie zadanie pošlete, tým rýchlejšie vieme preveriť dostupnosť a pripraviť ponuku.",
+    "formKicker": "Formulár",
+    "formTitle": "Kontaktné údaje a zadanie",
+    "defaultSubject": "Žiadosť o cenovú ponuku",
+    "fields": {
+      "name": "Meno a priezvisko",
+      "company": "Firma",
+      "email": "Email",
+      "phone": "Telefón",
+      "subject": "Predmet",
+      "material": "Materiál alebo použitie",
+      "quantity": "Množstvo alebo rozsah",
+      "deadline": "Požadovaný termín",
+      "message": "Správa"
+    },
+    "placeholders": {
+      "subject": "napr. K-FLEX izolácie pre VZT",
+      "material": "napr. K-FLEX, UNIFRAX, EPS, minerálna vlna",
+      "quantity": "napr. m², bm, m³, počet balení",
+      "deadline": "napr. tento týždeň, do 14 dní, konkrétny dátum",
+      "message": "Popíšte aplikáciu, rozmery, technické požiadavky alebo vložte text výkazu výmer."
+    },
+    "consent": "Súhlasím so spracovaním uvedených údajov za účelom vybavenia žiadosti o cenovú ponuku.",
+    "submit": "Odoslať žiadosť",
+    "sending": "Odosiela sa...",
+    "successTitle": "Žiadosť bola odoslaná",
+    "successMessage": "Na email vám príde potvrdenie s kópiou správy a kontaktnými údajmi spoločnosti.",
+    "errorMessage": "Formulár sa nepodarilo odoslať. Skúste to prosím znova alebo nás kontaktujte telefonicky.",
+    "contactAlternative": "Radšej priamy kontakt",
+    "contactCard": {
+      "kicker": "Priamy kontakt",
+      "title": "Potrebujete odpoveď rýchlejšie?",
+      "nameLabel": "Firma",
+      "emailLabel": "Email",
+      "phoneLabel": "Telefón",
+      "salesLabel": "Obchod",
+      "addressLabel": "Sídlo"
+    }
   }
 }

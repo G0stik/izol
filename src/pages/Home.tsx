@@ -18,6 +18,41 @@ const supplierLogos = Object.entries(logoModules)
   })
 
 const MARQUEE_DURATION_SECONDS = 26
+const GOOGLE_REVIEW_LINK_TRENCIN = 'https://maps.app.goo.gl/FirmkF8Xuggz3cBz6'
+const GOOGLE_REVIEW_LINK_ZVOLEN = 'https://maps.app.goo.gl/WB6Rq3o7N8dQoKZ7A'
+
+const googleReviews = [
+  {
+    author: 'Google recenzia',
+    branch: 'Trenčín',
+    text: 'Profesionálny prístup, bezproblémová komunikácia a riešenia na mieru.'
+  },
+  {
+    author: 'Google recenzia',
+    branch: 'Trenčín',
+    text: 'Ochotne poradili pri výbere vhodnej izolácie a pri objeme, ktorý som potreboval, som dostal aj zľavu.'
+  },
+  {
+    author: 'Google recenzia',
+    branch: 'Trenčín',
+    text: 'Široký sortiment izolácie, stavbárskej, VZT, kúrenie, voda a odborné poradenstvo.'
+  },
+  {
+    author: 'Google recenzia',
+    branch: 'Trenčín',
+    text: 'Kvalitný a odborný servis.'
+  },
+  {
+    author: 'Google recenzia',
+    branch: 'Trenčín',
+    text: 'Profesionálny prístup, špičkové produkty a poradenstvo.'
+  },
+  {
+    author: 'Google recenzia',
+    branch: 'Trenčín',
+    text: 'Široký výber materiálov, vedia skvelo poradiť. Naozaj odborníci na izolácie.'
+  }
+]
 
 const Home = () => {
   const { t } = useTranslation()
@@ -236,7 +271,7 @@ const Home = () => {
                 {t('home.heroDescription')}
               </p>
               <div className={styles.heroButtons}>
-                <Link to="/contact" className={`${styles.btn} ${styles.btnPrimary}`}>{t('home.getQuote')}</Link>
+                <Link to="/quote" className={`${styles.btn} ${styles.btnPrimary}`}>{t('home.getQuote')}</Link>
                 <Link to="/products" className={`${styles.btn} ${styles.btnSecondary}`}>{t('home.ourProducts')}</Link>
               </div>
             </div>
@@ -350,6 +385,53 @@ const Home = () => {
         </div>
       </section>
 
+      <section className={styles.reviewsSection}>
+        <div className={styles.container}>
+          <div className={styles.reviewsHeader}>
+            <div>
+              <p className={styles.sectionKicker}>{t('home.reviewsKicker')}</p>
+              <h2>{t('home.reviewsTitle')}</h2>
+              <p>{t('home.reviewsSubtitle')}</p>
+            </div>
+            <div className={styles.googleScore} aria-label={t('home.reviewsRatingAria')}>
+              <span>Google</span>
+              <strong>4.7/5</strong>
+              <small>{t('home.reviewsCount')}</small>
+            </div>
+          </div>
+          <div className={styles.reviewsGrid}>
+            {googleReviews.map((review) => (
+              <article className={styles.reviewCard} key={review.text}>
+                <div className={styles.reviewStars} aria-hidden="true">★★★★★</div>
+                <p>“{review.text}”</p>
+                <footer>
+                  <span>{review.author}</span>
+                  <strong>{review.branch}</strong>
+                </footer>
+              </article>
+            ))}
+          </div>
+          <div className={styles.reviewActions}>
+            <a
+              href={GOOGLE_REVIEW_LINK_TRENCIN}
+              target="_blank"
+              rel="noreferrer"
+              className={`${styles.btn} ${styles.btnPrimary}`}
+            >
+              {t('home.reviewsTrencinLink')}
+            </a>
+            <a
+              href={GOOGLE_REVIEW_LINK_ZVOLEN}
+              target="_blank"
+              rel="noreferrer"
+              className={`${styles.btn} ${styles.btnDark}`}
+            >
+              {t('home.reviewsZvolenLink')}
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className={styles.suppliersSection}>
         <div className={styles.container}>
           <div className={styles.sectionIntroCompact}>
@@ -409,7 +491,7 @@ const Home = () => {
         <div className={styles.container}>
           <h2>{t('home.ctaTitle')}</h2>
           <p>{t('home.ctaText')}</p>
-          <Link to="/contact" className={`${styles.btn} ${styles.btnPrimary}`}>{t('home.getQuote')}</Link>
+          <Link to="/quote" className={`${styles.btn} ${styles.btnPrimary}`}>{t('home.getQuote')}</Link>
         </div>
       </section>
     </>

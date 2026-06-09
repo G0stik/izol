@@ -7,6 +7,7 @@ import Services from './pages/Services'
 import Projects from './pages/Projects'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
+import Quote from './pages/Quote'
 import AIVisibility from './pages/AIVisibility'
 import Footer from './components/Footer'
 import './App.css'
@@ -27,6 +28,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/quote" element={<Quote />} />
             <Route path="/ai-bridge" element={<AIVisibility />} />
           </Routes>
         </main>

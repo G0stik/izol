@@ -114,6 +114,16 @@
   color: var(--text-dark);
 }
 
+.btnDark {
+  background: var(--primary-blue);
+  color: var(--white);
+}
+
+.btnDark:hover {
+  background: #17213a;
+  transform: translateY(-2px);
+}
+
 .heroVisual {
   aspect-ratio: 4 / 5;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -190,6 +200,7 @@
 .productSection,
 .advantageSection,
 .projectBand,
+.reviewsSection,
 .suppliersSection,
 .ctaSection {
   padding: 5rem 0;
@@ -387,6 +398,115 @@
   color: rgba(255, 255, 255, 0.72);
 }
 
+.reviewsSection {
+  background:
+    linear-gradient(180deg, rgba(246, 247, 249, 0.98), rgba(255, 255, 255, 1)),
+    url('/gallery/sklad4.jpeg') center/cover;
+}
+
+.reviewsHeader {
+  align-items: end;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin-bottom: 2rem;
+}
+
+.reviewsHeader h2 {
+  color: var(--text-dark);
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  line-height: 1.08;
+  margin: 0;
+  max-width: 760px;
+}
+
+.reviewsHeader p:not(.sectionKicker) {
+  color: var(--text-light);
+  margin-top: 0.8rem;
+  max-width: 720px;
+}
+
+.googleScore {
+  background: var(--white);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+  min-width: 190px;
+  padding: 1.25rem;
+}
+
+.googleScore span,
+.googleScore small {
+  color: var(--text-light);
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.googleScore strong {
+  color: var(--primary-blue);
+  display: block;
+  font-size: 2.35rem;
+  line-height: 1;
+  margin: 0.45rem 0;
+}
+
+.reviewsGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.reviewCard {
+  background: var(--white);
+  border: 1px solid rgba(15, 23, 42, 0.09);
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: 1.4rem;
+}
+
+.reviewStars {
+  color: var(--primary-red);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.reviewCard p {
+  color: var(--text-dark);
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.reviewCard footer {
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+}
+
+.reviewCard span {
+  color: var(--text-light);
+  font-size: 0.88rem;
+}
+
+.reviewCard strong {
+  color: var(--primary-blue);
+  font-size: 0.88rem;
+}
+
+.reviewActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
 .suppliersSection {
   background: var(--white);
 }
@@ -497,6 +617,15 @@
   .referenceGrid {
     grid-template-columns: 1fr;
   }
+
+  .reviewsHeader {
+    align-items: stretch;
+    grid-template-columns: 1fr;
+  }
+
+  .reviewsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 640px) {
@@ -517,7 +646,8 @@
   }
 
   .productGrid,
-  .statsBand .container {
+  .statsBand .container,
+  .reviewsGrid {
     grid-template-columns: 1fr;
   }
 
@@ -530,6 +660,11 @@
 
   .productTile {
     min-height: 360px;
+  }
+
+  .reviewActions {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .logoRow {

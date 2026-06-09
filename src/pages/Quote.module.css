@@ -1,0 +1,328 @@
+.quote {
+  background: var(--white);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.hero {
+  background:
+    linear-gradient(120deg, rgba(8, 17, 33, 0.96) 0%, rgba(20, 36, 61, 0.9) 52%, rgba(122, 25, 28, 0.78) 100%),
+    url('/gallery/sklad4.jpeg') center/cover;
+  color: var(--white);
+  padding: 5rem 0;
+  position: relative;
+}
+
+.hero::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 42px 42px;
+  content: '';
+  inset: 0;
+  opacity: 0.55;
+  position: absolute;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.heroGrid {
+  align-items: end;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) 380px;
+}
+
+.kicker {
+  color: var(--primary-red);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.85rem;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: clamp(2.7rem, 6vw, 5.4rem);
+  font-weight: 800;
+  line-height: 0.98;
+  margin-bottom: 1.2rem;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.08rem;
+  max-width: 700px;
+}
+
+.heroPanel {
+  background: rgba(12, 18, 30, 0.9);
+  border-left: 4px solid var(--primary-red);
+  padding: 1.4rem;
+}
+
+.heroPanel span {
+  color: rgba(255, 255, 255, 0.62);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.heroPanel strong {
+  color: var(--white);
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin-bottom: 0.45rem;
+}
+
+.formSection {
+  background: #f6f7f9;
+  padding: 5rem 0;
+}
+
+.formLayout {
+  align-items: start;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1fr) 360px;
+}
+
+.quoteForm,
+.contactCard {
+  background: var(--white);
+  border-top: 4px solid var(--primary-red);
+}
+
+.quoteForm {
+  padding: 2rem;
+}
+
+.formHeader {
+  margin-bottom: 1.5rem;
+}
+
+.formHeader h2,
+.contactCard h2 {
+  color: var(--text-dark);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.08;
+}
+
+.formGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.quoteForm label {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.quoteForm label span {
+  color: var(--text-dark);
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+.quoteForm input,
+.quoteForm textarea {
+  background: #f8fafc;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  color: var(--text-dark);
+  font: inherit;
+  padding: 0.85rem 0.9rem;
+  width: 100%;
+}
+
+.quoteForm input:focus,
+.quoteForm textarea:focus {
+  border-color: var(--primary-red);
+  box-shadow: 0 0 0 3px rgba(200, 31, 45, 0.12);
+  outline: none;
+}
+
+.quoteForm textarea {
+  resize: vertical;
+}
+
+.fullField,
+.consent {
+  margin-top: 1rem;
+}
+
+.consent {
+  align-items: start;
+  display: flex !important;
+  gap: 0.7rem;
+}
+
+.consent input {
+  flex: 0 0 auto;
+  margin-top: 0.2rem;
+  width: auto;
+}
+
+.consent span {
+  color: var(--text-light) !important;
+  font-weight: 600 !important;
+}
+
+.formActions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+
+.formActions button,
+.formActions a,
+.quickLinks a {
+  border-radius: 4px;
+  display: inline-flex;
+  font-weight: 800;
+  justify-content: center;
+  padding: 0.9rem 1.15rem;
+  text-decoration: none;
+}
+
+.formActions button {
+  background: var(--primary-red);
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.formActions button:hover {
+  background: var(--secondary-red);
+}
+
+.formActions button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.formActions a {
+  border: 1px solid rgba(15, 23, 42, 0.18);
+  color: var(--primary-blue);
+}
+
+.successMessage,
+.errorMessage {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.successMessage {
+  background: rgba(22, 101, 52, 0.08);
+  border-left: 4px solid #166534;
+  color: #14532d;
+}
+
+.successMessage p {
+  margin-top: 0.3rem;
+}
+
+.errorMessage {
+  background: rgba(200, 31, 45, 0.08);
+  border-left: 4px solid var(--primary-red);
+  color: var(--primary-red);
+  font-weight: 800;
+}
+
+.contactCard {
+  padding: 1.5rem;
+  position: sticky;
+  top: 96px;
+}
+
+.contactList {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1.2rem;
+}
+
+.contactList p {
+  border-left: 3px solid var(--primary-red);
+  margin: 0;
+  padding-left: 0.9rem;
+}
+
+.contactList span {
+  color: var(--text-light);
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.contactList strong,
+.contactList a {
+  color: var(--primary-blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.quickLinks {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.4rem;
+}
+
+.quickLinks a {
+  background: #101826;
+  color: var(--white);
+}
+
+.quickLinks a:hover {
+  background: var(--primary-red);
+}
+
+@media (max-width: 980px) {
+  .heroGrid,
+  .formLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .heroPanel,
+  .contactCard {
+    max-width: 460px;
+  }
+
+  .contactCard {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero,
+  .formSection {
+    padding: 3.5rem 0;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .quoteForm {
+    padding: 1.25rem;
+  }
+
+  .formActions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .formActions button,
+  .formActions a {
+    width: 100%;
+  }
+}

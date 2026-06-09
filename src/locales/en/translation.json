@@ -52,6 +52,13 @@
       "hospital": "ISOVER U PROTECT and CLIMCOVER for HVAC distribution.",
       "ikea": "ISOVER S mineral wool for roof envelope reconstruction."
     },
+    "reviewsKicker": "Google reviews",
+    "reviewsTitle": "Customers value expert consulting, product range and service",
+    "reviewsSubtitle": "Selected public reviews for the Trenčín branch. You can view more ratings directly on the Google profiles of the Trenčín and Zvolen branches.",
+    "reviewsRatingAria": "Google rating of the Trenčín branch 4.7 out of 5",
+    "reviewsCount": "53 reviews",
+    "reviewsTrencinLink": "Trenčín reviews",
+    "reviewsZvolenLink": "Zvolen reviews",
     "suppliersSubtitle": "Proven manufacturers and stable product range",
     "ctaTitle": "Need insulation pricing from a bill of quantities?",
     "ctaText": "Send us project documents or a technical report. We will recommend suitable materials, alternatives and delivery logistics.",
@@ -355,5 +362,50 @@
     "services": "Our Services",
     "contact": "Contact",
     "copyright": "© 2024 Izol systém, s.r.o. All rights reserved."
+  },
+  "quote": {
+    "heroKicker": "Quote request / technical brief",
+    "title": "Request a quote",
+    "subtitle": "Send us the basic project, material or application details. The sales team will receive your message and you will get a confirmation email with a copy of the request.",
+    "panelLabel": "What helps pricing",
+    "panelTitle": "bill of quantities / material type / deadline",
+    "panelText": "The more precise your brief is, the faster we can check availability and prepare an offer.",
+    "formKicker": "Form",
+    "formTitle": "Contact details and request",
+    "defaultSubject": "Quote request",
+    "fields": {
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "material": "Material or application",
+      "quantity": "Quantity or scope",
+      "deadline": "Requested deadline",
+      "message": "Message"
+    },
+    "placeholders": {
+      "subject": "e.g. K-FLEX insulation for HVAC",
+      "material": "e.g. K-FLEX, UNIFRAX, EPS, mineral wool",
+      "quantity": "e.g. m?, linear metres, m?, package count",
+      "deadline": "e.g. this week, within 14 days, exact date",
+      "message": "Describe the application, dimensions, technical requirements or paste the bill of quantities."
+    },
+    "consent": "I agree to the processing of the provided data for handling this quote request.",
+    "submit": "Send request",
+    "sending": "Sending...",
+    "successTitle": "Request sent",
+    "successMessage": "You will receive a confirmation email with a copy of your message and company contact details.",
+    "errorMessage": "The form could not be sent. Please try again or contact us by phone.",
+    "contactAlternative": "Use direct contact",
+    "contactCard": {
+      "kicker": "Direct contact",
+      "title": "Need a faster answer?",
+      "nameLabel": "Company",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "salesLabel": "Sales",
+      "addressLabel": "Registered office"
+    }
   }
 }
