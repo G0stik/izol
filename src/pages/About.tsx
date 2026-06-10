@@ -67,7 +67,7 @@ const About = () => {
       <section className={styles.statsBand}>
         <div className={styles.container}>
           <article>
-            <strong>23+</strong>
+            <strong>25+</strong>
             <span>{t('about.stats.experience')}</span>
           </article>
           <article>

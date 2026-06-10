@@ -11,6 +11,14 @@ interface QuoteRequestBody {
   quantity?: string
   deadline?: string
   message?: string
+  attachments?: QuoteAttachment[]
+}
+
+interface QuoteAttachment {
+  name?: string
+  type?: string
+  size?: number
+  content?: string
 }
 
 const companyContact = {
@@ -44,6 +52,8 @@ const requiredEnv = (key: string) => {
 }
 
 const debugEnabled = () => process.env.SMTP_DEBUG !== 'false'
+const MAX_ATTACHMENT_COUNT = 5
+const MAX_ATTACHMENT_TOTAL_SIZE = 3 * 1024 * 1024
 
 const debugLog = (message: string, meta?: Record<string, unknown>) => {
   if (!debugEnabled()) return
@@ -68,6 +78,38 @@ const renderRows = (rows: Array<[string, string]>) =>
       `
     )
     .join('')
+
+const normalizeAttachmentName = (name: string) =>
+  name.replace(/[<>:"/\\|?*\x00-\x1F]/g, '_').slice(0, 160) || 'attachment'
+
+const normalizeAttachments = (attachments: unknown) => {
+  if (!Array.isArray(attachments)) return []
+
+  if (attachments.length > MAX_ATTACHMENT_COUNT) {
+    throw new Error(`Too many attachments. Maximum is ${MAX_ATTACHMENT_COUNT}.`)
+  }
+
+  const normalized = attachments.map((attachment) => {
+    const item = attachment as QuoteAttachment
+    const encodedContent = normalizeValue(item.content)
+    const content = Buffer.from(encodedContent, 'base64')
+
+    return {
+      filename: normalizeAttachmentName(normalizeValue(item.name)),
+      contentType: normalizeValue(item.type) || 'application/octet-stream',
+      size: content.byteLength,
+      content
+    }
+  })
+
+  const totalSize = normalized.reduce((sum, attachment) => sum + attachment.size, 0)
+
+  if (totalSize > MAX_ATTACHMENT_TOTAL_SIZE) {
+    throw new Error('Attachments are too large. Maximum total size is 3 MB.')
+  }
+
+  return normalized
+}
 
 const renderEmailLayout = (title: string, intro: string, body: string) => `
   <div style="margin:0;padding:0;background:#f6f7f9;font-family:Arial,sans-serif;color:#0f172a;">
@@ -118,6 +160,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const quantity = normalizeValue(body.quantity)
     const deadline = normalizeValue(body.deadline)
     const message = normalizeValue(body.message)
+    const attachments = normalizeAttachments(body.attachments)
+    const attachmentNames = attachments
+      .map((attachment) => `${attachment.filename} (${Math.round(attachment.size / 1024)} kB)`)
+      .join(', ')
 
     debugLog('payload normalized', {
       hasName: Boolean(name),
@@ -128,7 +174,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       hasMaterial: Boolean(material),
       hasQuantity: Boolean(quantity),
       hasDeadline: Boolean(deadline),
-      messageLength: message.length
+      messageLength: message.length,
+      attachmentCount: attachments.length,
+      attachmentBytes: attachments.reduce((sum, attachment) => sum + attachment.size, 0)
     })
 
     if (!name || !email || !phone || !message) {
@@ -150,7 +198,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       ['Materiál / použitie', material],
       ['Množstvo / rozsah', quantity],
       ['Termín', deadline],
-      ['Správa', message]
+      ['Správa', message],
+      ['Prílohy', attachmentNames]
     ]
 
     const smtpHost = requiredEnv('SMTP_HOST')
@@ -204,6 +253,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       to,
       replyTo: email,
       subject: `Cenová ponuka: ${subject}`,
+      attachments,
       html: renderEmailLayout(
         'Nová žiadosť o cenovú ponuku',
         'Na webe bola odoslaná nová žiadosť o cenovú ponuku.',

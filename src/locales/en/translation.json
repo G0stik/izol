@@ -45,7 +45,7 @@
       }
     ],
     "referencesKicker": "References",
-    "referencesTitle": "Insulation deliveries for major projects",
+    "referencesTitle": "Successful projects with our insulation deliveries",
     "referencesLink": "View projects",
     "references": {
       "zuckermandel": "K-FLEX insulation for chilled-water lines, HVAC and acoustics.",
@@ -496,6 +496,7 @@
       "material": "Material or application",
       "quantity": "Quantity or scope",
       "deadline": "Requested deadline",
+      "attachments": "Attachments",
       "message": "Message"
     },
     "placeholders": {
@@ -508,6 +509,13 @@
     "consent": "I agree to the processing of the provided data for handling this quote request.",
     "submit": "Send request",
     "sending": "Sending...",
+    "attachment": {
+      "hint": "Optional: PDF, Word, Excel, images or TXT. Maximum 5 files and 3 MB total.",
+      "selected": "Selected files",
+      "clear": "Remove attachments",
+      "tooMany": "You can attach up to 5 files.",
+      "tooLarge": "Attachments are too large. The maximum total size is 3 MB."
+    },
     "successTitle": "Request sent",
     "successMessage": "You will receive a confirmation email with a copy of your message and company contact details.",
     "errorMessage": "The form could not be sent. Please try again or contact us by phone.",

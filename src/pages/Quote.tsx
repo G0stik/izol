@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react'
+import { ChangeEvent, FormEvent, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import styles from './Quote.module.css'
@@ -17,6 +17,12 @@ interface QuoteFormState {
 }
 
 type SubmitState = 'idle' | 'sending' | 'success' | 'error'
+type EncodedAttachment = {
+  name: string
+  type: string
+  size: number
+  content: string
+}
 
 const initialFormState: QuoteFormState = {
   name: '',
@@ -31,14 +37,78 @@ const initialFormState: QuoteFormState = {
   consent: false
 }
 
+const MAX_ATTACHMENT_COUNT = 5
+const MAX_ATTACHMENT_TOTAL_SIZE = 3 * 1024 * 1024
+
+const formatFileSize = (size: number) => {
+  if (size >= 1024 * 1024) {
+    return `${(size / (1024 * 1024)).toFixed(1)} MB`
+  }
+
+  return `${Math.max(1, Math.round(size / 1024))} kB`
+}
+
+const encodeFile = (file: File) =>
+  new Promise<EncodedAttachment>((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => {
+      const result = String(reader.result)
+      const content = result.includes(',') ? result.split(',')[1] : result
+      resolve({
+        name: file.name,
+        type: file.type || 'application/octet-stream',
+        size: file.size,
+        content
+      })
+    }
+    reader.onerror = () => reject(reader.error)
+    reader.readAsDataURL(file)
+  })
+
 const Quote = () => {
   const { t } = useTranslation()
   const [form, setForm] = useState<QuoteFormState>(initialFormState)
+  const [attachments, setAttachments] = useState<File[]>([])
   const [submitState, setSubmitState] = useState<SubmitState>('idle')
   const [errorMessage, setErrorMessage] = useState('')
+  const fileInputRef = useRef<HTMLInputElement | null>(null)
+
+  const attachmentTotalSize = attachments.reduce((sum, file) => sum + file.size, 0)
 
   const updateField = (field: keyof QuoteFormState, value: string | boolean) => {
     setForm((current) => ({ ...current, [field]: value }))
+  }
+
+  const handleAttachmentChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const selectedFiles = Array.from(event.target.files ?? [])
+    const nextFiles = selectedFiles.slice(0, MAX_ATTACHMENT_COUNT)
+    const nextSize = nextFiles.reduce((sum, file) => sum + file.size, 0)
+
+    setAttachments(nextFiles)
+
+    if (selectedFiles.length > MAX_ATTACHMENT_COUNT) {
+      setSubmitState('error')
+      setErrorMessage(t('quote.attachment.tooMany'))
+      return
+    }
+
+    if (nextSize > MAX_ATTACHMENT_TOTAL_SIZE) {
+      setSubmitState('error')
+      setErrorMessage(t('quote.attachment.tooLarge'))
+      return
+    }
+
+    if (submitState === 'error') {
+      setSubmitState('idle')
+      setErrorMessage('')
+    }
+  }
+
+  const clearAttachments = () => {
+    setAttachments([])
+    if (fileInputRef.current) {
+      fileInputRef.current.value = ''
+    }
   }
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -47,6 +117,12 @@ const Quote = () => {
     setErrorMessage('')
 
     try {
+      if (attachmentTotalSize > MAX_ATTACHMENT_TOTAL_SIZE) {
+        throw new Error(t('quote.attachment.tooLarge'))
+      }
+
+      const encodedAttachments = await Promise.all(attachments.map(encodeFile))
+
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
@@ -61,7 +137,8 @@ const Quote = () => {
           material: form.material,
           quantity: form.quantity,
           deadline: form.deadline,
-          message: form.message
+          message: form.message,
+          attachments: encodedAttachments
         })
       })
 
@@ -78,6 +155,7 @@ const Quote = () => {
 
       setSubmitState('success')
       setForm(initialFormState)
+      clearAttachments()
     } catch (error) {
       setSubmitState('error')
       const details = error instanceof Error ? ` (${error.message})` : ''
@@ -195,6 +273,42 @@ const Quote = () => {
                   required
                 />
               </label>
+
+              <label className={styles.fullField}>
+                <span>{t('quote.fields.attachments')}</span>
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  multiple
+                  onChange={handleAttachmentChange}
+                  accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.jpg,.jpeg,.png,.webp,.txt"
+                />
+                <small className={styles.fieldHint}>
+                  {t('quote.attachment.hint')}
+                </small>
+              </label>
+
+              {attachments.length > 0 && (
+                <div className={styles.attachmentList}>
+                  <div>
+                    <strong>{t('quote.attachment.selected')}</strong>
+                    <span>
+                      {attachments.length} / {MAX_ATTACHMENT_COUNT} · {formatFileSize(attachmentTotalSize)}
+                    </span>
+                  </div>
+                  <ul>
+                    {attachments.map((file) => (
+                      <li key={`${file.name}-${file.size}`}>
+                        <span>{file.name}</span>
+                        <small>{formatFileSize(file.size)}</small>
+                      </li>
+                    ))}
+                  </ul>
+                  <button type="button" onClick={clearAttachments}>
+                    {t('quote.attachment.clear')}
+                  </button>
+                </div>
+              )}
 
               <label className={styles.consent}>
                 <input

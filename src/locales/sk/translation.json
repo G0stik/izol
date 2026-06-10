@@ -45,7 +45,7 @@
       }
     ],
     "referencesKicker": "Referencie",
-    "referencesTitle": "Dodávky izolácií pre výrazné projekty",
+    "referencesTitle": "Úspešné projekty s našimi izoláciami",
     "referencesLink": "Zobraziť projekty",
     "references": {
       "zuckermandel": "K-FLEX izolácie pre chladiace rozvody, VZT a akustiku.",
@@ -460,6 +460,7 @@
       "material": "Materiál alebo použitie",
       "quantity": "Množstvo alebo rozsah",
       "deadline": "Požadovaný termín",
+      "attachments": "Prílohy",
       "message": "Správa"
     },
     "placeholders": {
@@ -472,6 +473,13 @@
     "consent": "Súhlasím so spracovaním uvedených údajov za účelom vybavenia žiadosti o cenovú ponuku.",
     "submit": "Odoslať žiadosť",
     "sending": "Odosiela sa...",
+    "attachment": {
+      "hint": "Voliteľné: PDF, Word, Excel, obrázky alebo TXT. Maximálne 5 súborov a spolu 3 MB.",
+      "selected": "Vybrané súbory",
+      "clear": "Odstrániť prílohy",
+      "tooMany": "Môžete priložiť maximálne 5 súborov.",
+      "tooLarge": "Prílohy sú príliš veľké. Maximálna celková veľkosť je 3 MB."
+    },
     "successTitle": "Žiadosť bola odoslaná",
     "successMessage": "Na email vám príde potvrdenie s kópiou správy a kontaktnými údajmi spoločnosti.",
     "errorMessage": "Formulár sa nepodarilo odoslať. Skúste to prosím znova alebo nás kontaktujte telefonicky.",
