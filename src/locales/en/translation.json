@@ -16,18 +16,18 @@
     "getQuote": "Get a quote",
     "ourProducts": "Our products",
     "suppliersTitle": "Suppliers",
-    "heroEyebrow": "Izol syst?m, s.r.o. / since 2001",
+    "heroEyebrow": "Izol system, s.r.o. / since 2001",
     "heroVisualAria": "Insulation materials warehouse",
-    "heroVisualAlt": "Izol syst?m insulation materials warehouse",
+    "heroVisualAlt": "Izol system insulation materials warehouse",
     "heroVisualLabel": "Materials for",
-    "tempRange": "-260 ?C to +1430 ?C",
+    "tempRange": "-260 °C to +1430 °C",
     "kflexImporter": "official importer for Slovakia",
     "warehouseCount": "2 warehouses",
     "warehouseLocations": "Trencin and Zvolen",
     "productSectionKicker": "Products",
     "productSectionTitle": "Insulation solutions for technical systems, construction and industry",
     "allProducts": "All products",
-    "advantageKicker": "Why Izol syst?m",
+    "advantageKicker": "Why Izol system?",
     "advantageTitle": "Technical partner from material selection to site delivery",
     "advantageImageAlt": "Klingerka reference project",
     "advantages": [
@@ -65,7 +65,7 @@
     "ctaText": "Send us project documents or a technical report. We will recommend suitable materials, alternatives and delivery logistics.",
     "productMeta": {
       "kflex": "K-FLEX / HVAC / chilled-water lines",
-      "refractory": "UNIFRAX / SIBRAL / +1430 ?C",
+      "refractory": "UNIFRAX / SIBRAL / +1430 °C",
       "building": "EPS / XPS / mineral wool",
       "technical": "EI30-EI240 / HVAC / building services"
     }
@@ -74,7 +74,7 @@
     "title": "About Izol systém, s.r.o.",
     "subtitle": "Trusted Partner in Thermal Insulation Since 2001",
     "ourStory": "Our Story",
-    "ourStoryText": "We have operated on the Slovak market since 2001. Based in Trencin, we specialize in supplying thermal insulation materials and accessories for extreme temperatures from -260 ?C up to +1430 ?C. We focus primarily on wholesale distribution of building, technical, cold, acoustic, fire-resistant, and high-temperature insulation. Thanks to extensive warehouse capacity, our own transport, and many years of experience, we are a leading and reliable partner for projects in Slovakia and abroad.",
+    "ourStoryText": "We have operated on the Slovak market since 2001. Based in Trencin, we specialize in supplying thermal insulation materials and accessories for extreme temperatures from -260 °C up to +1430 °C. We focus primarily on wholesale distribution of building, technical, cold, acoustic, fire-resistant, and high-temperature insulation. Thanks to extensive warehouse capacity, our own transport, and many years of experience, we are a leading and reliable partner for projects in Slovakia and abroad.",
     "ourMission": "Our Mission",
     "ourMissionText": "To deliver quality, proven insulation solutions for civil, commercial, and industrial buildings. As the official importer and distributor of synthetic rubber insulation K-FLEX for Slovakia and a supplier of high-temperature materials from global manufacturers (e.g., UNIFRAX, ROCKWOOL, KNAUF INSULATION, ISOVER), we emphasize expert consulting, technical accuracy, and efficient, tailored solutions for our customers.",
     "ourValues": "Our Values",
@@ -114,7 +114,7 @@
     "profileTitle": "wholesale / warehouse / transport",
     "profileText": "Insulation materials for buildings, technical systems, cold, fire and high temperatures.",
     "kflexImporter": "official importer for Slovakia",
-    "storyImageAlt": "Izol syst?m warehouse",
+    "storyImageAlt": "Izol system warehouse",
     "storyKicker": "Company",
     "valuesTitle": "Technical accuracy, material availability and long-term business relationships"
   },
@@ -166,7 +166,7 @@
     "portfolioKicker": "Portfolio",
     "portfolioTitle": "Complete solutions for thermal, technical and fire protection insulation",
     "tempLabel": "Temperature range",
-    "tempRange": "-260 ?C to +1430 ?C",
+    "tempRange": "-260 °C to +1430 °C",
     "brandsLabel": "Key brands",
     "brands": "K-FLEX / UNIFRAX / ISOVER",
     "availabilityLabel": "Availability",
@@ -186,7 +186,7 @@
     },
     "refractory": {
       "title": "UNIFRAX (SIBRAL) refractory insulation",
-      "description": "Silica fibres resistant up to 1430 ?C for flues, chimneys and industrial heat-stressed equipment.",
+      "description": "Silica fibres resistant up to 1430 °C for flues, chimneys and industrial heat-stressed equipment.",
       "items": {
         "flues": "Flues, chimneys and refractory linings",
         "furnaces": "Boilers, furnaces, burners and heating chambers",
@@ -248,7 +248,7 @@
       "phone": "+421 903 770 121",
       "email": "masarikova@izol-system.sk",
       "position": "Sales Manager",
-      "contactPerson1": "Juraj Ondru?",
+      "contactPerson1": "Juraj Ondruš",
       "position1": "Managing Director",
       "phone1": "+421 903 728 371",
       "email1": "ondrus@izol-system.sk"
@@ -286,7 +286,7 @@
     },
     "consultation": {
       "title": "Technical consulting and solution design",
-      "description": "We help select materials for -260 ?C to +1430 ?C, HVAC assemblies, EI30-EI240 fire protection systems and thermal calculations according to project needs."
+      "description": "We help select materials for -260 °C to +1430 °C, HVAC assemblies, EI30-EI240 fire protection systems and thermal calculations according to project needs."
     },
     "custom": {
       "title": "Quotes and specifications",
@@ -300,7 +300,7 @@
     "quoteCta": "Get a quote",
     "productsCta": "View products",
     "panelLabel": "Material range",
-    "panelRange": "-260 ?C to +1430 ?C",
+    "panelRange": "-260 °C to +1430 °C",
     "panelText": "K-FLEX, UNIFRAX, mineral wool, EPS/XPS and fire protection systems.",
     "sectionKicker": "What we provide",
     "sectionTitle": "Support from insulation selection to delivery on site",
@@ -351,7 +351,7 @@
     "imageAlt": "Gallery image",
     "heroKicker": "Gallery / warehouse / materials",
     "sectionKicker": "Photo documentation",
-    "sectionTitle": "Stock, materials and Izol syst?m facilities",
+    "sectionTitle": "Stock, materials and Izol system facilities",
     "previousImage": "Previous image",
     "nextImage": "Next image",
     "closeGallery": "Close gallery"
@@ -363,6 +363,119 @@
     "services": "Our Services",
     "contact": "Contact",
     "copyright": "© 2024 Izol systém, s.r.o. All rights reserved."
+  },
+    "advice": {
+    "schemaName": "Insulation selection advice",
+    "heroKicker": "Advice / insulation selection",
+    "title": "Expert answers about technical and building insulation",
+    "subtitle": "Practical explanations for material selection, HVAC ducts, fire protection systems, high-temperature applications, accessories and quote preparation.",
+    "panelLabel": "Izol systém, s.r.o.",
+    "panelTitle": "wholesale / warehouse / technical consulting",
+    "panelText": "Materials for chilled-water lines, HVAC, buildings, fire protection and industrial temperatures.",
+    "introCards": [
+      {
+        "label": "Material range",
+        "value": "-260 °C to +1430 °C",
+        "text": "Rubber insulation, mineral and glass wool, EPS/XPS, fire protection and refractory insulation."
+      },
+      {
+        "label": "Typical support",
+        "value": "selection / alternative / availability",
+        "text": "Support with material specification according to application, bill of quantities and technical report."
+      },
+      {
+        "label": "Delivery",
+        "value": "Trenčín and Zvolen",
+        "text": "Warehouse facilities, wholesale deliveries and coordination of transport to the construction site."
+      }
+    ],
+    "faqKicker": "Common technical questions",
+    "faqTitle": "Choosing insulation by application",
+    "faqs": [
+      {
+        "question": "What type of insulation is suitable for chilled-water lines?",
+        "answer": "For chilled-water lines, closed-cell elastomeric rubber insulation, such as K-FLEX, is commonly used. Its purpose is to reduce heat gain, condensation and, at low temperatures, frost formation. Correct insulation thickness, joints, penetrations and surface finish must be selected according to the environment."
+      },
+      {
+        "question": "When should K-FLEX rubber insulation be used?",
+        "answer": "K-FLEX rubber insulation is suitable mainly for chilled-water lines, air conditioning, HVAC, heating, solar circuits, pipes, tanks and technical equipment. In practice, it is used where thermal insulation, vapour tightness, flexibility and clean detailing are required together."
+      },
+      {
+        "question": "What is the difference between technical and building insulation?",
+        "answer": "Technical insulation is used on pipes, HVAC ducts, tanks, chimneys, process equipment and industrial applications. Building insulation is used mainly for roofs, facades, partitions, floors and the building envelope. The difference is in temperature range, fire requirements, mechanical load, surface finish and installation method."
+      },
+      {
+        "question": "Which insulation materials are suitable for HVAC ducts?",
+        "answer": "HVAC duct insulation is selected according to the purpose of the duct: rubber insulation for chilled-water and air-conditioning systems, mineral or glass wool for thermal and acoustic requirements, and certified systems for fire protection. The duct type, medium temperature, condensation risk, acoustics and fire resistance are decisive."
+      },
+      {
+        "question": "How is fire protection insulation for HVAC ducts designed?",
+        "answer": "Fire protection insulation for HVAC ducts is not only about a board or mat. It must be a tested system including insulation thickness, fixing, joints, penetrations and installation method. Air duct systems are classified according to the required fire resistance, for example EI30, EI60, EI90 or EI120."
+      },
+      {
+        "question": "What does fire resistance EI30 to EI240 mean?",
+        "answer": "The EI designation expresses fire resistance in terms of integrity and insulation for a specified time in minutes. EI30 means 30 minutes, EI120 means 120 minutes. For HVAC and technical services, the exact certified system, duct type, orientation, penetrations and installation instructions must always be checked."
+      },
+      {
+        "question": "When is mineral or glass wool suitable?",
+        "answer": "Mineral and glass wool are suitable for building insulation, technical services, HVAC, acoustic solutions and applications requiring non-combustibility, dimensional stability or combined thermal and acoustic insulation. The exact type depends on required strength, density, surface finish and fire classification."
+      },
+      {
+        "question": "Which insulation materials are used at high temperatures?",
+        "answer": "High-temperature applications use refractory materials such as ceramic fibres, blankets, boards or shaped products. They are used for boilers, furnaces, burners, flues, chimneys, linings and industrial equipment. Operating temperature, chemical environment, mechanical stress and safety requirements determine the choice."
+      },
+      {
+        "question": "When should UNIFRAX / SIBRAL refractory materials be used?",
+        "answer": "UNIFRAX / SIBRAL materials are used in applications where standard building or technical insulation is not sufficient for the temperature range. Typical uses include furnaces, boilers, burners, flue gas routes, chimneys and thermally stressed industrial parts. Operating temperature, equipment type and fixing method should be known before selection."
+      },
+      {
+        "question": "What documents are needed for a quote?",
+        "answer": "For accurate pricing, it helps to provide a bill of quantities, technical report, drawings, pipe or construction type, required insulation thickness, fire resistance, surface finish, quantities and delivery deadline. If the specification is unclear, Izol systém can recommend a suitable alternative according to the application."
+      },
+      {
+        "question": "Can you recommend an alternative to the specified material?",
+        "answer": "Yes. In wholesale supply, it is common to check availability, technical parameters and price alternatives. A replacement must still respect the required thermal conductivity, reaction to fire, fire resistance, temperature range, vapour tightness and system certificates where required by the project."
+      },
+      {
+        "question": "Do you also supply insulation accessories?",
+        "answer": "Yes. Insulation accessories include adhesives, cleaners, aluminium, PE, rubber and UV-stable tapes, welding pins, fixing elements, guns and small tools. For technical insulation, accessories are important for correct joints and details."
+      },
+      {
+        "question": "How is material delivered to the construction site?",
+        "answer": "Delivery depends on stock availability, order volume and site location. Izol systém dispatches materials from warehouses in Trenčín and Zvolen and coordinates transport for larger deliveries according to the project schedule. For time-critical sites, availability should be checked in advance."
+      },
+      {
+        "question": "Who are Izol systém services intended for?",
+        "answer": "The services are intended for contractors, installation companies, developers, designers, building services engineers, industrial operations, construction companies and purchasing departments that need wholesale insulation supply, technical consulting, quotes and logistics."
+      }
+    ],
+    "sources": {
+      "kicker": "Technical sources",
+      "title": "Manufacturers and system documentation",
+      "text": "For fire protection and special technical applications, the decisive factors are the exact tested system, certificate, installation procedure and project requirement.",
+      "links": [
+        {
+          "label": "K-FLEX technical and HVAC insulation",
+          "href": "https://kflex.com/home"
+        },
+        {
+          "label": "ISOVER HVAC fire safety",
+          "href": "https://www.isover-technical-insulation.com/hvac-fire-safety"
+        },
+        {
+          "label": "ROCKWOOL fire rated ductwork",
+          "href": "https://www.rockwool.com/group/products-and-applications/passive-fire-protection/fire-rated-ductwork/"
+        },
+        {
+          "label": "Knauf Insulation Fire-teK DuctProtect",
+          "href": "https://knaufinsulation-ts.com/en-HR/about-us/news/fire-tek-ductprotect-30-120-c-system"
+        }
+      ]
+    },
+    "ctaTitle": "Do you have a bill of quantities or technical brief?",
+    "ctaText": "Send us the documents and we will prepare material recommendations, availability and a quote.",
+    "quoteCta": "Request a quote",
+    "productsCta": "View products"
   },
   "quote": {
     "heroKicker": "Quote request / technical brief",
@@ -388,7 +501,7 @@
     "placeholders": {
       "subject": "e.g. K-FLEX insulation for HVAC",
       "material": "e.g. K-FLEX, UNIFRAX, EPS, mineral wool",
-      "quantity": "e.g. m?, linear metres, m?, package count",
+      "quantity": "e.g.  m², linear meters, m³, package count",
       "deadline": "e.g. this week, within 14 days, exact date",
       "message": "Describe the application, dimensions, technical requirements or paste the bill of quantities."
     },
