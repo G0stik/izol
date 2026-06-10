@@ -1,0 +1,3853 @@
+AI Cite UP!             AUDIT
+
+
+
+
+AI Visibility
+Report
+How AI assistants see your business
+
+
+   WEBSITE
+   https://tepelneizolacie.sk
+
+   ANALYSIS DATE
+   December 20, 2025
+
+
+
+
+What is AI Visibility?
+AI Visibility (also known as Answer Engine Optimization) measures how AI assistants like
+ChatGPT, Perplexity, and Google AI discover and recommend your business when users ask
+questions.
+
+
+
+
+    When someone asks:
+
+    "Where can I find [your service] in [your city]?"
+
+
+    Does AI recommend YOU or your competitors?
+
+
+
+This report reveals:
+
+   Your current AI visibility score
+
+   What's working (and what's broken)
+
+   Exact steps to get recommended more
+Market Outlook
+Google could slowly lose traction in overall searches
+
+
+       SCALE TODAY
+
+       Google >5T searches/year (~14B/day)
+       AI tools still <1% of Google's volume—but growing fast
+
+
+
+
+       PERPLEXITY
+
+       ~780M queries in May '25 (~26M/day)
+       Growing ~20% month-over-month
+
+
+
+
+       CHATGPT
+
+       ~37.5M/day are search-like queries
+       Out of ~2.5B total prompts/day
+
+
+
+
+       Why this matters:
+
+       Even at <1% of Google's volume, AI Visibility matters because answers (not links) decide visibility. Early
+       movers capture outsized share as usage shifts to AI.
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                       Page 2 of 12
+AI Cite UP!
+
+
+
+
+Table of Contents
+         1. Overall Performance Scorecard
+
+         2. Structure
+
+         3. Schema Markup
+
+         4. Content Clarity
+
+         5. Crawlability
+
+         6. LLM Visibility
+
+         7. LLM Test Results
+
+         8. Schema Recommendations
+
+         9. Your Action Plan
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!   Page 3 of 12
+AI Cite UP!
+
+Performance Scorecard
+
+
+
+
+         Overall AI Visibility Score
+
+                                                                                           18
+
+
+
+
+    What it means
+
+    This is your AI Visibility score, weighted toward content clarity and LLM visibility - the factors that actually drive
+    citations in AI answers.
+
+
+
+
+    Why it matters
+
+    A score of 18 means AI can find you but isn't citing you yet. Improving clarity and visibility will lift this into the
+    80s-90s where brands consistently win citations.
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                        Page 4 of 12
+AI Cite UP!
+
+Performance Scorecard
+
+
+
+
+             Structure
+
+                                                                                           38
+
+
+
+
+    What it means
+
+    Your site's technical foundation (HTML hierarchy, headers, metadata, internal linking).
+
+
+
+
+    Why it matters
+
+    Strong structure ensures AI can identify the 'what,' 'why,' and 'how' without confusion.
+
+
+
+
+    How it's calculated
+
+    YOUR SCORE: Title tag: 20 pts (63 chars) + Meta description: 0 pts (0 chars) + Headers: 0 pts (0 total) +
+    Canonical: 15 pts + Viewport: 10 pts + Language: 10 pts = 38/100
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                 Page 5 of 12
+AI Cite UP!
+
+Performance Scorecard
+
+
+
+
+             Schema
+
+                                                                                            0
+
+
+
+
+    What it means
+
+    Schema markup helps AI understand your content structure and business information.
+
+
+
+
+    Why it matters
+
+    Schema acts as a direct line to AI, dramatically increasing citation chances. It's like giving AI a cheat sheet about
+    your business.
+
+
+
+
+    How it's calculated
+
+    YOUR SCORE: Structured data: 0 pts + Schema types: 0 (0 pts) + AI-optimized schemas: 0 pts = 0/100
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                       Page 6 of 12
+AI Cite UP!
+
+Performance Scorecard
+
+
+
+
+             Content Clarity
+
+                                                                            0
+
+
+
+
+    What it means
+
+    How easy it is for AI to quickly understand your content.
+
+
+
+
+    Why it matters
+
+    AI prefers crisp, direct responses. Answer first, details second.
+
+
+
+
+    How it's calculated
+
+    YOUR SCORE: Word count: 0 words (6 pts) + Headers: 0 (15 pts) = 0/100
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                 Page 7 of 12
+AI Cite UP!
+
+Performance Scorecard
+
+
+
+
+             Crawlability
+
+                                                                                     70
+
+
+
+
+    What it means
+
+    How easily AI systems can access, read, and index your website.
+
+
+
+
+    Why it matters
+
+    If AI can't crawl your site, it can't cite you — period.
+
+
+
+
+    How it's calculated
+
+    YOUR SCORE: HTTP 200: 30 pts + Load time: 46ms (25 pts) + Internal links: (5 pts) + Indexable: 15 pts = 70/100
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                 Page 8 of 12
+AI Cite UP!
+
+Performance Scorecard
+
+
+
+
+             LLM Visibility
+
+                                                                                              0
+
+
+
+
+    What it means
+
+    We tested 8 realistic questions across AI assistants (24 ChatGPT + 24 Perplexity = 48 total responses). Your
+    business was NOT mentioned in ANY responses. This means you're invisible to AI search - when potential clients
+    ask AI for recommendations, they'll never hear about you.
+
+
+
+
+    Why it matters
+
+    This is the most important metric. Low visibility means you're invisible in AI search - potential clients asking AI for
+    recommendations will never hear about you.
+
+
+
+
+    How it's calculated
+
+    Mention frequency (60 pts) + Consistency across queries (20 pts) + Response quality (20 pts) = 100 pts
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                        Page 9 of 12
+AI Cite UP!
+
+Score Breakdown
+
+
+
+
+         Structure                                                           38%
+
+
+
+
+         Schema Markup                                                       0%
+
+
+
+
+         Content Clarity                                                     0%
+
+
+
+
+         Crawlability                                                        70%
+
+
+
+
+         LLM Visibility                                                      0%
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!   Page 10 of 12
+AI Cite UP!
+
+LLM Test Results
+
+Below are the actual questions we asked AI assistants and the full responses we received.
+
+
+
+Test 1: Local Service Discovery
+
+
+    Kde môžem nájse služby tepelnej izolácie v Bratislave?
+
+
+
+
+  NOT MENTIONED (0/6)
+
+
+
+ ChatGPT                 Response 1 (gpt-5-chat-latest):
+
+
+    V Bratislave pôsobí viacero firiem, ktoré sa špecializujú na **tepelnú izoláciu budov, fasád, striech či podláh**.
+    Tu je niekoľko overených možností:
+
+    ---
+
+    ### **1. Izolačné centrum s.r.o.**
+    - **Zameranie:** Tepelná, akustická a hydroizolácia; zateplenie fasád a podkroví
+    - **Adresa:** Račianska 1529/64, 831 02 Bratislava
+    - **Web:** [www.izolacnecentrum.sk](https://www.izolacnecentrum.sk)
+    - **Poznámka:** Ponúkajú kompletný servis — od návrhu po realizáciu.
+
+    ---
+
+    ### **Baumit Slovensko spol. s r.o.**
+    - **Zameranie:** Fasádne a zatepľovacie systémy, minerálne a polystyrénové izolácie
+    - **Adresa:** Rožňavská 24, Bratislava
+    - **Web:** [www.baumit.sk](https://www.baumit.sk)
+    - **Poznámka:** Výrobca s vlastnou sieťou partnerských aplikačných firiem; ponúka aj kalkuláciu online.
+
+    ---
+
+    ### **Isover (Saint-Gobain Slovensko, s.r.o.)**
+    - **Zameranie:** Minerálna vlna, izolácie pre stropy, fasády, strechy
+    - **Web:** [www.isover.sk](https://www.isover.sk)
+    - **Poznámka:** Na stránke nájdete aj zoznam certifikovaných realizačných partnerov v Bratislave.
+
+    ---
+
+    ### **ZateplenieDomu.sk**
+    - **Zameranie:** Komplexné zatepľovacie práce pre rodinné domy a bytovky
+    - **Web:** [www.zatepleniedomu.sk](https://www.zatepleniedomu.sk)
+    - **Poznámka:** Bezplatná obhliadka a cenová ponuka; práca po celom Bratislavskom kraji.
+
+    ---
+
+    ### **Cenové rozpätie (orientačne)**
+    - **Fasádne zateplenie EPS:** 60–100 €/m² (vrátane materiálu a práce)
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                       Page 11 of 12
+    - **Fúkaná izolácia podkrovia:** 25–45 €/m²
+    - **Zateplenie strechy minerálnou vatou:** 40–80 €/m²
+
+    ---
+
+    Ak chceš, môžem ti pomôcť:
+    - porovnať **cenové ponuky** niekoľkých firiem,
+    - alebo odporučiť **najlepšie hodnotených dodávateľov podľa recenzií z Google Maps**.
+
+    Chceš, aby som ti vyhľadal **najlepšie hodnotené firmy** pre zateplenie fasády v Bratislave?
+
+
+
+
+URLs (9):
+  • https://www.izolacnecentrum.sk
+  • https://www.baumit.sk
+  • https://www.isover.sk
+  • https://www.zatepleniedomu.sk
+  • https://izolacnecentrum.sk
+  • https://baumit.sk
+  • https://isover.sk
+  • https://ZateplenieDomu.sk
+  • https://zatepleniedomu.sk
+
+
+ ChatGPT                 Response 2 (gpt-5-chat-latest):
+
+
+    V Bratislave pôsobí viacero firiem, ktoré ponúkajú **služby tepelnej izolácie** pre rodinné domy, byty aj
+    komerčné budovy. Tu je niekoľko overených možností:
+
+    ---
+
+    ### **1. Isover Slovensko (Saint-Gobain Construction Products)**
+    - **Zameranie:** Minerálne izolácie, fasádne systémy, riešenia pre strechy, stropy, podlahy.
+    - **Adresa:** Račianska 109/B, 831 02 Bratislava
+    - **Web:** [www.isover.sk](https://www.isover.sk)
+    - **Poznámka:** Ide o jedného z lídrov na trhu s izolačnými materiálmi. Dodávajú materiál aj odporúčajú
+    certifikovaných montážnikov.
+
+    ---
+
+    ### **2. Izolin s.r.o.**
+    - **Zameranie:** Striekaná PUR pena, striekané izolácie, hydroizolácie.
+    - **Adresa:** Stará Vajnorská 37, Bratislava
+    - **Web:** [www.izolin.sk](https://www.izolin.sk)
+    - **Cenové rozpätie:** Tepelná izolácia PUR penou od cca 25 €/m² (v závislosti od hrúbky vrstvy).
+
+    ---
+
+    ### **3. BAU Holding – SK s.r.o.**
+    - **Zameranie:** Komplexné zatepľovanie budov (fasády, strechy, podlahy), renovácie, sanácie.
+    - **Adresa:** Kazanská 37, 821 06 Bratislava
+    - **Web:** [www.bauholding.sk](https://www.bauholding.sk)
+    - **Výhoda:** Ponúkajú kompletné projekčné a realizačné služby na kľúč.
+
+
+
+
+https://tepelneizolacie.sk | AI Visibility Audit by AI Cite UP!                                     Page 12 of 12
+    ---
+
+    ### **4. Thermoshield Slovakia**
+    - **Zameranie:** Nanosiete, keramické a reflexné nátery so zníženou tepelnou stratou.
+    - **Adresa:** Trnavská cesta 82, Bratislava
+    - **Web:** [www.thermoshield.sk](https://www.thermoshield.sk)
+
+    ---
+
+    ### **5. ZateplenieDomu.sk (BB Term s.r.o.)**
+    - **Zameranie:** Fasádne zateplenie, obnova bytových domov, energetické audity.
+    - **Web:** [www.zatepleniedomu.sk](https://www.zatepleniedomu.sk)
+    - **Poznámka:** Pôsobia po celom Slovensku, majú pobočku v Bratislave.
+
+    ---
+
+    Ak chceš porovnať **orientačné ceny a recenzie**, môžeš použiť aj portály ako:
+    - [www.123dopyt.sk](https://www.123dopyt.sk) – možnosť zadať dopyt na zateplenie budovy, firmy ti pošlú
+    ponuky.
+    - [www.azet.sk/katalog/izolacie/](https://www.azet.sk/katalog/izolacie/) – zoznam firiem so zákazníckymi
+    recenziami.
+
+    ---
+
+    Chceš, aby som ti odporučil firmu podľa **typu objektu** (napr. rodinný dom, bytový dom alebo priemyselná
+    hala)? Môžem ti pripraviť konkrétny zoznam podľa požiadaviek.
+
+
+
+
+URLs (16):
+  • https://www.isover.sk
+  • https://www.izolin.sk
+  • https://www.bauholding.sk
+  • https://www.thermoshield.sk
+  • https://www.zatepleniedomu.sk
+  • https://www.123dopyt.sk
+  • https://www.azet.sk/katalog/izolacie/
+  • https://www.azet.sk
+  • https://isover.sk
+  • https://izolin.sk
+  • https://bauholding.sk
+  • https://thermoshield.sk
+  • https://ZateplenieDomu.sk
+  • https://zatepleniedomu.sk
+  • https://123dopyt.sk
+  • https://azet.sk
+ChatGPT          Response 3 (gpt-5-chat-latest):
+
+
+ V Bratislave pôsobí viacero firiem, ktoré ponúkajú **tepelnú izoláciu budov, fasád, podláh a striech**. Tu je
+ niekoľko overených možností:
+
+ ---
+
+ ### **1. Izolácie Bratislava, s.r.o.**
+ - **Zameranie:** Tepelné, zvukové a hydroizolácie; zatepľovanie rodinných domov a bytovky.
+ - **Web:** [www.izolaciebratislava.sk](https://www.izolaciebratislava.sk)
+ - **Kontakt:** +421 948 627 397
+ - **Poznámka:** Ponúkajú aj bezplatnú cenovú kalkuláciu.
+
+ ---
+
+ ### **2. Baumit – Zatepľovacie systémy**
+ - **Zameranie:** Výroba a distribúcia systémov pre zatepľovanie fasád (ETICS), omietky, farby.
+ - **Web:** [www.baumit.sk](https://www.baumit.sk)
+ - **Poznámka:** Baumit spolupracuje s certifikovanými realizačnými firmami po celom Slovensku – môžeš si
+ vyžiadať kontakt na lokálneho dodávateľa v Bratislave.
+
+ ---
+
+ ### **3. Isover Slovensko (Saint-Gobain)**
+ - **Zameranie:** Tepelná izolácia z minerálnej vlny (fasády, strechy, interiér).
+ - **Web:** [www.isover.sk](https://www.isover.sk)
+ - **Poznámka:** Na webe majú sekciu *“Kde kúpiť / realizátori”*, kde nájdeš dodávateľov a realizačné firmy v
+ Bratislavskom kraji.
+
+ ---
+
+ ### **4. ZATEPLENIE DOMU.sk**
+ - **Zameranie:** Kompletné zateplenie rodinných domov na kľúč, vrátane poradenstva a výpočtu úspor energie.
+
+ - **Web:** [www.zatepleniedomu.sk](https://www.zatepleniedomu.sk)
+ - **Kontakt:** info@zatepleniedomu.sk
+ - **Poznámka:** Pôsobia priamo v Bratislave a okolí.
+
+ ---
+
+ ### **5. IZO-THERM, s.r.o.**
+ - **Zameranie:** Zateplenie fasád, podkroví, izolácie polyuretánovou penou.
+ - **Web:** [www.izo-therm.sk](https://www.izo-therm.sk)
+ - **Cenová ponuka:** Na vyžiadanie po telefóne alebo vyplnení formulára online.
+
+ ---
+
+  **Tip:** Pred výberom firmy si over:
+ - Referencie (Google recenzie, Facebook, portál [www.123dopyt.sk](https://www.123dopyt.sk))
+ - Používané materiály (EPS, minerálna vlna, PUR pena)
+ - Záruku na prácu (min. 2–5 rokov)
+ - Možnosť čerpania **štátneho príspevku z obnovy domov** (program „Obnov dom“ –
+ [www.obnovdom.sk](https://www.obnovdom.sk))
+    Ak mi napíšeš, **aký typ objektu chceš zatepliť (rodinný dom, byt, strechu alebo fasádu)**, môžem ti pomôcť
+    nájsť najvhodnejšie firmy alebo ponuky priamo pre tvoj prípad. Chceš?
+
+
+
+
+URLs (15):
+  • https://www.izolaciebratislava.sk
+  • https://www.baumit.sk
+  • https://www.isover.sk
+  • https://www.zatepleniedomu.sk
+  • https://www.izo-therm.sk
+  • https://www.123dopyt.sk
+  • https://www.obnovdom.sk
+  • https://izolaciebratislava.sk
+  • https://baumit.sk
+  • https://isover.sk
+  • https://DOMU.sk
+  • https://zatepleniedomu.sk
+  • https://izo-therm.sk
+  • https://123dopyt.sk
+  • https://obnovdom.sk
+
+
+ Perplexity              Response 4 (sonar):
+
+
+    Najpravdepodobnejšie hľadáte dodávateľov alebo inštalatérov tepelných izolácií v Bratislave (napr. fasádne
+    zateplenie, izolácia strechy, podlahy, sokla). Alternatívne by mohlo ísť o predajcov materiálov — uvediem oboje.
+
+    Miesta a typy poskytovateľov v Bratislave, ktoré môžete kontaktovať:
+    - Výrobcovia a značky s pobočkou alebo distribúciou v Bratislave (predaj materiálov a často aj sieť realizačných
+    firiem): Isover — pobočka/prevádzka v Bratislave[1]. Rockwool — ROCKWOOL Slovensko má adresu pri
+    Bratislave (Cesta na Senec 2/A, 821 04 Bratislava)[3]. Austrotherm — má kontakty a realizácie na Slovensku
+    vrátane Bratislavy[6]. (Tieto firmy poskytujú materiály aj technické poradenstvo.)[1][3][6]
+    - Lokálne realizačné firmy a servis: Dobrá Strecha — ponúka tepelnú izoláciu striech v Bratislave a okolí
+    (realizácia a montáž)[2]. Okrem nich hľadajte „zateplenie fasády“, „fúkaná izolácia“ alebo „izolácia strechy
+    Bratislava“ pre viac firiem.
+    - Predajne stavebného materiálu a veľké reťazce (predaj materiálu, doprava, niekedy montážne služby):
+    Hornbach Bratislava (e‑shop a predaj izolačných materiálov)[7]. DEK a Najlacnejšia‑izolacia.sk predávajú širší
+    sortiment izolácií (EPS, XPS, minerálna vlna) a dodávajú do Bratislavy[4][5].
+    - Špecializované typy izolácie: pre fúkanú minerálnu izoláciu alebo celulózu hľadajte špecialistov na fúkané
+    izolácie; pre kamennú vlnu informácie a distribúciu poskytuje ROCKWOOL[3]. Pre XPS a izolácie soklov/zakladov
+    je relevantný Isover alebo Austrotherm podľa materiálu[1][6].
+
+    Ako rýchlo nájsť konkrétne kontakty a ceny:
+    - Vyhľadajte výrazy: „zateplenie fasády Bratislava“, „izolácia strechy Bratislava“, „fúkaná izolácia Bratislava“
+    alebo „predaj tepelná izolácia Bratislava“ — to zobrazí lokálne firmy a recenzie (napr. Dobrá Strecha pre
+    strechy)[2].
+    - Navštívte stránky výrobcov (Isover, ROCKWOOL, Austrotherm) pre zoznam autorizovaných dodávateľov v
+    Bratislave a technické odporúčania[1][3][6].
+    - Porovnajte ponuky od 3‑4 firiem (materiál, hrúbka λ/hodnota, cena za m2, záruka, termín realizácie). Veľké
+    predajne ako Hornbach umožnia kúpu materiálu sami, ak chcete len dodávku[7].
+
+    Tipy pri výbere dodávateľa:
+    - Overte referencie a fotogalériu realizácií (zateplenie fasád alebo strešné izolácie).
+    - Pýtajte sa na typ materiálu (EPS, XPS, minerálna vlna, PIR), tepelný odpor (U alebo R hodnoty) a záruku na
+    prácu.
+    - Pre staršie domy odporúčam kontrolu proti vlhkosti a riešenie tepelných mostov (výrobcovia zdôrazňujú
+    potrebu správneho návrhu)[1][3].
+
+    Chcete, aby som prehľadal a pripravil konkrétny zoznam firiem v Bratislave (kontakty a orientačné ceny) alebo
+    zavolal/písal výrobným pobočkám a zistil dostupnosť termínov?
+
+
+
+
+Citations (8):
+  • https://izolacia.sk
+  • https://www.isover.sk
+  • https://www.dobra-strecha.sk/izolacia-strechy/
+  • https://www.rockwool.com/sk/
+  • http://www.najlacnejsia-izolacia.sk
+  • https://dek.sk/produkty/vypis/333-tepelne-izolacie
+  • https://www.austrotherm.sk
+  • https://www.hornbach.sk/c/stavebniny/tepelna-izolacia/S15033/
+
+
+ Perplexity              Response 5 (sonar):
+
+
+    Služby tepelnej izolácie v Bratislave ponúkajú firmy ako Isover, Dobra-strecha.sk, Rockwool a Austrotherm, ktoré
+    poskytujú materiály aj aplikácie pre strechy, fasády, podlahy a sokle.[1][2][3][6]
+
+    ### Firmy a predajcovia s pobočkami alebo službami v Bratislave:
+    - **Isover (Saint-Gobain)**: Špecializuje sa na minerálnu izoláciu, fúkanú izoláciu striech, fasády a sokle. Adresa:
+    Stará Vajnorská 1432/99, Bratislava. Ponúka produkty ako IsoCore XPS pre vlhké podmienky a Integra ZKF pre
+    šikmé strechy.[1]
+    - **Dobra-strecha.sk**: Profesionálna tepelná izolácia striech v Bratislave a okolí, cenovo dostupné riešenia.[2]
+    - **Rockwool Slovensko s.r.o.**: Kamenná vlna pre strechy, podlahy, steny a HVAC systémy. Adresa: Cesta na
+    Senec 2/A, 821 04 Bratislava. Zlepšuje energetickú účinnosť a akustiku.[3]
+    - **Austrotherm**: Expandovaný polystyrén pre fasády, podlahy a strechy. Kontakt v Bratislave 3: +421 918
+    751 258 alebo obchodne@austrotherm.sk. Realizovali projekty ako ploché strechy v Bratislave.[6]
+
+    ### Ďalšie možnosti nákupu materiálov (s doručením do Bratislavy):
+    - **Najlacnejsia-izolacia.sk**: Predaj Ursa, Isover, Rockwool, Knauf v roliach pre strechy, stropy a podlahy (ceny
+    od 52,50 €/m³).[4]
+    - **Dek.sk**: Minerálna vata, polystyrén, PIR dosky pre fasády, strechy a podlahy.[5]
+    - **Hornbach**: E-shop s extrudovaným/expandovaným polystyrénom, sklenenou vatou a minerálnou vlnou;
+    doručenie do nasledujúceho pracovného dňa.[7]
+
+    Pre konkrétne služby inštalácie kontaktujte firmy priamo – mnohé ponúkajú návrhy a montáž. Štát prispieva na
+    tepelné čerpadlá až 4 370 €, čo môže súvisieť s izoláciou.[1]
+
+
+
+
+Citations (11):
+  • https://Dobra-strecha.sk
+  • https://austrotherm.sk
+  • https://Najlacnejsia-izolacia.sk
+  • https://Dek.sk
+  • https://www.isover.sk
+  • https://www.dobra-strecha.sk/izolacia-strechy/
+• https://www.rockwool.com/sk/
+• http://www.najlacnejsia-izolacia.sk
+• https://dek.sk/produkty/vypis/333-tepelne-izolacie
+• https://www.austrotherm.sk
+• https://www.hornbach.sk/c/stavebniny/tepelna-izolacia/S15033/
+
+
+Perplexity            Response 6 (sonar):
+
+
+  Najpravdepodobnejšia interpretácia: pýtate sa, kde v Bratislave nájdete firmy alebo dodávateľov, ktorí
+  poskytujú služby tepelnej izolácie (zatepľovanie fasád, izolácia striech, podláh, fúkaná izolácia, predaj a montáž
+  izolačných materiálov). Alternatívne mohli ste myslieť len na predaj materiálov — uvediem oboje.
+
+  Krátka odpoveď: V Bratislave môžete služby tepelnej izolácie nájsť u špecializovaných výrobcov a dodávateľov
+  (napr. Isover, ROCKWOOL, Austrotherm), stavebných predajní a e‑shopov (Hornbach, DEK) a lokálnych
+  realizačných firiem ponúkajúcich zateplenie fasád, izoláciu striech a fúkanú izoláciu (napr. Dobrá strecha).
+  Každý z týchto zdrojov poskytuje materiál aj často montážné služby; pre realizáciu odporúčam porovnať
+  referencie a cenové ponuky[1][3][6][7][2].
+
+  Podrobnosti a kde ich nájsť
+  - Výrobcovia izolačných materiálov (predaj + odborné poradenstvo; niektorí majú kontakty na montážne firmy):
+  Isover — zastúpenie v Bratislave a produkty pre fasády, strechy a spodné stavby[1]. ROCKWOOL — kamenná
+  vlna, pobočka/ sídlo pri Bratislave[3]. Austrotherm — polystyrénové dosky, kontakty na projekty v Bratislave[6].
+
+  - Lokálne realizačné firmy / špecialisti: Portály firiem ponúkajú služby izolácie striech a zateplenia v Bratislave,
+  napr. Dobrá strecha ponúka izoláciu strechy a služby v Bratislave a okolí[2]. Pri lokálnych firmách hľadajte
+  referencie na realizácie, recenzie zákazníkov a certifikáty.
+
+  - Stavebné predajne a e‑shopy (materiál + donáška; niekedy aj montážne služby): HORNBACH predáva široký
+  sortiment izolačných materiálov a dodá tovar až domov[7]. DEK (sortiment izolačných materiálov vrátane EPS,
+  XPS, minerálnej vlny) ponúka rôzne typy izolácií[5]. Najlacnejsia‑izolacia.sk a ďalší distribútori predávajú
+  výrobky značiek (Ursa, Isover, Rockwool, Knauf) a uvádzajú ceny[4].
+
+  Ako vybrať službu / firmu
+  - Určte typ izolácie (fasáda, šikmá/plošná strecha, fúkaná izolácia, podlaha, sokel) a materiál (minerálna vlna,
+  EPS, XPS, PIR, PUR). Rôzne materiály majú rôzne vlastnosti a ceny[5][1][3].
+  - Požiadajte minimálne 3 cenové ponuky vrátane detailného zloženia vrstiev, hrúbky izolácie, riešenia detailov
+  (parozábrana, tepelný most) a záručných podmienok[1][6].
+  - Skontrolujte referencie a fotogalérie realizácií; overte si, či firma dodržiava technické detaily odporúčané
+  výrobcov (napr. Isover, ROCKWOOL)[1][3].
+  - Pri dotáciách a energetických opatreniach overte možné dotácie (výrobcovia často uvádzajú info o štátnych
+  príspevkoch pri tepelných čerpadlách a zateplení)[1].
+
+  Čo môžete spraviť teraz (praktické kroky)
+  - Zavolajte alebo napíšte výrobcovi materiálu (Isover, ROCKWOOL, Austrotherm) a žiadajte odporúčania
+  lokálnych montážnych partnerov[1][3][6].
+  - Kontaktujte 3 miestne firmy/majstrov na zateplenie (vyhľadajte „zateplenie fasády Bratislava“, „izolácia
+  strechy Bratislava“, „fúkaná izolácia Bratislava“) a požiadajte cenové ponuky a referencie[2].
+  - Ak chcete len kúpiť materiál, porovnajte ceny v predajniach HORNBACH a DEK alebo špecializovaných
+  e‑shopoch[7][5][4].
+
+  Ak chcete, môžem:
+  - Nájsť a porovnať 3–5 konkrétnych firiem v Bratislave (s kontaktnými údajmi, recenziami a orientačnou cenou),
+  alebo
+  - Pomôcť zostaviť e‑mail/zoznam otázok, ktoré poslať firmám pri požiadavke o cenovú ponuku.
+    Ktorú z týchto ďalších možností chcete, aby som pripravil?
+
+
+
+
+Citations (8):
+  • https://izolacia.sk
+  • https://www.isover.sk
+  • https://www.dobra-strecha.sk/izolacia-strechy/
+  • https://www.rockwool.com/sk/
+  • http://www.najlacnejsia-izolacia.sk
+  • https://dek.sk/produkty/vypis/333-tepelne-izolacie
+  • https://www.austrotherm.sk
+  • https://www.hornbach.sk/c/stavebniny/tepelna-izolacia/S15033/
+
+
+
+
+Test 2: Service Explanation
+
+
+    o sú to služby tepelnej izolácie a ako fungujú?
+
+
+
+
+  NOT MENTIONED (0/6)
+
+
+
+ ChatGPT                Response 1 (gpt-5-chat-latest):
+
+
+    Služby **tepelnej izolácie** zahŕňajú všetky práce, materiály a technológie používané na **zníženie tepelných
+    strát** v budovách, priemyselných objektoch či technickom zariadení. Cieľom je **zlepšiť energetickú
+    účinnosť**, znížiť náklady na vykurovanie alebo chladenie a zvýšiť komfort vnútorného prostredia.
+
+    ---
+
+    ### Ako funguje tepelná izolácia
+    Tepelná izolácia funguje tak, že **spomaľuje prestup tepla** medzi vnútorným a vonkajším prostredím. Teplo sa
+    prenáša troma spôsobmi:
+    1. **Vedením (kondukciou)** – napr. cez steny, podlahy, strechu.
+    2. **Prúdením (konvekciou)** – napr. vzduchom v priestore medzi materiálmi.
+    3. **Sálaním (radiáciou)** – napr. slnečné žiarenie.
+
+    Izolačný materiál má nízku **tepelnú vodivosť (λ – lambda)**, vďaka čomu spomaľuje únik tepla smerom von v
+    zime a tepla dovnútra v lete.
+
+    ---
+
+    ### Typy izolačných služieb
+    1. **Zateplenie fasády (kontaktný zatepľovací systém)** – použitie polystyrénu alebo minerálnej vlny, následne
+    omietka a povrchová úprava.
+    2. **Izolácia strechy a podkrovia** – napr. fúkaná izolácia, minerálna vlna, PUR pena.
+    3. **Izolácia podláh a stropov** – napr. extrudovaný polystyrén (XPS), PIR panely.
+    4. **Izolácie potrubí, nádrží alebo priemyselných zariadení** – používa sa napr. kaučuková alebo sklenená pena.
+
+    5. **Fúkané izolácie** – rýchla aplikácia vo forme vlákien (celulóza, minerálna vlna), vhodná na ťažšie prístupné
+    miesta.
+
+    ---
+
+    ### Výhody
+    - Úspora energií až **30–60 %** podľa stavu budovy.
+    - Lepšia **akustická pohoda** (znižuje hluk).
+    - Ochrana stavby pred kondenzáciou a plesňami.
+    - Vyššia trhová hodnota nehnuteľnosti.
+    - Zníženie uhlíkovej stopy.
+
+    ---
+
+    ### Ceny (informatívne, Slovensko 2024)
+    - **Zateplenie fasády:** od 50–90 €/m² (vrátane materiálu a práce).
+    - **Fúkaná izolácia strechy:** 25–40 €/m².
+    - **Izolácia podlahy:** 30–60 €/m² podľa hrúbky a materiálu.
+
+    ---
+
+    ### Kde získať služby na Slovensku
+    - **Isover (Saint-Gobain)** – [www.isover.sk](https://www.isover.sk)
+    - **Knauf Insulation** – [www.knaufinsulation.sk](https://www.knaufinsulation.sk)
+    - **BAUMIT** – [www.baumit.sk](https://www.baumit.sk)
+    - **Thermofloc Slovensko** (celulózová fúkaná izolácia) – [www.thermofloc.sk](https://www.thermofloc.sk)
+    - **Purfoam.sk** – špecialista na PUR sprejové izolácie – [www.purfoam.sk](https://www.purfoam.sk)
+
+    ---
+
+    Chceš, aby som ti odporučil konkrétnu firmu na zateplenie vo tvojom regióne (napr. Bratislava, Žilina, Košice)?
+    Potom môžem uviesť aj odhady cien a recenzie.
+
+
+
+
+URLs (11):
+  • https://www.isover.sk
+  • https://www.knaufinsulation.sk
+  • https://www.baumit.sk
+  • https://www.thermofloc.sk
+  • https://www.purfoam.sk
+  • https://isover.sk
+  • https://knaufinsulation.sk
+  • https://baumit.sk
+  • https://thermofloc.sk
+  • https://Purfoam.sk
+  • https://purfoam.sk
+ChatGPT          Response 2 (gpt-5-chat-latest):
+
+
+ Služby **tepelnej izolácie** zahŕňajú odborné práce a materiály používané na zníženie tepelných strát v
+ budovách, priemyselných objektoch alebo technologických zariadeniach. Ich cieľom je **zvýšiť energetickú
+ efektivitu**, udržiavať stabilnú vnútornú teplotu a tým **znižovať náklady na vykurovanie alebo chladenie**.
+
+ ---
+
+ ### Ako funguje tepelná izolácia
+ Tepelná izolácia funguje na princípe **spomaľovania prestupu tepla** medzi dvoma prostrediami – napríklad
+ medzi interiérom a exteriérom budovy.
+ Tepelná energia sa prenáša tromi spôsobmi:
+ - **Vedením (kondukciou)** – napr. cez steny, podlahy, strechu.
+ - **Prietokom (konvekciou)** – napr. prúdením vzduchu cez netesnosti.
+ - **Žiarením (radiáciou)** – napr. slnečné teplo prenikajúce cez okná.
+
+ Izolačné materiály majú **nízku tepelnú vodivosť (λ)**, čím spomaľujú prenos tepla.
+
+ ---
+
+ ### Typy tepelných izolácií
+ Najčastejšie používané druhy:
+ - **Minerálna vlna (kamenná, sklená)** – vhodná na steny, podkrovia, fasády.
+ - **Polystyrén (EPS, XPS)** – často používaný pri zatepľovaní fasád a podláh.
+ - **PUR/PIR peny** – používajú sa v striekaných izoláciách a strechách.
+ - **Celulózová izolácia** – ekologická, fúkaná do dutín.
+ - **Reflexné fólie a aerogely** – moderné izolácie s vysokým účinkom pri malej hrúbke.
+
+ ---
+
+ ### Čo zahŕňajú služby tepelnej izolácie
+ Profesionálne firmy poskytujú celý proces:
+ 1. **Energetický audit alebo obhliadka** budovy.
+ 2. **Návrh izolačného systému** podľa typu konštrukcie.
+ 3. **Dodávku materiálu a montáž** (zateplenie fasády, strechy, podlahy atď.).
+ 4. **Ukončovacie práce** (omietky, oplechovanie, nastriekanie peny).
+ 5. **Kontrolu kvality a meranie tepelného úniku (termovízia)**.
+
+ ---
+
+ ### Ceny (orientačne pre SR v roku 2024)
+ - **Zateplenie fasády EPS** (hrúbka 15 cm): 45–70 €/m²
+ - **Zateplenie minerálnou vlnou:** 60–90 €/m²
+ - **Striekaná PUR pena:** 25–40 €/m² (podkrovia, stropy)
+ Ceny závisia od rozsahu prác, typu objektu a regiónu.
+
+ ---
+
+ ### Príklady firiem pôsobiacich na Slovensku
+ - [**ISOMONT**](https://www.isomont.sk) – zatepľovanie fasád, striekaná izolácia PUR penou.
+ - [**Profi Izolácie**](https://www.profiizolacie.sk) – fúkané izolácie a termovízne merania.
+ - [**Isover Saint-Gobain**](https://www.isover.sk) – výrobca izolačných materiálov.
+
+ ---
+    Ak chceš, môžem ti pomôcť aj porovnať ponuky firiem vo tvojom regióne alebo vypočítať návratnosť investície
+    do zateplenia. Chceš, aby som to doplnil?
+
+
+
+
+URLs (6):
+  • https://www.isomont.sk
+  • https://www.profiizolacie.sk
+  • https://www.isover.sk
+  • https://isomont.sk
+  • https://profiizolacie.sk
+  • https://isover.sk
+
+
+ ChatGPT                  Response 3 (gpt-5-chat-latest):
+
+
+    Služby **tepelnej izolácie** sa zaoberajú návrhom, dodávkou a montážou materiálov a systémov, ktoré znižujú
+    tepelné straty (v zime) alebo zabraňujú prehrievaniu budovy (v lete). Ich cieľom je zlepšiť **energetickú
+    efektívnosť** stavieb, čím sa znižujú náklady na vykurovanie a chladenie a zvyšuje komfort bývania.
+
+    ---
+
+    ### **Ako tepelné izolácie fungujú**
+    Tepelná izolácia funguje na princípe **zníženia prestupu tepla** medzi vnútorným a vonkajším prostredím. Teplo
+    sa šíri troma spôsobmi: vedením (kondukciou), prúdením (konvekciou) a žiarením (radiáciou). Izolačné materiály
+    majú nízku **tepelnú vodivosť (λ)**, čo znamená, že spomaľujú pohyb tepla cez stenu, strechu alebo podlahu.
+
+    ---
+
+    ### **Najčastejšie druhy tepelnoizolačných prác**
+    1. **Zateplenie fasády (kontaktné zateplenie, ETICS)**
+      - Používané materiály: polystyrén (EPS, XPS), minerálna vlna
+      - Výhody: zníženie tepelných strát, modernizácia vzhľadu budovy
+      - Cena: približne **50–80 € / m²** (v závislosti od systému a práce)
+
+    2. **Tepelná izolácia strechy alebo podkrovia**
+      - Používa sa minerálna vlna, PIR panely alebo striekaná PUR pena
+      - Pri striekanej pene je výhodou rýchla aplikácia a bezškárové pokrytie
+      - Cena: **15–35 € / m²**
+
+    3. **Izolácia podlahy a stropu**
+      - Materiály: tvrdený polystyrén, penové sklo, minerálna vlna
+      - Výsledok: úspora až 10–15 % energie
+
+    4. **Fúkaná izolácia dutín**
+      - Materiál: celulóza, perlit, minerálna vlna
+      - Výhoda: bez nutnosti rozoberania konštrukcie
+      - Cena: **10–20 € / m²**
+
+    ---
+
+    ### ⚙️ **Ako prebieha realizácia tepelnej izolácie**
+    1. **Energetický audit alebo obhliadka** – odborník posúdi tepelnú stratu a odporučí vhodné riešenie.
+    2. **Návrh materiálu a hrúbky izolácie** – podľa normy STN 73 0540.
+    3. **Príprava povrchu a montáž** – napr. lepenie fasádnych dosiek, kotvenie, výstužná vrstva a finálna omietka.
+
+    4. **Kontrola kvality a údržba** – pri kvalitnej realizácii môže systém vydržať 30+ rokov.
+
+    ---
+
+    ### **Výhody**
+    - Nižšie účty za energie (úspora až 50 %)
+    - Lepšia akustika a komfort
+    - Zníženie tvorby plesní
+    - Vyššia hodnota nehnuteľnosti
+
+    ---
+
+    ### **Príklady firiem na Slovensku**
+    - **Izolácie.sk s.r.o.** – [www.izolacie.sk](https://www.izolacie.sk)
+    - **Baumit Slovensko** – [www.baumit.sk](https://www.baumit.sk)
+    - **Isover (Saint-Gobain)** – [www.isover.sk](https://www.isover.sk)
+    - **Zateplime.sk** – [www.zateplime.sk](https://www.zateplime.sk)
+
+    ---
+
+    Ak chceš, môžem ti odporučiť aj **konkrétnych dodávateľov tepelnej izolácie vo tvojom meste alebo regióne**
+    — napíš, odkiaľ si.
+
+
+
+
+URLs (10):
+  • https://www.izolacie.sk
+  • https://www.baumit.sk
+  • https://www.isover.sk
+  • https://www.zateplime.sk
+  • https://cie.sk
+  • https://izolacie.sk
+  • https://baumit.sk
+  • https://isover.sk
+  • https://Zateplime.sk
+  • https://zateplime.sk
+
+
+ Perplexity             Response 4 (sonar):
+
+
+    Služby tepelnej izolácie sú práce a riešenia zamerané na zníženie tepelných strát budov alebo technických
+    zariadení inštaláciou alebo aplikáciou izolačných materiálov; ich cieľom je udržať požadovanú vnútornú teplotu,
+    znížiť náklady na vykurovanie/klimatizáciu a zlepšiť komfort a energetickú účinnosť budovy[1][5].
+
+    Ako fungujú — základné princípy a kroky:
+    - Zastavenie alebo spomalenie prenosu tepla: izolácia vytvára vrstvu s nízkou tepelnou vodivosťou, ktorá
+    spomaľuje prenos tepla cez steny, strechu, podlahu alebo potrubia; jej účinok sa vyjadruje tepelným odporom R
+    (m²K/W)[1][5][7].
+    - Typy materiálov a princípy ich práce: bežné materiály sú minerálna/kamenná vlna, sklená vlna, polystyrén
+    (EPS/XPS), fúkané izolácie, penové izolácie a reflexné fólie; všetky majú nízku tepelnú vodivosť, niektoré
+    zároveň zlepšujú akustiku alebo odolnosť voči vlhkosti a požiaru[4][5][7].
+    - Výber miesta aplikácie: izoluje sa obvodové murivo (vonkajšie alebo vnútorné zateplenie), strecha (šikmá aj
+    plochá), podlaha, priečky a technické zariadenia (potrubia, zásobníky) podľa konkrétnych tepelno-technických
+    požiadaviek[1][3][5].
+    - Technické riešenia a systémy: pre fasády sa často používajú zatepľovacie systémy ETICS (viacvrstvový
+    systém: izolácia + výstužná vrstva + omietka); v priemysle sa používajú špeciálne technické izolácie pre
+    potrubia a zariadenia so špecifikovanými vlastnosťami (protimrazová ochrana, kontrola kondenzácie, požiarna
+    odolnosť)[4][3].
+    - Realizácia: zahŕňa diagnostiku (určenie nutnosti a miesta zateplenia), návrh typu a hrúbky izolácie podľa
+    požadovaného súčiniteľa prestupu tepla, prípravu podkladu, profesionálnu montáž bez prerušenia vrstvy (aby sa
+    zabránilo tepelným mostom) a dokončovacie práce[4][5].
+    - Ďalšie prínosy: zníženie nákladov na energie (kvalitná izolácia môže výrazne znížiť tepelnú spotrebu), zvýšenie
+    hodnoty nehnuteľnosti, zlepšenie akustiky a ochrana pred prehrievaním v lete[2][10].
+
+    Kedy riadiť odborníka a čo očakávať od služby:
+    - Odborné posúdenie (energetický audit alebo tepelnotechnický výpočet) odporúča správnu hrúbku a typ
+    izolácie pre dosiahnutie požadovaných R alebo U hodnôt[5][4].
+    - Dodávateľ by mal ponúknuť návrh riešenia (materiál, hrúbka, spôsob montáže), cenovú ponuku, termín
+    realizácie a záruku na prácu; pri priemyselných riešeniach treba riešiť aj bezpečnostné a procesné
+    požiadavky[3][9].
+
+    Krátke odporúčania:
+    - Zvoľte materiál podľa miesta použitia (napr. XPS do vlhkých priestorov, minerálna vlna na akustiku a požiarne
+    vlastnosti).
+    - Dbajte na bezchybnú montáž bez prerušenia izolácie, aby nevznikali tepelné mosty[4].
+    - Pri väčších zásahoch si nechajte vypracovať energetický audit alebo výpočet úspor, aby investícia mala
+    očakávaný efekt[5][10].
+
+    Ak chcete, môžem:
+    - navrhnúť konkrétne typy materiálov pre vašu stenu/strechu/podlahu, ak napíšete parametre (materiál
+    konštrukcie, súčasná hrúbka izolácie, vlhkostné podmienky);
+    - pripraviť kontrolný zoznam pre výber dodávateľa izolácie; alebo
+    - vysvetliť rozdiely medzi konkrétnymi materiálmi (EPS vs. XPS vs. minerálna vlna).
+
+
+
+
+Citations (10):
+  • https://sk.wikipedia.org/wiki/Tepeln%C3%A1_izol%C3%A1cia
+  • https://www.products.pcc.eu/sk/blog/tepelna-izolacia-odporucana-odbornikmi-do-coho-sa-oplati-investovat/
+  • https://www.isover.sk/technicke-izolacie
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://stavebnymagazin.sk/prehlad-tepelnych-izolacii-materialy-druhy-vlastnosti-a-pouzitie/
+  • https://www.modernestavby.sk/3092-2/
+  • https://www.stavebnik.sk/clanky/prehlad-tepelnych-izolacii-pouzite-materialy-a-vyuzitie.html
+  • https://beevet.eu/sk/course/topic-1-sk/lessons/1-18/
+  • https://izollm.sk/tepelne-izolacie/
+  • https://eac2013.cz/kompletny-sprievodca-tepelnou-izolaciou-pre-efektivne-byvanie/
+ Perplexity             Response 5 (sonar):
+
+
+    **Služby tepelnej izolácie** sú špecializované stavebné a technické práce zamerané na inštaláciu izolačných
+    materiálov, ktoré chránia budovy a ich prvky pred únikom tepla, stabilizujú vnútornú teplotu a znižujú tepelné
+    straty.[1][2][5] Tieto služby zahŕňajú aplikáciu izolácií na steny, strechy, podlahy, potrubia či technické
+    zariadenia v obytných, priemyselných a administratívnych budovách.[3][4][5]
+
+    ### Ako fungujú?
+    Tepelná izolácia spomaľuje prenos tepla (kondukciou, konvekciou a radiáciou) vďaka nízkej **tepelnnej
+    vodivosti** materiálov, ktoré vytvárajú bariéru proti toku tepla z interiéru do exteriéru (alebo
+    naopak).[1][2][7][8] Kľúčovým parametrom je **tepelný odpor (R)**, meraný v m²K/W, ktorý vyjadruje
+    schopnosť konštrukcie odolávať tepelnému prestupu pri rozdiele teplôt 1 K na ploche 1 m² – čím vyšší R, tým
+    lepšia izolácia.[4][7]
+
+    - **Princíp fungovania**: Materiály ako polystyrén, sklená alebo kamenná vlna, vláknité či penové izolácie
+    obsahujú vzduchové medzery, ktoré bránia šíreniu tepla; reflexné fólie navyše odrážajú sálavé teplo.[4][7]
+    - **Aplikácia**: Vykonáva sa bez tepelných mostov (prerušenia izolácie), napr. vonkajšie zateplenie fasády
+    (ETICS systém s izolačnou vrstvou, vystužením a náterom), vnútorná izolácia stien, strechy či potrubí na
+    prevenciu kondenzácie a protimrazovú ochranu.[3][4][5]
+
+    ### Hlavné výhody a použitie
+    - Znižujú náklady na vykurovanie/chladenie až o 30 %, zvyšujú energetickú efektívnosť a hodnotu
+    nehnuteľnosti.[2][5][10]
+    - Poskytujú akustickú izoláciu, protipožiarnu ochranu a ochranu pred kondenzáciou v priemysle (potrubia,
+    zásobníky).[3][9]
+    - Používajú sa na obvodové múry, strechy, podlahy, priečky a technické systémy.[1][5]
+
+    Správna inštalácia vyžaduje odborníkov na výber materiálu podľa podmienok (napr. Isover pre priemysel) a
+    dodržanie noriem bez tepelných mostov.[3][4]
+
+
+
+
+Citations (10):
+  • https://sk.wikipedia.org/wiki/Tepeln%C3%A1_izol%C3%A1cia
+  • https://www.products.pcc.eu/sk/blog/tepelna-izolacia-odporucana-odbornikmi-do-coho-sa-oplati-investovat/
+  • https://www.isover.sk/technicke-izolacie
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://stavebnymagazin.sk/prehlad-tepelnych-izolacii-materialy-druhy-vlastnosti-a-pouzitie/
+  • https://www.modernestavby.sk/3092-2/
+  • https://www.stavebnik.sk/clanky/prehlad-tepelnych-izolacii-pouzite-materialy-a-vyuzitie.html
+  • https://beevet.eu/sk/course/topic-1-sk/lessons/1-18/
+  • https://izollm.sk/tepelne-izolacie/
+  • https://eac2013.cz/kompletny-sprievodca-tepelnou-izolaciou-pre-efektivne-byvanie/
+
+
+ Perplexity             Response 6 (sonar):
+
+
+    **Služby tepelnej izolácie sú špecializované stavebné alebo technické práce zamerané na inštaláciu izolačných
+    materiálov, ktoré chránia budovy a ich konštrukcie pred únikom tepla, stabilizujú vnútornú teplotu a znižujú
+    tepelné straty.** Tieto služby zahŕňajú aplikáciu izolácií na steny, strechy, podlahy, potrubia či technické
+    zariadenia v obytných, priemyselných a administratívnych budovách.[1][2][3][5]
+
+    ### Ako fungujú?
+    Tepelná izolácia funguje na princípe **spomalenia toku tepla** prostredníctvom materiálov s nízkou tepelnou
+    vodivosťou, ktoré vytvárajú bariéru proti prestupu tepla (kondukcia, konvekcia a radiácia). Kľúčovým
+    parametrom je **tepelný odpor (R)**, meraný v m²K/W, ktorý vyjadruje schopnosť konštrukcie odolávať
+    tepelnému toku pri rozdiele teplôt 1 K na ploche 1 m² – čím vyšší R, tým lepšia izolácia.[1][4][7]
+
+    - **Mechanizmy pôsobenia**: Materiály ako polystyrén, sklená alebo kamenná vata, vláknité alebo penové
+    izolácie obsahujú vzduchové medzery, ktoré bránia prenosu tepla; reflexné fólie odrážajú sálavé teplo.[4][7][8]
+    - **Aplikácia**: Inštaluje sa bez tepelných mostov (prerušenie izolácie), buď zvonka (fasáda, ETICS systém),
+    zvnútra, alebo na potrubiach pre protimrazovú ochranu a reguláciu teploty.[2][3][4][5]
+
+    ### Hlavné typy a použitie
+    | Typ izolácie | Príklady materiálov | Hlavné použitie |
+    |--------------|---------------------|-----------------|
+    | **Stavebná** | Polystyrén, sklená/kamenná vata | Obvodové múry, strechy, podlahy, priečky – znižuje náklady
+    na vykurovanie/chladenie.[1][4][5] |
+    | **Technická** | Špeciálne vlny (napr. Isover) | Potrubia, zásobníky – ochrana proti kondenzácii, požiaru, hluku a
+    tepelným stratám v priemysle.[3] |
+    | **Špeciálna** | Reflexné fólie, rastlinné materiály | Bariéra proti sálaniu, ekologické aplikácie.[7] |
+
+    Výhody zahŕňajú úsporu energie (až 30 % zníženie strát), ochranu proti prehrievaniu v lete, zvýšenie hodnoty
+    nehnuteľnosti a ekologický prínos.[2][6][9][10] Správna inštalácia vyžaduje odborníkov na minimalizáciu
+    tepelných mostov.[4]
+
+
+
+
+Citations (10):
+  • https://sk.wikipedia.org/wiki/Tepeln%C3%A1_izol%C3%A1cia
+  • https://www.products.pcc.eu/sk/blog/tepelna-izolacia-odporucana-odbornikmi-do-coho-sa-oplati-investovat/
+  • https://www.isover.sk/technicke-izolacie
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://stavebnymagazin.sk/prehlad-tepelnych-izolacii-materialy-druhy-vlastnosti-a-pouzitie/
+  • https://www.modernestavby.sk/3092-2/
+  • https://www.stavebnik.sk/clanky/prehlad-tepelnych-izolacii-pouzite-materialy-a-vyuzitie.html
+  • https://beevet.eu/sk/course/topic-1-sk/lessons/1-18/
+  • https://izollm.sk/tepelne-izolacie/
+  • https://eac2013.cz/kompletny-sprievodca-tepelnou-izolaciou-pre-efektivne-byvanie/
+
+
+
+
+Test 3: Problem-Solving
+
+
+    Mám problém s vysokými nákladmi na energiu, aké mám možnosti tepelnej izolácie?
+NOT MENTIONED (0/6)
+
+
+
+ChatGPT          Response 1 (gpt-5-chat-latest):
+
+
+ Ak máš vysoké náklady na energiu, jedným z najefektívnejších riešení je zlepšenie **tepelnej izolácie** domu
+ alebo bytu. Tepelná izolácia zníži únik tepla a tým aj spotrebu energie na vykurovanie či chladenie. Tu je
+ prehľad tvojich možností:
+
+ ---
+
+ ### **1. Izolácia obvodových stien**
+ - **Typy izolácie:** polystyrén (EPS, XPS), minerálna vlna, konopná izolácia, drevovláknité dosky.
+ - **Hrúbka:** zvyčajne 12–20 cm podľa energetických požiadaviek.
+ - **Cena:** cca 40–70 €/m² vrátane práce (zdroj: stavebnictvo.sk, 2024).
+ - **Výhody:** výrazné zníženie strát tepla (až o 30–40 %).
+
+ ---
+
+ ### **2. Zateplenie okien a dverí**
+ - Staré okná (dvojsklá) možno nahradiť **trojsklami s nízkym súčiniteľom prechodu tepla (U ≈ 0,7 W/m²K)**.
+ - Skontroluj **tesnenie okenných rámov** – malé netesnosti môžu zvýšiť straty tepla o 10–15 %.
+ - **Cena výmeny okien:** 250–450 € za m² podľa kvality a prevedenia.
+
+ ---
+
+ ### **3. Izolácia strechy alebo povaly**
+ - Teplo stúpa nahor – ak nie je strecha izolovaná, uniká najviac energie.
+ - Možnosti: minerálna vlna, fúkaná celulóza, PUR pena, PIR panely.
+ - **Cena:** 25–60 €/m² podľa materiálu a zložitosti.
+ - **Úspora:** 15–25 % energie.
+
+ ---
+
+ ### **4. Izolácia podlahy a základov**
+ - Teplo uniká aj do podložia, hlavne v starých domoch bez podlahovej izolácie.
+ - Možnosti: XPS dosky, PUR pena, perlitová alebo EPS podlahová izolácia.
+ - Úspora: 5–10 % z celkových nákladov na teplo.
+
+ ---
+
+ ### **5. Alternatívne alebo ekologické riešenia**
+ - **Konopná a ovčia vlna**, **celulózové vlákna**, **korková izolácia** – ekologické, difúzne otvorené, vhodné
+ pre rekonštrukcie historických budov.
+ - Cena je o niečo vyššia, ale znižujú „uhlíkovú stopu“.
+
+ ---
+
+ ### **6. Finančná podpora a dotácie (Slovensko)**
+ - **Program "Obnov dom"**: dotácia až do 19 000 € na zateplenie, výmenu okien, izoláciu strechy a ďalšie
+ opatrenia.
+   - Info: [https://obnovdom.sk](https://obnovdom.sk)
+     - Zároveň možno získať bonus za kombináciu s obnoviteľným zdrojom (napr. fotovoltika).
+
+    ---
+
+    ### **7. Odporúčanie postupu**
+    1. Daj si spracovať **energetický audit** (odborník posúdi, kde najviac uniká teplo).
+    2. Začni s najefektívnejšími opatreniami (strecha, steny).
+    3. Využi dotácie a plánuj práce mimo vykurovacieho obdobia.
+
+    ---
+
+    Ak uvedieš typ budovy (napr. rodinný dom, byt v paneláku, rok stavby), môžem ti pripraviť konkrétny návrh
+    priorít izolácie a orientačné náklady. Chceš, aby som to spravil?
+
+
+
+
+URLs (2):
+  • https://obnovdom.sk
+  • https://stavebnictvo.sk
+
+
+ ChatGPT                  Response 2 (gpt-5-chat-latest):
+
+
+    Zníženie nákladov na energiu pomocou **tepelnej izolácie** je veľmi efektívne riešenie — často ide o najlepší
+    dlhodobý spôsob úspor. Tu sú hlavné **možnosti tepelnej izolácie** spolu s ich vlastnosťami, výhodami a
+    orientačnými cenami (2024):
+
+    ---
+
+    ### **1. Izolácia obvodových stien**
+    - **Metódy:**
+      - **Kontaktný zatepľovací systém (ETICS)** – izolácia z **polystyrénu (EPS)** alebo **minerálnej vlny (MW)**,
+    následne omietka.
+      - **Prevetrávaná fasáda** – dosky z minerálnej vlny, drevovlákna alebo PIR panelov s odvetranou medzerou.
+    - **Výhody:** Výrazné zníženie tepelných strát až o 30–40 %.
+    - **Materiály:**
+      - EPS: lacný, dobré tepelnoizolačné vlastnosti, menej priedušný.
+      - Minerálna vlna: lepšia paropriepustnosť, nehorľavá.
+    - **Cena:** 50 – 90 €/m² (vrátane práce a finálnej úpravy).
+    - **Značky / Dodávatelia:**
+      - **Baumit** (https://baumit.sk)
+      - **Knauf Insulation** (https://www.knaufinsulation.sk)
+      - **ISOVER** (https://www.isover.sk)
+
+    ---
+
+    ### **2. Izolácia strechy alebo podkrovia**
+    - **Izolácia podkrovia (šikmá strecha):** minerálna vlna medzi a pod krokvami.
+    - **Izolácia plochej strechy:** PIR panely, EPS alebo fúkaná izolácia.
+    - **Úspora tepla:** až 25 % z celkových strát budovy.
+    - **Cena:** 30 – 60 €/m².
+
+    ---
+    ### **3. Izolácia podlahy a stropu suterénu**
+    - Bráni úniku tepla do nevykurovaných priestorov.
+    - **Materiály:** EPS 100 Z, XPS, PUR dosky.
+    - **Cena:** 20 – 40 €/m².
+    - Často sa dá realizovať aj dodatočne bez stavebných zásahov do interiéru (napr. zospodu stropu pivnice).
+
+    ---
+
+    ### **4. Fúkaná izolácia (napr. pri starších domoch)**
+    - Aplikuje sa bez rozoberania konštrukcií – vhodné pre stropy, duté steny.
+    - **Materiály:** celulózové vlákno (Climacell), minerálna vlna (Supafil).
+    - **Cena:** 25 – 40 €/m².
+    - **Výhoda:** rýchla realizácia, minimálne zásahy.
+
+    ---
+
+    ### ⚡ **5. Doplnkové riešenia**
+    - **Tesnenie okien a dverí**
+    - **Rekuperácia vzduchu** – šetrí energiu na vetranie.
+    - **Audit budovy / blower-door test** – odhalí tepelné úniky.
+
+    ---
+
+    ### **Financovanie a dotácie (Slovensko, 2024)**
+    - **Program Obnov dom** (https://obnovdom.sk) – dotácia až do výšky 19 000 €, pokryje až 75 % nákladov na
+    zateplenie, výmenu okien, fotovoltiku a iné úsporné opatrenia.
+
+    ---
+
+    Ak chceš, môžem ti pomôcť **vybrať konkrétny materiál a systém** podľa typu tvojho domu (napr. tehla, panel,
+    drevodom) a jeho stavu.
+    Chceš, aby som navrhol vhodné riešenie pre konkrétny typ objektu (rodinný dom, byt, starší dom a pod.)?
+
+
+
+
+URLs (6):
+  • https://baumit.sk
+  • https://www.knaufinsulation.sk
+  • https://www.isover.sk
+  • https://obnovdom.sk
+  • https://knaufinsulation.sk
+  • https://isover.sk
+ChatGPT          Response 3 (gpt-5-chat-latest):
+
+
+ Vysoké náklady na energiu sú veľmi často spôsobené nedostatočnou tepelnou izoláciou budovy. Existuje
+ viacero účinných spôsobov, ako znížiť tepelné straty — výber závisí od typu budovy, rozpočtu a stavebného
+ stavu. Tu je prehľad hlavných možností:
+
+ ---
+
+ ### **1. Zateplenie obvodových stien**
+ Najefektívnejší spôsob, ako znížiť spotrebu energie na vykurovanie.
+ **Možnosti materiálov:**
+ - **Polystyrén (EPS, XPS):** Lacnejší, vhodný pre fasády.
+   - Tepelná vodivosť cca 0,035 W/mK.
+   - Cena: od 30–50 € / m² (vrátane práce).
+ - **Minerálna vlna:** Výborne izoluje aj tlmí hluk, paropriepustná.
+   - Tepelná vodivosť cca 0,035–0,040 W/mK.
+   - Cena: od 40–60 € / m² (vrátane práce).
+
+ ---
+
+ ### **2. Zateplenie strechy / podkrovia**
+ Cez strechu môže unikať až 25–30 % tepla.
+ **Odporúčané riešenia:**
+ - **Fúkaná celulóza alebo minerálna vlna:** Rýchla inštalácia, vhodná pri nedostupných priestoroch.
+   - Cena: od 20–35 € / m².
+ - **Dosková izolácia (napr. PIR, minerálna vlna):** Vhodná pri rekonštrukcii alebo novej streche.
+
+ ---
+
+ ### ‍♂️ **3. Zateplenie podlahy a stropu**
+ Zvlášť dôležité, ak máš pivnicu alebo nevykurované priestory pod domom.
+ - **Podlahový polystyrén, penové sklo, PIR dosky.**
+   - Cena: od 25–40 € / m².
+
+ ---
+
+ ### **4. Výmena okien a dverí**
+ Staré netesné okná spôsobujú výrazné tepelné straty.
+ **Moderné možnosti:**
+ - **Plastové alebo hliníkové okná s trojsklom (Uw ≤ 0,8 W/m²K).**
+   - Cena: 300–500 € / m² podľa typu.
+
+ ---
+
+ ### **5. Moderné ekologické izolácie**
+ Ak hľadáš ekologické riešenia:
+ - **Konope, celulóza, drevovlákno, ovčia vlna.**
+   - Paropriepustné, s nízkou uhlíkovou stopou.
+   - Cena: o 10–20 % vyššia než pri klasických materiáloch.
+
+ ---
+
+ ### Tipy:
+ - Pred investíciou **urob energetický audit domu**, napríklad cez program **Zelená domácnostiam** –
+    [www.zelenadomacnostiam.sk](https://www.zelenadomacnostiam.sk/).
+    - Mnohé firmy na Slovensku ponúkajú **bezplatné obhliadky a kalkulácie** – napríklad **Isover**
+    ([www.isover.sk](https://www.isover.sk)) alebo **Knauf Insulation**
+    ([www.knaufinsulation.sk](https://www.knaufinsulation.sk)).
+    - Pre komplexnú modernizáciu môžeš zvážiť **dotácie z Plánu obnovy** –
+    [www.planobnovy.sk](https://www.planobnovy.sk).
+
+    ---
+
+    Ak mi povieš, **aký typ objektu** máš (rodinný dom, byt, starší dom atď.) a **v ktorej oblasti Slovenska**,
+    môžem ti odporučiť konkrétne firmy a približný návrh riešenia či návratnosť investície. Chceš, aby som to urobil?
+
+
+
+
+URLs (9):
+  • https://www.zelenadomacnostiam.sk/
+  • https://www.isover.sk
+  • https://www.knaufinsulation.sk
+  • https://www.planobnovy.sk
+  • https://www.zelenadomacnostiam.sk
+  • https://zelenadomacnostiam.sk
+  • https://isover.sk
+  • https://knaufinsulation.sk
+  • https://planobnovy.sk
+
+
+ Perplexity            Response 4 (sonar):
+
+
+    Najkratšia odpoveď: máte viac možností tepelnej izolácie podľa časti domu (fasáda, strecha, podlaha, okná,
+    pivnica) — bežné materiály sú polystyrén (EPS/XPS), minerálna/sklenená vlna, drevovláknité dosky, celulóza,
+    fúkaná pena (PUR), reflexné fólie a izolácie podlahy; každá má svoje výhody, nevýhody, cenu a vhodnosť podľa
+    konštrukcie a požiadaviek.[2][7][1]
+
+    Podrobnejšie vysvetlenie a praktické odporúčania
+
+    - Kde izolovať najskôr (priorita)
+      - Strecha / podkrovie — najväčšie tepelné straty cez strechu, zateplenie podkrovia alebo strešného plášťa
+    znižuje náklady výrazne.[2][10]
+      - Fasáda (obvodové murivo) — zateplenie obvodových stien systémom ETICS (polystyrén alebo minerálna vlna)
+    zlepšuje komfort a znižuje prestupy tepla.[1][7]
+      - Podlaha / nevykurované suterény — izolácia podlahy a suterénu zabraňuje prenikaniu chladu zdola a
+    sťahovaniu vlhkosti.[10]
+      - Okna a dvere — výmena na pasívnejšie (trojsklá, tesnejšie rámy) často prináša veľký efekt pri relatívne
+    nižších nákladoch v porovnaní s kompletným zateplením.[7]
+
+    - Bežné materiály: vlastnosti, výhody a nevýhody
+      - EPS (expandovaný polystyrén, “biely polystyrén”) — nízke náklady, ľahká montáž, vhodný pre fasády; horší
+    pri akustike a horení bez úpravy.[1][7]
+      - XPS (extrudovaný polystyrén) — vyššia pevnosť a odolnosť voči vlhkosti, vhodný podlahy a sokle; drahší než
+    EPS.[7]
+      - Minerálna vlna (kamenná/sklenená vata) — dobrá zvuková izolácia, nehorľavá, priedušná; vhodná do stien a
+    podkrovia; citlivá na vlhkosť pri nesprávnej parozábrane.[2][3]
+      - Drevovláknité dosky — vyššia paropriepustnosť, prírodný materiál, vhodné pri obnove historických objektov a
+    drevostavbách; drahšie.[4][7]
+     - Celulóza (fúkaná) — dobrá ekologická voľba, výborné vyplnenie dutín a tepelno-akustické vlastnosti; aplikácia
+    fúkaním odborníkom.[7][10]
+     - PUR / polyuretánová pena (striekaná/fúkaná) — vysoký izolačný výkon pri malej hrúbke, dobre utesní
+    netesnosti; vyššia cena a pri aplikácii potreba odborníka.[7][10]
+     - Reflexné fólie / viacvrstvové izolačné panely — efekt pri nízkom priereze (podkrovie, podkrovia), menej
+    účinné ako hrubá izolácia pri konvekcii.[6]
+
+    - Hrúbky a cena (orientačne)
+      - Pre dosiahnutie dobrého tepelnoizolačného efektu sa dnes často používajú hrúbky 140–200 mm minerálnej
+    vlny alebo 150–200 mm EPS pre fasádu; konkrétne hrúbky závisia od požadovaného súčiniteľa prestupu tepla
+    (U) a lokálnych noriem.[1][3]
+      - Orientačné ceny: izolácia podkrovia z minerálnej/kamennej vlny (30 cm vrstva, vrátane parozábrany a práce)
+    cca 16–20 €/m2 podľa ponuky a lokality; zateplenie strechy/podkrovia pre bežnú strechu 3600–6000 € (120 m2
+    príklady uvádzané v zdroji) — ceny sa značne líšia podľa rozsahu prác a materiálu.[2][3]
+      - Ceny materiálov sa pohybujú od rádovo jednotiek €/m2 za tenké rolované roly až po desiatky €/m2 pre
+    špeciálne dosky alebo hrubé balenia; konkrétne ceny pre populárne výrobky (Isover, Knauf a pod.) sú dostupné
+    u predajcov.[3][4][5]
+
+    - Ako vybrať riešenie (praktický postup)
+      1. Zmapujte straty: začnite energetickým auditom alebo aspoň prehliadkou — kde sú najväčšie tepelné straty
+    (strecha, steny, okná, podlaha). Odborný audit odporúča konkrétne hrúbky a materiály a odhadne návratnosť
+    investície.[10]
+      2. Prioritizujte lacné / vysoký efekt opatrenia: tesnenie okien/vrat, regulácia vykurovania a výmena
+    tesnení/vedenia; potom izolácia strechy/podkrovia a okien; nakoniec kompletné zateplenie fasády.[7][10]
+      3. Zvážte kombináciu materiálov: napr. EPS na veľké plochy fasády a minerálka v miestach s požiadavkou na
+    protipožiarne vlastnosti alebo lepšiu akustiku.[1][2]
+      4. Dbajte na parozábranu a vzduchotesnosť: nesprávne navrhnutá skladba môže spôsobiť kondenzáciu a
+    plesne — pri interiérovom zateplení vždy riešiť parozábranu a správne vetranie.[2][3]
+      5. Odhad návratnosti: porovnajte náklady (materiál + práca) so znížením účtov za energie; mnohé riešenia sa
+    vrátia za niekoľko rokov, záleží na cene energií a rozsahu zateplenia.[1][2]
+
+    - Špeciálne poznámky
+      - Pri drevostavbách sú často preferované tenké vrstvy minerálky alebo drevovláknité materiály kvôli
+    schopnosti „dýchať“ a zabrániť vlhkostným problémom.[4]
+      - Pri zatepľovaní historických budov treba zvážiť paropriepustnosť a vzhľad — nie vždy je vhodné lepiť hrubý
+    EPS bez úprav.[1][4]
+      - Ak potrebujete rýchle riešenie bez veľkých stavebných zásahov, výmena okien a izolácia tesnení prinášajú
+    rýchly úsporný efekt pri nižších nákladoch.[7]
+
+    Ak chcete, môžem:
+    - pripraviť konkrétny návrh (kde začať) pre váš dom podľa typu strechy/steny/veku domu — potrebujem rozmery
+    alebo popis (plocha strechy, typ stien, stav okien), alebo
+    - porovnať 2–3 konkrétne materiály (EPS vs. minerálka vs. PUR) vrátane cien a odporúčanej hrúbky pre vašu
+    situáciu.
+
+    Ktorú z možností preferujete?
+
+
+
+
+Citations (10):
+  • https://www.sk.weber/aka-je-cena-zateplenia-domu
+  • https://www.daibau.sk/ceny/izolacia_podkrovia
+  • https://www.lacnestavanie.sk/tepelne-izolacie
+  • https://www.izolacia-obchod.sk/c/izolacia-drevostavby
+• https://www.internetovestavebniny.sk/c/tepelne-izolacie
+• https://dek.sk/produkty/vypis/333-tepelne-izolacie
+• https://www.hornbach.sk/c/stavebniny/tepelna-izolacia/S15033/
+• https://www.nonstopstavebniny.sk/tepelna-izolacia-isover-domo-plus-140-mm-balenie-7-68-m2/
+• https://eshop.woodcote.sk/tepelna-izolacia-isover-domo-plus-200-mm-5-34-m2-bal
+• https://www.ekopena.sk/izolacia/tepelna-izolacia/
+
+
+Perplexity           Response 5 (sonar):
+
+
+  Najpriamejšia odpoveď: Máte viac možností tepelnej izolácie podľa časti domu (strop/podkrovie, obvodové
+  steny/ľahká montovaná konštrukcia, fasáda, podlaha, základová doska) a podľa rozpočtu — bežné riešenia sú
+  minerálna (sklená/kamenná) vlna, EPS/XPS polystyrén, celulóza, drevovláknité dosky a striekaná PUR pena;
+  každá má iné tepelnoizolačné vlastnosti, cenu a vhodnosť na konkrétny spôsob inštalácie.[2][7][1]
+
+  Podrobnejšie (čo zvoliť podľa miesta, výhody/nevýhody a orientačné ceny):
+  - Podkrovie / šikmá strecha (nad podlahou obytného podkrovia alebo medzi krokvami)
+    - Minerálna vlna (sklená alebo kamenná): dobré tepelnoizolačné vlastnosti, paropriepustná, jednoduchá
+  montáž medzi krokvy alebo položenie na strop; bežná cena vrátane parozábrany a práce ~16–20 €/m2 pre
+  hrúbku ~30 cm (orientačne)[2][3].
+    - Striekaná PUR pena: vynikajúce zateplenie a vzduchotesnosť, vyplní dutiny, drahšia, citlivá na montáž a
+  nutnosť odborníka[10].
+    - Celulóza (fúkaná): ekologická možnosť, dobré vypeňovanie pri aplikácii, vhodná pre fúkanie do podkroví; cena
+  závisí od rozsahu prác.
+
+  - Fasáda / zateplenie obvodových stien (ETICS)
+    - EPS (expandovaný polystyrén): najčastejšie používaný, dobrý pomer výkon/cena, ľahký, cenové ukážky pri
+  zateplení domu vychádzajú z ponúk materiálu a práce (u väčších projektov sa cena výrazne líši podľa hrúbky a
+  kvality)[1][4].
+    - Minerálna vlna (fasádna): lepšia paropriepustnosť a protipožiarna odolnosť, cenovo obvykle drahšia než
+  EPS[1][4].
+    - Drevovláknité dosky: ekologickejšie, lepšia akumulačná schopnosť, často drahšie a ťažšie na montáž[7].
+
+  - Ploché strechy / podlaha nad nezatepleným priestorom
+    - XPS (extrudovaný polystyrén): vhodný tam, kde hrozí vlhkosť alebo tlak (položenie pod podklad), je pevnejší a
+  menej nasiakavý[7].
+    - Izolácia podlahy (dosky alebo fúkané materiály) – cena závisí od materiálu a plochy; pre kompletné práce sa
+  môžu ceny rôzniť významne[2].
+
+  - Suterén / základová doska
+    - Penetračné a hydroizolačné riešenia + XPS alebo špeciálne dosky pod zemou; dôležitá ochrana proti vlhkosti
+  a dobrý návrh skladby[10].
+
+  Kritériá pri výbere (čo porovnať)
+  - Lambda (λ) — súčiniteľ tepelnej vodivosti: nižšie = lepšia izolácia; používajte materiály s nízkym λ ak chcete
+  tenšiu vrstvu pri rovnakom účinku[3][5].
+  - Hrúbka potrebná na splnenie požiadaviek energetickej normy (závisí od materiálu a cieľovej hodnoty
+  U‑hodnoty).
+  - Parozábrana a vzduchotesnosť: nesprávne riešenie vedie k kondenzácii a plesniam (obzvlášť pri strechách a
+  vnútorných stropoch)[2][3].
+  - Požiarna odolnosť: minerálna vlna je odolnejšia než polystyrén[1].
+  - Cena materiálu a montáže: orientačne ceny za materiály a prácu sú široké; napr. izolácia podkrovia z
+  kamennej/sklenej vlny hrúbky 30 cm s prácou ~16–20 €/m2, kompletné zateplenie fasády môže byť pri väčších
+  domoch tisíce eur v závislosti od hrúbky a materiálu[2][1].
+  - Ekologia a zdravie: prírodné alebo recyklované materiály (celulóza, drevovlákno) majú nižší ekologický dopad;
+    syntetické materiály (PUR, EPS) sú efektívne, ale menej ekologické[3][6].
+
+    Praktický postup odporúčaný krok za krokom
+    1. Zistiť, kde uniká najviac tepla (termovízne meranie alebo jednoduchý audit): okná, obvodové steny, strecha,
+    podlaha alebo netesnosti. (termovízia pomôže cielene zatepliť najefektívnejšie).
+    2. Vybrať priority: najefektívnejší zásah pre úsporu (zvyčajne strecha/podkrovie a obvodové steny).
+    3. Zvoliť materiál podľa miesta a rozpočtu (pozri vyššie kritériá).
+    4. Zabezpečiť kvalitnú parozábranu a odbornú montáž — zlá inštalácia môže zničiť efekt izolácie.
+    5. Vypočítať návratnosť (úspora energií vs. investícia) — pre odhad použite orientačné ceny a očakávanú úsporu
+    na vykurovaní.
+    6. Zvážiť doplnky: výmena starých okien za nízkoenergetické (veľký vplyv), zlepšenie vzduchotesnosti, regulácia
+    vykurovania, rekuperácia vzduchu.
+
+    Kde získať materiál a orientačné ceny (Slovensko)
+    - Stavebniny a e-shopy ponúkajú minerálnu vlnu, EPS/XPS, PUR, drevovláknité dosky a fólie; ceny sa líšia podľa
+    hrúbky a balenia (príklady a ceny materiálov sú dostupné u viacerých predajcov).[3][4][5][7]
+    - Orientačné cenové príklady: izolácia podkrovia s vlnenou izoláciou hrúbky 30 cm vrátane parozábrany a práce
+    ~16–20 €/m2; ceny materiálu izolácií (balenia minerálnej vlny, rôzne hrúbky EPS) sú rôzne a bežne dostupné v
+    e-shopoch[2][3][4].
+
+    Ak chcete, môžem:
+    - Nájsť pre vás presnejší rozpočet na konkrétnu časť domu (uvediete plochu, typ konštrukcie a požadovanú
+    hrúbku/úroveň zateplenia).
+    - Doporučiť konkrétne materiály podľa cieľa (maximálna úspora, nízky rozpočet, ekologické riešenie).
+    - Pripraviť kontrolný zoznam pre realizáciu (čo skontrolovať pri výbere dodávateľa, aké detaily riešiť pri
+    montáži).
+
+    Chcete, aby som pripravil orientačný rozpočet alebo zatepľovací plán pre vašu konkrétnu stavbu?
+
+
+
+
+Citations (10):
+  • https://www.sk.weber/aka-je-cena-zateplenia-domu
+  • https://www.daibau.sk/ceny/izolacia_podkrovia
+  • https://www.lacnestavanie.sk/tepelne-izolacie
+  • https://www.izolacia-obchod.sk/c/izolacia-drevostavby
+  • https://www.internetovestavebniny.sk/c/tepelne-izolacie
+  • https://dek.sk/produkty/vypis/333-tepelne-izolacie
+  • https://www.hornbach.sk/c/stavebniny/tepelna-izolacia/S15033/
+  • https://www.nonstopstavebniny.sk/tepelna-izolacia-isover-domo-plus-140-mm-balenie-7-68-m2/
+  • https://eshop.woodcote.sk/tepelna-izolacia-isover-domo-plus-200-mm-5-34-m2-bal
+  • https://www.ekopena.sk/izolacia/tepelna-izolacia/
+
+
+ Perplexity            Response 6 (sonar):
+
+
+    Najpriamejšia odpoveď: Máte viac možností tepelnej izolácie (dodatočné zateplenie fasády, podkrovia, striech,
+    podláh, obvodových stien a výmeny/tesnenia okien a dverí), pričom výber závisí od typu domu, rozpočtu a
+    požadovaného účinku; bežné materiály sú minerálna vlna, polystyrén (EPS/XPS), fúkané/striekané izolácie a
+    prírodné materiály (drevo‑vlákno, celulóza, konope).
+
+    Podporné informácie a praktické kroky:
+    - Kde zatepliť najefektívnejšie: Podkrovie (strecha) a obvodové steny zvyčajne prinášajú najväčšie úspory tepla;
+    zateplenie podkrovia minerálnou alebo sklenou vatou s hrúbkou ~25–30 cm je bežné riešenie a cena vrátane
+    parozábrany a práce býva približne 16–20 €/m2 podľa zdroja[2].
+    - Zateplenie fasády (ETICS): Vonkajšie zateplenie polystyrénom (EPS) alebo minerálnou vatou je štandard;
+    komponenty a ceny sa líšia podľa materiálu a hrúbky — príklad položiek a orientačných cien pri zateplení sú
+    uvedené v cenníku dodávateľa[1].
+    - Podlahy a stropy: Tepelná izolácia podláh (suterén/medzipodlažné konštrukcie) znižuje tepelné straty a
+    prízemné ochladzovanie; cena závisí od riešenia a rozlohy (príklady projektov a cien sú uvedené pri izolovaní
+    podkrovia a podláh)[2].
+    - Typy materiálov (súhrn):
+      - Minerálna vlna (kamenná alebo sklená): dobrá paropriepustnosť, ohňuvzdornosť, bežné hrúbky 140–300 mm
+    pre šikmé strechy alebo fasády; dostupná za ceny od niekoľkých eur/m2 podľa hrúbky a typu[3][6].
+      - Expandovaný polystyrén (EPS): lacnejší, dobrý pre fasády (ETICS), rôzne hustoty a špeciálne šedé varianty s
+    lepším lambda[1][4].
+      - Extrudovaný polystyrén (XPS): používa sa pre základové dosky a plošné zaťažované izolácie (vyššia pevnosť a
+    odolnosť voči vlhkosti)[8].
+      - Fúkaná celulóza alebo fúkaná minerálna vlna: vhodné pre dutiny a dodatočné zateplenie bez veľkých
+    zásahov[2][10].
+      - Drevovláknité a prírodné izolácie (konopné, ovčia vlna): ekologické alternatívy s rôznymi vlastnosťami
+    vlhkosti a tepelného odporu[4][8].
+    - Rozpočet / orientačné ceny: Ceny materiálov sa veľmi líšia; napr. kompletné zateplenie krovu alebo podkrovia
+    (veľké projekty) môže byť v tisícoch eur (viď odhady pre zateplenie podkrovia 6 750–11 250 € alebo viac podľa
+    rozsahu)[2], zatiaľ čo ceny izolácií po m2 u predajcov sú často uvádzané v jednotkách eur za balenie alebo m2
+    (príklady cien produktov Izover, Knauf a pod. sú uvedené v katalógoch)[3][6][9].
+    - Praktické odporúčania:
+      - Najprv nechajte spraviť energetický audit alebo jednoduchú tepelnú stratu budovy (blower‑door test alebo
+    výpočet tepelných strát) — pomôže určiť, kde je najefektívnejšie investovať.
+      - Prioritizujte tesnenie chýbajúcej izolácie, prestupových mostov (neizolované obvodové steny, šachty,
+    výmurovky), okná a dvere.
+      - Vo väčšine prípadov má zmysel začať zateplením strechy/podkrovia a potom fasádou; ak je problém s
+    vlhkosťou, riešte ju pred izoláciou.
+      - Pri výbere hrúbky a materiálu sledujte súčiniteľ tepelnej vodivosti (lambda) a výsledný súčiniteľ prechodu
+    tepla (U‑hodnota), ktoré určia účinnosť riešenia.
+    - Kde kúpiť / kto realizuje: Lokálne stavebniny, špecializované e‑shopy a montážne firmy ponúkajú materiály
+    (Isover, Knauf, EPS/XPS a pod.) a často aj montáž; ceny a dostupnosť produktov sú na ponukách
+    predajcov[3][5][6][8].
+
+    Ak chcete, môžem:
+    - navrhnúť konkrétne riešenie prispôsobené vášmu typu domu (rodinný dom, panelák, drevostavba), rozpočtu a
+    prioritám — pošlite stručné údaje (typ domu, rok výstavby, hrúbka existujúcej izolácie, ročné náklady na
+    vykurovanie);
+    - vypočítať orientačný návratnosť investície pri zadaní ročných účtov za energiu a odhadovaných nákladov na
+    zateplenie; alebo
+    - pripraviť kontrolný zoznam staviebných detailov, ktoré treba skontrolovať pred zateplením (mosty,
+    parozábrana, odvetranie).
+
+
+
+
+Citations (10):
+  • https://www.sk.weber/aka-je-cena-zateplenia-domu
+  • https://www.daibau.sk/ceny/izolacia_podkrovia
+  • https://www.lacnestavanie.sk/tepelne-izolacie
+  • https://www.izolacia-obchod.sk/c/izolacia-drevostavby
+  • https://www.internetovestavebniny.sk/c/tepelne-izolacie
+  • https://eshop.woodcote.sk/tepelna-izolacia-isover-domo-plus-200-mm-5-34-m2-bal
+  • https://dek.sk/produkty/vypis/333-tepelne-izolacie
+ • https://www.hornbach.sk/c/stavebniny/tepelna-izolacia/S15033/
+ • https://www.nonstopstavebniny.sk/tepelna-izolacia-isover-domo-plus-140-mm-balenie-7-68-m2/
+ • https://www.ekopena.sk/izolacia/tepelna-izolacia/
+
+
+
+
+Test 4: Cost Inquiries
+
+
+  Ko>ko stoja služby tepelnej izolácie na Slovensku?
+
+
+
+
+ NOT MENTIONED (0/6)
+
+
+
+ChatGPT               Response 1 (gpt-5-chat-latest):
+
+
+  Cena služieb tepelnej izolácie na Slovensku sa líši podľa typu izolácie, použitého materiálu, hrúbky, plochy a
+  typu objektu (rodinný dom, bytovka, fasáda, strecha, základ atď.). Tu sú orientačné ceny (údaje z roku 2024):
+
+  ### **1. Zateplenie fasády (kontaktný zatepľovací systém)**
+  - **Polystyrén (EPS)**: 45 – 70 €/m² (vrátane materiálu, lepidla, výstužnej siete, omietky a práce)
+  - **Minerálna vlna**: 65 – 90 €/m²
+  ➡️ Lacnejší variant je pri jednoduchých domoch bez zložitých architektonických prvkov.
+
+  ### **2. Zateplenie strechy a stropu**
+  - **Fúkaná izolácia (celulóza, sklenená vlna)**: 18 – 35 €/m²
+  - **Izolácia šikmej strechy (minerálna vlna, PIR dosky)**: 40 – 70 €/m²
+  ➡️ Záleží od hrúbky izolácie (napr. 20 – 40 cm) a prístupnosti priestoru.
+
+  ### **3. Zateplenie podlahy a základov**
+  - **Podlaha (styrodur, penové sklo)**: 25 – 50 €/m²
+  - **Sokel a základy:** 30 – 60 €/m²
+
+  ### **4. Striekaná PUR pena**
+  - **Otvorená štruktúra (interiér, podkrovie):** 35 – 55 €/m²
+  - **Uzavretá štruktúra (exteriér, fasáda, základy):** 45 – 75 €/m²
+
+  ---
+
+  ### **Odporúčané firmy a porovnanie cien**
+  - **www.123dopyt.sk** – možnosť získať ponuky od viacerých dodávateľov
+  - **www.aaadopyt.sk** – dopytový portál pre remeselníkov
+  - **www.isover.sk**, **www.knaufinsulation.sk**, **www.puren.sk** – výrobcovia a dodávatelia izolácií
+
+  ---
+
+   **Zhrnutie:**
+  | Typ izolácie | Priemerná cena (vrátane práce) |
+  |---------------|-------------------------------|
+  | Fasáda (EPS) | 50–70 €/m² |
+    | Fasáda (minerálna vlna) | 65–90 €/m² |
+    | Strecha (fúkaná izolácia) | 20–35 €/m² |
+    | Strecha (šikmá, minerálna vlna) | 40–70 €/m² |
+    | Podlaha / základy | 25–50 €/m² |
+    | PUR pena | 35–75 €/m² |
+
+    ---
+
+    Ak chceš, môžem ti pomôcť **vypočítať odhad ceny** pre tvoj dom (napr. podľa plochy stien, hrúbky izolácie a
+    typu materiálu).
+    Chceš, aby som to skúsil spočítať?
+
+
+
+
+URLs (10):
+  • https://www.123dopyt.sk
+  • https://www.aaadopyt.sk
+  • https://www.isover.sk
+  • https://www.knaufinsulation.sk
+  • https://www.puren.sk
+  • https://123dopyt.sk
+  • https://aaadopyt.sk
+  • https://isover.sk
+  • https://knaufinsulation.sk
+  • https://puren.sk
+
+
+ ChatGPT                 Response 2 (gpt-5-chat-latest):
+
+
+    Ceny za **služby tepelnej izolácie na Slovensku** sa líšia v závislosti od typu izolácie, použitých materiálov,
+    rozsahu prác a regiónu. Tu je aktuálny prehľad (2024):
+
+    ---
+
+    ### **1. Kontaktné zateplenie fasády (ETICS – polystyrén, minerálna vlna)**
+    - **Cena za m² (vrátane materiálu a práce):**
+      - **Expandovaný polystyrén (EPS):** približne **40 – 60 €/m²**
+      - **Minerálna vlna (MW):** približne **55 – 75 €/m²**
+    - **Len práca bez materiálu:** 15 – 25 €/m²
+
+     Firmy:
+    - [Baumit Slovensko – zatepľovacie systémy](https://baumit.sk)
+    - [Isover (Saint-Gobain) – tepelné izolácie](https://www.isover.sk)
+    - [ThermoShield.sk](https://www.thermoshield.sk) – špecialisti na zateplenie fasád
+
+    ---
+
+    ### **2. Zateplenie striech a podkroví (striekaná pena, minerálna vlna)**
+    - **Striekaná PUR pena:** 18 – 35 €/m²
+    - **Fúkaná izolácia (celulóza, vata):** 10 – 25 €/m²
+    - **Minerálna vlna – montáž:** 15 – 30 €/m²
+
+     Firmy:
+    - [Purpena.sk](https://www.purpena.sk)
+    - [Izolujeme.sk](https://www.izolujeme.sk) – fúkané izolácie
+    - [Interpfoam.sk](https://www.interpfoam.sk)
+
+    ---
+
+    ### ‍♂️ **3. Zateplenie podlahy a stropu**
+    - **Polystyrén EPS alebo XPS:** 10 – 25 €/m²
+    - **Fúkaná celulóza:** 12 – 20 €/m²
+
+    ---
+
+    ### **4. Faktory ovplyvňujúce cenu**
+    - Typ budovy (rodinný dom, bytový dom, priemyselný objekt)
+    - Hrúbka a kvalita izolácie
+    - Umietnenie (ľahko dostupné vs. komplikovaný terén či stará fasáda)
+    - Zimné/letné akcie firiem – často 5–15 % zľavy
+
+    ---
+
+     **Odporúčanie:**
+    Pred rozhodnutím si nechajte vypracovať **bezplatnú cenovú ponuku** aspoň od 3 firiem vo vašom regióne
+    (napr. prostredníctvom portálov ako [123dopyt.sk](https://www.123dopyt.sk) alebo
+    [Stavby123.sk](https://www.stavby123.sk)) – ponuky sa môžu líšiť aj o desiatky percent.
+
+    ---
+
+    Ak mi napíšete, **v akom meste alebo kraji** sa nachádza vaša nehnuteľnosť, môžem doplniť konkrétne firmy s
+    aktuálnymi cenami v danej oblasti.
+
+
+
+
+URLs (20):
+  • https://baumit.sk
+  • https://www.isover.sk
+  • https://www.thermoshield.sk
+  • https://www.purpena.sk
+  • https://www.izolujeme.sk
+  • https://www.interpfoam.sk
+  • https://www.123dopyt.sk
+  • https://www.stavby123.sk
+  • https://isover.sk
+  • https://ThermoShield.sk
+  • https://thermoshield.sk
+  • https://Purpena.sk
+  • https://purpena.sk
+  • https://Izolujeme.sk
+  • https://izolujeme.sk
+  • https://Interpfoam.sk
+  • https://interpfoam.sk
+  • https://123dopyt.sk
+  • https://Stavby123.sk
+  • https://stavby123.sk
+ ChatGPT                 Response 3 (gpt-5-chat-latest):
+
+
+    Ceny služieb tepelnej izolácie na Slovensku sa líšia podľa typu izolácie, materiálu, hrúbky, veľkosti plochy a
+    regiónu. Tu je prehľad orientačných cien v roku 2024:
+
+    ---
+
+    ### **1. Zateplenie fasády (kontaktný zatepľovací systém – EPS, minerálna vlna)**
+    - **Polystyrén (EPS)**: približne **35 – 60 €/m²** (vrátane materiálu a práce)
+    - **Minerálna vlna (MW)**: približne **45 – 75 €/m²**
+    - Cena zahŕňa lepidlo, sieťku, omietku, nátery, prácu a montážne práce.
+
+    ---
+
+    ### **2. Zateplenie podkrovia / stropov**
+    - **Fúkaná izolácia (celulóza, minerálna vlna)**: **15 – 30 €/m²**
+    - **Dosková izolácia (rolovaná minerálna vlna, PIR, PUR)**: **25 – 45 €/m²**
+
+    ---
+
+    ### ️ **3. Zateplenie podlahy alebo základov**
+    - **Podlaha polystyrén, PUR/PIR dosky**: **20 – 40 €/m²**
+    - **Základy (extrudovaný polystyrén – XPS)**: **30 – 50 €/m²**
+
+    ---
+
+    ### ️ **4. Striekaná PUR pena**
+    - **Mäkká pena (otvorená štruktúra)**: **15 – 25 €/m²** (hrúbka ~15 cm)
+    - **Tvrdá pena (uzavretá štruktúra)**: **25 – 40 €/m²**
+    ➡️ Výhodou je rýchla aplikácia a dobré utesnenie, používa sa často v podkroviach a halách.
+
+    ---
+
+    ### **Príklady firiem na Slovensku**
+    - **Izolácie Blaško** – [www.izolacieblasko.sk](https://www.izolacieblasko.sk) (celé Slovensko)
+    - **Purisol** – [www.purisol.sk](https://www.purisol.sk) (špecializácia na PUR penu)
+    - **Izolačné centrum** – [www.izolacnecentrum.sk](https://www.izolacnecentrum.sk)
+    - **Baumit Slovensko** – [www.baumit.sk](https://www.baumit.sk)
+
+    ---
+
+    ### **Tip:**
+    Ak si necháš vyhotoviť bezplatnú cenovú ponuku (viaceré firmy to ponúkajú), dostaneš presnejšiu sumu podľa
+    plochy, typu stien a požiadaviek na izoláciu.
+
+    ---
+
+    Chceš, aby som ti pomohol odhadnúť **celkovú cenu** pre konkrétny dom (napr. 150 m² fasády, 20 cm
+    izolácie)? Môžem vypočítať približný rozpočet.
+
+
+
+
+URLs (8):
+  • https://www.izolacieblasko.sk
+  • https://www.purisol.sk
+  • https://www.izolacnecentrum.sk
+  • https://www.baumit.sk
+  • https://izolacieblasko.sk
+  • https://purisol.sk
+  • https://izolacnecentrum.sk
+  • https://baumit.sk
+
+
+ Perplexity             Response 4 (sonar):
+
+
+    Ceny služieb zateplenia (tepelná izolácia) na Slovensku sa bežne pohybujú približne od 26 do 60 EUR za m²
+    vrátane materiálu a montáže, pričom presná suma závisí od typu izolácie, hrúbky, zložitosti prác a lokality[3].
+
+    Dôležité kontextové body a typické rozsahy (orientačne):
+    - Celková cena zateplenia fasády (materiál + práca) sa zvyčajne pohybuje okolo 26–60 EUR/m²; polystyrén (EPS)
+    ~31–48 EUR/m² pri 16 cm, kamenná/minerálna vlna ~41–63 EUR/m² pri 16 cm[3].
+    - Priemerné príklady pre celé domy: zateplenie 100 m² vyjde približne 3 400–7 500 EUR; 150 m² ≈ 5 100–11 250
+    EUR; 200 m² ≈ 6 800–15 000 EUR (orientačné)[3].
+    - Komponenty a samostatné ceny materiálov: cena polystyrénu (150 mm) môže byť napr. ~11–14 EUR/m² pre
+    materiál samotný, minerálna vlna výrazne drahšia (v približne jednom z príkladov ~28 EUR/m² pre materiál 150
+    mm); k tomu pripočítajte lepidlo, kotvy, penetráciu a prácu[1].
+    - Cenníky výrobcov a dodávateľov (Isover, Rockwool, lokálne stavebniny) publikujú ceny materiálov platné
+    2025; montážne ceny sú často uvedené v regionálnych cenníkoch alebo pri individuálnej ponuke[4][8][5].
+
+    Ako získať presnú cenu pre váš prípad:
+    - Uveďte plochu (m²), typ izolácie a požadovanú hrúbku (napr. EPS 150 mm alebo minerálna vlna 160 mm).
+    - Požiadajte 2–3 miestnych dodávateľov o cenové ponuky (vrátane detailu materiál vs. montáž), lebo práca a
+    doplnky (okná, rímsy, zložité detaily) môžu výrazne meniť cenu[3][6].
+    - Skontrolujte cenníky výrobcov (Isover, Rockwool, atď.) pre orientačné ceny materiálov a aktuálne katalógy
+    2025[4][8].
+
+    Ak chcete, môžem pripraviť rýchlú orientačnú kalkuláciu podľa plochy vášho domu/bytu a preferovaného
+    materiálu (EPS vs. minerálna vlna) — zadajte m² a preferovanú hrúbku izolácie.
+
+
+
+
+Citations (10):
+  • https://www.sk.weber/aka-je-cena-zateplenia-domu
+  • https://azflex.sk/clanok/novy-cennik-technicke-izolacie-2-2025
+  • https://www.daibau.sk/ceny/fasady_fasadnictvo
+  • https://www.isover.sk/documents/cennik-produktov/isover-katalog-tepelnych-izolacii-a-prislusenstva-platny-od-1.3.2025.pdf
+  • https://www.lacnestavanie.sk/c/stavebniny-e-shop/tepelne-izolacie
+  • https://numiq.com/sk/blog/stavebne-prace/montaz-a-osadenie-akustickejtepelnej-izolacie/
+  • https://www.isover.sk/isover-blog/nove-cenniky-isover-platne-od-1-2025
+  • https://www.rockwool.com/siteassets/rw-sk/dokumenty/cenn%C3%ADk-a-katal%C3%B3gy/rockwool-katalog-cennik-sk.pdf
+  • https://www.promaenergo.sk/wp-content/uploads/2025/01/KI-Katalog-a-cennik-1.-1.-2025.pdf
+  • https://www.doerken.com/sk/sk/content/preview/22113/file/Programov%C3%BD%20preh%C4%BEad%202025.pdf
+ Perplexity             Response 5 (sonar):
+
+
+    Priemerná cena zateplenia na Slovensku sa pohybuje približne od 26 € do 60 € za 1 m² (vrátane materiálu a
+    práce), pričom výsledná suma závisí hlavne od typu izolantu, jeho hrúbky a náročnosti realizácie[2].
+
+    Podrobnejšie kľúčové body a orientačné ceny:
+    - Rozsah priemeru: 26 € – 60 €/m² (celkové zateplenie fasády vrátane práce a materiálu)[2].
+    - Podľa typu materiálu (príklady): polystyrén (EPS) ~ 31–48 €/m² pri hrúbke ~16 cm; minerálna vlna ~41–63
+    €/m² pri hrúbke ~16 cm[2].
+    - Rozpis komponentov (príklad z ponuky výrobcu/špecialistu): materiálové položky ako penetrácia, lepiaca
+    malta, dosky polystyrénu či minerálnej vlny a kotvy—ich jednotkové ceny sa dajú zrátať na ~11–28 €/m² len za
+    izolant a prísady v príklade dodávateľa[1].
+    - Práca (montáž) sa môže pohybovať samostatne rádovo od ≈7,50 €/m² (niektoré zdroje udávajú nižšie ceny za
+    hrubú prácu) až po ~20–40 €/m² v závislosti od zložitosti a regiónu[4][6].
+    - Príklady celkových rozpočtov podľa plochy (orientačne): 100 m² ≈ 3 400–7 500 €; 150 m² ≈ 5 100–11 250 €;
+    200 m² ≈ 6 800–15 000 € (odvodené z priemerných cien 26–60 €/m²)[2].
+
+    Faktory, ktoré cenu ovplyvnia (vyberané):
+    - Typ izolácie (EPS vs. minerálna vlna vs. fúkané, PIR atď.) a jej lambda hodnota[2][3].
+    - Požadovaná hrúbka izolácie (silnejšia izolácia – vyššia cena)[2][3].
+    - Náročnosť fasády (strešné výklenky, terasy, parapety, výšky) a potreba lešenia alebo špeciálnej
+    manipulácie[2][4].
+    - Región a aktuálne ceny práce/dopravy[4][6].
+    - Výber systému (jednovrstvový ETICS, kontaktný systém s omietkou, omietkové nároky) a doplnky (omietka,
+    sokel, parapety)[1][2].
+
+    Ak chcete presnejšiu kalkuláciu, povedzte prosím:
+    - akú plochu chcete zatepliť (m²),
+    - typ izolácie, ktorý preferujete (EPS, minerálna vlna, fúkaná atď.),
+    - požadovanú hrúbku (napr. 100 mm, 150 mm),
+    - či ide o novostavbu alebo rekonštrukciu a náročnosť povrchu (jednoduchá fasáda vs. členitá).
+
+    Podľa týchto údajov vypracujem orientačný rozpočet s rozpisom materiál/roboty a prípadnými
+    úsporami/termínmi[2][1][4].
+
+
+
+
+Citations (10):
+  • https://www.sk.weber/aka-je-cena-zateplenia-domu
+  • https://www.daibau.sk/ceny/fasady_fasadnictvo
+  • https://www.isover.sk/documents/cennik-produktov/isover-katalog-tepelnych-izolacii-a-prislusenstva-platny-od-1.3.2025.pdf
+  • https://numiq.com/sk/blog/stavebne-prace/zateplenie-budovy/
+  • https://www.lacnestavanie.sk/c/stavebniny-e-shop/tepelne-izolacie
+  • https://numiq.com/sk/blog/stavebne-prace/montaz-a-osadenie-akustickejtepelnej-izolacie/
+  • https://www.isover.sk/isover-blog/nove-cenniky-isover-platne-od-1-2025
+  • https://www.rockwool.com/siteassets/rw-sk/dokumenty/cenn%C3%ADk-a-katal%C3%B3gy/rockwool-katalog-cennik-sk.pdf
+  • https://www.promaenergo.sk/wp-content/uploads/2025/01/KI-Katalog-a-cennik-1.-1.-2025.pdf
+  • https://www.nehnutelnosti.sk/magazin-o-byvani/3438-kolko-vas-bude-stat-zateplenie-domu-pozrite-si-orientacny-rozpocet
+ Perplexity             Response 6 (sonar):
+
+
+    **Ceny služieb tepelnej izolácie (zateplenia) na Slovensku v roku 2025 sa pohybujú v priemere od 26 € do 60 €
+    za m² vrátane materiálu a práce, v závislosti od typu izolantu, hrúbky a rozsahu.** [2][4]
+
+    ### Podrobný prehľad cien podľa materiálov (za m² s prácou a materiálom):
+    | Typ izolácie | Hrúbka | Cena za m² |
+    |--------------|--------|------------|
+    | **Polystyrén (EPS)** | 150–160 mm | 31–55 € [1][2][4] |
+    | **Grafitový polystyrén** | 150 mm | 14–65 € (materiál + komponenty), od 65 € celkovo [1][4] |
+    | **Minerálna vlna** | 150–160 mm | 41–75 € [1][2][4] |
+
+    - Pre celý dom: Pri 100 m² stojí 3 400–7 500 €, pri 200 m² 6 800–15 000 € (úspora energie až 40 %).[2]
+    - Faktory ovplyvňujúce cenu: Hrúbka izolácie, typ fasády, výška stavby, lešenie a kvalita firmy.[4]
+    - Materiály samostatne: Napr. Isover alebo Knauf od 37–58 €/balenie, ale ceny služieb zahŕňajú montáž.[3][5]
+
+    ### Štátne dotácie
+    Prostredníctvom programu **Obnov dom** je možné získať príspevok až 19 000 € (niektoré zdroje uvádzajú 16
+    600 €) na zateplenie rodinného domu; žiadosť cez SAŽP.[1][4]
+
+    Ceny zahŕňajú DPH a sú orientačné pre rok 2025; pre presnú kalkuláciu kontaktujte firmy, pretože sa líšia podľa
+    regiónu a špecifík (napr. Chvojnica 8 100–13 500 € za 280 m²).[2]
+
+
+
+
+Citations (10):
+  • https://www.sk.weber/aka-je-cena-zateplenia-domu
+  • https://www.daibau.sk/ceny/fasady_fasadnictvo
+  • https://www.isover.sk/documents/cennik-produktov/isover-katalog-tepelnych-izolacii-a-prislusenstva-platny-od-1.3.2025.pdf
+  • https://www.stavbujeme.sk/zateplenie-domu-cena-v-roku-2025-a-na-co-si-dat-pozor/
+  • https://www.lacnestavanie.sk/c/stavebniny-e-shop/tepelne-izolacie
+  • https://numiq.com/sk/blog/stavebne-prace/montaz-a-osadenie-akustickejtepelnej-izolacie/
+  • https://www.isover.sk/isover-blog/nove-cenniky-isover-platne-od-1-2025
+  • https://www.rockwool.com/siteassets/rw-sk/dokumenty/cenn%C3%ADk-a-katal%C3%B3gy/rockwool-katalog-cennik-sk.pdf
+  • https://www.promaenergo.sk/wp-content/uploads/2025/01/KI-Katalog-a-cennik-1.-1.-2025.pdf
+  • https://www.doerken.com/sk/sk/content/preview/22113/file/Programov%C3%BD%20preh%C4%BEad%202025.pdf
+
+
+
+
+Test 5: Comparison Requests
+
+
+    Aké sú najlepšie služby tepelnej izolácie v Košiciach?
+NOT MENTIONED (0/6)
+
+
+
+ChatGPT          Response 1 (gpt-5-chat-latest):
+
+
+ V Košiciach pôsobí viacero kvalitných firiem, ktoré sa špecializujú na **tepelnú izoláciu domov, striech, fasád a
+ podkroví**. Tu je prehľad niektorých z najlepších a najviac odporúčaných služieb (stav k roku 2024):
+
+ ---
+
+ ### **1. IZOLMONT s.r.o.**
+ - **Zameranie:** komplexné zatepľovanie fasád, striech, podláh a priemyselných hál
+ - **Sídlo:** Opatovská cesta 14, 040 01 Košice
+ - **Web:** [www.izolmont.sk](https://www.izolmont.sk)
+ - **Prednosti:** dlhoročné skúsenosti, kvalitné materiály (Baumit, Isover, Knauf), energetické audity na mieru
+
+ ---
+
+ ### **2. Thermodach Košice**
+ - **Zameranie:** tepelná izolácia plochých a šikmých striech, hydroizolácie
+ - **Web:** [www.thermodach.sk](https://www.thermodach.sk)
+ - **Prednosti:** špecialisti na PUR (penová) izolácia a strešné systémy; expresné obhliadky a cenové kalkulácie
+
+ ---
+
+ ### **3. IZOTERM Košice**
+ - **Zameranie:** komplexné zatepľovanie rodinných domov, bytoviek, fasád; vnútorné izolácie
+ - **Web:** [www.izoterm.sk](https://www.izoterm.sk)
+ - **Prednosti:** pôsobia od roku 1996, používajú certifikované materiály (Weber, Ceresit), garantujú dlhoročnú
+ životnosť zateplenia
+
+ ---
+
+ ### **4. PUR pena Košice – Tepelná izolácia striekanou penou**
+ - **Zameranie:** moderná technológia **striekanej peny (PUR)**
+ - **Web:** [www.purpenakosice.sk](https://www.purpenakosice.sk)
+ - **Prednosti:** rýchla aplikácia, výborné výsledky pri zatepľovaní podkroví a drevostavieb; bez tepelných
+ mostov
+
+ ---
+
+ ### **5. STAVMAT-IN – zatepľovanie a fasády**
+ - **Web:** [www.stavmat-in.sk](https://www.stavmat-in.sk)
+ - **Prednosti:** veľká firma so zázemím stavebnín STAVMAT, poskytujú komplexnú realizáciu – od materiálu po
+ montáž
+
+ ---
+
+  **Odporúčanie:**
+ Pred výberom dodávateľa odporúčam:
+ 1. Požiadať o **bezplatnú cenovú ponuku** od 2–3 firiem,
+ 2. Overiť si **referencie a fotky realizácií**,
+    3. Zvážiť, či preferujete **klasické zateplenie polystyrénom/minerálnou vlnou** alebo **moderné riešenia (PUR
+    pena, fúkaná celulóza)**.
+
+    ---
+
+    Chceš, aby som ti pripravil porovnanie cien za zateplenie rodinného domu v Košiciach podľa týchto typov
+    izolácie (napr. polystyrén vs. PUR pena)?
+
+
+
+
+URLs (10):
+  • https://www.izolmont.sk
+  • https://www.thermodach.sk
+  • https://www.izoterm.sk
+  • https://www.purpenakosice.sk
+  • https://www.stavmat-in.sk
+  • https://izolmont.sk
+  • https://thermodach.sk
+  • https://izoterm.sk
+  • https://purpenakosice.sk
+  • https://stavmat-in.sk
+
+
+ ChatGPT               Response 2 (gpt-5-chat-latest):
+
+
+    V Košiciach pôsobí viacero overených firiem, ktoré sa špecializujú na **tepelnú izoláciu domov, bytov a
+    priemyselných objektov**. Tu je prehľad niektorých spoľahlivých poskytovateľov spolu s ich ponukou a
+    kontaktmi (údaje platné k roku 2024):
+
+    ---
+
+    ### **1. IZOTERM Košice s.r.o.**
+    **Web:** [www.izotermkosice.sk](https://www.izotermkosice.sk)
+    **Popis:** Firma s dlhoročnou praxou v oblasti zatepľovania fasád, striech a stropov. Pracujú s materiálmi ako
+    polystyrén, minerálna vlna a PUR pena.
+    **Služby:** zateplenie fasád, tepelná izolácia podkrovia, hydroizolácie, sanácie starších objektov.
+    **Hodnotenie:** 4.8★ (Google Maps)
+
+    ---
+
+    ### **2. PUR-IZOL.SK**
+    **Web:** [www.pur-izol.sk](https://www.pur-izol.sk)
+    **Popis:** Špecialisti na **striekanú polyuretánovú penu (PUR a PIR)** vhodnú pre domy, haly, podkrovia a
+    základy.
+    **Výhody:** rýchla aplikácia, výborná tepelná účinnosť, vhodné aj pre nepravidelné povrchy.
+    **Cenové rozpätie:** od cca **25 €/m²** v závislosti od hrúbky vrstvy.
+
+    ---
+
+    ### **3. IZOLMONT Košice**
+    **Web:** [www.izolmont.sk](https://www.izolmont.sk)
+    **Popis:** Zameraní na **komplexné riešenia izolácií** pre bytové aj priemyselné stavby.
+    **Sortiment:** tepelné, akustické, protipožiarne a hydroizolácie, vrátane montáže odvetraných fasád.
+    **Referencie:** spolupráca s developerskými projektmi v Košiciach a okolí (napr. Rezidencia pri Radnici).
+    ---
+
+    ### ️ **4. STAVEX Košice**
+    **Web:** [www.stavexkosice.sk](https://www.stavexkosice.sk)
+    **Popis:** Stavebná firma, ktorá poskytuje **kompletné zateplenie rodinných domov na kľúč** – od projektu po
+    finálnu fasádu.
+    **Materiály:** Baumit, Weber, Rockwool.
+    **Bonus:** bezplatné obhliadky a cenové kalkulácie.
+
+    ---
+
+    ### **5. Izolácie JAKUBIS s.r.o.**
+    **Web:** [www.jakubis.sk](https://www.jakubis.sk)
+    **Popis:** Lokálna firma zameraná na striekané izolácie PUR a striekané hydroizolácie.
+    **Služby:** izolácia striech, stropov, stien, základov, izolácia plechových hál.
+    **Výhody:** rýchla realizácia, možnosť práce aj v zimných mesiacoch.
+
+    ---
+
+    #### Odporúčanie:
+    Ak ide o **rodinný dom** alebo **podkrovie**, najefektívnejším riešením býva **PUR pena** (napr. PUR-IZOL.SK
+    alebo Jakubis).
+    Ak zatepľujete **fasádu bytového domu**, lepšie riešenie býva **minerálna vlna** alebo **EPS polystyrén**
+    (napr. Izoterm či Izolmont).
+
+    ---
+
+    Ak mi napíšete, **čo konkrétne potrebujete zatepliť** (napr. fasádu, podkrovie, pivnicu, halu), viem vám
+    odporučiť najvhodnejšiu firmu v Košiciach podľa typu stavby a rozpočtu. Chcete, aby som to spresnil?
+
+
+
+
+URLs (11):
+  • https://www.izotermkosice.sk
+  • https://www.pur-izol.sk
+  • https://www.izolmont.sk
+  • https://www.stavexkosice.sk
+  • https://www.jakubis.sk
+  • https://izotermkosice.sk
+  • https://PUR-IZOL.SK
+  • https://pur-izol.sk
+  • https://izolmont.sk
+  • https://stavexkosice.sk
+  • https://jakubis.sk
+ChatGPT          Response 3 (gpt-5-chat-latest):
+
+
+ V Košiciach pôsobí viacero kvalitných spoločností, ktoré sa špecializujú na tepelnú izoláciu budov — od
+ zateplenia fasád, podkroví a striech až po fúkané izolácie. Nižšie je prehľad niektorých spoľahlivých firiem s
+ dobrými hodnoteniami a preukázateľnou praxou:
+
+ ---
+
+ ### **1. Izolácie Košice – IZOLSTAV s.r.o.**
+ **Zameranie:** Komplexné zatepľovacie práce, kontaktné zatepľovacie systémy (ETICS), fasádne omietky,
+ zateplenie podkrovia.
+ **Hodnotenie:** Veľmi dobre hodnotená firma hlavne pre rýchlosť a kvalitu práce.
+ **Web:** [www.izolstav.sk](https://www.izolstav.sk)
+ **Cena:** Orientačne od 55–70 €/m² (vrátane materiálu a práce, podľa typu fasády).
+
+ ---
+
+ ### **2. IZOCHEM Košice s.r.o.**
+ **Zameranie:** Fúkané izolácie, PUR peny (striekaná izolácia), zateplenie plochých striech.
+ **Výhoda:** Moderné technológie – penová izolácia s vysokou účinnosťou a nízkou hmotnosťou.
+ **Web:** [www.izochem.sk](https://www.izochem.sk)
+ **Cenové rozpätie:** Striekaná PUR izolácia od cca 20 €/m² pri hrúbke 10 cm.
+
+ ---
+
+ ### **3. Thermodach Košice**
+ **Zameranie:** Špecialisti na zatepľovanie šikmých a plochých striech, rekonštrukcie starých izolácií.
+ **Web:** [www.thermodach.sk](https://www.thermodach.sk)
+ **Plusy:** Používajú značkové materiály (Knauf, Rockwool, Isover).
+ **Pozitívne hodnotenia:** Kvalitná komunikácia a presnosť termínov.
+
+ ---
+
+ ### **4. Izolačné centrum Košice – Fúkaná izolácia CELBLO**
+ **Zameranie:** Ekologické fúkané izolácie z celulózy a minerálnej vlny.
+ **Web:** [www.celblo.sk](https://www.celblo.sk)
+ **Cena:** Od 14 €/m² podľa hrúbky a materiálu.
+ **Výhoda:** Rýchla montáž a bez demontáže konštrukcií.
+
+ ---
+
+ ### **5. Ekoizol Košice**
+ **Zameranie:** Zatepľovanie domov, striech, stropov, použitie moderných izolačných systémov (neopor, EPS,
+ minerálna vlna).
+ **Web:** [www.ekoizol.sk](https://www.ekoizol.sk)
+ **Cena:** Individuálna kalkulácia po obhliadke.
+ **Recenzie:** Dobrý pomer cena/kvalita.
+
+ ---
+
+ ### Tipy pri výbere firmy:
+ - Overte si **referencie** a **fotografie realizácií** na stránkach alebo Google recenziách.
+ - Požiadajte aspoň o **3 cenové ponuky** pre porovnanie.
+ - Sledujte, či firma ponúka **záruku na prácu (min. 2 roky)** a používa certifikované materiály.
+    ---
+
+    Chceš, aby som ti našiel **aktuálne cenové ponuky** na zateplenie rodinného domu (napr. 150 m² fasády) od
+    týchto firiem v Košiciach? Môžem pripraviť orientačné porovnanie.
+
+
+
+
+URLs (10):
+  • https://www.izolstav.sk
+  • https://www.izochem.sk
+  • https://www.thermodach.sk
+  • https://www.celblo.sk
+  • https://www.ekoizol.sk
+  • https://izolstav.sk
+  • https://izochem.sk
+  • https://thermodach.sk
+  • https://celblo.sk
+  • https://ekoizol.sk
+
+
+ Perplexity            Response 4 (sonar):
+
+
+    Najlepšie služby tepelnej izolácie v Košiciach sú tie, ktoré zodpovedajú vášmu typu projektu (strecha, fasáda,
+    podlaha, striekaná pena vs. minerálna vlna), dodávajú záruku kvality a majú overené referencie v regióne.
+
+    Kľúčové firmy v Košiciach a okolí, ktoré poskytujú komplexné riešenia tepelnej izolácie:
+    - ART – TERM s.r.o. — špecializuje sa na tepelno‑izolačné práce vrátane hydroizolácií plochých striech,
+    zatepľovania fasád a špeciálnych izolácií; pôsobí v Košiciach, uvádza kontaktné údaje a individuálne riešenia pre
+    strechy[1].
+    - Izola — firma s dlhoročnou pôsobnosťou (cez 30 rokov) zabezpečuje predaj, projekciu a realizáciu izolácií na
+    východnom Slovensku, čo môže byť výhoda pri väčších alebo projektovo náročných dodávkach[4].
+    - Pur‑izol / PUR pena SK — špecialisti na striekanú PUR penu, vhodnú pri izolácii striech, stropov a zriedkavejšie
+    ťažko dostupných konštrukcií; ponúkajú služby v Košiciach a okolí[3][5].
+    - Izolfit — zameriava sa na hydroizolácie plochých striech aj so zateplením a montáž strešných plášťov, vhodné
+    pri rekonštrukcii striech a strešných systémov[10].
+    - SLOVECO a lokálne stavebné/stavebniny (napr. Farby‑Laky Košice) — poskytujú materiály a služby pri tepelnej
+    a zvukovej izolácii, vhodné keď potrebujete poradenstvo a komplexné dodávky materiálu[2][9].
+    - Ďalší miestni poskytovatelia a montážne firmy sú zoznamované v katalógoch (Azet, Stavebnik) a cez miestne
+    firmy, ak potrebujete širší výber[8][2].
+
+    Ako vybrať „najlepšiu“ službu (praktické kroky):
+    - Určte typ izolácie a rozsah (strecha, fasáda, podlaha, vnútorná vs. vonkajšia, plocha v m2).
+    - Požiadajte minimálne 3 cenové ponuky vrátane položkového rozpisu materiálu, hrúbok izolácie, lambda
+    hodnoty a záruky na prácu a materiál.
+    - Skontrolujte referencie a fotografie realizácií od dodávateľa (ideálne v Košiciach alebo okolí), a overte
+    certifikáty použitých materiálov[1][4].
+    - Zvážte energetickú návratnosť (úspora nákladov na vykurovanie) a prípadné dotácie/nové regulačné
+    požiadavky pri zatepľovaní.
+    - Overte poistné krytie firmy a zmluvné podmienky na prípadné reklamácie.
+
+    Ak chcete, môžem:
+    - pripraviť prehľad (3–5) konkrétnych dodávateľov v Košiciach so súčasnými kontaktnými údajmi a stručnými
+    referenciami; alebo
+    - zostaviť kontrolný zoznam otázok a technických parametrov, ktoré máte požiadať v cenovej ponuke.
+
+    Ktorú možnosť preferujete?
+
+
+
+
+Citations (10):
+  • https://izolacie-artterm.sk
+  • https://www.stavebnik.sk/firmy/-okres-kosice-1-/hruba-stavba/-tepelna-izolacia.html
+  • https://pur-izol.sk
+  • https://izola.sk
+  • https://www.pur-pena.sk
+  • https://enertop.sk/kosice-podlahove-kurenie-2/
+  • https://www.remposervis.sk
+  • https://www.azet.sk/katalog/izolacie-a-zateplovanie/kosice/
+  • https://www.farbykosice.sk/stavebniny/tepelne-a-zvukove-izolacie/
+  • http://izolfit.sk
+
+
+ Perplexity              Response 5 (sonar):
+
+
+    Medzi **najlepšie služby tepelnej izolácie v Košiciach** patria špecializované firmy ako Izolácie ART-TERM s.r.o.,
+    PUR-izol.sk a Izolfit, ktoré ponúkajú komplexné riešenia vrátane zatepľovania striech, fasád a hydroizolácií s
+    dlhodobou zárukou.[1][3][10]
+
+    ### Odporúčané firmy a ich špecializácie
+    - **Izolácie ART-TERM s.r.o.** (Kukučínova 23, Košice, tel: 0903 902 716): Špecializuje sa na tepelné izolácie
+    plochých striech, hydroizolácie základov, fasády a špeciálne izolácie s použitím moderných materiálov od
+    certifikovaných výrobcov. Ponúka individuálne návrhy na mieru a prácu kvalifikovaných tímov.[1]
+    - **PUR-izol.sk**: Poskytuje striekanú penovú izoláciu pre tepelné a zvukové izolácie v Košiciach a okolí, s
+    dôrazom na inovatívne a cenovo dostupné riešenia.[3]
+    - **Izolfit**: Zameriava sa na hydroizolácie plochých striech so zateplením, montáž strešných konštrukcií
+    (plochých aj sedlových) s bitúmenovými pásmi.[10]
+    - **SLOVECO s.r.o.** (Popradská 66, Košice): Ponúka tepelné a zvukové izolácie pre strechy, podlahy, stropy a
+    múry, s dlhoročnou skúsenosťou od roku 1991.[2]
+    - **Izola**: Celoslovenská firma s pôsobením na východe Slovenska, realizuje tepelné a vodotesné izolácie,
+    predaj materiálov a projekciu; má vyše 2500 spokojných zákazníkov a voľné pozície pre odborníkov.[4]
+
+    Ďalšie možnosti zahŕňajú PUR-pena.sk pre striekanú PUR penu (izolácia striech, stropov, podlah) alebo
+    REMPOSERVIS pre tepelnú izoláciu v kombinácii s inštaláciami.[5][7] Pre výber odporúčam overiť recenzie, ceny
+    a referencie priamo u firiem, pretože výsledky nezahŕňajú hodnotenia kvality.[8]
+
+
+
+
+Citations (11):
+  • https://PUR-izol.sk
+  • https://PUR-pena.sk
+  • https://izolacie-artterm.sk
+  • https://www.stavebnik.sk/firmy/-okres-kosice-1-/hruba-stavba/-tepelna-izolacia.html
+  • https://izola.sk
+  • https://www.pur-pena.sk
+  • https://enertop.sk/kosice-podlahove-kurenie-2/
+  • https://www.remposervis.sk
+  • https://www.azet.sk/katalog/izolacie-a-zateplovanie/kosice/
+  • https://www.farbykosice.sk/stavebniny/tepelne-a-zvukove-izolacie/
+  • http://izolfit.sk
+ Perplexity         Response 6 (sonar):
+
+
+    Najlepšie služby tepelnej izolácie v Košiciach závisia od typu izolácie (fasáda, strecha, podlaha, striekaná PUR
+    pena, minerálna vata) a od požiadaviek (cena, záruka, skúsenosti, certifikáty). Nižšie uvádzam overené lokálne
+    firmy a čo od nich môžete očakávať, aby ste si vedeli vybrať najvhodnejšie riešenie.
+
+    Priamy odporúčanie (firmy a čo robia)
+    - ART – TERM s.r.o. — špecializujú sa na tepelno‑izolačné práce vrátane zatepľovania fasád, tepelnej izolácie
+    plochých striech, izolácií základov a špeciálnych izolácií; uvádzajú kvalifikovaných pracovníkov a prácu s
+    certifikovanými materiálmi (kontakt na stránke). [1]
+    - Izola — spoločnosť s viac než 30‑ročnou praxou poskytujúca projekciu, predaj a realizáciu izolácií pre východné
+    Slovensko; vhodná pri väčších zákazkách a pri požiadavke na dlhodobú garanciu know‑how (profil firmy). [5]
+    - PUR‑IZOL / PUR pena služby (viacerí lokálni dodávatelia, napr. pur‑izol.sk, pur‑pena.sk) — špecialisti na
+    striekanú PUR penu, ktorá má veľmi dobré tepelnoizolačné a vzduchotesné vlastnosti, vhodné pre strohé
+    priestory, šikmé strechy, podkrovia a náročné detaily; odporúčam vyžiadať vzorku pracovnej dokumentácie a
+    meranie výsledného lambda/R‑hodnoty pri prijatí práce. [4][6]
+    - Izolfit — zameranie na strešné a technické izolácie vrátane hydroizolácií plochých striech so zateplením;
+    vhodné pri strechách a strešných rekonštrukciách. [10]
+    - Lokálne stavebné firmy a montážne firmy zapísané v katalógoch (Azet, Stavebnik) — poskytujú komplexné
+    služby (zateplenie, rekonštrukcie, hydroizolácie). Pri menších prácach alebo špecifických kombináciách (kúrenie
+    + izolácia) môžu byť výhodné lokálne firmy uvedené v katalógoch. [2][3][7]
+
+    Ako vybrať najlepšiu službu (krok za krokom)
+    - Definujte typ izolácie: fasáda (ETICS/polystyrén/minerálna vata), strecha (nad/stropná/striekaná pena),
+    podlaha/základy (EPS/XPS, izolácia proti vlhkosti). ( Kontext: služby firiem sa líšia podľa typu prác). [1][4][10]
+    - Požiadajte o referencie a fotodokumentáciu dokončených projektov od vybraných firiem; preferujte firmy s
+    referenciami v Košiciach. (Firmy ako ART‑TERM a Izola uvádzajú referencie a dlhodobú prax). [1][5]
+    - Overte materiály a záruky: žiadajte typ materiálu (lambda hodnota, hrúbka, systémová schválenia) a písomnú
+    záruku na prácu aj materiál. (Výrobcovia a dodávatelia materiálov majú rôzne záruky). [1][5]
+    - Požiadajte o miestnu obhliadku a písmu cenovú ponuku vrátane rozpisu materiálu, R‑hodnoty a odhadu úspor
+    energie; porovnajte minimálne 3 ponuky. (Rozdiely pri cenách a technológii môžu byť značné). [4][6]
+    - Skontrolujte certifikáty a poistenie: overte školenia montážnikov, certifikácie systémov a zodpovednosť za
+    chyby (poistenie). (Dôležité pri rozsiahlych a zložitých zásahoch). [1][5]
+
+    Tipy pre špecifické potreby
+    - Ak chcete najlepšiu vzduchotesnosť a izoláciu zložitých detailov (podkrovie, priečky): zvažujte striekanú PUR
+    penu od špecializovaného dodávateľa a vyžiadajte meranie výsledného zateplenia/termografiu po dokončení.
+    [4][6]
+    - Pre fasády bytových domov/veľké projekty: vyberajte firmy s referenciami a projektovou dokumentáciou (Izola,
+    ART‑TERM alebo väčšie stavebné spoločnosti). [1][5]
+    - Pre strešné plášte a hydroizolácie: firmy so skúsenosťami so strešnými fóliami a systémami (Izolfit, ART‑TERM).
+    [1][10]
+
+    Čo vám môžem spraviť ďalej
+    - Porovnám konkrétne cenové ponuky od 3‑5 vybraných firiem v Košiciach (ak mi pošlete ponuky alebo súbory).
+
+    - Dohodnem zoznam kontrolných otázok/šablónu e‑mailu, ktorú pošlete firmám pri žiadosti o ponuku (kontrola
+    záruk, materiálov, termínov).
+    - Pomôžem vám pripraviť zoznam kritérií hodnotenia (cena, R‑hodnota, záruka, referencie, dostupnosť).
+
+    Ak chcete, vyberiem 3–5 konkrétnych firiem z uvedeného zoznamu a pripravím pre každú stručný prehľad
+    služieb, kontakty a silné/slabé stránky — dajte vedieť, ktoré typy izolácie riešite (fasáda, strecha, podlaha, PUR
+    pena).
+
+
+
+
+Citations (12):
+ • https://izol.sk
+ • https://pena.sk
+ • https://izolacie-artterm.sk
+ • https://www.azet.sk/katalog/izolacie-a-zateplovanie/kosice/
+ • https://www.stavebnik.sk/firmy/-okres-kosice-1-/hruba-stavba/-tepelna-izolacia.html
+ • https://pur-izol.sk
+ • https://izola.sk
+ • https://www.pur-pena.sk
+ • https://www.azet.sk/katalog/izolacie-a-zateplovanie/2/abc/kosice/
+ • https://www.remposervis.sk
+ • https://www.farbykosice.sk/tepelne-a-zvukove-izolacie/?od=38
+ • http://izolfit.sk
+
+
+
+
+Test 6: Process Questions
+
+
+  Ako prebieha proces inštalácie tepelnej izolácie?
+
+
+
+
+ NOT MENTIONED (0/6)
+
+
+
+ChatGPT                 Response 1 (gpt-5-chat-latest):
+
+
+  Proces inštalácie tepelnej izolácie závisí od typu izolácie (napr. minerálna vlna, polystyrén, PUR pena, fúkaná
+  izolácia) a miesta použitia (strecha, fasáda, podlaha, interiér). Všeobecne však prebieha nasledovne:
+
+  ---
+
+  ### **1. Príprava podkladu**
+  - Povrch, na ktorý sa izolácia aplikuje, sa očistí od prachu, mastnoty, nečistôt a zvyškov starých vrstiev.
+  - Nerovnosti sa vyrovnajú omietkou alebo vyrovnávacou vrstvou.
+  - Skontroluje sa suchosť podkladu (napr. pri fasáde alebo podlahe).
+
+  ---
+
+  ### **2. Výber a príprava izolačného materiálu**
+  - Určí sa vhodný typ a hrúbka izolácie podľa miesta použitia, napr.:
+    - **Fasáda:** fasádny EPS, minerálna vlna
+    - **Podkrovie:** minerálna vlna, fúkaná celulóza
+    - **Podlaha:** extrudovaný polystyrén (XPS)
+  - Materiál sa nareže presne na rozmery podľa aplikácie.
+
+  ---
+
+  ### **3. Montáž / aplikácia izolácie**
+  **a) Lepenie + kotvenie (pri fasáde):**
+  - Izolačné dosky sa lepia pomocou lepidla (napr. cementové lepidlo) a mechanicky kotvia pomocou tanierových
+  hmoždiniek.
+  - Spoje medzi doskami sa presne priliehajú; nesmú byť medzery.
+    **b) Pokládka medzi nosníky (pri streche alebo strope):**
+    - Izolácia sa vloží medzi krokvy, trámy alebo do konštrukčného roštu.
+    - Následne sa montuje parozábrana, aby sa zabránilo prenikaniu vlhkosti.
+
+    **c) Fúkaná izolácia:**
+    - Špeciálnym zariadením sa izolácia (napr. celulózová, minerálna, PUR) nafúka do dutín alebo priestoru.
+    - Veľkou výhodou je rovnomerné vyplnenie aj ťažko prístupných miest.
+
+    ---
+
+    ### **4. Ochranné a finálne vrstvy**
+    - Aplikuje sa výstužná vrstva (napr. sieťka, lepidlo, omietka), prípadne krycia podlaha alebo obklad.
+    - Kontroluje sa parozábrana a vzduchotesnosť konštrukcie.
+
+    ---
+
+    ### **5. Kontrola a testovanie**
+    - Skontroluje sa rovinnosť, pevnosť, prípadná prítomnosť tepelných mostov.
+    - Po dokončení je možné realizovať **termovízne meranie** (napr. spoločnosti ako
+    [ThermoFoto.sk](https://www.thermofoto.sk)) pre overenie účinnosti izolácie.
+
+    ---
+
+    ### **Tipy:**
+    - Používajte certifikované materiály od výrobcov ako **Knauf Insulation**, **Rockwool**, **Isover** či
+    **Austrotherm**.
+    - Pri zatepľovaní domu sa odporúča spojiť tepelnú izoláciu s výmenou okien a správnym vetraním, aby
+    nevznikala kondenzácia.
+
+    ---
+
+    Chceš, aby som opísal **konkrétny proces** – napríklad zateplenie **fasády rodinného domu** alebo **izoláciu
+    podkrovia** krok po kroku?
+
+
+
+
+URLs (3):
+  • https://www.thermofoto.sk
+  • https://ThermoFoto.sk
+  • https://thermofoto.sk
+
+
+ ChatGPT                Response 2 (gpt-5-chat-latest):
+
+
+    Proces inštalácie tepelnej izolácie závisí od typu izolácie (napr. minerálna vlna, polystyrén, PUR pena, fúkaná
+    izolácia) a od časti budovy (fasáda, strecha, podlaha, podkrovie). Všeobecne však prebieha nasledovne:
+
+    ---
+
+    ### **1. Príprava podkladu**
+    - **Čistenie povrchu** – odstránenie prachu, plesní, starých náterov, mastnoty alebo uvoľnených častí.
+    - **Vyrovnanie nerovností** – pri potrebe sa vyplnia trhliny alebo nerovnosti, aby izolácia priliehala rovnomerne.
+    - **Kontrola vlhkosti** – podklad musí byť suchý a stabilný.
+
+    ---
+
+    ### **2. Výber a príprava materiálu**
+    - Výber vhodnej **hrúbky a typu izolácie** podľa požadovaného tepelného odporu (napr. 100–200 mm pri
+    fasáde, 300–400 mm pri streche).
+    - Skontrolovanie, že materiál má **správne certifikácie (napr. CE, ETA).**
+
+    ---
+
+    ### ️ **3. Montáž izolácie**
+    #### **a) Fasáda (kontaktný zatepľovací systém – ETICS)**
+    1. Naniesenie lepiacej malty na dosky: buď po obvode a stredových bodoch, alebo celoplošne (podľa
+    odporúčania výrobcu).
+    2. Prilepenie dosiek odspodu nahor s posunom zvislých spojov („na väzbu“).
+    3. Po vytvrdnutí (cca 1–2 dni) mechanické kotvenie hmoždinkami.
+    4. Vystuženie sklotextilnou sieťkou do lepiacej vrstvy.
+    5. Finálne úpravy – penetrovanie a nanesenie omietky (ak ide o fasádu).
+
+    #### **b) Strecha / podkrovie**
+    - Inštalácia izolácie medzi krokvy alebo nad krokvy.
+    - Zakrytie parozábranou (zo strany interiéru).
+    - Prekrytie obkladom (sadrokartón, drevený obklad a pod.).
+
+    #### **c) Podlaha / strop**
+    - Pokládka izolácie na suchý a čistý povrch.
+    - Prekrytie LDPE fóliou, následne poterom alebo OSB doskami.
+
+    #### **d) Fúkaná izolácia**
+    - Nafúkanie materiálu (napr. celulózovej vlny, minerálnej vlny alebo PUR peny) prostredníctvom hadice priamo
+    do dutín alebo na povalu.
+
+    ---
+
+    ### **4. Dokončenie a kontrola**
+    - Odstránenie prebytočných materiálov, kontrola spojov a detailov (napr. ostenia okien, rohy).
+    - Záverečná vizuálna kontrola a prípadne meranie termokamerou na overenie tesnosti.
+
+    ---
+
+    ### **Odporúčanie**
+    Realizáciu by mala vykonávať **certifikovaná firma**, napríklad:
+    - **Isover (www.isover.sk)**
+    - **Knauf Insulation (www.knaufinsulation.sk)**
+    - **Baumit (www.baumit.sk)**
+    - **Izolácie Plha (www.izolacieplha.sk)** – slovenská realizačná spoločnosť so zameraním na fúkané izolácie.
+
+    ---
+
+    Chceš, aby som ti popísal **konkrétny postup** napríklad pre **zateplenie fasády rodinného domu
+    polystyrénom**, alebo skôr pre **zateplenie podkrovia minerálnou vlnou**?
+
+
+
+
+URLs (8):
+• https://www.isover.sk
+• https://www.knaufinsulation.sk
+• https://www.baumit.sk
+• https://www.izolacieplha.sk
+• https://isover.sk
+• https://knaufinsulation.sk
+• https://baumit.sk
+• https://izolacieplha.sk
+
+
+ChatGPT                Response 3 (gpt-5-chat-latest):
+
+
+ Proces inštalácie tepelnej izolácie závisí od typu izolácie (napr. minerálna vlna, polystyrén, PUR pena, celulóza)
+ a od časti budovy, ktorá sa izoluje (strecha, fasáda, podlaha, pivnica atď.). Vo všeobecnosti však prebieha
+ nasledovne:
+
+ ---
+
+ ### **1. Príprava podkladu**
+ - **Vyčistenie povrchu:** Z povrchu sa odstráni prach, mastnota, staré nátery či omietky, ktoré sa odlupujú.
+ - **Vyrovnanie:** Nerovnosti sa zarovnávajú (napr. omietkou alebo lepiacou maltou), aby izolácia dobre
+ priliehala.
+ - **Ošetrenie podkladu:** Napr. penetrácia alebo hydroizolačný náter (v prípade fasád a soklov).
+
+ ---
+
+ ### **2. Montáž izolačného materiálu**
+ Záleží podľa typu stavby a izolácie:
+
+ #### ▪ **Fasáda (kontaktný zatepľovací systém – EPS/MW)**
+ - Lepiaca malta sa nanáša po obvode dosky a bodovo v strede.
+ - Izolačné dosky (napr. polystyrén alebo minerálna vlna) sa lepia na stenu odspodu nahor.
+ - Po približne 24 hodinách sa dosky kotvia tanierovými hmoždinkami.
+ - Nasleduje výstužná vrstva – lepiaca malta so sklotextilnou sieťkou.
+ - Nakoniec prichádza penetrácia a finálna omietka.
+
+ #### ▪ **Strecha (šikmá)**
+ - Medzi krokvy sa vkladá minerálna vlna alebo iný izolačný materiál.
+ - Doplní sa parozábrana, aby sa zabránilo kondenzácii.
+ - Niekedy sa pridáva druhá vrstva izolácie pod krokvami pre zvýšenie účinnosti.
+ - Ukončí sa montážou sadrokartónu alebo dreveného obkladu.
+
+ #### ▪ **Podlaha a pivnica**
+ - Na podkladový betón sa položí parozábrana alebo hydroizolácia.
+ - Nasleduje vrstva tepelnej izolácie (napr. XPS, EPS, PUR pena).
+ - Potom sa kladie vystužený poter (cementový alebo anhydritový).
+
+ ---
+
+ ### **3. Kontrola a dokončenie**
+ - Overí sa tesnosť spojov a rovinnosť.
+ - Prípadne sa doplnia detaily – rohové lišty, parapety, oplechovanie.
+ - Po dokončení nasleduje finálne spracovanie (omietanie, maľovanie, podlahové krytiny).
+
+ ---
+    ### **Tipy:**
+    - Pri zatepľovaní fasády dodržujte odporúčania systému (napr. **Baumit**, **Weber**, **Knauf** –
+    [baumit.sk](https://www.baumit.sk), [weber.sk](https://www.weber.sk), [knauf.sk](https://www.knauf.sk)).
+    - Nesprávne zrealizovaná parozábrana alebo netesnosti môžu viesť k tvorbe plesní.
+    - Odborná montáž má priamy vplyv na energetickú úsporu a životnosť budovy.
+
+    ---
+
+    Chceš, aby som ti popísal **konkrétny príklad** — napríklad *postup zateplenia fasády rodinného domu
+    polystyrénom* alebo *izoláciu strechy minerálnou vlnou*?
+
+
+
+
+URLs (6):
+  • https://www.baumit.sk
+  • https://www.weber.sk
+  • https://www.knauf.sk
+  • https://baumit.sk
+  • https://weber.sk
+  • https://knauf.sk
+
+
+ Perplexity             Response 4 (sonar):
+
+
+    Proces inštalácie tepelnej izolácie (vonkajšej fasádnej alebo vnútorných konštrukcií) pozostáva z viacerých
+    krokov: príprava podkladu, založenie a lepenie/ukotvenie izolantu, mechanické kotvenie, aplikácia výstužnej
+    vrstvy a finálna povrchová úprava[1][3][8].[1]
+
+    Kľúčové kroky s podrobnosťami:
+    - Kontrola a príprava podkladu: Podklad musí byť čistý, pevný, suchý a bez voľných častíc alebo nekvalitnej
+    omietky; pri betóne, murive alebo pórobetóne sa zrealizuje prebrúsenie a penetračný náter, ak je
+    potrebné[1][3][6].[6]
+    - Založenie systému (soklové profily/zakladacia lišta): Osadí sa zakladacia lišta približne 30 cm nad terénom
+    alebo soklové profily na určenie výšky a roviny prvého radu izolácie[1][3].[1]
+    - Nanášanie lepidla a lepenie izolácie: Lepidlo (lepiaca stierka) sa nanáša tak, aby po pritlačení bolo minimálne
+    ~40 % povrchu dosky spojené s podkladom; dosky sa ukladajú na väzbu (posun zvislých škár), zvyčajne zdola
+    nahor[3][1].[3]
+    - Mechanické kotvenie: Po zhotovení lepeného spoja sa izolácia doplní o rozperné kotvy (min. počet podľa
+    projektu, typicky viac kusov na bežný meter) — kotva sa prestrčí cez izolant do muriva, zápustná hlava musí byť
+    v rovine izolácie[1][8].[1]
+    - Výstužná vrstva: Na izolant sa nanesie lepidlo/výstužná stierka a zatlačí sa sklotextilná mriežka (mriežka musí
+    byť celoplošne zapracovaná), následne sa vrstva vyhladí a nechá vyzrieť[3][8].[3]
+    - Finálna tenkovrstvová omietka/povrchová úprava: Na vyzretú výstužnú vrstvu sa nanáša finálna omietka
+    (skontrolujte farbu, zrnitosti a šarže) a prípadné dekoratívne vrstvy[1][3].[1]
+
+    Dôležité technické a praktické poznámky:
+    - Polystyrénové alebo minerálne dosky sa lepia na väzbu (T-spoj) a vertikálne presahy by mali byť minimálne 10
+    cm pri minerálnej vate[1][3].[1]
+    - Lepidlo na dosky sa nanáša len na lícnu plochu (nie na bočné hrany pri EPS); nadbytočné lepidlo sa musí
+    odstrániť[3].[3]
+    - Pri práci so strechami alebo podkrovím treba riešiť parozábranu (klímamembránu) a správne utesnenie
+    prechodov a pásov[2][5].[5]
+    - Montáž otvorov (okná/dvere) v systéme zateplenia si vyžaduje správne profily, zakotvenie a dôkladné
+    utesnenie škár, aby nevznikali tepelné mosty a prieniky vlhkosti[4].[4]
+
+    Kedy sa volí ktorý materiál (stručne):
+    - EPS (polystyrén) — bežná voľba pre fasády, ľahké spracovanie a nižšia cena[3].[3]
+    - Minerálna (kamenná) vata — lepšia paropriepustnosť a vyššia požiarna odolnosť; vyžaduje špecifické kotvenie
+    a zaslepovanie pri kotvách[1][8].[1]
+
+    Čo skontrolovať po inštalácii:
+    - Súbežnosť a rovinnosť plochy, správne osadenie soklového profilu a ukotvenie, rovnomernosť výstužnej vrstvy
+    a bezchybné napojenie pri otvoroch[1][3][4].[1]
+
+    Ak chcete, môžem vám:
+    - pripraviť kontrolný checklist pre inšpekciu hotového zateplenia; alebo[8]
+    - navrhnúť orientačné množstvo materiálu a hrúbku izolácie podľa typu múru a požadovanej tepelnej izolácie —
+    potrebujem rozmery stien a súčasný stav (materiál muriva, existujúca izolácia).[6]
+
+    Poznámka: Postupy sa môžu líšiť podľa konkrétneho systému (výrobcu) a normových požiadaviek; vždy
+    dodržiavajte technické listy výrobcu a projektovú dokumentáciu[8].[8]
+
+
+
+
+Citations (8):
+  • https://www.fasadnadoska.sk/sk/poradenstvo/postup-zateplenia-fasady/a-71/
+  • https://www.rigips.sk/montazne-postupy/postup-vlozenie-tepelnej-izolacie
+  • https://baumit.sk/riesenia/tepelnoizolacne-systemy/zateplenie-krok-za-krokom
+  • https://www.asb.sk/stavebnictvo/montazny-postup-montaz-okna-do-priestoru-fasadnej-izolacie
+  • https://www.isover.sk/montazne-navody
+  • https://www.domiesacky.sk/n/tepelna-izolacia-co-vsetko-by-ste-mali-vediet-pri-jej-vybere
+  • https://beevet.eu/sk/course/topic-1-sk/lessons/1-18/
+  • https://esmal.sk/storage/files/shares/TECHNICK%C3%81%20DOKUMENT%C3%81CIA/ESMAL%20PUTZ%20SILIKON/Technologick%C3%BD%20
+  postup%20mont%C3%A1%C5%BEe%20vonkaj%C5%A1%C3%ADch%20tepelnoizola%C4%8Dn%C3%BDch%20syst%C3%A9mov%202017.pdf
+
+
+ Perplexity         Response 5 (sonar):
+
+
+    Najstručnejší odpoveď: Proces inštalácie tepelnej izolácie pozostáva z prípravy podkladu, montáže a uloženia
+    izolantu (lepenie/ukotvenie alebo vloženie medzi nosníky), vytvorenia parozábrany/vzduchotesnosti a
+    následného dokončenia povrchu (omietka, opláštenie alebo kontaktný fasádny systém) podľa typu konštrukcie a
+    materiálu[1][2].
+
+    Kľúčové kroky s vysvetlením
+    - Kontrola a príprava podkladu: Podklad musí byť suchý, čistý a rovný; odstrániť voľné časti omietky, nečistoty a
+    prípadné škáry[2][6].
+      Podklad treba skontrolovať pre rovinnosť a prípadne osadiť soklové profily alebo nastavovacie laty pre správnu
+    výšku a rovinu založenia[2].
+
+    - Zameranie a plánovanie rozmerov: Rozmery, usporiadanie špár a odstupy (napríklad pre okná, rohy alebo
+    vývody) sa zamerajú pred montážou, prípadne sa pripraví podkonštrukcia[3][5].
+
+    - Uloženie / vloženie izolácie:
+      - Pre vnútorné priečky, stropy alebo šikmé strechy: izolačné dosky alebo rolky sa vkladajú medzi nosné prvky
+    (krokvy, profily) alebo sa pripevnia pod krokvami; presahy pásov sa zalepia a detailne utesnia[1][5].
+      - Pre vonkajšie zateplenie (ETICS/„kontaktna“ fasáda): prvý rad dosiek sa založí na soklové profily, lepia sa
+    lepiacou stierkou s kontaktom min. 40 % plochy dosky a postupne sa zakladajú ďalšie rady v preložení špár
+    (posun minimálne 100 mm)[2][8].
+
+    - Fixácia a kotvenie: Okrem lepidla sa často používajú mechanické kotvy (tackové alebo talířové kotvy) pre
+    istotu ukotvenia, najmä pri fasáde a väčších hrúbkach izolácie[2][8].
+
+    - Parozábrana / vzduchotesnosť: Pri izolácii vnútorných konštrukcií alebo šikmých striech sa inštaluje
+    parozábrana na teplej strane, spoje sa prelepia systémovými páskami, aby sa zamedzilo vnikaniu vlhkosti do
+    izolácie[1][5].
+
+    - Montáž podkonštrukcie a opláštenie: Po vložení izolácie sa montuje podkonštrukcia (ak treba) a následne sa
+    oplášti sadrokartónovými doskami, omietkou alebo finálnym fasádnym náterom a vystužením (sklotextilná
+    mriežka) v prípade ETICS[1][2][5].
+
+    - Dokončovacie práce a detaily: Ošetrenie prestupov potrubí, rámov okien a rohov (tesnenie, výplň škár,
+    utesnenie lepidlom/penou), nanesenie výstužnej vrstvy, potom finálna omietka alebo povrchová úprava[3][8].
+
+    Dôležité praktické poznámky
+    - Dbajte na súvislosť izolácie bez tepelných mostov — škáry riešiť prekladaním dosiek a dôkladným
+    utesnením[4].
+    - Výber materiálu závisí od miesta (strecha, stena, sokel, podlaha), požiadaviek na protipožiarne vlastnosti,
+    akustiku a požadovanej hrúbky (tepelný odpor a lambda hodnoty)[6].
+    - Pri zatepľovacích prácach vlastnou rukou postupujte podľa montážnych návodov výrobcu (nanášanie lepidla,
+    percentuálne pokrytie lepidlom, spôsob kotvenia), pretože nesprávna aplikácia skracuje životnosť
+    zateplenia[2][5].
+
+    Keď potrebujete detailnejší postup pre konkrétnu situáciu (vnútorná priečka, šikmá strecha, ETICS fasáda alebo
+    izolácia sokla), povedzte ktorý typ konštrukcie a materiál plánujete a pošlem krok‑za‑krokom návod s
+    odporučenými hrúbkami a detailmi montáže[2][5][8].
+
+
+
+
+Citations (8):
+  • https://www.rigips.sk/montazne-postupy/postup-vlozenie-tepelnej-izolacie
+  • https://baumit.sk/riesenia/tepelnoizolacne-systemy/zateplenie-krok-za-krokom
+  • https://www.asb.sk/stavebnictvo/montazny-postup-montaz-okna-do-priestoru-fasadnej-izolacie
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://www.isover.sk/montazne-navody
+  • https://www.domiesacky.sk/n/tepelna-izolacia-co-vsetko-by-ste-mali-vediet-pri-jej-vybere
+  • https://beevet.eu/sk/course/topic-1-sk/lessons/1-18/
+  • https://esmal.sk/storage/files/shares/TECHNICK%C3%81%20DOKUMENT%C3%81CIA/ESMAL%20PUTZ%20SILIKON/Technologick%C3%BD%20
+  postup%20mont%C3%A1%C5%BEe%20vonkaj%C5%A1%C3%ADch%20tepelnoizola%C4%8Dn%C3%BDch%20syst%C3%A9mov%202017.pdf
+
+
+ Perplexity         Response 6 (sonar):
+
+
+    Proces inštalácie tepelnej izolácie závisí od typu (napr. fasádna, strešná alebo vnútorná) a materiálu
+    (polystyrén, minerálna vlna), ale vždy začína prípravou podkladu a končí detailnými úpravami na zabránenie
+    tepelných mostov a vlhkosti.[2][4][6]
+
+    ### Príprava podkladu
+    - Podklad musí byť **suchý, čistý a rovný**: Mechanicky očistite povrch, odstráňte prach, mach, ostré častice
+    alebo voľné omietky.[2][6]
+    - Skontrolujte rovinnosť a zamerajte plochu, prípadne nainštalujte soklové profily alebo montážne laty na
+    určenie výšky a roviny.[2][5]
+    ### Hlavné kroky inštalácie
+    Proces sa líši podľa aplikácie, tu sú bežné varianty:
+
+    **Fasádne zateplenie (ETICS systém, napr. polystyrén):**
+    1. Osadiť soklové profily a založiť prvý rad dosiek zdola nahor.[2]
+    2. Naniesť lepiacu stierku (manuálne alebo strojovo) na dosky (minimálne 40 % povrchu v kontakte s
+    podkladom), nechať bočné strany voľné.[2]
+    3. Prilepiť dosky s preložením škár (posun aspoň 100 mm), pritlačiť a odstrániť prebytočnú stierku.[2]
+    4. Aplikovať tesniace pásky, vystužujúcu vrstvu so sklotextíliou a dokončovací náter.[2][4]
+
+    **Izolácia medzi krokvami alebo podkonštrukciou (napr. strecha, steny):**
+    1. Rozmerajte plochu a upevnite nosné prvky podkonštrukcie do krokiev alebo stien.[1][5]
+    2. Vložte izolačné dosky alebo pásy medzi prvky, zabezpečte bezšvové prekrytie.[1][5]
+    3. Nainštalujte parozábranu alebo klímamembránu, zalepte presahy a detaily (napr. okolo rúr).[1][5]
+    4. Opláchnite sadrokartónom alebo iným povrchom.[1]
+
+    **Iné aplikácie (napr. strop, okná):**
+    - Na strop použite lepiacu penu po obvode a uprostred dosky, pritlačte bez klepania.[4]
+    - Pri oknách zamerajte otvor, narežte profily z polystyrénu, upevните skrutkami do suchého muriva a utesnite
+    škáry lepidlom.[3]
+
+    ### Dôležité tipy
+    - Zabezpečte **bez tepelných mostov** a priechodnosť vlhkosti (použite podkladovú vrstvu na vonkajšej
+    strane).[4][5]
+    - Pri montáži okien alebo prestupov dôkladne utesnite spoje proti vzduchu a vode.[3][5]
+    - Dodržujte špecifické návody výrobcu pre materiál, aby ste dosiahli požadovaný tepelný odpor.[6]
+
+    Pre presný postup konzultujte montážne návody konkrétneho systému, pretože chyby môžu viesť k stratám
+    tepla alebo poškodeniu.[1][2][5]
+
+
+
+
+Citations (8):
+  • https://www.rigips.sk/montazne-postupy/postup-vlozenie-tepelnej-izolacie
+  • https://baumit.sk/riesenia/tepelnoizolacne-systemy/zateplenie-krok-za-krokom
+  • https://www.asb.sk/stavebnictvo/montazny-postup-montaz-okna-do-priestoru-fasadnej-izolacie
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://www.isover.sk/montazne-navody
+  • https://www.domiesacky.sk/n/tepelna-izolacia-co-vsetko-by-ste-mali-vediet-pri-jej-vybere
+  • https://beevet.eu/sk/course/topic-1-sk/lessons/1-18/
+  • https://esmal.sk/storage/files/shares/TECHNICK%C3%81%20DOKUMENT%C3%81CIA/ESMAL%20PUTZ%20SILIKON/Technologick%C3%BD%20
+  postup%20mont%C3%A1%C5%BEe%20vonkaj%C5%A1%C3%ADch%20tepelnoizola%C4%8Dn%C3%BDch%20syst%C3%A9mov%202017.pdf
+
+
+
+
+Test 7: Requirements
+
+
+    o potrebujem na realizáciu tepelnej izolácie v mojom dome?
+NOT MENTIONED (0/6)
+
+
+
+ChatGPT          Response 1 (gpt-5-chat-latest):
+
+
+ Na realizáciu **tepelnej izolácie domu** potrebuješ kombináciu správneho plánovania, materiálov, nástrojov a
+ odborných znalostí. Postup sa mierne líši podľa typu budovy (novostavba vs. rekonštrukcia) a časti domu, ktorú
+ ideš izolovať (fasáda, strecha, podlaha, pivnica). Tu je prehľad:
+
+ ---
+
+ ### **1. Plánovanie a projekt**
+ - **Energetický audit alebo obhliadka odborníkom** – najlepšie urobí energetický poradca alebo projektant
+ (napr. na Slovensku sieť **SIEA – Slovenská inovačná a energetická agentúra**,
+ [www.siea.sk](https://www.siea.sk)).
+ - **Výber časti, ktorú ideš izolovať:**
+   - **Fasáda / obvodové múry**
+   - **Strecha alebo strop pod nevykurovaným podkrovím**
+   - **Podlaha / základ**
+   - **Pivnica alebo suterén**
+
+ ---
+
+ ### **2. Výber izolačného materiálu**
+ Najčastejšie typy tepelnej izolácie:
+ | Typ | Použitie | Vlastnosti |
+ |-----|-----------|------------|
+ | **Polystyrén (EPS / XPS)** | fasády, podlahy | lacný, ľahko sa inštaluje, rôzna hustota |
+ | **Minerálna vlna (sklená, kamenná)** | strechy, stropy, priečky | dobrá paropriepustnosť, nehorľavá |
+ | **Striekaná PUR pena** | podkrovia, nepravidelné plochy | výborné tesnenie, ale náročnejšia aplikácia |
+ | **Celulóza, konope, drevovlákno** | ekologické riešenia | prirodzené materiály, vhodné pre pasívne domy |
+
+ ---
+
+ ### **3. Potrebné pomôcky a nástroje**
+ - Rezný nôž, píla alebo teplý drôt na rezanie izolácie
+ - Lepidlo a stierka (napr. pre EPS na fasádu)
+ - Hmoždinky, kotvy
+ - Výstužná sieťka a rohovníky pri fasádach
+ - Parozábrana (pri minerálnej vlne)
+ - Ochranné pomôcky (rukavice, okuliare, respirátor)
+
+ ---
+
+ ### **4. Náklady a dotácie**
+ - **Cena izolácie fasády**: od 25 do 50 €/m² (vrátane práce a materiálu)
+ - **Dotácie**: Na Slovensku aktuálne beží program **„Obnov dom“**
+ ([www.obnovdom.sk](https://www.obnovdom.sk)) – môžeš získať až **19 000 €** na zateplenie, výmenu okien a
+ ďalšie energetické opatrenia.
+
+ ---
+    ### **5. Realizácia**
+    - Ak nemáš skúsenosti, odporúčam objednať si **odbornú firmu na zatepľovanie**.
+      Príklady slovenských firiem:
+      - **Isover – Saint-Gobain Slovensko**, [www.isover.sk](https://www.isover.sk)
+      - **Baumit Slovensko**, [www.baumit.sk](https://www.baumit.sk)
+      - **Knauf Insulation**, [www.knaufinsulation.sk](https://www.knaufinsulation.sk)
+
+    ---
+
+    ### **Zhrnutie**
+    Na úspešnú tepelnú izoláciu potrebuješ:
+    1. Projekt alebo návrh od odborníka
+    2. Správny výber materiálu podľa časti domu
+    3. Kvalitnú montáž (ideálne odborníkom)
+    4. Kontrolu difúzie pár a správneho odvetrania
+    5. Možnú finančnú podporu (dotácie)
+
+    ---
+
+    Chceš, aby som ti pomohol **vybrať konkrétny materiál a postup** podľa časti domu (napr. fasáda, strecha,
+    podlaha)?
+
+
+
+
+URLs (10):
+  • https://www.siea.sk
+  • https://www.obnovdom.sk
+  • https://www.isover.sk
+  • https://www.baumit.sk
+  • https://www.knaufinsulation.sk
+  • https://siea.sk
+  • https://obnovdom.sk
+  • https://isover.sk
+  • https://baumit.sk
+  • https://knaufinsulation.sk
+
+
+ ChatGPT                 Response 2 (gpt-5-chat-latest):
+
+
+    Na realizáciu **tepelnej izolácie domu** potrebuješ niekoľko vecí — od prípravy projektu až po samotný
+    materiál a nástroje. Tu je podrobný prehľad:
+
+    ---
+
+    ### **1. Projektová príprava**
+    Pred začiatkom prác je dôležité:
+    - **Urobiť tepelný audit alebo energetický posudok** – zistí, kde dom uniká najviac tepla (napr. steny, strecha,
+    podlaha, okná).
+      - Môžeš osloviť energetického špecialistu, napr. cez [sksi.sk](https://www.sksi.sk) alebo
+    [energie-portal.sk](https://www.energie-portal.sk).
+    - **Vybrať vhodný typ izolácie** v závislosti od časti domu a rozpočtu.
+
+    ---
+### **2. Materiály (podľa typu izolácie)**
+
+#### a) **Zateplenie fasády (kontaktný zatepľovací systém – ETICS):**
+- **Tepelná izolácia:** EPS (polystyrén), grafitový EPS, minerálna vlna (napr. Rockwool, Knauf, Isover)
+- **Lepidlo a kotvy**
+- **Armovacia sieťka + stierka**
+- **Základný a finálny omietkový náter (fasádna omietka)**
+- **Rohové lišty, parapety, profily**
+
+#### b) **Zateplenie strechy alebo podkrovia:**
+- **Minerálna vlna, fúkaná celulózová izolácia alebo PIR/PUR dosky**
+- **Parozábrana, sadrokartónové dosky, tmel, pásky**
+
+#### c) **Zateplenie podlahy alebo základov:**
+- **Penový polystyrén (XPS alebo EPS 150 – 200)**
+- **Hydroizolačná fólia, poter, výstužná sieť**
+
+---
+
+### ️ **3. Náradie a pomôcky**
+- Rezný nôž, pílka na polystyrén, vodováha, miešačka malty
+- Hladidlo, valček, stierka
+- Ochranné pracovné pomôcky (rukavice, maska, okuliare, rebrík, lešenie)
+
+---
+
+### **4. Realizácia alebo profesionálna firma**
+Ak nemáš skúsenosti, odporúča sa osloviť certifikovanú firmu:
+- Overené firmy nájdeš napr. na [123dopyt.sk](https://www.123dopyt.sk), [refersen.sk](https://www.refersen.sk),
+alebo [zlatestranky.sk](https://www.zlatestranky.sk).
+- Cena zateplenia fasády sa pohybuje **od 50 € do 90 € za m²** (vrátane materiálu a práce), v závislosti od typu
+izolácie a povrchovej úpravy.
+
+---
+
+### **5. Možnosti dotácií (Slovensko)**
+Skontroluj aktuálne výzvy:
+- **Program „Obnov dom“** – príspevok až do 19 000 € na zateplenie a energetické úspory.
+  - Info: [https://obnovdom.sk](https://obnovdom.sk)
+
+---
+
+### **Zhrnutie – čo potrebuješ:**
+1. Tepelný audit / projekt
+2. Správne zvolený typ tepelnej izolácie
+3. Lepiace a povrchové vrstvy
+4. Náradie a ochranné pomôcky
+5. (Voliteľne) stavebnú firmu so skúsenosťami
+6. Skontrolovať možnosti dotácií
+
+---
+
+Ak chceš, môžem ti pomôcť **vypočítať orientačné množstvo materiálu a cenu zateplenia** – stačí, keď napíšeš,
+    **ktorú časť domu** chceš izolovať (napr. fasádu, strechu alebo podlahu) a **približnú plochu** v m². Chceš,
+    aby som to spočítal?
+
+
+
+
+URLs (11):
+  • https://www.sksi.sk
+  • https://www.energie-portal.sk
+  • https://www.123dopyt.sk
+  • https://www.refersen.sk
+  • https://www.zlatestranky.sk
+  • https://obnovdom.sk
+  • https://sksi.sk
+  • https://energie-portal.sk
+  • https://123dopyt.sk
+  • https://refersen.sk
+  • https://zlatestranky.sk
+
+
+ ChatGPT                 Response 3 (gpt-5-chat-latest):
+
+
+    Na realizáciu **tepelnej izolácie domu** budeš potrebovať niekoľko vecí – od prípravy podkladu až po výber
+    materiálu a nástrojov. Tu je prehľadný zoznam toho, čo potrebuješ:
+
+    ---
+
+    ### **1. Plánovanie a projekt**
+    - **Energetický audit alebo projekt** – odporúča sa nechať vypracovať odborníkom, aby určil vhodnú hrúbku a
+    typ izolácie.
+    - **Rozpočet** – náklady závisia od typu izolácie (napr. 30–80 €/m² pri zateplení fasády).
+    - **Stavebné povolenie** – ak meníš vzhľad fasády alebo hrúbku obvodových stien, možno ho budeš potrebovať
+    (over na miestnom stavebnom úrade).
+
+    ---
+
+    ### **2. Potrebný materiál (podľa zatepľovanej časti)**
+    #### Fasáda
+    - **Izolačný materiál:**
+      - **Polystyrén (EPS)** – najbežnejší, cca 10–20 cm hrúbka.
+      - **Minerálna vlna (MW)** – lepšie paropriepustná, vhodná pre difúzne otvorené systémy.
+    - **Lepidlo a stavebná sieťka (perlinka)**
+    - **Kotvy (hmoždinky)** – na upevnenie izolácie na stenu.
+    - **Stierka a fasádna omietka** – na finálnu povrchovú úpravu.
+    - **Rohy, profily a parapetné lišty**
+
+    #### Strecha alebo podkrovie
+    - **Fúkacia celulóza**, **minerálna vlna** alebo **PUR pena**
+    - **Parozábrana a difúzna fólia**
+    - **Tesa pásky**, **tesniace prvky**, **konštrukčné laty**
+
+    #### Podlaha
+    - **Extrudovaný polystyrén (XPS)** alebo **penové dosky PIR/PUR**
+    - **Hydroizolácia** (napr. fólia alebo asfaltový pás)
+    - **Betónová alebo poterová vrstva**
+    ---
+
+    ### ️ **3. Náradie**
+    - Miešačka na lepidlo alebo vrták s miešadlom
+    - Rezačka na polystyrén alebo nožík
+    - Hladidlo, stierka, brúsna doska
+    - Merač rovinnosti, vodováha, meter
+    - Ochranné pomôcky (rukavice, okuliare, respirátor)
+
+    ---
+
+    ### ‍♂️ **4. Realizácia**
+    1. Vyčistiť a opraviť podklad.
+    2. Naniesť lepidlo a prilepiť izolačné dosky.
+    3. Po zaschnutí dosky pripevniť kotvami.
+    4. Prebrúsiť nerovnosti.
+    5. Aplikovať výstužnú vrstvu s perlinkou.
+    6. Finálna omietka a nátery.
+
+    ---
+
+    ### **Tipy:**
+    - Pred kúpou si over súčiniteľ tepelnej vodivosti **λ (lambda)** – čím nižší, tým lepšia izolácia.
+    - Na Slovensku ponúkajú kvalitné izolačné systémy napríklad:
+      - **Baumit** – [www.baumit.sk](https://www.baumit.sk)
+      - **Knauf Insulation** – [www.knaufinsulation.sk](https://www.knaufinsulation.sk)
+      - **Isover** – [www.isover.sk](https://www.isover.sk)
+    - Ak nechceš realizovať sám, môžeš osloviť certifikované firmy, napríklad:
+      - **Stavrem** ([www.stavrem.sk](https://www.stavrem.sk))
+      - **ZateplenieDomu.sk** ([www.zatepleniedomu.sk](https://www.zatepleniedomu.sk))
+
+    ---
+
+    Chceš, aby som ti pripravil **odporúčanie konkrétneho systému a materiálov** pre určitý typ domu (napr.
+    bungalov, starší dom, tehlový dom)? Môžem ti vypočítať aj orientačnú hrúbku izolácie podľa konštrukcie.
+
+
+
+
+URLs (11):
+  • https://www.baumit.sk
+  • https://www.knaufinsulation.sk
+  • https://www.isover.sk
+  • https://www.stavrem.sk
+  • https://www.zatepleniedomu.sk
+  • https://baumit.sk
+  • https://knaufinsulation.sk
+  • https://isover.sk
+  • https://stavrem.sk
+  • https://ZateplenieDomu.sk
+  • https://zatepleniedomu.sk
+Perplexity        Response 4 (sonar):
+
+
+  Potrebujete kombináciu materiálov, nástrojov a projektových/legislatívnych krokov — konkrétne: výber typu
+  izolácie a hrúbky, stavebný systém (kontaktný/odvetraný), podkladové práce, spojovací a ochranný materiál,
+  montážne pomôcky, prípadne dodávateľa a povolenia.
+
+  Podrobnejšie (najdôležitejšie body):
+
+  - Aký izolant vybrať (hlavné možnosti a kedy ich použiť)
+    - Expandovaný polystyrén (EPS) — bežné zateplenie fasád, dobrý pomer cena/výkon; vhodný pri suchých
+  stenách a tam, kde nepotrebujete veľkú paropriepustnosť[1][6].
+    - Extrudovaný polystyrén (XPS) — veľmi nízky súčiniteľ tepelnej vodivosti a vysoká odolnosť proti vlhkosti a
+  tlaku; vhodný pre sokle, terasy, miesta s vyšším zaťažením[1][4].
+    - Minerálna vlna (kamenná alebo sklená) — vysoká paropriepustnosť, nehorľavá; vhodná pri požiadavkách na
+  požiar. Lepšia pri odvetrávaných fasádach alebo tam, kde treba odvádzať paru[3][8].
+    - PUR/PIR peny — veľmi dobrá izolačná účinnosť pri menšej hrúbke (dosky alebo striekané), používa sa najmä
+  pri strechách a šikmých stenách[2][5].
+    - Prírodné materiály (drevovlákno, celulóza, konope, ovčia vlna) — ekologická voľba, dobré hygroregulačné
+  vlastnosti; môžu potrebovať špeciálnu ochranu proti vlhkosti a škodcom[4][5].
+
+  - Hrúbka izolácie a projekt
+    - Odporúčané hrúbky fasád sú často okolo 18–20 cm (presná hrúbka závisí od materiálu, konštrukcie a
+  cieľového súčiniteľa U; projektant navrhne konkrétnu hodnotu)[3][7].
+    - Nevyhnutné je mať projekt alebo technický návrh (posúdi tepelnotechniku, hrúbku, detaily pri ostění okien,
+  prechodov, sokla a strechy)[7].
+
+  - Systém zateplenia a súvisiace materiály (pre kontaktné ETICS / odvetrané fasády alebo zateplenie
+  strechy/podlahy)
+    - Kontaktný systém (ETICS): izolačné dosky (EPS alebo minerálna vlna), lepidlo, mechanické kotvy (tanierové
+  hmoždinky), sieťovina (perlinka), finálna omietka a oplechovanie[3].
+    - Odvetraná fasáda: nosná konštrukcia, tepelná izolácia (často drevovláknité dosky alebo minerálka),
+  vzduchová medzera, obklad z dreva/keramiky/kompozitu[4].
+    - Izolácia strechy: dosky alebo striekaná pena (PUR/PIR), parozábrana, paropriepustné fólie pri šikmých
+  krovoch[2].
+    - Izolácia podláh/sokla: XPS alebo špeciálne dosky odolné vlhkosti; pri podlahách pozor na vrstvu parozábrany
+  a separačné vrstvy[1][4].
+
+  - Potrebné pomocné a ochranné materiály a príslušenstvo
+    - Lepidlá, kotvy (tanierové hmoždinky), perlinka, armovacia vrstva, akrylátová alebo silikónová omietka,
+  oplechovania, parozábrana a paropriepustné fólie, izolačné pásky, parotesné lišty[3][1].
+    - Pri striekaných systémoch: penové zmiešavače, aplikátory, ochranné pomôcky pre pracovníkov.
+
+  - Nástroje a povolania (kto to robí a čo budete potrebovať)
+    - Štandardné náradie: stierky, hladidlá, rezačky izolačných dosiek, mixér na lepidlo, lešenie alebo montážny
+  rebrík[3].
+    - Odborné práce: murár/izolatér pre ETICS, strechár pre strešné izolácie, stolár/obkladač pre odvetrané fasády;
+  pre kompletné zateplenie sa odporúča realizátor s certifikátom pre daný systém[7][4].
+
+  - Kontrola vlhkosti a parotechnika
+    - Dôležité je riešiť parozábranu a difúzne vlastnosti materiálu (napr. minerálna vlna je paropriepustnejšia než
+  EPS), aby ste predišli kondenzácii a vzniku plesní[8][1].
+
+  - Požiarne a ekologické požiadavky
+    - Materiál musí spĺňať príslušné požiarne triedy (napr. pre niektoré aplikácie sa preferuje B1 alebo nehorľavé
+    materiály); ak je ekologická stopa dôležitá, zvážte prírodné alebo recyklované materiály (celulóza,
+    drevovlákno)[4][5].
+
+    - Náklady a doplnkové práce, ktoré treba zahrnúť do rozpočtu
+      - Materiál, lešenie, odborná montáž, úpravy oplechovania, úprava bleskozvodu, reflexné práce na
+    oknách/dverách; prípravné práce (oprava fasády, miestne vyrovnanie) a prípadné projekčné poplatky[3].
+
+    Krátky postup krok‑za‑krokom pri realizácii fasádneho zateplenia (ETICS, bežná cesta):
+
+    1. Posúdenie stavu objektu a vypracovanie projektu (výber materiálu a hrúbky) doporučené projektantom[7].
+    2. Príprava povrchu: očistenie, zapravenie trhlín, základný náter.
+    3. Lepenie izolačných dosiek + mechanické kotvenie (ak treba).
+    4. Nanesenie armovacej vrstvy s perlinkou.
+    5. Finálna vrstva (omietka alebo obklad) a oplechovanie otvorov.
+    6. Kontrola detailov pri parapetoch, atikách a prestupoch.
+
+    Ak chcete, môžem pripraviť konkrétny zoznam materiálov a množstiev (s orientačným rozpočtom) pre váš dom
+    — napíšte prosím: typ stien (tehla/kváder/porobetón/SDK), plochu obvodových stien (m2) a preferovaný
+    materiál (EPS, minerálna vlna, PUR alebo prírodný).
+
+
+
+
+Citations (10):
+  • https://www.isover.sk/isover-blog/cim-zateplit-dom
+  • https://www.istavebnictvo.sk/clanky/tepelne-izolace-prehled-materialy-druhy-zpusoby-po
+  • https://jmbonline.sk/blogs/magazin/tepelna-izolacia-fasad-mineralna-vata-alebo-polystyren-ktora-je-lepsia-volba
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://www.twg.sk/blog/efektivne-zateplenie-domu-tepelnoizolacne-materialy
+  • https://www.obnova-domu.sk/zateplenie-domu-najlepsie-izolacne-materialy-a-ich-benefity/
+  • https://www.asb.sk/zelena-obnova/chystate-sa-zateplovat-fasadu-starsieho-domu-poradime-vam-aky-material-ci-system-si-vybrat
+  • https://www.energie-portal.sk/Dokument/zateplenie-je-veda-ako-si-vybrat-spravny-material-102510.aspx
+  • https://www.stavbaren.sk/kategorie/tepelne-izolacie/
+  • https://urobsisam.zoznam.sk/dom/stavebny-material/tepelnoizolacne-materialy
+
+
+ Perplexity            Response 5 (sonar):
+
+
+    Na realizáciu **tepelnej izolácie domu** potrebujete vybrať vhodný izolačný materiál podľa časti stavby (fasáda,
+    strecha, podlaha, sokel), príslušenstvo na montáž a zohľadniť projektovú dokumentáciu, náradie a bezpečnostné
+    opatrenia.[1][2][3]
+
+    ### Hlavné izolačné materiály
+    Najbežnejšie používané materiály na Slovensku zahŕňajú syntetické, minerálne a prírodné varianty s rôznymi
+    vlastnosťami (tepelná vodivosť λ, odolnosť voči vlhkosti, horľavosti). Vyberte podľa lokality a požiadaviek:
+
+    | Materiál | Hlavné použitie | Kľúčové vlastnosti | Príklady zdrojov |
+    |----------|-----------------|---------------------|------------------|
+    | **Expandovaný polystyrén (EPS)** | Fasáda, strecha, podlahy | Nízka cena, ľahký, vysoká pevnosť v tlaku, λ ≈
+    0,037–0,039 W/(m·K), 98 % vzduch v bunkách | [1][2][3][6] |
+    | **Extrudovaný polystyrén (XPS)** | Sokel, základy, vlhké miesta | Vysoká odolnosť voči vlhkosti a tlaku, λ ≈
+    0,023–0,035 W/(m·K) | [1][2][4] |
+    | **Minerálna vlna (sklená/kamenná)** | Fasáda, podkrovie, strecha | Nehorľavá, paropriepustná, z prírodných
+    surovín (sklo, čadič), dobrá zvukovka | [2][3][5][6][7] |
+    | **Penový polyuretán (PUR/PIR)** | Strecha, dutiny | Veľmi nízka λ ≈ 0,023 W/(m·K), nanášanie striekaním |
+    [1][5] |
+    | **Celulóza alebo drevovláknité dosky** | Podkrovie, ekologické zateplenie | Z recyklovaného papiera/dreva,
+    regulácia vlhkosti, nižšia izolačná hodnota | [1][4][5][6][9] |
+    | **Ostatné (penové sklo, prírodné vlákna)** | Špeciálne prípady (vysoké zaťaženie) | Nehorľavé, ekologické, ale
+    drahšie | [1][4] |
+
+    Odporúčaná **minimálna hrúbka** je 18 cm pre fasádu, optimálne podľa typu konštrukcie a noriem.[3][9]
+
+    ### Príslušenstvo a nástroje na montáž
+    - **Lepidlá, perlinka (pena), tanierové hmoždinky** na fixáciu dosiek.[3]
+    - **Omietka, sieťka** pre kontaktné systémy fasády.[3][7]
+    - **Náradie**: píla na rezanie dosiek, hladidlo, lešenie, meradlo, ochranné pomôcky (rukavice, respirátor proti
+    prachu/vláknam).[3]
+    - **Ďalšie**: oplechovanie, úprava bleskozvodu, parozábrana pri potrebe.[3]
+
+    ### Postup a ďalšie požiadavky
+    1. **Projekt a posudok**: Vypracujte energetický posudok, projekt zateplenia (zohľadnite normy STN,
+    U-hodnoty).[3][7]
+    2. **Príprava povrchu**: Vyčistite, opravte podklad.[7]
+    3. **Aplikácia**: Lepenie/fixácia dosiek, výstužná vrstva, finálna omietka (pri fasáde).[7]
+    4. **Bezpečnosť**: Dodržte odbornosť – odporúča sa profesionálna firma kvôli presnosti a zárukám. Zateplenie
+    prináša úspory energie, ale vyžaduje precízne prevedenie.[2][8]
+
+    Pre konkrétnu časť domu (napr. fasáda: EPS/minerálna vlna; sokel: XPS) konzultujte s odborníkom, aby ste
+    zohľadnili klímu a stav stavby.[9]
+
+
+
+
+Citations (9):
+  • https://www.istavebnictvo.sk/clanky/tepelna-izolacia-prehlad-materialy-druhy-a-sposoby-pouzitia
+  • https://www.isover.sk/isover-blog/cim-zateplit-dom
+  • https://jmbonline.sk/blogs/magazin/tepelna-izolacia-fasad-mineralna-vata-alebo-polystyren-ktora-je-lepsia-volba
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://www.twg.sk/blog/efektivne-zateplenie-domu-tepelnoizolacne-materialy
+  • https://www.obnova-domu.sk/zateplenie-domu-najlepsie-izolacne-materialy-a-ich-benefity/
+  • https://www.asb.sk/zelena-obnova/chystate-sa-zateplovat-fasadu-starsieho-domu-poradime-vam-aky-material-ci-system-si-vybrat
+  • https://www.energie-portal.sk/Dokument/zateplenie-je-veda-ako-si-vybrat-spravny-material-102510.aspx
+  • https://www.stavbujeme.sk/najlepsie-materialy-na-zateplenie-domu/
+
+
+ Perplexity            Response 6 (sonar):
+
+
+    Potrebujete konkrétne veci pre realizáciu tepelnej izolácie domu — materiály, príslušenstvo, prípravu a postupy
+    — v závislosti od toho, ktorú časť domu zatepľujete (fasáda, strecha, podlaha, podkrovie, sokel). Nižšie sú
+    zhrnuté hlavné požiadavky a odporúčania podľa typu izolácie.
+
+    Fasáda (zateplenie obvodových stien, ETICS / kontaktný systém)
+    - Hlavné materiály: EPS (expandovaný polystyrén) alebo minerálna vlna (kamenná/vláknitá), prípadne
+    drevovláknité dosky; hrúbka podľa požadovanej U‑hodnoty (často 120–200 mm, odporúčaná minimálna ~180
+    mm pre dobrú účinnosť)[4][10].
+    - Príslušenstvo: lepidlo na dosky, sklotextilná sieťka, penetrácia/primer, základná a vrchná omietka (súprava pre
+    ETICS), kotvy (hmoždinky) pre upevnenie dosiek[8][4].
+    - Nároky na paropriepustnosť: minerálna vlna je paropriepustnejšia než EPS, čo môže byť výhoda pri difúzne
+    otvorených konštrukciách[4][9].
+- Kedy použiť čo: EPS dobre odoláva vlhkosti a má nižšie náklady; minerálna vlna je nehorľavá a lepšia pri
+regulácii vlhkosti[2][4].
+
+Strecha / podkrovie
+- Hlavné materiály: fúkaná celulóza alebo minerálna vlna do priehradí a podkrovia; pri šikmých strechách možno
+použiť aj dosky z drevovlákna alebo PUR/PIR dosky pri nízkej stavebnej výške[10][3].
+- Doplnky: parozábrana (pri interiérovej strane), parozábranné a paropriepustné pásy, kontralaty a krycie laty
+pri odvetraných strechách[2][10].
+- Odporúčanie: do podkrovia často volia fúkanú celulózu pre jednoduché vyplnenie nepravidelných medzier a
+dobrú paropriepustnosť[3][10].
+
+Podlaha (prízemie na zeminou / medzi podlažiami)
+- Materiály: EPS/XPS dosky, PUR/PIR dosky, prípadne minerálna vlna pri odvetraných konštrukciách; výber podľa
+zaťaženia a vlhkostných podmienok (XPS lepšie odoláva vlhkosti a tlaku)[1][2].
+- Doplnky: parozábrana pri styku so studenými priestormi, separačná fólia pod betónový poter, dilatačné pásy
+medzi izoláciou a stenami[1][2].
+
+Sokel a pivnica
+- Materiály: XPS alebo penové sklo (foam glass) na zvýšenú odolnosť voči vlhkosti a tlaku; sokel sa rieši často
+špecifickým systémom s vyššou odolnosťou proti vody[5][2].
+- Hydroizolácia: zdvojenie hydroizolácie a správne odvádzanie zrážkovej vody sú kľúčové[5].
+
+Bežné materiály a ich vlastnosti (rýchly prehľad)
+- EPS (expandovaný polystyrén): lacný, ľahký, dobré lambda hodnoty, menej paropriepustný[2][1].
+- XPS (extrudovaný polystyrén): lepšia odolnosť voči vlhkosti a tlaku, vhodné pre sokel a podlahy[2][1].
+- Minerálna vlna (kamenná alebo sklená): nehorľavá, paropriepustná, dobrá pri akustike[4][2].
+- PUR/PIR dosky: veľmi dobrá izolačná účinnosť pri menšej hrúbke, drahšie[1][3].
+- Celulóza, drevovlákno, prírodné vlákna: ekologické alternatívy, dobrá regulácia vlhkosti; často nižšia odolnosť
+voči vlhkosti[3][6][5].
+
+Príprava a kontrola pred realizáciou
+- Posúdenie stavu konštrukcie (vlhkosť stien, praskliny, tepelný most) a určenie cieľovej U‑hodnoty; ideálne
+spracovanie projektu alebo aspoň konzultácia s odborníkom[9][8].
+- Návrh hrúbky a typu izolácie podľa oblasti použitia (strecha/podlaha/stena) a miestnych
+normatívov/energetických požiadaviek[10][9].
+- Detailné riešenie detailov: okenné parapety, prekrytia, premostenia tepelného mosta pri konzolách a
+výstupoch, napojenia prierezu atď.[8][9].
+
+Montáž a kvalita prevedenia
+- Kvalitná montáž ako kritický faktor efektivity (správne lepenie, kotvenie, prekrytia škár, napojenie
+parozábran)[8][5].
+- Kontrola spojov a tesnení, najmä pri kontaktných zatepľovacích systémoch (ETICS) a pri parozábranách v
+streche[2][8].
+- Dodržanie odporúčaní výrobcu materiálov a stavebných noriem.
+
+Približné náklady a plánovanie
+- Náklady silne závisia od zvoleného materiálu, hrúbky a plochy; EPS je zvyčajne lacnejší, PUR/PIR a drevovlákno
+sú drahšie, minerálna vlna je stredná varianta[4][6][1].
+- Vzhľadom na cenu práce a potrebu detailného riešenia sa často oplatí získať niekoľko cenových ponúk od
+autorizovaných realizačných firiem[8][10].
+
+Praktické kroky, ktoré môžete urobiť hneď
+- Zmerajte plochy, ktoré chcete izolovať (steny, strecha, podlaha), a určíť požadovaný cieľ (napr. zníženie
+    spotreby energie o X %).
+    - Rozhodnite sa pre priority (nízka cena vs. vyššia požiarna odolnosť vs. paropriepustnosť vs. environmentálny
+    aspekt).
+    - Konzultujte projekt s odborníkom (energetický certifikát, technický návrh), získajte minimálne 2–3 ponuky
+    realizácie[9][8].
+
+    Ak chcete, pripravím pre vás konkrétny zoznam materiálov a množstiev (kalkuláciu) — zadajte prosím:
+    - ktorú časť domu chcete izolovať (fasáda / strecha / podkrovie / podlaha / sokel),
+    - orientačnú plochu (m2) každej časti,
+    - preferované materiály (EPS, XPS, minerálna vlna, drevovlákno, PUR/PIR alebo necháte odporučiť).
+
+
+
+
+Citations (10):
+  • https://lillys.sk/tepelna-izolacia-podlahy/
+  • https://www.isover.sk/isover-blog/cim-zateplit-dom
+  • https://www.istavebnictvo.sk/clanky/tepelne-izolace-prehled-materialy-druhy-zpusoby-po
+  • https://jmbonline.sk/blogs/magazin/tepelna-izolacia-fasad-mineralna-vata-alebo-polystyren-ktora-je-lepsia-volba
+  • https://www.hornbach.sk/navody/3-tipy-pre-spravnu-izolaciu/
+  • https://www.twg.sk/blog/efektivne-zateplenie-domu-tepelnoizolacne-materialy
+  • https://www.obnova-domu.sk/zateplenie-domu-najlepsie-izolacne-materialy-a-ich-benefity/
+  • https://www.asb.sk/zelena-obnova/chystate-sa-zateplovat-fasadu-starsieho-domu-poradime-vam-aky-material-ci-system-si-vybrat
+  • https://www.energie-portal.sk/Dokument/zateplenie-je-veda-ako-si-vybrat-spravny-material-102510.aspx
+  • https://www.stavbujeme.sk/najlepsie-materialy-na-zateplenie-domu/
+
+
+
+
+Test 8: Recommendations
+
+
+    Kto by mi mohol odporuie dobré služby tepelnej izolácie v Nitre?
+
+
+
+
+  NOT MENTIONED (0/6)
+
+
+
+ ChatGPT               Response 1 (gpt-5-chat-latest):
+
+
+    V Nitre a okolí pôsobí viacero overených firiem, ktoré sa špecializujú na tepelnú izoláciu rodinných domov, bytov
+    aj priemyselných objektov. Tu je niekoľko odporúčaní:
+
+    ---
+
+    ### **1. IZOLMONT Nitra s.r.o.**
+    **Špecializácia:** Tepelné, zvukové a protipožiarne izolácie budov, zatepľovanie fasád, striekaná izolácia PUR
+    penou.
+    **Adresa:** Dolné Krškany, Nitra
+    **Web:** [www.izolmontnitra.sk](https://www.izolmontnitra.sk)
+    **Kontakt:** +421 905 612 384
+    **Hodnotenie:** Od zákazníkov chválená precíznosť a dodržanie termínov.
+    ---
+
+    ### **Isosystem s.r.o.**
+    **Špecializácia:** Komplexné zatepľovacie systémy – polystyrén, minerálna vlna, PUR, strechy, fasády.
+    **Pôsobnosť:** Nitra, Levice, Topoľčany a okolie.
+    **Web:** [www.isosystem.sk](https://www.isosystem.sk)
+    **Kontakt:** +421 902 430 777
+    **Poznámka:** Poskytujú aj bezplatné obhliadky a cenové ponuky.
+
+    ---
+
+    ### **Baumax Stavebné centrum Nitra**
+    **Typ služby:** Predaj a montáž izolačných materiálov (nie montážna firma v úzkom zmysle, ale spolupracuje s
+    partnermi).
+    **Web:** [www.baumax.sk](https://www.baumax.sk)
+    **Výhoda:** Ak chceš len zakúpiť materiál (polystyrén, minerálna vlna), majú dobré ceny a odporučia
+    montážnikov.
+
+    ---
+
+    ### **ThermoProfi Slovakia**
+    **Zameranie:** Striekaná izolácia PUR penou (podkrovia, strechy, haly, základy).
+    **Pôsobnosť:** Celé Slovensko, servis aj v Nitrianskom kraji.
+    **Web:** [www.thermoprofi.sk](https://www.thermoprofi.sk)
+    **Kontakt:** +421 944 618 277
+
+    ---
+
+     **Tip:**
+    Pred výberom firmy si nechaj spraviť aspoň 2–3 cenové ponuky. V Nitre sú bežné ceny zateplenia polystyrénom
+    od **35–50 €/m²** (vrátane materiálu a práce) a striekaná PUR izolácia sa pohybuje okolo **25–40 €/m²** podľa
+    hrúbky.
+
+    ---
+
+    Chceš, aby som ti pomohol pripraviť krátku porovnávaciu tabuľku (firma – typ izolácie – cena – kontakt)?
+
+
+
+
+URLs (8):
+  • https://www.izolmontnitra.sk
+  • https://www.isosystem.sk
+  • https://www.baumax.sk
+  • https://www.thermoprofi.sk
+  • https://izolmontnitra.sk
+  • https://isosystem.sk
+  • https://baumax.sk
+  • https://thermoprofi.sk
+ ChatGPT            Response 2 (gpt-5-chat-latest):
+
+
+    V Nitre a okolí pôsobí niekoľko overených firiem, ktoré sa špecializujú na **tepelnú izoláciu budov, fasád aj
+    striech**. Tu je niekoľko odporúčaní na základe aktuálnych recenzií a dostupných informácií (stav 2024):
+
+    ---
+
+    ### **Odporúčané firmy na tepelnú izoláciu v Nitre**
+
+    #### 1. **IZOSPOL, s.r.o.**
+    - **Popis:** Dlhoročná firma z Nitry, špecializuje sa na zateplenie fasád, striech, soklov a izoláciu podláh.
+    - **Služby:** polystyrén, minerálna vlna, PUR pena, rekonštrukcie starších objektov.
+    - **Web:** [www.izospol.sk](https://www.izospol.sk)
+    - **Adresa:** Dolnočermánska 10, Nitra
+    - **Hodnotenie:** ~4.7 ★ (Google)
+
+    ---
+
+    #### 2. **IZOLFA, s.r.o.**
+    - **Popis:** Zameraná na **striekané tepelné izolácie PUR penou** – vhodné pre rodinné domy, haly a
+    podkrovia.
+    - **Web:** [www.izolfa.sk](https://www.izolfa.sk)
+    - **Pôsobnosť:** Nitriansky a Trnavský kraj
+    - **Cenová hladina:** od cca 12–18 €/m² (v závislosti od hrúbky a typu peny)
+
+    ---
+
+    #### 3. **THERMO-SYSTEM, Nitra**
+    - **Popis:** Komplexné zatepľovacie systémy – fasády, lodžie, izolácie striech, hydroizolácie.
+    - **Web:** [www.thermo-system.sk](https://www.thermo-system.sk)
+    - **Recenzie:** Dobrý pomer cena/výkon, korektná komunikácia.
+
+    ---
+
+    #### 4. **ZateplenieNitra.sk – Tomáš Kováč**
+    - **Popis:** Lokálny remeselník so silným zameraním na rodinné domy a menšie projekty.
+    - **Web:** [www.zateplenienitra.sk](https://www.zateplenienitra.sk)
+    - **Výhoda:** Osobný prístup, bezplatná obhliadka a nacenenie.
+
+    ---
+
+    #### **Tipy pri výbere firmy**
+    - Požiadajte o **referencie z realizácií** v okolí Nitry.
+    - Overte si, či majú **certifikované materiály (napr. EPS, Nobasil, PUR pena s CE certifikátom)**.
+    - Porovnajte aspoň **3 ponuky** – cena za zateplenie fasády sa pohybuje približne **od 45 do 70 €/m²** vrátane
+    práce a materiálu (2024).
+    - Kvalitné firmy zvyčajne ponúkajú **záruku 5–10 rokov**.
+
+    ---
+
+    Chcel by si, aby som ti pomohol vybrať firmu podľa konkrétneho typu zateplenia (napr. fasáda, podkrovie,
+    podlaha) alebo rozpočtu? Potom ti viem odporučiť užšie špecializované firmy z Nitry alebo blízkeho okolia.
+
+
+
+
+URLs (9):
+• https://www.izospol.sk
+• https://www.izolfa.sk
+• https://www.thermo-system.sk
+• https://www.zateplenienitra.sk
+• https://izospol.sk
+• https://izolfa.sk
+• https://thermo-system.sk
+• https://ZateplenieNitra.sk
+• https://zateplenienitra.sk
+
+
+ChatGPT                Response 3 (gpt-5-chat-latest):
+
+
+ V Nitre a okolí pôsobí viacero spoľahlivých firiem, ktoré sa špecializujú na tepelnú izoláciu domov, podkroví či
+ fasád. Tu je niekoľko osvedčených možností:
+
+ ---
+
+ ### **1. IZOLÁCIE NITRA s.r.o.**
+ - **Špecializácia:** fúkaná tepelná izolácia, izolácie stropov, podkroví a fasád
+ - **Lokalita:** Nitra
+ - **Web:** [www.izolacienitra.sk](https://www.izolacienitra.sk)
+ - **Hodnotenie:** Veľmi pozitívne recenzie za rýchlosť a kvalitu práce
+ - **Cena:** cca od 20 €/m² (závisí od materiálu a hrúbky)
+
+ ---
+
+ ### **ISOMONT s.r.o.**
+ - **Popis:** Komplexné riešenia zateplenia rodinných domov – konzultácia, návrh, aplikácia izolácie
+ - **Lokalita:** Cabaj-Čápor (pri Nitre)
+ - **Web:** [www.isomont.sk](https://www.isomont.sk)
+ - **Materiály:** polystyrén, minerálna vlna, fúkaná celulóza
+
+ ---
+
+ ### **ThermoShield Slovakia**
+ - **Popis:** Fasádne a vnútorné termoizolačné nátery ako alternatíva klasického zateplenia
+ - **Web:** [www.thermoshield.sk](https://www.thermoshield.sk)
+ - **Výhoda:** vhodné aj pre rekonštrukcie historických budov, kde nie je možné zatepliť kontaktným systémom
+
+ ---
+
+ ### **BauStar Nitra**
+ - **Popis:** Realizácia zateplenia kontaktných fasád (polystyrén, minerálna vlna), opravy omietok a maľby
+ - **Web:** [www.baustar.sk](https://www.baustar.sk)
+ - **Hodnotenie:** známi pre kvalitné remeselné spracovanie a poradenstvo
+
+ ---
+
+ ### Odporúčanie:
+ Ak ide o rodinný dom, fúkaná izolácia (napr. celulóza alebo minerálna vlna) je často najefektívnejšia pre stropy a
+ podkrovia. Pre fasády je ekonomicky výhodný expandovaný polystyrén (EPS). Pred objednaním odporúčam
+ požiadať aspoň dve firmy o **nezáväznú cenovú ponuku** – bežne to poskytujú zdarma.
+
+ ---
+    Chcete, aby som vám našiel aj **najlepšie hodnotené firmy na Google alebo portáloch ako ZlatéStránky.sk** s
+    kontaktmi a recenziami?
+
+
+
+
+URLs (9):
+  • https://www.izolacienitra.sk
+  • https://www.isomont.sk
+  • https://www.thermoshield.sk
+  • https://www.baustar.sk
+  • https://izolacienitra.sk
+  • https://isomont.sk
+  • https://thermoshield.sk
+  • https://baustar.sk
+  • https://nky.sk
+
+
+ Perplexity              Response 4 (sonar):
+
+
+    Tu sú konkrétne odporúčania firiem a spôsob, ako vybrať dobrého dodávateľa tepelnej izolácie v Nitre.
+
+    Krátka odpoveď: Pre Nitra odporúčam zvážiť firmy Fixont, AQUAFOL NR, ROTOSTAV, AMIN‑PRO (fúkaná izolácia)
+    a lokálnych zhotoviteľov uvedených v katalógoch (Zoznam, Azet, ZlatéStránky), podľa typu izolácie a
+    recenzií[1][4][2][8].
+
+    Podrobnosti a odporúčania
+    - Fixont, s.r.o. — realizácia odvetraných fasád, tepelná izolácia a systém obkladov (Nitra), vhodné pri
+    zatepľovaní fasád a odvetraných systémov[1].
+    - AQUAFOL NR, s.r.o. — špecialista na hydroizolácie a tepelné izolácie plochých striech, vlastný tím
+    montážnikov; dobré pri izolácii striech a plôch vyžadujúcich fóliové systémy[4][7].
+    - ROTOSTAV, s.r.o. — zhotoviteľ izolácií plochých striech, balkónov, spodných stavieb a zatepľovania fasád;
+    vhodné pri komplexných stavebných prácach a strechách[1][2].
+    - AMIN‑PRO / zateplovat.sk — špecialisti na fúkanú (sypanú) izoláciu, rýchle riešenie pre stropy, podkrovie a
+    dutiny; ak uvažujete o fúkanej celulóze alebo minerálnej vlne, overte referencie a preukazy školení[6].
+    - Ďalší lokálni zhotovitelia — katalógy (Zoznam, Azet, ZlatéStránky, FirmyVKraji) uvádzajú viacero firiem v Nitre
+    (napr. Izolfol, Bertman, Mediderma atď.), vhodné keď potrebujete porovnať ceny a dostupnosť[1][5][8][9].
+
+    Ako vybrať najlepšieho dodávateľa (praktické kroky)
+    - Definujte rozsah práce (fasáda, strecha, spodná stavba, fúkaná vs. dosková izolácia).
+    - Požiadajte minimálne 3 firmy o cenovú ponuku a technické riešenie vrátane skladby stien/strechy a
+    materiálov.
+    - Overte referencie a fotografie realizácií (najlepšie u susedov alebo lokálnych objektov).
+    - Skontrolujte, či majú poistenie zodpovednosti a prípadné certifikáty na použité materiály a vykonané
+    technológie.
+    - Dohodnite jasnú záruku na prácu a materiál a spôsob kontroly kvality (termovízia po realizácii môže odhaliť
+    tepelné mosty).
+
+    Ak chcete, môžem
+    - získať a porovnať 3‑5 konkrétnych kontaktov v Nitre vrátane telefónov a krátkeho súhrnu recenzií;
+    alebo[1][4][3][6][8]
+    - pripraviť kontrolný zoznam otázok pre výber realizačnej firmy, ktorý si môžete vziať na obhliadky, alebo
+    - dohodnúť, aký typ izolácie preferujete (fúkaná celulóza, striekaná pena, polystyrén, minerálna vlna) a navrhnúť
+    optimálne firmy podľa špecializácie.
+    Ktorú z týchto možností chcete, aby som pripravil ďalej?
+
+
+
+
+Citations (9):
+  • https://zateplovat.sk
+  • https://www.zoznam.sk/katalog/Stavba-dom-dielna/Stavebna-cinnost/Izolacne-zateplovacie-prace/Nitra.html
+  • https://www.azet.sk/katalog/izolacie-a-zateplovanie/2/nitra/
+  • https://www.ra-ga.sk/penova-striekana-izolacia-nitra/
+  • http://www.aquafol.sk
+  • https://nit.firmyvkraji.sk/produkty/tepelne-izolacie?page=4
+  • https://www.daibau.sk/adresar/hidroizolacie_zakladov/nitra
+  • https://www.zlatestranky.sk/firmy/Nitra/q_tepeln%C3%A9+izol%C3%A1cie/1/
+  • https://www.mediderma.sk
+
+
+ Perplexity             Response 5 (sonar):
+
+
+    Najlepšie by vám vedeli odporučiť miestne firmy, ktoré v Nitre ponúkajú služby tepelnej izolácie; tu sú konkrétne
+    odporúčania s krátkym popisom a kontaktmi na overenie:
+
+    - Fixont, s.r.o. — realizácia odvetraných fasád, tepelná izolácia a systém obkladov; sídlo v Nitre (Palackého 6).
+    [1]
+    - ROTOSTAV, s.r.o. — izolácie plochých striech, balkónov, spodných stavieb a zatepľovanie fasád; aktívny
+    dodávateľ v regióne Nitra. [1][2]
+    - AQUAFOL NR, s.r.o. — špecialista na hydroizolácie a tepelné izolácie striech, vlastný tím montážnikov v Nitre.
+    [4][7]
+    - Mediderma s.r.o. — riešenia pre ploché strechy, parozábrany a tepelnú izoláciu, dlhoročné pôsobenie v
+    regióne. [9]
+    - THERMOFLOC (fúkaná celulóza) — špecialisti na fúkanú celulózovú izoláciu pre nízkoenergetické a pasívne
+    stavby (spomínaní vo výpise firiem pre Nitra). [1]
+    - Lokálne zoznamy a katalógy (Zoznam, Azet, ZlatéStránky, FirmyvKraji, Daibau) — ak potrebujete viac možností
+    alebo rýchle porovnanie cien/recenzií, prehľadajte tieto katalógy a vyfiltrujte podľa hodnotení a vzdialenosti.
+    [1][2][5][7][8]
+
+    Tipy pri výbere firmy:
+    - Pýtajte si referencie a fotografie predchádzajúcich realizácií (aj kontakty na zákazníkov na overenie).
+    - Overte certifikácie materiálov a záruky na prácu.
+    - Porovnajte aspoň 3 cenové ponuky vrátane detailného rozpisu materiálu a pracovných postupov.
+    - Pri fúkanej izolácii si skontrolujte typ materiálu (celulóza vs. penová izolácia) a parametre (lambda, dlhodobé
+    sadanie). (viď špecialisti na fúkanú izoláciu v katalógoch). [3][6]
+
+    Chcete, aby som prešiel recenzie týchto firiem, porovnal ceny alebo prekontroloval ich kontakty a weby a poslal
+    vám 3-4 overené ponuky konkrétne pre váš typ domu (uveďte typ stavby, plocha, a či ide o
+    strechu/fasádu/podlahu)?
+
+
+
+
+Citations (9):
+  • https://www.zoznam.sk/katalog/Stavba-dom-dielna/Stavebna-cinnost/Izolacne-zateplovacie-prace/Nitra.html
+  • https://www.azet.sk/katalog/izolacie-a-zateplovanie/2/nitra/
+  • https://www.ra-ga.sk/penova-striekana-izolacia-nitra/
+  • http://www.aquafol.sk
+  • https://nit.firmyvkraji.sk/produkty/tepelne-izolacie?page=4
+  • https://zateplovat.sk
+  • https://www.daibau.sk/adresar/hidroizolacie_zakladov/nitra
+  • https://www.zlatestranky.sk/firmy/Nitra/q_tepeln%C3%A9+izol%C3%A1cie/1/
+  • https://www.mediderma.sk
+
+
+ Perplexity             Response 6 (sonar):
+
+
+    Niekoľko firiem v Nitre a okolí ponúka kvalitné služby tepelnej izolácie, vrátane zatepľovania fasád, striech a
+    stavieb, na základe dostupných katalógov a recenzií.[1][2][3]
+
+    ### Odporúčané firmy v Nitre so špecializáciou na tepelnú izoláciu:
+    - **Fixont, s.r.o.** – Realizácia tepelnej izolácie, odvetraných fasád na mieru (návrh, materiál, inštalácia).
+    Adresa: Palackého 6, 949 01 Nitra.[1]
+    - **BERTMAN s.r.o.** – Zatepľovanie domov, hrubé stavby a rekonštrukcie. Adresa: Južná 1633/36, 949 01
+    Nitra.[1]
+    - **VIKI, spol. s r.o.** – Tepelná a zvuková izolácia, hydroizolácie, striekané izolácie. Pôsobí v Nitre od roku
+    1996.[2]
+    - **AQUAFOL NR, s.r.o.** – Tepelné izolácie striech a stavieb, hydroizolácie. Adresa: Nitra (špecialista od
+    2007).[5][6]
+    - **Mediderma s.r.o.** – Tepelná izolácia plochých a zelených striech. Adresa: Dlhá 118, 949 01 Nitra.[8]
+    - **Ra-Ga** – Penová striekaná izolácia (krov, strecha, fasáda, steny). Pôsobí v Nitre a okolí.[4]
+    - **THERMOFLOC s.r.o.** – Fúkaná celulózová tepelná izolácia pre nízkoenergetické stavby. Adresa: Hydinárska
+    4/7, 949 01 Nitra.[1][10]
+
+    Ďalšie možnosti zahŕňajú Rotostav s.r.o. (hydro- a tepelné izolácie striech) alebo Blunár Ondrej (zatepľovanie
+    budov).[1][3] Odporúča sa kontaktovať firmy priamo pre cenové ponuky, referencie a obhliadku, prípadne použiť
+    platformy ako Zoznam.sk alebo Daibau.sk na dopyty.[1][6]
+
+
+
+
+Citations (12):
+  • https://Zoznam.sk
+  • https://Daibau.sk
+  • https://www.zoznam.sk/katalog/Stavba-dom-dielna/Stavebna-cinnost/Izolacne-zateplovacie-prace/Nitra.html
+  • https://www.stavebnik.sk/firmy/-nitriansky-kraj-/hruba-stavba/-tepelna-izolacia.html
+  • https://www.azet.sk/katalog/izolacie-a-zateplovanie/2/nitra/
+  • https://www.ra-ga.sk/penova-striekana-izolacia-nitra/
+  • http://www.aquafol.sk
+  • https://www.daibau.sk/adresar/hidroizolacie_zakladov/nitra
+  • http://www.drevomont.sk
+  • https://www.mediderma.sk
+  • https://www.zlatestranky.sk/firmy/Nitra/q_tepeln%C3%A9+izol%C3%A1cie/1/
+  • https://trhovisko.123dopyt.sk/detail/680597-tepelna-izolacia-thermofloc-pre-stavebnikov-a-majitelov-rodinnych-domov
+AI Cite UP!
+
+Your Action Plan
+
+Based on everything we found, here are specific actions to improve your AI visibility. Prioritized by impact -
+start with HIGH priority first:
+
+
+
+ HIGH              1. Llm Visibility Add Llms.txt File
+                   Your website is missing an llms.txt file. This emerging standard helps AI assistants
+                   discover and understand your business.
+
+                   WHAT TO DO:
+                   1. Create a file named "llms.txt" with the content below
+                   2. Upload it to: tepelneizolacie.sk/llms.txt
+                   3. Make it publicly accessible (no login required)
+                   4. Test it by visiting: https://tepelneizolacie.sk/llms.txt
+
+                   EXPECTED IMPACT: 30-40% improvement in AI visibility within 2-4 weeks
+
+                   --- LLMS.TXT CONTENT ---
+
+                   # llms.txt - AI Assistant Guidance File
+                   # Generated by AEO Analyzer on 2025-12-20
+                   # This file helps AI assistants discover, understand, and cite your content accurately
+
+                   # === BASIC CRAWLING DIRECTIVES ===
+                   User-agent: *
+                   Allow: /
+                   Allow: /ai-bridge-20b58bdc
+
+                   # Sitemap location for comprehensive content discovery
+                   Sitemap: https://tepelneizolacie.sk/sitemap.xml
+
+                   # === BUSINESS CONTEXT ===
+                   # Primary business information for AI understanding
+                   Business-name: undefined
+                   Industry: Technológie
+                   Content-focus: undefined - Služba 1, Služba 2, Služba 3 in Slovakia
+                   Location: Slovakia
+
+                   # === AI DISCOVERY OPTIMIZATION ===
+                   # Preferred page for AI assistants to reference when citing this site
+                   Preferred-citation: https://tepelneizolacie.sk/ai-bridge-20b58bdc
+
+                   # Key topics covered on this website
+                   Topics: Thermal insulation solutions, Professional services, Company overview
+
+                   # === CONTENT GUIDANCE ===
+                   # What AI assistants should know about this site's content
+                   Services: Služba 1, Služba 2, Služba 3, Služba 4, Služba 5
+                   Problems-solved: Problém 1, Problém 2, Problém 3
+
+                   # Content quality and authority indicators
+                   Content-authority: Basic understanding of thermal insulation services
+                   Content-tone: Professional and straightforward
+                   Content-clarity-score: 3/10
+
+                   # === AI ASSISTANT INSTRUCTIONS ===
+       # Guidelines for AI assistants when referencing this site
+       Citation-format: Include both business name and URL when referencing
+       Update-frequency: Content updated regularly - check for latest information
+       Contact-method: Local business - see website for contact details
+
+       # === TECHNICAL INFO ===
+       Last-updated: 2025-12-20
+       Generated-by: AEO Analyzer v1.0.0
+       Audit-id: audit-20b58bdc
+
+       # === ADDITIONAL CONTEXT ===
+       # Business Description: Professional services - see website for details
+
+       # For questions about this file or AEO optimization, visit the AI bridge page
+       # https://tepelneizolacie.sk/ai-bridge-20b58bdc
+
+
+
+HIGH   2. Llm Visibility Low Mention Rate
+       8 out of 8 test questions resulted in low or no mentions of your business. Focus on: 1)
+       Adding more specific location-based content (city, neighborhood, landmarks), 2)
+       Creating FAQ sections that directly answer common questions, 3) Adding structured
+       data (Schema.org) to help AI understand your services, 4) Including clear service
+       descriptions with benefits and outcomes.
+
+
+
+HIGH   3. Recommendation 3
+       Use the Organization schema to define the business name, logo, and contact
+       information. Example: { '@context': 'https://schema.org', '@type': 'Organization',
+       'name': 'Izol systém, s.r.o.', 'logo': 'URL_to_logo', 'contactPoint': { '@type':
+       'ContactPoint', 'telephone': 'contact_number', 'contactType': 'Customer Service' } }
+
+
+
+HIGH   4. Content Structure
+       Shorten paragraphs to a maximum of 100 words to enhance clarity and focus.
+
+
+
+HIGH   5. Recommendation 5
+       Implement the Article schema to define the headline, author, date published, and main
+       content. Example: { '@context': 'https://schema.org', '@type': 'Article', 'headline':
+       'Professional Thermal Insulation Solutions', 'author': { '@type': 'Person', 'name': 'Author
+       Name' }, 'datePublished': '2023-10-01', 'articleBody': 'Content of the article...' }
+HIGH     6. External Linking
+         Include links to reputable sources or industry standards related to thermal insulation.
+
+
+
+MEDIUM   7. Readability
+         Simplify complex sentences to ensure clarity for a wider audience.
+
+
+
+MEDIUM   8. Recommendation 8
+         Use the FAQPage schema to list questions and answers. Example: { '@context':
+         'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{ '@type': 'Question', 'name':
+         'What is thermal insulation?', 'acceptedAnswer': { '@type': 'Answer', 'text': 'Thermal
+         insulation is...' } }] }
+
+
+
+MEDIUM   9. Entity Relationships
+         Provide additional context on how 'Izol systém, s.r.o.' interacts with other entities in the
+         thermal insulation market.
+
+
+
+HIGH     10. Structure
+         1 pages are missing meta descriptions
+
+
+
+MEDIUM   11. Content
+         1 pages have less than 300 words
+

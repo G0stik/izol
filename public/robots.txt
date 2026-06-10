@@ -19,4 +19,6 @@ Sitemap: https://www.tepelneizolacie.sk/sitemap.xml
 # https://www.tepelneizolacie.sk/projects
 # https://www.tepelneizolacie.sk/gallery
 # https://www.tepelneizolacie.sk/contact
+# https://www.tepelneizolacie.sk/poradna
+# https://www.tepelneizolacie.sk/faq
 # https://www.tepelneizolacie.sk/ai-bridge

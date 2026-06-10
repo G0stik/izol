@@ -289,7 +289,7 @@ const Home = () => {
       <section className={styles.statsBand}>
         <div className={styles.container}>
           <div className={styles.statItem}>
-            <strong>23+</strong>
+            <strong>25+</strong>
             <span>{t('about.stats.experience')}</span>
           </div>
           <div className={styles.statItem}>

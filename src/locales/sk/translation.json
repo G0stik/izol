@@ -6,12 +6,13 @@
     "services": "Služby",
     "projects": "Projekty",
     "gallery": "Galéria",
+    "advice": "Poradňa",
     "contact": "Kontakt"
   },
   "home": {
     "heroTitle": "Popredný dodávateľ izolácií",
-    "heroSubtitle": "Viac ako 23 rokov skúseností v energetickej efektivite v Európe",
-    "heroDescription": "Dodávame profesionálne Technické, Tepelné, Stavebné, Chladové, Akustické, Protipožiarne a Žiaruvzdorné izolácie, využívané pri stavebných projektoch rôznych druhov v celej EÚ.",
+    "heroSubtitle": "Viac ako 25 rokov dodávame technické izolácie pre priemysel, vzduchotechniku, chladenie a protipožiarne systémy v Európe",
+    "heroDescription": "Dodávame profesionálne Technické, Tepelné, Stavebné, Chladové, Akustické, Protipožiarne a Žiaruvzdorné izolácie, využívané pri stavebných projektoch rôznych druhov.",
     "getQuote": "Získať cenovú ponuku",
     "ourProducts": "Naše produkty",
     "suppliersTitle": "Výrobcovia",

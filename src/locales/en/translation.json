@@ -6,12 +6,13 @@
     "services": "Services",
     "projects": "Projects",
     "gallery": "Gallery",
+    "advice": "Advice",
     "contact": "Contact"
   },
   "home": {
     "heroTitle": "Leading insulation supplier",
-    "heroSubtitle": "Over 23 years of experience in energy efficiency across Europe",
-    "heroDescription": "We supply professional Technical, Thermal, Construction, Building, Cold, Acoustic, Fire Protective and Refractory insulation used in a wide range of construction projects across the EU.",
+    "heroSubtitle": "For more than 25 years, we have been supplying technical insulation for industry, HVAC, refrigeration, and fire protection systems across Europe",
+    "heroDescription": "We supply professional Technical, Thermal, Construction, Building, Cold, Acoustic, Fire Protective and Refractory insulation used in a wide range of construction projects.",
     "getQuote": "Get a quote",
     "ourProducts": "Our products",
     "suppliersTitle": "Suppliers",

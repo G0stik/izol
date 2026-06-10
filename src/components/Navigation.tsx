@@ -92,6 +92,15 @@ const Navigation = () => {
           </li>
           <li>
             <Link
+              to="/poradna"
+              className={`${styles.navLink} ${isActive('/poradna') || isActive('/faq') ? styles.active : ''}`}
+              onClick={closeMenu}
+            >
+              {t('nav.advice')}
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contact"
               className={`${styles.navLink} ${isActive('/contact') ? styles.active : ''}`}
               onClick={closeMenu}

@@ -27,6 +27,7 @@ const Footer = () => {
             <ul>
               <li><Link to="/services">{t('footer.services')}</Link></li>
               <li><Link to="/products">{t('nav.products')}</Link></li>
+              <li><Link to="/poradna">{t('nav.advice')}</Link></li>
               <li><Link to="/gallery">{t('nav.gallery')}</Link></li>
               <li><Link to="/ai-bridge">AI prehľad</Link></li>
               <li><Link to="/contact">{t('footer.contact')}</Link></li>
