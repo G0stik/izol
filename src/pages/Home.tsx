@@ -276,7 +276,7 @@ const Home = () => {
               </div>
             </div>
             <div className={styles.heroVisual} aria-label={t('home.heroVisualAria')}>
-              <img src="/gallery/sklad.jpeg" alt={t('home.heroVisualAlt')} />
+              <img src="/pictures/trubky.jpeg" alt={t('home.heroVisualAlt')} />
               <div className={styles.visualPanel}>
                 <span>{t('home.heroVisualLabel')}</span>
                 <strong>{t('home.tempRange')}</strong>
@@ -499,4 +499,3 @@ const Home = () => {
 }
 
 export default Home
-
