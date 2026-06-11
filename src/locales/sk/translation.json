@@ -1,4 +1,7 @@
 {
+  "common": {
+    "scrollToTop": "Späť na začiatok stránky"
+  },
   "nav": {
     "home": "Domov",
     "about": "O nás",

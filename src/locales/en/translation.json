@@ -1,4 +1,7 @@
 {
+  "common": {
+    "scrollToTop": "Back to top"
+  },
   "nav": {
     "home": "Home",
     "about": "About Us",

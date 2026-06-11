@@ -11,6 +11,7 @@ import Quote from './pages/Quote'
 import Poradna from './pages/Poradna'
 import AIVisibility from './pages/AIVisibility'
 import Footer from './components/Footer'
+import ScrollToTopButton from './components/ScrollToTopButton'
 import './App.css'
 import { Analytics } from '@vercel/analytics/react'
 
@@ -36,6 +37,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <ScrollToTopButton />
       </div>
     </Router>
   )
