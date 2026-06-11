@@ -12,6 +12,7 @@ import Poradna from './pages/Poradna'
 import AIVisibility from './pages/AIVisibility'
 import Footer from './components/Footer'
 import ScrollToTopButton from './components/ScrollToTopButton'
+import ScrollToTopOnRouteChange from './components/ScrollToTopOnRouteChange'
 import './App.css'
 import { Analytics } from '@vercel/analytics/react'
 
@@ -20,6 +21,7 @@ function App() {
     <Router>
       <div className="app">
         <Analytics />
+        <ScrollToTopOnRouteChange />
         <Navigation />
         <main className="main-content">
           <Routes>
