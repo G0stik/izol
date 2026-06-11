@@ -384,7 +384,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+  
       <section className={styles.reviewsSection}>
         <div className={styles.container}>
           <div className={styles.reviewsHeader}>
