@@ -1,7 +1,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width:100%;
   background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
@@ -17,7 +17,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.55rem 20px;
+  padding: 0.55rem 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,19 +26,18 @@
 .navBrand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   text-decoration: none;
   color: inherit;
 }
 
 .logo {
-  width: 150px;
-  height: 58px;
+  width: 200px;
   object-fit: contain;
 }
 
 .navBrand h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--primary-blue);
   margin: 0;
@@ -53,7 +52,7 @@
 .navMenu {
   display: flex;
   list-style: none;
-  gap: 1.35rem;
+  gap: 1.5rem;
   align-items: center;
   margin: 0;
   padding: 0;
