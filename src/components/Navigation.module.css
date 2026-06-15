@@ -116,7 +116,7 @@
   .navMenu {
     position: fixed;
     left: -100%;
-    top: 72px;
+    top: 115px;
     flex-direction: column;
     background: var(--white);
     width: 100%;
