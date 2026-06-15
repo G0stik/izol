@@ -13,7 +13,8 @@ const About = () => {
       bio: t('about.team.directorBio'),
       email: 'ondrus@izol-system.sk',
       phone: '+421 903 728 371',
-      city: 'Trenčín'
+      city: 'Trenčín',
+      photo: '/team/juraj.jpeg'
     },
     {
       name: 'Zuzana Masáriková',
@@ -21,7 +22,8 @@ const About = () => {
       bio: t('about.team.salesBio'),
       email: 'masarikova@izol-system.sk',
       phone: '+421 903 770 121',
-      city: 'Trenčín'
+      city: 'Trenčín',
+      photo: '/team/zuza.jpeg'
     },
     {
       name: 'Ing. Robert Sokolík',
@@ -29,7 +31,8 @@ const About = () => {
       bio: t('about.team.branchManagerBio'),
       email: 'sokolik@izol-system.sk',
       phone: '+421 918 344 816',
-      city: 'Zvolen'
+      city: 'Zvolen',
+      photo: '/team/sokol.jpeg'
     },
     {
       name: 'Ing. Miriam Sokolíková',
@@ -37,7 +40,8 @@ const About = () => {
       bio: t('about.team.branchManagerBio2'),
       email: '',
       phone: '+421 903 722 075',
-      city: 'Zvolen'
+      city: 'Zvolen',
+      photo: '/team/sokolova.jpeg'
     }
   ]
 

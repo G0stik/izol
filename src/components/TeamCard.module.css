@@ -2,6 +2,9 @@
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-top: 4px solid var(--primary-red);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -14,7 +17,7 @@
   display: flex;
   font-size: 2rem;
   font-weight: 800;
-  height: 160px;
+  height: 200px;
   justify-content: center;
   letter-spacing: 0.08em;
   overflow: hidden;
@@ -22,12 +25,14 @@
 }
 
 .teamPhoto img {
-  height: 100%;
   object-fit: cover;
   width: 100%;
 }
 
 .teamInfo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 1.35rem;
 }
 
@@ -62,6 +67,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   display: grid;
   gap: 0.65rem;
+  margin-top: auto;
   padding-top: 1rem;
 }
 
