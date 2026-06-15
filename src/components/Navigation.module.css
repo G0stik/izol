@@ -17,7 +17,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.55rem 0px;
+  padding: 0.55rem 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,6 +109,10 @@
 }
 
 @media (max-width: 968px) {
+  .container {
+    padding-right: 1.25rem;
+  }
+
   .hamburger {
     display: flex;
   }
