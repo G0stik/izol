@@ -332,7 +332,7 @@ const Home = () => {
       <section className={styles.advantageSection}>
         <div className={styles.container}>
           <div className={styles.advantageMedia}>
-            <img src="/projects/project3/build1.jpg" alt={t('home.advantageImageAlt')} />
+            <img src="public\vetranie.png" alt={t('home.advantageImageAlt')} />
           </div>
           <div className={styles.advantageContent}>
             <p className={styles.sectionKicker}>{t('home.advantageKicker')}</p>
